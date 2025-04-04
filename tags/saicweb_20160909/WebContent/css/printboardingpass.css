@@ -1,0 +1,44 @@
+﻿.dontprinttext
+{
+	display: none;
+}
+.pagebreak
+{
+	page-break-after: always;
+}
+.nopagebreak
+{
+	page-break-after: avoid;
+}
+.smalltext
+{
+	font-size: 65%;
+	font-family: Verdana, Geneva, Arial MS, sans-serif;
+	color: #000000;
+}
+
+.txtbold
+{
+	font-size: 17pt;
+	font-weight: bolder;
+	font-family: Verdana, Geneva, Arial MS, sans-serif;
+	color: #000000;
+	text-align: center;
+}
+.txt1
+{
+	font-size: 14pt;
+	font-weight: normal;
+	font-family: Verdana, Geneva, Arial MS, sans-serif;
+	color: #000099;
+	text-align: center;
+}
+.txt2
+{
+	font-size: 11pt;
+	font-weight: normal;
+	font-family: Verdana, Geneva, Arial MS, sans-serif;
+	color: #000000;
+	text-align: center;
+}
+

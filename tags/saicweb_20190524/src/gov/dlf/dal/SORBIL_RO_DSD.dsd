@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="SORBIL_RO_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="FECHA_EFECTIVIDAD,NUM_SOR_EXT,NUM_SOR_ORD,NUM_SOR_SEMI" updateKey="FECHA_EFECTIVIDAD" updateSourceName="SORBIL" useTransactions="false" definition="select  SORBIL.FECHA_EFECTIVIDAD,  SORBIL.NUM_SOR_EXT,  SORBIL.NUM_SOR_ORD, SORBIL.NUM_SOR_SEMI from SORBIL SORBIL order by SORBIL.FECHA_EFECTIVIDAD desc" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB</extended>
+  <extended name="storage">SAIC_DB</extended>
+  <field name="FECHA_EFECTIVIDAD" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="DATE" dataType="Date" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="SORBIL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="FECHA_EFECTIVIDAD" sourceLocation="" sourceName="SORBIL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="NUM_SOR_EXT" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="254" searchable="false" size="4" sourceAlias="SORBIL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="NUM_SOR_EXT" sourceLocation="" sourceName="SORBIL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="NUM_SOR_ORD" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="254" searchable="false" size="4" sourceAlias="SORBIL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="NUM_SOR_ORD" sourceLocation="" sourceName="SORBIL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="NUM_SOR_SEMI" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="254" searchable="false" size="4" sourceAlias="SORBIL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="NUM_SOR_SEMI" sourceLocation="" sourceName="SORBIL" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

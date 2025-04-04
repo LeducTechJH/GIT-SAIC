@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="RR_INS_DSS171_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="846" pageheight="1440" backcolor="13421772" x="2" y="2" width="564" height="960" groupstyle="0" highLightSelected="false" firstobject="OFICINA_LOCAL" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="-2" width="553" height="892" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="-171" x="21" y="0" width="28" height="12"/>
+    <text name="TXT__1" text="ESTADO" x="154" y="0" width="42" height="12"/>
+    <text name="TXT__2" text="LIBRE" x="203" y="0" width="35" height="12"/>
+    <text name="TXT__3" text="ASOCIADO" x="245" y="0" width="56" height="12"/>
+    <text name="TXT__4" text="DE" x="308" y="0" width="14" height="12"/>
+    <text name="TXT__5" text="PUERTO" x="329" y="0" width="42" height="12"/>
+    <text name="TXT__6" text="RICO" x="378" y="0" width="28" height="12"/>
+    <text name="TXT__7" text="Rev." x="0" y="16" width="28" height="12"/>
+    <text name="TXT__8" text="7/90" x="35" y="16" width="28" height="12"/>
+    <text name="TXT__9" text="DEPARTAMENTO" x="161" y="16" width="84" height="12"/>
+    <text name="TXT__10" text="DE" x="252" y="16" width="14" height="12"/>
+    <text name="TXT__11" text="SERVICIOS" x="273" y="16" width="63" height="12"/>
+    <text name="TXT__12" text="SOCIALES" x="343" y="16" width="56" height="12"/>
+    <text name="TXT__13" text="REFERIMIENTO" x="119" y="48" width="84" height="12"/>
+    <text name="TXT__14" text="DE" x="210" y="48" width="14" height="12"/>
+    <text name="TXT__15" text="CASOS" x="231" y="48" width="35" height="12"/>
+    <text name="TXT__16" text="PARA" x="273" y="48" width="28" height="12"/>
+    <text name="TXT__17" text="DETERMINACION" x="308" y="48" width="91" height="12"/>
+    <text name="TXT__18" text="DE" x="406" y="48" width="14" height="12"/>
+    <text name="TXT__19" text="RECLAMACIONES" x="133" y="64" width="91" height="12"/>
+    <text name="TXT__20" text="Y" x="231" y="64" width="7" height="12"/>
+    <text name="TXT__21" text="BENEFICIOS" x="245" y="64" width="70" height="12"/>
+    <text name="TXT__22" text="RETROACTIVOS" x="322" y="64" width="84" height="12"/>
+    <text name="TXT__23" text="Oficina" x="0" y="112" width="49" height="12"/>
+    <text name="TXT__24" text="Local:" x="56" y="112" width="42" height="12"/>
+    <text name="TXT__25" text="Programa:" x="329" y="112" width="63" height="12"/>
+    <text name="TXT__26" text="Jefe" x="0" y="144" width="28" height="12"/>
+    <text name="TXT__27" text="de" x="35" y="144" width="14" height="12"/>
+    <text name="TXT__28" text="Familia:" x="56" y="144" width="56" height="12"/>
+    <text name="TXT__29" text="Seg." x="329" y="144" width="28" height="12"/>
+    <text name="TXT__30" text="Soc.Jefe" x="364" y="144" width="56" height="12"/>
+    <text name="TXT__31" text="Familia:" x="427" y="144" width="56" height="12"/>
+    <text name="TXT__32" text="Referido" x="0" y="176" width="56" height="12"/>
+    <text name="TXT__33" text="por:" x="63" y="176" width="28" height="12"/>
+    <text name="TXT__34" text="Seg." x="329" y="176" width="28" height="12"/>
+    <text name="TXT__35" text="Soc.Jefe" x="364" y="176" width="56" height="12"/>
+    <text name="TXT__36" text="Servicio:" x="427" y="176" width="63" height="12"/>
+    <text name="TXT__37" text="Fecha" x="0" y="208" width="35" height="12"/>
+    <text name="TXT__38" text="Identificado:" x="42" y="208" width="91" height="12"/>
+    <text name="TXT__39" text="Se" x="0" y="272" width="14" height="12"/>
+    <text name="TXT__40" text="refiere" x="21" y="272" width="49" height="12"/>
+    <text name="TXT__41" text="el" x="77" y="272" width="14" height="12"/>
+    <text name="TXT__42" text="caso" x="98" y="272" width="28" height="12"/>
+    <text name="TXT__43" text="que" x="133" y="272" width="21" height="12"/>
+    <text name="TXT__44" text="se" x="161" y="272" width="14" height="12"/>
+    <text name="TXT__45" text="menciona" x="182" y="272" width="56" height="12"/>
+    <text name="TXT__46" text="en" x="245" y="272" width="14" height="12"/>
+    <text name="TXT__47" text="epígrafe" x="266" y="272" width="56" height="12"/>
+    <text name="TXT__48" text="para" x="329" y="272" width="28" height="12"/>
+    <text name="TXT__49" text="análisis" x="364" y="272" width="56" height="12"/>
+    <text name="TXT__50" text="y" x="427" y="272" width="7" height="12"/>
+    <text name="TXT__51" text="determinación" x="441" y="272" width="91" height="12"/>
+    <text name="TXT__52" text="de" x="539" y="272" width="14" height="12"/>
+    <text name="TXT__53" text="posible" x="0" y="288" width="49" height="12"/>
+    <text name="TXT__54" text="situación" x="56" y="288" width="63" height="12"/>
+    <text name="TXT__55" text="de:" x="126" y="288" width="21" height="12"/>
+    <text name="TXT__56" text="[" x="0" y="320" width="7" height="12"/>
+    <text name="TXT__57" text="]" x="14" y="320" width="7" height="12"/>
+    <text name="TXT__58" text="Reclamación" x="28" y="320" width="77" height="12"/>
+    <text name="TXT__59" text="debido" x="112" y="320" width="42" height="12"/>
+    <text name="TXT__60" text="a" x="161" y="320" width="7" height="12"/>
+    <text name="TXT__61" text="que" x="175" y="320" width="21" height="12"/>
+    <text name="TXT__62" text="la" x="203" y="320" width="14" height="12"/>
+    <text name="TXT__63" text="familia" x="224" y="320" width="49" height="12"/>
+    <text name="TXT__64" text="recibió" x="280" y="320" width="49" height="12"/>
+    <text name="TXT__65" text="beneficios" x="336" y="320" width="70" height="12"/>
+    <text name="TXT__66" text="indebidamente" x="413" y="320" width="91" height="12"/>
+    <text name="TXT__67" text="durante" x="28" y="336" width="49" height="12"/>
+    <text name="TXT__68" text="el" x="84" y="336" width="14" height="12"/>
+    <text name="TXT__69" text="(los)" x="105" y="336" width="35" height="12"/>
+    <text name="TXT__70" text="periódo" x="147" y="336" width="49" height="12"/>
+    <text name="TXT__71" text="(s)" x="203" y="336" width="21" height="12"/>
+    <text name="TXT__72" text="de:" x="231" y="336" width="21" height="12"/>
+    <text name="TXT__73" text="[" x="0" y="368" width="7" height="12"/>
+    <text name="TXT__74" text="]" x="14" y="368" width="7" height="12"/>
+    <text name="TXT__75" text="Beneficios" x="28" y="368" width="70" height="12"/>
+    <text name="TXT__76" text="Retroactivos" x="105" y="368" width="84" height="12"/>
+    <text name="TXT__77" text="debido" x="196" y="368" width="42" height="12"/>
+    <text name="TXT__78" text="a" x="245" y="368" width="7" height="12"/>
+    <text name="TXT__79" text="que" x="259" y="368" width="21" height="12"/>
+    <text name="TXT__80" text="la" x="287" y="368" width="14" height="12"/>
+    <text name="TXT__81" text="familia:" x="308" y="368" width="56" height="12"/>
+    <text name="TXT__82" text="[" x="28" y="400" width="7" height="12"/>
+    <text name="TXT__83" text="]" x="42" y="400" width="7" height="12"/>
+    <text name="TXT__84" text="Perdió" x="56" y="400" width="42" height="12"/>
+    <text name="TXT__85" text="beneficios" x="105" y="400" width="70" height="12"/>
+    <text name="TXT__86" text="en" x="182" y="400" width="14" height="12"/>
+    <text name="TXT__87" text="el" x="203" y="400" width="14" height="12"/>
+    <text name="TXT__88" text="(los)" x="224" y="400" width="35" height="12"/>
+    <text name="TXT__89" text="periódo" x="266" y="400" width="49" height="12"/>
+    <text name="TXT__90" text="(s)" x="322" y="400" width="21" height="12"/>
+    <text name="TXT__91" text="de:" x="350" y="400" width="21" height="12"/>
+    <text name="TXT__92" text="[" x="28" y="432" width="7" height="12"/>
+    <text name="TXT__93" text="]" x="42" y="432" width="7" height="12"/>
+    <text name="TXT__94" text="Recibió" x="56" y="432" width="49" height="12"/>
+    <text name="TXT__95" text="beneficios" x="112" y="432" width="70" height="12"/>
+    <text name="TXT__96" text="menores" x="189" y="432" width="49" height="12"/>
+    <text name="TXT__97" text="a" x="245" y="432" width="7" height="12"/>
+    <text name="TXT__98" text="los" x="259" y="432" width="21" height="12"/>
+    <text name="TXT__99" text="que" x="287" y="432" width="21" height="12"/>
+    <text name="TXT__100" text="le" x="315" y="432" width="14" height="12"/>
+    <text name="TXT__101" text="correspondían" x="336" y="432" width="91" height="12"/>
+    <text name="TXT__102" text="en" x="434" y="432" width="14" height="12"/>
+    <text name="TXT__103" text="el" x="455" y="432" width="14" height="12"/>
+    <text name="TXT__104" text="(los)" x="476" y="432" width="35" height="12"/>
+    <text name="TXT__105" text="periódo" x="56" y="448" width="49" height="12"/>
+    <text name="TXT__106" text="(s)" x="112" y="448" width="21" height="12"/>
+    <text name="TXT__107" text="de:" x="140" y="448" width="21" height="12"/>
+    <text name="TXT__108" text="[" x="28" y="480" width="7" height="12"/>
+    <text name="TXT__109" text="]" x="42" y="480" width="7" height="12"/>
+    <text name="TXT__110" text="Efectuó" x="56" y="480" width="49" height="12"/>
+    <text name="TXT__111" text="pagos" x="112" y="480" width="35" height="12"/>
+    <text name="TXT__112" text="en" x="154" y="480" width="14" height="12"/>
+    <text name="TXT__113" text="exceso" x="175" y="480" width="42" height="12"/>
+    <text name="TXT__114" text="por" x="224" y="480" width="21" height="12"/>
+    <text name="TXT__115" text="concepto" x="252" y="480" width="56" height="12"/>
+    <text name="TXT__116" text="de" x="315" y="480" width="14" height="12"/>
+    <text name="TXT__117" text="reclamación" x="336" y="480" width="77" height="12"/>
+    <text name="TXT__118" text="(es)" x="420" y="480" width="28" height="12"/>
+    <text name="TXT__119" text="en" x="455" y="480" width="14" height="12"/>
+    <text name="TXT__120" text="el" x="476" y="480" width="14" height="12"/>
+    <text name="TXT__121" text="(los)" x="497" y="480" width="35" height="12"/>
+    <text name="TXT__122" text="periódo" x="56" y="496" width="49" height="12"/>
+    <text name="TXT__123" text="(s)" x="112" y="496" width="21" height="12"/>
+    <text name="TXT__124" text="de:" x="140" y="496" width="21" height="12"/>
+    <text name="TXT__125" text="[" x="28" y="528" width="7" height="12"/>
+    <text name="TXT__126" text="]" x="42" y="528" width="7" height="12"/>
+    <text name="TXT__127" text="Otros" x="56" y="528" width="35" height="12"/>
+    <text name="TXT__128" text="Especifique" x="98" y="528" width="77" height="12"/>
+    <text name="TXT__129" text="Razón" x="182" y="528" width="35" height="12"/>
+    <text name="TXT__130" text="(es)" x="224" y="528" width="28" height="12"/>
+    <text name="TXT__131" text="y" x="259" y="528" width="7" height="12"/>
+    <text name="TXT__132" text="periódo" x="273" y="528" width="49" height="12"/>
+    <text name="TXT__133" text="(s)" x="329" y="528" width="21" height="12"/>
+    <text name="TXT__134" text="Observaciones:" x="28" y="560" width="98" height="12"/>
+    <text name="TXT__135" text="Firma" x="343" y="656" width="35" height="12"/>
+    <text name="TXT__136" text="del" x="385" y="656" width="21" height="12"/>
+    <text name="TXT__137" text="Técnico" x="413" y="656" width="49" height="12"/>
+    <text name="TXT__138" text="que" x="469" y="656" width="21" height="12"/>
+    <text name="TXT__139" text="refiere" x="497" y="656" width="49" height="12"/>
+    <text name="TXT__140" text="Referido" x="0" y="704" width="56" height="12"/>
+    <text name="TXT__141" text="a" x="63" y="704" width="7" height="12"/>
+    <text name="TXT__142" text="Este" x="441" y="704" width="28" height="12"/>
+    <text name="TXT__143" text="caso" x="476" y="704" width="28" height="12"/>
+    <text name="TXT__144" text="deberá" x="511" y="704" width="42" height="12"/>
+    <text name="TXT__145" text="Nombre" x="161" y="724" width="42" height="12"/>
+    <text name="TXT__146" text="Técnico" x="210" y="724" width="49" height="12"/>
+    <text name="TXT__147" text="Certificador" x="266" y="724" width="84" height="12"/>
+    <text name="TXT__148" text="completarse" x="0" y="752" width="77" height="12"/>
+    <text name="TXT__149" text="en" x="84" y="752" width="14" height="12"/>
+    <text name="TXT__150" text="Fecha" x="406" y="772" width="35" height="12"/>
+    <text name="TXT__151" text="asignado" x="448" y="772" width="56" height="12"/>
+    <text name="TXT__152" text="Determinación:" x="0" y="832" width="98" height="12"/>
+    <text name="TXT__153" text="[" x="0" y="864" width="7" height="12"/>
+    <text name="TXT__154" text="]Procedió" x="14" y="864" width="63" height="12"/>
+    <text name="TXT__155" text="[" x="0" y="880" width="7" height="12"/>
+    <text name="TXT__156" text="]No" x="14" y="880" width="21" height="12"/>
+    <text name="TXT__157" text="procedió" x="42" y="880" width="56" height="12"/>
+    <text name="TXT__158" text="DSS" x="0" y="0" width="21" height="12"/>
+  </textgroup>
+  <field name="OFICINA_LOCAL" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="PROGRAMA" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="99" y="112" width="139" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="PROGRAMA" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="NOMBRE_TECNICO_REFERIDO_POR" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="393" y="112" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NOMBRE_TECNICO_REFERIDO_POR" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="FECHA_IDENTIFICADO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="92" y="176" width="216" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NOMBRE_JEFE_FAMILIA" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="RAZON_4" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="113" y="144" width="195" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FECHA_IDENTIFICADO" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="NUMERO_CASO" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="134" y="208" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NUMERO_JEFE_SERVICIO" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="491" y="176" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NUMERO_CASO" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="MARCA_RECLAMACION" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="484" y="144" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="MARCA_RECLAMACION" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="DESDE_HASTA_RECLAMACION" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="8" y="320" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="DESDE_HASTA_RECLAMACION" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="MARCA_RETROACTIVO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="274" y="336" width="146" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="MARCA_RETROACTIVO" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="MARCA_RAZON_RETRO_1" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="8" y="368" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="MARCA_RAZON_RETRO_1" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="DESDE_HASTA_RAZON_RETRO_1" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="36" y="400" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="DESDE_HASTA_RAZON_RETRO_1" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="MARCA_RAZON_RETRO_2" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="386" y="400" width="139" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="MARCA_RAZON_RETRO_2" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="DESDE_HASTA_RAZON_RETRO_2" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="36" y="432" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="DESDE_HASTA_RAZON_RETRO_2" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="MARCA_RAZON_RETRO_3" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="176" y="448" width="139" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="MARCA_RAZON_RETRO_3" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="DESDE_HASTA_RAZON_RETRO_3" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="36" y="480" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="DESDE_HASTA_RAZON_RETRO_3" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="MARCA_RAZON_RETRO_4" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="176" y="496" width="139" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="MARCA_RAZON_RETRO_4" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="DESDE_HASTA_RAZON_RETRO_4" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="36" y="528" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="DESDE_HASTA_RAZON_RETRO_4" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="TECNICO_RECLAMACIONES" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="365" y="528" width="146" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="RAZON_4" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="NUMERO_JEFE_SERVICIO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="141" y="560" width="174" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="TECNICO_RECLAMACIONES" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="FECHA_COMPLETADO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="85" y="704" width="349" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FECHA_COMPLETADO" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="FECHA_ASIGNADO" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="120" y="752" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FECHA_ASIGNADO" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="NOMBRE_JEFE_FAMILIA" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="414" y="752" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <hline name="Line_0" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="2" y="248" x1="550" width="148" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  <hline name="Line_1" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="140" y="600" x1="325" width="238" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  <hline name="Line_2" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="140" y="632" x1="325" width="185" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  <hline name="Line_3" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="341" y="647" x1="548" width="201" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  <hline name="Line_4" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="2" y="825" x1="550" width="527" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  <hline name="Line_5" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="82" y="716" x1="433" width="351" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  <hline name="Line_6" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="140" y="572" x1="325" width="184" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  <hline name="Line_7" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="400" y="764" x1="511" width="96" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  <hline name="Line_8" tag="" visible="true" enabled="true" container="RR_INS_DSS171_FR" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="114" y="764" x1="212" width="110" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+</model>

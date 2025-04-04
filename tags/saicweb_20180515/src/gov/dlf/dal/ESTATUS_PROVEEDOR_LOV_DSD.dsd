@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="ESTATUS_PROVEEDOR_LOV_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="" updateKey="" updateSourceName="CLC_STAT_TBL" useTransactions="false" definition="SELECT COD_ESTATUS FROM CLC_STAT_TBL WHERE COD_ESTATUS IN ('ACTIVO','INACTIVO') AND TIPO_ESTATUS NOT IN ('DD')' order by 1" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="COD_ESTATUS" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="25" sourceAlias="CLC_STAT_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_ESTATUS" sourceLocation="" sourceName="CLC_STAT_TBL" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

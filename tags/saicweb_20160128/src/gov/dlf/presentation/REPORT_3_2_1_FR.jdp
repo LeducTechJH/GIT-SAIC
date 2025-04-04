@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="REPORT_3_2_1_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="760" height="384" groupstyle="0" highLightSelected="false" firstobject="DESDE_FECHA" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Thu Jul 03 06:38:19 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="REPORT_3_2_1_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="490" height="60" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="DEPARTAMENTO" x="147" y="16" width="84" height="12"/>
+    <text name="TXT__1" text="DE" x="238" y="16" width="14" height="12"/>
+    <text name="TXT__2" text="SERVICIOS" x="259" y="16" width="63" height="12"/>
+    <text name="TXT__3" text="SOCIALES" x="329" y="16" width="56" height="12"/>
+    <text name="TXT__4" text="SISTEMA" x="119" y="32" width="49" height="12"/>
+    <text name="TXT__5" text="GERENCIAL" x="175" y="32" width="63" height="12"/>
+    <text name="TXT__6" text="DE" x="245" y="32" width="14" height="12"/>
+    <text name="TXT__7" text="ADMINISTRACION" x="266" y="32" width="98" height="12"/>
+    <text name="TXT__8" text="DE" x="371" y="32" width="14" height="12"/>
+    <text name="TXT__9" text="CASOS" x="392" y="32" width="35" height="12"/>
+    <text name="TXT__10" text="CASOS" x="56" y="48" width="35" height="12"/>
+    <text name="TXT__11" text="CERRADOS" x="98" y="48" width="56" height="12"/>
+    <text name="TXT__12" text="POR" x="161" y="48" width="21" height="12"/>
+    <text name="TXT__13" text="PROGRAMA" x="189" y="48" width="56" height="12"/>
+    <text name="TXT__14" text="CON" x="252" y="48" width="21" height="12"/>
+    <text name="TXT__15" text="PORCIENTO" x="280" y="48" width="63" height="12"/>
+    <text name="TXT__16" text="SOBRE" x="350" y="48" width="35" height="12"/>
+    <text name="TXT__17" text="TOTAL" x="392" y="48" width="35" height="12"/>
+    <text name="TXT__18" text="DE" x="434" y="48" width="14" height="12"/>
+    <text name="TXT__19" text="CASOS" x="455" y="48" width="35" height="12"/>
+  </textgroup>
+  <group name="FECHAS_GP" tag="" visible="true" enabled="true" container="REPORT_3_2_1_FR" nextobject="" objectType="group" pageStart="-1" pageType="0" x="0" y="144" width="560" height="108" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="2" highLightSelected="true" datastore="" discardChildless="false" updatetotop="false" firstobject="" indivisible="false" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="80" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <textgroup name="FECHAS_GP_TXT" tag="" visible="true" enabled="true" container="FECHAS_GP" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="441" height="76" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="FECHAS_GP_TXT__0" text="INDIQUE" x="154" y="16" width="49" height="12"/>
+      <text name="FECHAS_GP_TXT__1" text="FECHAS" x="210" y="16" width="42" height="12"/>
+      <text name="FECHAS_GP_TXT__2" text="PARA" x="259" y="16" width="28" height="12"/>
+      <text name="FECHAS_GP_TXT__3" text="SELECCION" x="294" y="16" width="63" height="12"/>
+      <text name="FECHAS_GP_TXT__4" text="DE" x="364" y="16" width="14" height="12"/>
+      <text name="FECHAS_GP_TXT__5" text="CASOS" x="385" y="16" width="35" height="12"/>
+      <text name="FECHAS_GP_TXT__6" text="DESDE:" x="147" y="48" width="42" height="12"/>
+      <text name="FECHAS_GP_TXT__7" text="HASTA:" x="287" y="48" width="42" height="12"/>
+      <line name="LINE_FECHAS_GP_TXT_0" tag="" visible="true" enabled="true" container="FECHAS_GP_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="133" y="6" x1="441" y1="6" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_FECHAS_GP_TXT_1" tag="" visible="true" enabled="true" container="FECHAS_GP_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="133" y="70" x1="441" y1="70" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_FECHAS_GP_TXT_2" tag="" visible="true" enabled="true" container="FECHAS_GP_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="133" y="6" x1="133" y1="70" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_FECHAS_GP_TXT_3" tag="" visible="true" enabled="true" container="FECHAS_GP_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="441" y="6" x1="441" y1="70" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    </textgroup>
+    <field name="DESDE_FECHA" tag="" visible="true" enabled="true" container="FECHAS_GP" nextobject="HASTA_FECHA" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="dd-MMM-yyyy" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="190" y="48" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="3551" mustfill="true" required="true">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="dd-MMM-yyyy" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="HASTA_FECHA" tag="" visible="true" enabled="true" container="FECHAS_GP" nextobject="TONTO" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="dd-MMM-yyyy" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="330" y="48" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="3551" mustfill="true" required="true">
+      <event name="JDataPanelListener.BEFORELEAVE"/>
+      <editcontrol name="JDateField" editTypeName="JDateField" format="dd-MMM-yyyy" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="TONTO" tag="" visible="true" enabled="true" container="FECHAS_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="274" y="32" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <event name="JDataPanelListener.BEFOREENTER"/>
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+  </group>
+</model>

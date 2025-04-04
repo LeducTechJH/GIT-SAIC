@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="FAM_JEFE_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="RMO_OFICINA,SEGURO_SOCIAL_JEFE_FAM" updateKey="SEGURO_SOCIAL_JEFE_FAM,RMO_OFICINA" updateSourceName="FAMILIAS" useTransactions="false" definition="select  FAMILIAS.RMO_OFICINA,  FAMILIAS.SEGURO_SOCIAL_JEFE_FAM from FAMILIAS FAMILIAS where ( FAMILIAS.RMO_OFICINA = RMO_PAR and FAMILIAS.SEGURO_SOCIAL_JEFE_FAM = SSN_JEFE_PAR )" adapter="1" recordLength="0">
+  <argument name="RMO_PAR"/>
+  <argument name="SSN_JEFE_PAR"/>
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="RMO_OFICINA" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="REGION/MUNICIPALITY/OFFICE CODE" dataType="double" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="FAMILIAS" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="RMO_OFICINA" sourceLocation="" sourceName="FAMILIAS" sourceOwner="" unique="false" updateable="true"/>
+  <field name="SEGURO_SOCIAL_JEFE_FAM" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="SOCIAL SECURITY CODE" dataType="double" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="FAMILIAS" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="SEGURO_SOCIAL_JEFE_FAM" sourceLocation="" sourceName="FAMILIAS" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

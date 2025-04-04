@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="RMO_READ_PARM_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="COD_RMO,DSC_MUNIC,DSC_OFICINA,DSC_REG,VMS_NODE" updateKey="COD_RMO" updateSourceName="RMO" useTransactions="false" definition="select  RMO.COD_RMO,  RMO.DSC_MUNIC,  RMO.DSC_OFICINA,  RMO.DSC_REG,  RMO.VMS_NODE from RMO RMO where ( RMO.COD_RMO like ( RMO_PARM || '%' ) ) order by RMO.DSC_OFICINA asc" adapter="1" recordLength="0">
+  <argument name="RMO_PARM"/>
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB</extended>
+  <extended name="storage">SAIC_DB</extended>
+  <field name="COD_RMO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="REGION/MUNICIPALITY/OFFICE CODE" dataType="double" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="RMO" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_RMO" sourceLocation="" sourceName="RMO" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DSC_MUNIC" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="REGION/MUNICIPALITY/OFFICE DESCRIPTION" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="15" sourceAlias="RMO" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DSC_MUNIC" sourceLocation="" sourceName="RMO" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DSC_OFICINA" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="REGION/MUNICIPALITY/OFFICE DESCRIPTION" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="15" sourceAlias="RMO" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DSC_OFICINA" sourceLocation="" sourceName="RMO" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DSC_REG" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="REGION/MUNICIPALITY/OFFICE DESCRIPTION" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="15" sourceAlias="RMO" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DSC_REG" sourceLocation="" sourceName="RMO" sourceOwner="" unique="false" updateable="true"/>
+  <field name="VMS_NODE" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="6" sourceAlias="RMO" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="VMS_NODE" sourceLocation="" sourceName="RMO" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

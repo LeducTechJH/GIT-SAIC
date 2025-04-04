@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="LISTA_ACCION_TOMADA_FRAUDE_FRM" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="564" height="384" groupstyle="0" highLightSelected="false" firstobject="RECLAMACIONES_REFERIDAS_GRP" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Thu Jul 03 06:38:15 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="LISTA_ACCION_TOMADA_FRAUDE_FRM" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="560" height="380" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="DEPARTAMENTO" x="182" y="16" width="84" height="12"/>
+    <text name="TXT__1" text="DE" x="273" y="16" width="14" height="12"/>
+    <text name="TXT__2" text="LA" x="294" y="16" width="14" height="12"/>
+    <text name="TXT__3" text="FAMILIA" x="315" y="16" width="49" height="12"/>
+    <text name="TXT__4" text="SISTEMA" x="105" y="32" width="49" height="12"/>
+    <text name="TXT__5" text="DE" x="161" y="32" width="14" height="12"/>
+    <text name="TXT__6" text="ADMINISTRACION" x="182" y="32" width="98" height="12"/>
+    <text name="TXT__7" text="E" x="287" y="32" width="7" height="12"/>
+    <text name="TXT__8" text="INFORMACION" x="301" y="32" width="77" height="12"/>
+    <text name="TXT__9" text="DE" x="385" y="32" width="14" height="12"/>
+    <text name="TXT__10" text="CASOS" x="406" y="32" width="35" height="12"/>
+    <text name="TXT__11" text="REGISTRO" x="133" y="48" width="56" height="12"/>
+    <text name="TXT__12" text="DE" x="196" y="48" width="14" height="12"/>
+    <text name="TXT__13" text="RECLAMACIONES" x="217" y="48" width="91" height="12"/>
+    <text name="TXT__14" text="REFERIDAS" x="315" y="48" width="63" height="12"/>
+    <text name="TXT__15" text="A" x="385" y="48" width="7" height="12"/>
+    <text name="TXT__16" text="FRAUDE" x="399" y="48" width="42" height="12"/>
+    <text name="TXT__17" text="Seg." x="77" y="80" width="28" height="12"/>
+    <text name="TXT__18" text="Social" x="112" y="80" width="42" height="12"/>
+    <text name="TXT__19" text="Seg." x="196" y="80" width="28" height="12"/>
+    <text name="TXT__20" text="Social" x="231" y="80" width="42" height="12"/>
+    <text name="TXT__21" text="Fecha" x="308" y="80" width="35" height="12"/>
+    <text name="TXT__22" text="Codigo" x="420" y="80" width="42" height="12"/>
+    <text name="TXT__23" text="Jefe" x="77" y="96" width="28" height="12"/>
+    <text name="TXT__24" text="Familia" x="112" y="96" width="49" height="12"/>
+    <text name="TXT__25" text="Jefe" x="196" y="96" width="28" height="12"/>
+    <text name="TXT__26" text="Serv." x="231" y="96" width="35" height="12"/>
+    <text name="TXT__27" text="Referido" x="308" y="96" width="56" height="12"/>
+    <text name="TXT__28" text="Servicio" x="420" y="96" width="56" height="12"/>
+    <text name="TXT__29" text="Utilize" x="140" y="336" width="49" height="12"/>
+    <text name="TXT__30" text="las" x="196" y="336" width="21" height="12"/>
+    <text name="TXT__31" text="flechas" x="224" y="336" width="49" height="12"/>
+    <text name="TXT__32" text="para" x="280" y="336" width="28" height="12"/>
+    <text name="TXT__33" text="mover" x="315" y="336" width="35" height="12"/>
+    <text name="TXT__34" text="el" x="357" y="336" width="14" height="12"/>
+    <text name="TXT__35" text="cursor" x="378" y="336" width="42" height="12"/>
+    <text name="TXT__36" text="-" x="182" y="352" width="7" height="12"/>
+    <text name="TXT__37" text="para" x="196" y="352" width="28" height="12"/>
+    <text name="TXT__38" text="seleccionar" x="231" y="352" width="77" height="12"/>
+    <text name="TXT__39" text="F8" x="140" y="368" width="14" height="12"/>
+    <text name="TXT__40" text="-" x="161" y="368" width="7" height="12"/>
+    <text name="TXT__41" text="para" x="175" y="368" width="28" height="12"/>
+    <text name="TXT__42" text="salir" x="210" y="368" width="35" height="12"/>
+    <text name="TXT__43" text="SELECT" x="140" y="352" width="42" height="12"/>
+    <line name="LINE_TXT_0" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="6" x1="560" y1="6" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_1" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="70" x1="560" y1="70" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_2" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="118" x1="560" y1="118" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_3" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="326" x1="560" y1="326" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_4" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="6" x1="0" y1="70" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_5" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="118" x1="0" y1="326" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_6" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="560" y="6" x1="560" y1="70" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_7" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="560" y="118" x1="560" y1="326" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  </textgroup>
+  <group name="RECLAMACIONES_REFERIDAS_GRP" tag="" visible="true" enabled="true" container="LISTA_ACCION_TOMADA_FRAUDE_FRM" nextobject="" objectType="group" pageStart="-1" pageType="0" x="7" y="128" width="546" height="188" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="1" highLightSelected="true" datastore="LISTA_ACCION_FRAUDE_DSD" discardChildless="false" updatetotop="false" firstobject="PARK" indivisible="false" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="16" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <event name="JDataPanelListener.HOTKEYPRESS"/>
+    <parameter name="RMO_PAR"/>
+    <textgroup name="RECLAMACIONES_REFERIDAS_GRP_TXT2" tag="" visible="true" enabled="true" container="RECLAMACIONES_REFERIDAS_GRP" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="546" height="12" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <field name="SS_JEFE_FAMILIA" tag="" visible="true" enabled="true" container="RECLAMACIONES_REFERIDAS_GRP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="SEGURO_SOCIAL_JEFE_FAM" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="71" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="SS_JEFE_SERVICIO" tag="" visible="true" enabled="true" container="RECLAMACIONES_REFERIDAS_GRP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="SEGURO_SOCIAL_JEFE_SERV" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="190" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="COD_SERV" tag="" visible="true" enabled="true" container="RECLAMACIONES_REFERIDAS_GRP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="COD_SERVICIO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="414" y="0" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="FECHA_REFERIDO" tag="" visible="true" enabled="true" container="RECLAMACIONES_REFERIDAS_GRP" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="FECHA_REFERIDO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="302" y="0" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="PARK" tag="" visible="true" enabled="true" container="RECLAMACIONES_REFERIDAS_GRP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="57" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+  </group>
+</model>

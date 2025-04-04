@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="PTRA_TBL_RO_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="FCH_EFECTIVIDAD,TIEMPO_EXENCION,TIEMPO_EXENCION_TANF,TIEMPO_EXENCION_TANF2" updateKey="FCH_EFECTIVIDAD" updateSourceName="PTRA_TBL" useTransactions="false" definition="select  PTRA_TBL.FCH_EFECTIVIDAD,  PTRA_TBL.TIEMPO_EXENCION,  PTRA_TBL.TIEMPO_EXENCION_TANF,  PTRA_TBL.TIEMPO_EXENCION_TANF2 from PTRA_TBL PTRA_TBL order by PTRA_TBL.FCH_EFECTIVIDAD asc" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">saic_db</extended>
+  <extended name="storage">saic_db</extended>
+  <field name="FCH_EFECTIVIDAD" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="DATE" dataType="Date" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="PTRA_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="FCH_EFECTIVIDAD" sourceLocation="" sourceName="PTRA_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="TIEMPO_EXENCION" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="PTRA_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="TIEMPO_EXENCION" sourceLocation="" sourceName="PTRA_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="TIEMPO_EXENCION_TANF" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="PTRA_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="TIEMPO_EXENCION_TANF" sourceLocation="" sourceName="PTRA_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="TIEMPO_EXENCION_TANF2" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="PTRA_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="TIEMPO_EXENCION_TANF2" sourceLocation="" sourceName="PTRA_TBL" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

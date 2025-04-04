@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+
+<project name="SAICWEB" default="compile" basedir=".">
+
+<property name="src" value="WEB-INF/src"/>
+<property name="build" value="work/classes"/>
+<property name="external" value="WEB-INF/src/gov/dlf/external"/>
+<property name="bExternal" value="work/classes/gov/dlf/external"/>
+	
+	<target name="clean" description="Clean all build targets">
+	    
+		<delete dir="${build}"/>
+
+	</target>
+	
+	
+	<target name="prep" depends="clean">
+
+		<mkdir dir="${build}"/>
+
+	</target>
+
+
+	<target name="compile" description="Builds the source code.">
+
+		<javac srcdir="${src}" destdir="${build}">
+
+			
+
+		</javac>
+
+	</target>
+
+	
+	<target name="cExternal" description="Builds the external java files.">
+
+			<javac srcdir="${external}" destdir="${bExternal}" optimize="true" classpath="">
+
+
+			</javac>
+
+	</target>
+
+	
+	<target name="buildWar">
+
+		<war destfile="${build}/SAICWEB.war" webxml="WEB-INF/web.xml">
+		
+
+			<lib dir="WEB-INF/lib"></lib>
+			<classes dir="WEB-INF/classes"/>
+
+				<zipfileset dir=".">
+
+					<exclude name="WEB-INF/src"/>
+					<exclude name="work"/>
+					<exclude name="META-INF"/>
+
+				</zipfileset>
+		</war>
+
+	</target>
+	
+	<target name="all" depends="prep, compile" description="Compiles complete">
+	
+	
+	</target>
+</project>
+		
+		

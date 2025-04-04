@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="INFORME_VISTA_APELACIONES_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="1369" height="992" groupstyle="0" highLightSelected="false" firstobject="OFICINA_LOCAL" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Thu Jul 03 06:38:15 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="INFORME_VISTA_APELACIONES_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="518" height="796" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="DEPARTAMENTO" x="182" y="0" width="84" height="12"/>
+    <text name="TXT__1" text="DE" x="273" y="0" width="14" height="12"/>
+    <text name="TXT__2" text="LA" x="294" y="0" width="14" height="12"/>
+    <text name="TXT__3" text="FAMILIA" x="315" y="0" width="49" height="12"/>
+    <text name="TXT__4" text="ADMINISTRACION" x="63" y="16" width="98" height="12"/>
+    <text name="TXT__5" text="DE" x="168" y="16" width="14" height="12"/>
+    <text name="TXT__6" text="DESARROLLO" x="189" y="16" width="70" height="12"/>
+    <text name="TXT__7" text="SOCIOECONOMICO" x="266" y="16" width="98" height="12"/>
+    <text name="TXT__8" text="DE" x="371" y="16" width="14" height="12"/>
+    <text name="TXT__9" text="LA" x="392" y="16" width="14" height="12"/>
+    <text name="TXT__10" text="FAMILIA" x="413" y="16" width="49" height="12"/>
+    <text name="TXT__11" text="INFORME" x="161" y="48" width="49" height="12"/>
+    <text name="TXT__12" text="PARA" x="217" y="48" width="28" height="12"/>
+    <text name="TXT__13" text="VISTA" x="252" y="48" width="35" height="12"/>
+    <text name="TXT__14" text="DE" x="294" y="48" width="14" height="12"/>
+    <text name="TXT__15" text="APELACION" x="315" y="48" width="63" height="12"/>
+    <text name="TXT__16" text="Datos" x="0" y="80" width="35" height="12"/>
+    <text name="TXT__17" text="de" x="42" y="80" width="14" height="12"/>
+    <text name="TXT__18" text="identificación:" x="63" y="80" width="105" height="12"/>
+    <text name="TXT__19" text="Oficina" x="294" y="96" width="49" height="12"/>
+    <text name="TXT__20" text="Local:" x="350" y="96" width="42" height="12"/>
+    <text name="TXT__21" text="Región:" x="343" y="112" width="49" height="12"/>
+    <text name="TXT__22" text="Nombre" x="0" y="144" width="42" height="12"/>
+    <text name="TXT__23" text="Encargado" x="49" y="144" width="63" height="12"/>
+    <text name="TXT__24" text="Servicio:" x="119" y="144" width="63" height="12"/>
+    <text name="TXT__25" text="NSS" x="0" y="176" width="21" height="12"/>
+    <text name="TXT__26" text="Enc." x="28" y="176" width="28" height="12"/>
+    <text name="TXT__27" text="Servicio:" x="63" y="176" width="63" height="12"/>
+    <text name="TXT__28" text="NSS" x="336" y="176" width="21" height="12"/>
+    <text name="TXT__29" text="JUF:" x="364" y="176" width="28" height="12"/>
+    <text name="TXT__30" text="Num." x="0" y="208" width="28" height="12"/>
+    <text name="TXT__31" text="Junta" x="35" y="208" width="35" height="12"/>
+    <text name="TXT__32" text="de" x="77" y="208" width="14" height="12"/>
+    <text name="TXT__33" text="Apelaciones:" x="98" y="208" width="84" height="12"/>
+    <text name="TXT__34" text="Dirección" x="0" y="240" width="63" height="12"/>
+    <text name="TXT__35" text="Postal" x="70" y="240" width="42" height="12"/>
+    <text name="TXT__36" text="del" x="119" y="240" width="21" height="12"/>
+    <text name="TXT__37" text="Servicio:" x="147" y="240" width="63" height="12"/>
+    <text name="TXT__38" text="Ciudad" x="266" y="288" width="42" height="12"/>
+    <text name="TXT__39" text="Zip" x="448" y="288" width="21" height="12"/>
+    <text name="TXT__40" text="code" x="476" y="288" width="28" height="12"/>
+    <text name="TXT__41" text="Motivo" x="0" y="320" width="42" height="12"/>
+    <text name="TXT__42" text="Apelación" x="49" y="320" width="63" height="12"/>
+    <text name="TXT__43" text="(Acción):" x="119" y="320" width="63" height="12"/>
+    <text name="TXT__44" text="Indique" x="0" y="352" width="49" height="12"/>
+    <text name="TXT__45" text="en" x="56" y="352" width="14" height="12"/>
+    <text name="TXT__46" text="orden" x="77" y="352" width="35" height="12"/>
+    <text name="TXT__47" text="de" x="119" y="352" width="14" height="12"/>
+    <text name="TXT__48" text="fecha" x="140" y="352" width="35" height="12"/>
+    <text name="TXT__49" text="las" x="182" y="352" width="21" height="12"/>
+    <text name="TXT__50" text="actividades" x="210" y="352" width="77" height="12"/>
+    <text name="TXT__51" text="relacionadas" x="294" y="352" width="84" height="12"/>
+    <text name="TXT__52" text="a" x="385" y="352" width="7" height="12"/>
+    <text name="TXT__53" text="la" x="399" y="352" width="14" height="12"/>
+    <text name="TXT__54" text="acción:" x="420" y="352" width="49" height="12"/>
+    <text name="TXT__55" text="Fecha" x="0" y="384" width="35" height="12"/>
+    <text name="TXT__56" text="Acción" x="84" y="384" width="42" height="12"/>
+    <text name="TXT__57" text="Fecha" x="273" y="384" width="35" height="12"/>
+    <text name="TXT__58" text="Efect" x="315" y="384" width="35" height="12"/>
+    <text name="TXT__59" text="Evidencia/Observaciones" x="357" y="384" width="161" height="12"/>
+    <text name="TXT__60" text="Cliente" x="0" y="560" width="49" height="12"/>
+    <text name="TXT__61" text="fue" x="56" y="560" width="21" height="12"/>
+    <text name="TXT__62" text="orientado:" x="84" y="560" width="70" height="12"/>
+    <text name="TXT__63" text="S/N" x="168" y="560" width="21" height="12"/>
+    <text name="TXT__64" text="Asunto:" x="0" y="592" width="49" height="12"/>
+    <text name="TXT__65" text="Evidencia" x="0" y="624" width="63" height="12"/>
+    <text name="TXT__66" text="Utilizada:" x="70" y="624" width="70" height="12"/>
+    <text name="TXT__67" text="Firma" x="385" y="688" width="35" height="12"/>
+    <text name="TXT__68" text="TASF" x="427" y="688" width="28" height="12"/>
+    <text name="TXT__69" text="Firma" x="371" y="736" width="35" height="12"/>
+    <text name="TXT__70" text="Supervisor" x="413" y="736" width="70" height="12"/>
+    <text name="TXT__71" text="Fecha" x="371" y="784" width="35" height="12"/>
+    <text name="TXT__72" text="del" x="413" y="784" width="21" height="12"/>
+    <text name="TXT__73" text="informe" x="441" y="784" width="49" height="12"/>
+  </textgroup>
+  <field name="OFICINA_LOCAL" tag="" visible="true" enabled="false" container="INFORME_VISTA_APELACIONES_FR" nextobject="REGION_OFICINA" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="400" y="96" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="REGION_OFICINA" tag="" visible="true" enabled="false" container="INFORME_VISTA_APELACIONES_FR" nextobject="NOMBRE_JEFE_SERVICIO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="400" y="112" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NOMBRE_JEFE_SERVICIO" tag="" visible="true" enabled="false" container="INFORME_VISTA_APELACIONES_FR" nextobject="SS_JEFE_SERVICIO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="190" y="144" width="321" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="SS_JEFE_SERVICIO" tag="" visible="true" enabled="false" container="INFORME_VISTA_APELACIONES_FR" nextobject="SS_JEFE_FAMILIA" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="134" y="176" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="SS_JEFE_FAMILIA" tag="" visible="true" enabled="false" container="INFORME_VISTA_APELACIONES_FR" nextobject="NUMERO_APELACION" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="400" y="176" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NUMERO_APELACION" tag="" visible="true" enabled="false" container="INFORME_VISTA_APELACIONES_FR" nextobject="DIRECCION_POSTAL" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="190" y="208" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="DIRECCION_POSTAL" tag="" visible="true" enabled="false" container="INFORME_VISTA_APELACIONES_FR" nextobject="CIUDAD" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="218" y="240" width="328" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CIUDAD" tag="" visible="true" enabled="false" container="INFORME_VISTA_APELACIONES_FR" nextobject="ZIPCODE" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="246" y="272" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="ZIPCODE" tag="" visible="true" enabled="false" container="INFORME_VISTA_APELACIONES_FR" nextobject="ACCION_APELACION" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="00000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="449" y="272" width="55" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="00000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="ACCION_APELACION" tag="" visible="true" enabled="false" container="INFORME_VISTA_APELACIONES_FR" nextobject="CLIENTE_ORIENTADO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="190" y="320" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CLIENTE_ORIENTADO" tag="" visible="true" enabled="false" container="INFORME_VISTA_APELACIONES_FR" nextobject="ASUNTO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="155" y="560" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="ASUNTO" tag="" visible="true" enabled="false" container="INFORME_VISTA_APELACIONES_FR" nextobject="EVIDENCIA_UTILIZADA" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="57" y="592" width="349" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="EVIDENCIA_UTILIZADA" tag="" visible="true" enabled="false" container="INFORME_VISTA_APELACIONES_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="148" y="624" width="349" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <event name="JDataPanelListener.BEFORELEAVE"/>
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <textgroup name="ACTIVIDADES_GP_TXT" tag="" visible="true" enabled="true" container="INFORME_VISTA_APELACIONES_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="400" width="7" height="12" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="ACTIVIDADES_GP" anchorTypeHorizontal="3" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  <group name="ACTIVIDADES_GP" tag="" visible="true" enabled="true" container="INFORME_VISTA_APELACIONES_FR" nextobject="" objectType="group" pageStart="-1" pageType="0" x="0" y="416" width="1365" height="108" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="1" highLightSelected="true" datastore="ACTIVIDADES_DSD" discardChildless="false" updatetotop="false" firstobject="FCH_ACTIVIDAD" indivisible="false" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="16" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <parameter name="SS_JEFE_FAMILIA_GBL"/>
+    <parameter name="SS_JEFE_SERVICIO_GBL"/>
+    <parameter name="RMO_PAR"/>
+    <parameter name="SSN_GBL"/>
+    <parameter name="COD_SERVICIO_GBL"/>
+    <parameter name="FECHA_RADICADA_GBL"/>
+    <textgroup name="ACTIVIDADES_GP_TXT0" tag="" visible="true" enabled="true" container="ACTIVIDADES_GP" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="707" height="-4" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <field name="SEGURO_SOCIAL_CLIENTE" tag="" visible="false" enabled="false" container="ACTIVIDADES_GP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="SEGURO_SOCIAL_CLIENTE" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="29" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="SEGURO_SOCIAL_JEFE_FAM" tag="" visible="false" enabled="false" container="ACTIVIDADES_GP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="SEGURO_SOCIAL_JEFE_FAM" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="190" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="SEGURO_SOCIAL_JEFE_SERV" tag="" visible="false" enabled="false" container="ACTIVIDADES_GP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="SEGURO_SOCIAL_JEFE_SERV" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="358" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="COD_SERVICIO" tag="" visible="false" enabled="false" container="ACTIVIDADES_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="COD_SERVICIO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="533" y="0" width="41" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="6"/>
+    </field>
+    <field name="FCH_RADICADA" tag="" visible="false" enabled="false" container="ACTIVIDADES_GP" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="FCH_RADICADA" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="631" y="0" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="12"/>
+    </field>
+    <field name="FCH_ACTIVIDAD" tag="" visible="true" enabled="false" container="ACTIVIDADES_GP" nextobject="ACCION" objectType="field" copyFieldName="" datatypename="Date" datafieldname="FCH_ACTIVIDAD" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="1" y="0" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="12"/>
+    </field>
+    <field name="ACCION" tag="" visible="true" enabled="false" container="ACTIVIDADES_GP" nextobject="FCH_EFECTIVIDAD" objectType="field" copyFieldName="" datatypename="String" datafieldname="ACCION" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="85" y="0" width="181" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="26"/>
+    </field>
+    <field name="FCH_EFECTIVIDAD" tag="" visible="true" enabled="false" container="ACTIVIDADES_GP" nextobject="OBSERVACIONES" objectType="field" copyFieldName="" datatypename="Date" datafieldname="FCH_EFECTIVIDAD" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="274" y="0" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="12"/>
+    </field>
+    <field name="OBSERVACIONES" tag="" visible="true" enabled="false" container="ACTIVIDADES_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="OBSERVACIONES" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="358" y="0" width="216" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="31"/>
+    </field>
+    <field name="RMO_OFICINA" tag="" visible="false" enabled="true" container="ACTIVIDADES_GP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="RMO_OFICINA" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="1" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+  </group>
+</model>

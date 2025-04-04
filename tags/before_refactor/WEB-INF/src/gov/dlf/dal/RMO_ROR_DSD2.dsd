@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="RMO_ROR_DSD2" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="DSC_MUNIC,DSC_REG" updateKey="COD_RMO" updateSourceName="RMO" useTransactions="false" definition="select DISTINCT RMO.DSC_REG,RMO.dsc_munic from RMO RMO order by RMO.DSC_REG,RMO.dsc_munic asc" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="DSC_MUNIC" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="true" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="15" sourceAlias="RMO" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DSC_MUNIC" sourceLocation="" sourceName="RMO" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DSC_REG" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="true" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="15" sourceAlias="RMO" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DSC_REG" sourceLocation="" sourceName="RMO" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

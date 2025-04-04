@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="SEGURO_SOCIAL_SUST_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="true" insertAllowed="true" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="true" updateFields="SEGURO_SOCIAL" updateKey="SEGURO_SOCIAL" updateSourceName="SEGURO_SOCIAL_SUSTITUTO_TBL" useTransactions="false" definition="select  SEGURO_SOCIAL_SUSTITUTO_TBL.SEGURO_SOCIAL from SEGURO_SOCIAL_SUSTITUTO_TBL SEGURO_SOCIAL_SUSTITUTO_TBL" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">SHARED WRITE</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="SEGURO_SOCIAL" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="SOCIAL SECURITY CODE" dataType="double" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="SEGURO_SOCIAL_SUSTITUTO_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="SEGURO_SOCIAL" sourceLocation="" sourceName="SEGURO_SOCIAL_SUSTITUTO_TBL" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

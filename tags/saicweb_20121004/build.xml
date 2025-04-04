@@ -1,0 +1,559 @@
+<?xml version="1.0"?>
+
+<project name="SAICWEB" default="usage" basedir=".">
+
+<!-- Class path definition for SAICWEB source code. Necesary for compiling. Code references the net.jar, Maintrend's Rally Engine Framework Library-->
+<path id="project.class.path">
+	    <fileset dir="${basedir}/WebContent/WEB-INF/lib">
+		<include name="net.jar"/>
+	</fileset>
+</path>
+
+<!-- Class path definition for ANT classes that use Tomcat deployment functions -->
+<path id="tomcat.tasks.classpath">
+    <fileset dir="C:\Program Files\WinAnt\lib">
+    	<include name="catalina-ant.jar"/>
+    </fileset>
+</path>
+
+<!-- Class path definition for ANT classes that use Subversion functions -->
+<path id="svnant.classpath">
+    <fileset dir="C:\Program Files\WinAnt\lib">
+		<include name="**/*.jar"/>
+    </fileset>
+</path>
+
+<!-- Configure the custom Ant tasks for the Tomcat deployment and Manager application -->
+<taskdef name="deploy" classname="org.apache.catalina.ant.DeployTask" classpathref="tomcat.tasks.classpath"/>
+<taskdef name="list" classname="org.apache.catalina.ant.ListTask" classpathref="tomcat.tasks.classpath"/>
+<taskdef name="reload" classname="org.apache.catalina.ant.ReloadTask" classpathref="tomcat.tasks.classpath"/>
+<taskdef name="resources" classname="org.apache.catalina.ant.ResourcesTask" classpathref="tomcat.tasks.classpath"/>
+
+<taskdef name="start" classname="org.apache.catalina.ant.StartTask" classpathref="tomcat.tasks.classpath"/>
+<taskdef name="stop" classname="org.apache.catalina.ant.StopTask" classpathref="tomcat.tasks.classpath"/>
+<taskdef name="undeploy"  classname="org.apache.catalina.ant.UndeployTask" classpathref="tomcat.tasks.classpath"/>
+	
+<!-- Configure the custom Ant tasks for the Weblogic deployment and management functions-->
+<taskdef name="wldeploy" classname="weblogic.ant.taskdefs.management.WLDeploy" >
+	<classpath>
+		<pathelement location="C:\Program Files\WinAnt\lib\wlfullclient.jar"/>
+	</classpath>
+</taskdef>
+
+<!-- Configure the custom Ant tasks for Subversion functions -->
+<taskdef name="svn" classname="org.tigris.subversion.svnant.SvnTask" classpathref="svnant.classpath"/>
+
+<!-- Configure the custom Ant tasks for flow control functions -->
+<taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
+
+<!-- Configure properties to access the Manager application in DEV-->
+<property name="devUrl" value="http://10.200.11.180:8081/manager"/>
+<property name="devUn" value="admin"/>
+<property name="devPw" value="dlfinvent"/>
+
+<!-- Configure properties to access the Manager application in QC-->
+<property name="qcUrl" value="http://10.200.11.183:8081/manager"/>
+<property name="qcUn" value="admin"/>
+<property name="qcPw" value="dlfinvent"/>
+
+<!-- Configure properties to access the Manager application in PROD-->
+<property name="proas1Url" value="http://172.16.2.131:8081/manager"/>
+<property name="proas2Url" value="http://172.16.2.132:8081/manager"/>
+<property name="proas3Url" value="http://172.16.2.133:8081/manager"/>
+<property name="proas4Url" value="http://172.16.2.134:8081/manager"/>
+<property name="proas5Url" value="http://172.16.2.135:8081/manager"/>
+<property name="proas6Url" value="http://172.16.2.136:8081/manager"/>
+<property name="proas7Url" value="http://172.16.2.137:8081/manager"/>
+<property name="proas8Url" value="http://172.16.2.138:8081/manager"/>
+<property name="prodUn" value="admin"/>
+<property name="prodPw" value="dlf123!"/>
+	
+<!-- Configure properties to access Weblogic deployment URL in Production DRC-->
+<property name="app2AdminUrl" value="t3://app2:7001"/>
+
+<!-- Property definitions for connection strings-->
+<property name="devConStr" value="DRIVER={Oracle10g};DataBaseURL={jdbc:oracle:thin:hr/hr@//10.200.11.180:1523/SAICWDEV};LOGIN={saic};PASSWORD={Ora10gr2};SCHEMA={saic};"/>
+<property name="qcConStr"  value="DRIVER={Oracle10g};DataBaseURL={jdbc:oracle:thin:hr/hr@//10.200.11.183:1521/SAICWQC};LOGIN={saic};PASSWORD={Ora10gr2};SCHEMA={saic};"/>
+<property name="trnConStr" value="DRIVER={Oracle10g};DataBaseURL={jdbc:oracle:thin:hr/hr@//10.200.11.183:1521/SAICWTRN};LOGIN={saic};PASSWORD={Ora10gr2};SCHEMA={saic};"/>
+<property name="prdConStr" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(FAILOVER=ON)(ADDRESS_LIST=(LOAD_BALANCE=ON)(ADDRESS=(PROTOCOL=TCP)(HOST=172.24.27.61)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=172.24.27.62)(PORT=1521)))(CONNECT_DATA= (SERVER = SHARED) (SERVICE_NAME=SAICWPRD)))};LOGIN={saic};PASSWORD={dlf2818};"/>
+<property name="drcPrdConStr" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=dbrac-scan)(PORT=1521))(LOAD_BALANCE=YES)(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=SAICPRD_LB)(FAILOVER_MODE=(TYPE=SESSION)(METHOD=BASIC)(RETRIES=180)(DELAY = 2))))};LOGIN={saic};PASSWORD={dlf2818};"/>
+<property name="drcPrdConStrShared" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.201.10.225)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.201.10.227)(PORT=1521))(FAILOVER=ON)(LOAD_BALANCE=ON))(CONNECT_DATA=(SERVER=SHARED)(SERVICE_NAME=SAICPRD_LB)))};LOGIN={saic};PASSWORD={dlf2818};"/>
+	
+<!-- Property to hold the command output. -->
+<property name="qcCmdOut" value="" id="qcCmId"/>
+
+<!-- Variable definitions for source code directory and build directory -->
+<property name="src" value="src"/>
+<property name="build" value="WebContent/WEB-INF/classes"/>
+<property name="context" value="WebContent"/>
+
+<!-- Variable definition for checkout directory when SVN Checkout is used within ANT. For testing purposes. -->
+<property name="checkoutPath" value="${basedir}/SAICWEB"/>
+
+<!-- Property for commit message on SVN tagging -->
+<property name="msg" value="Tag copy for version release to QC."/>
+
+<!-- Propery for branching a tagged QC version -->
+<property environment="env"/>
+<property name="qcTag" value="${env.VERSION}"/>
+
+<!-- Propery for deploying a branch version -->
+<property name="branchName" value="${env.BRANCH}"/>
+	
+<!-- Propery for deploying a tag from a previously deployed QC version -->
+<property name="tagName" value="${env.TAG}"/>
+
+<!-- Weblogic user and password envirnment variable definition for credentials as parameters in Jenkins buil execution. -->
+<property name="wlPrdUn" value="${env.wlUser}"/>
+<property name="wlPrdPw" value="${env.wlPassword}"/>
+
+<property name="excludes" value="src/,.settings/,.project,.classpath,build.xml,qccontrol,WEB-INF/weblogic.xml"/>
+
+
+	<!-- =================================
+	     Get the date & timestamp, format it, and load it in variables.
+	     ================================= -->
+
+	<!-- =================================
+          target: tStamp
+         ================================= -->
+    <target name="tStamp" depends="" description="Load in variables the current date and time.">
+
+    	<tstamp>
+
+    		<format property="TODAY" pattern="yyyyMMdd" locale="en,US"/>
+    		<format property="TIME" pattern="HH:mm" locale="en,US" offset="30" unit="minute"/>
+
+    	</tstamp>
+
+    </target>
+
+
+	<!-- =================================
+	     Clean build directory. Necesary when SVN Update from HUDSON is used.
+	     ================================= -->
+
+	<target name="clean" description="Deletes build directory contaning compiled classes">
+
+		<delete dir="${build}"/>
+
+	</target>
+
+
+	<!-- =================================
+		 Create build directory. Used after clean invoke.
+		 ================================= -->
+
+	<target name="prep" description="Creates the build directory for class output compilation">
+
+		<mkdir dir="${build}"/>
+
+	</target>
+
+
+	<!-- =================================
+	     Compile SAICWEB source code. Due to more than 2606 classes compiled, the compiler task needs to fork threads and maximize heap or else will run out of memory.
+	     ================================= -->
+
+	<target name="compile" description="Builds the source code.">
+
+		<javac srcdir="${src}" destdir="${build}" fork="true" memoryinitialsize="128m" memorymaximumsize="1024m">
+
+			<classpath refid="project.class.path">
+			</classpath>
+
+		</javac>
+
+	</target>
+
+
+	<!-- =================================
+          Copy JDPs and DSDs to the classes directory. Used after compilation.
+         ================================= -->
+
+    <target name="cpSupport" description="Copy datastores and JDPs to classes directory">
+
+    	<copydir dest="${context}/WEB-INF/classes/" src="src" excludes="**/*.java"/>
+
+    </target>
+
+
+	<!-- =================================
+	     Get the build number from the checked out files and load it in a variable.
+	     ================================= -->
+
+	<target name="buildNo" description="Get revision number and save it in a property">
+		<svn username="ant" password="ant">
+			<info target="${basedir}" verbose="true"/>
+		</svn>
+
+		<echo>SAICWEB Revision: ${svn.info.lastRev}</echo>
+	</target>
+
+
+	<!-- =================================
+         Automatic update of version number and build number on index.jsp file according to '########.###' convention.
+         ================================= -->
+
+    <target name="updateVer" depends="buildNo" description="Updates build number">
+
+       	<replaceregexp file="${context}/index.jsp" match="[0-9]{8}\.[0-9][0-9]+" replace="${TODAY}.${svn.info.lastRev}"/>
+
+    </target>
+
+	<!-- =================================
+	     Automatic update of version number and build number on index.jsp file according to '########.###' naming convention.
+	     ================================= -->
+
+	    <target name="updateProdVer" depends="buildNo" description="Updates build number">
+
+	    	<replaceregexp file="${context}/index.jsp" match="[0-9]{8}\.[0-9][0-9]+" replace="${qcTag}.${svn.info.lastRev}"/>
+
+	    </target>
+
+
+	<!-- =================================
+	          target: qcRead
+	     ================================= -->
+	<target name="qcRead" depends="" description="Retrieves the oldest QC version and updates the control file">
+
+	    	<loadfile property="oldVer" srcfile="qccontrol">
+	    		<filterchain>
+	    			<headfilter lines="1"/>
+	    			<striplinebreaks/>
+	    		</filterchain>
+	    	</loadfile>
+
+	    	<loadfile property="midVer" srcfile="qccontrol">
+	    		<filterchain>
+	   				<headfilter lines="1" skip="1"/>
+	    			<striplinebreaks/>
+	    		</filterchain>
+	    	</loadfile>
+
+	    	<loadfile property="recVer" srcfile="qccontrol">
+	    	    <filterchain>
+	    	   		<headfilter lines="1" skip="2"/>
+	    	    	<striplinebreaks/>
+	    		</filterchain>
+	    	</loadfile>
+
+	    	<echo message="${oldVer}"/>
+	    	<echo message="${midVer}"/>
+	    	<echo message="${recVer}"/>
+
+	</target>
+
+
+
+	<!-- =================================
+          target: qcWrite (For testing purposes)
+         ================================= -->
+    <target name="qcWrite" depends="qcRead" description="Updates the control file with the most recent QC versions">
+
+    	<echo file="qccontrol" message="${midVer}${line.separator}${recVer}${line.separator}SAICWEB_${TODAY}"/>
+
+    </target>
+
+	<!-- =================================
+          target: qcCheck
+         ================================= -->
+	<target name="qcCheck" description="Check if a deployment has been made today on Quality">
+
+		<echo message=" Checking to see if http://10.200.11.183:8081/SAICWEB_${TODAY} already exists"/>
+		<condition property="deployed" value="true" else="false">
+	    	<http url="http://10.200.11.183:8081/SAICWEB_${TODAY}" />
+	    </condition>
+		<echo message="Check returned ${deployed}"/>
+
+	</target>
+
+
+
+	<!-- =================================
+	     Deploy to PRD on demand -INCOMPLETE-
+         ================================= -->
+
+		<target name="depProd" depends="tStamp, clean, prep, compile, cpSupport, updateProdVer" description="Deploy a war to the 8 production servers PROD">
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${prdConStr}"/>
+
+		<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/opt/hpws/tomcat/webapps/SAICWEB/Messages.xml"/>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+
+		<!-- TESTING FOR PRODUCCTION -->
+
+			<move file="${basedir}/SAICWEB.war" tofile="${basedir}/SAICWEB_TEST.war"/>
+
+			<deploy path="/SAICWEB_TEST" war="file:///${basedir}/SAICWEB_TEST.war" url="${proas8Url}" username="${prodUn}" password="${prodPw}"/>
+
+
+		<!-- TESTING FOR PRODUCCTION -->
+
+		<!--
+
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${proas1Url}" username="${prodUn}" password="${prodPw}"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${proas2Url}" username="${prodUn}" password="${prodPw}"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${proas3Url}" username="${prodUn}" password="${prodPw}"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${proas4Url}" username="${prodUn}" password="${prodPw}"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${proas5Url}" username="${prodUn}" password="${prodPw}"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${proas6Url}" username="${prodUn}" password="${prodPw}"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${proas7Url}" username="${prodUn}" password="${prodPw}"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${proas8Url}" username="${prodUn}" password="${prodPw}"/>
+
+		-->
+
+	</target>
+
+	<!-- =================================
+		 Prepare PRD war on demand.
+		 ================================= -->
+
+		<target name="createProd" depends="tStamp, clean, prep, compile, cpSupport, updateProdVer" description="Create a war file for production">
+
+			<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${prdConStr}"/>
+
+			<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/opt/hpws/tomcat/webapps/SAICWEB/Messages.xml"/>
+
+			<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+				<fileset dir="${context}" excludes="${excludes}"/>
+
+			</war>
+
+		</target>
+
+
+	<!-- =================================
+	     Deploy to QC on demand with /SAICWEB_######## context
+	     ================================= -->
+
+	<target name="depQc" depends="tStamp, clean, prep, compile, cpSupport, updateVer, qcRead, qcCheck" description="Deploy to QC the checkedout revision">
+
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${qcConStr}"/>
+
+		<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/opt/hpws/tomcat/webapps/SAICWEB_${TODAY}/Messages.xml"/>
+
+		<war destfile="${basedir}/SAICWEB_${TODAY}.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+
+		<if>
+			<equals arg1="${deployed}" arg2="false" />
+			<then>
+
+				<undeploy path="/${oldVer}" url="${qcUrl}" username="${qcUn}" password="${qcPw}"/>
+
+				<deploy path="/SAICWEB_${TODAY}" war="file:///${basedir}/SAICWEB_${TODAY}.war" url="${qcUrl}" username="${qcUn}" password="${qcPw}"/>
+
+				<svn username="ant" password="ant">
+
+					<copy srcUrl="http://10.200.11.192/svn/SAICWeb/trunk" destUrl="http://10.200.11.192/svn/SAICWeb/tags/saicweb_${TODAY}" message="${msg}"> </copy>
+
+				</svn>
+
+				<echo file="qccontrol" message="${midVer}${line.separator}${recVer}${line.separator}SAICWEB_${TODAY}"/>
+
+				<svn username="ant" password="ant">
+
+					<commit file="qccontrol" message="Commited control file for next QC deployment. Versions on QC server are:${line.separator}${midVer}${line.separator}${recVer}${line.separator}SAICWEB_${TODAY}"/>
+
+				</svn>
+
+			</then>
+
+			<else>
+
+				<undeploy path="/SAICWEB_${TODAY}" url="${qcUrl}" username="${qcUn}" password="${qcPw}"/>
+
+				<deploy path="/SAICWEB_${TODAY}" war="file:///${basedir}/SAICWEB_${TODAY}.war" url="${qcUrl}" username="${qcUn}" password="${qcPw}"/>
+
+				<svn username="ant" password="ant">
+
+					<delete url="http://10.200.11.192/svn/SAICWeb/tags/saicweb_${TODAY}" message="Removing previously tagged copy for re-deploy"/>
+
+				</svn>
+
+				<svn username="ant" password="ant">
+
+					<copy srcUrl="http://10.200.11.192/svn/SAICWeb/trunk" destUrl="http://10.200.11.192/svn/SAICWeb/tags/saicweb_${TODAY}" message="${msg}"> </copy>
+
+				</svn>
+
+			</else>
+
+		</if>
+
+	</target>
+
+
+	<!-- =================================
+		 Deploy to DEV on demand with /current context and utilize QC database.
+		 ================================= -->
+
+	<target name="current" depends="tStamp, clean, prep, compile, cpSupport, updateVer" description="Deploy to DEV the latest trunk revision on demand">
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${qcConStr}"/>
+
+		<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/opt/hpws/tomcat/webapps/current/Messages.xml"/>
+
+		<replaceregexp file="${context}/index.jsp" match="[0-9]{8}\.[0-9][0-9]+" replace="${TODAY}.${svn.info.lastRev}_${TIME}"/>
+
+		<war destfile="${basedir}/current.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+
+		<deploy path="/current" update="true" war="file:///${basedir}/current.war" url="${devUrl}" username="${devUn}" password="${devPw}"/>
+
+	</target>
+
+
+	<!-- =================================
+		 Deploy to DEV on demand from a specified branch in Hudson with /$BRANCH context.
+		 ================================= -->
+
+	<target name="depBranchDev" depends="tStamp, clean, prep, compile, cpSupport, updateVer" description="Deploy to DEV from a branch">
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${devConStr}"/>
+
+		<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/opt/hpws/tomcat/webapps/${branchName}/Messages.xml"/>
+
+		<replaceregexp file="${context}/index.jsp" match="[0-9]{8}\.[0-9][0-9]+" replace="${TODAY}.${revNo}_${branchName}"/>
+
+		<war destfile="${basedir}/${branchName}.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+
+		<deploy path="/${branchName}" update="true" war="file:///${basedir}/${branchName}.war" url="${devUrl}" username="${devUn}" password="${devPw}"/>
+
+	</target>
+
+
+	<!-- =================================
+		 Daily build deployment on DEV
+		 ================================= -->
+
+	<target name="daily" depends="tStamp, clean, prep, compile, cpSupport, updateVer" description="Deploy to DEV the latest trunk revision on demand">
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${devConStr}"/>
+
+		<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/opt/hpws/tomcat/webapps/daily/Messages.xml"/>
+
+		<war destfile="${basedir}/daily.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+
+		<stop url="${devUrl}" username="${devUn}" password="${devPw}" path="/daily"/>
+
+		<undeploy url="${devUrl}" username="${devUn}" password="${devPw}" path="/daily"/>
+
+		<deploy path="/daily" war="file:///${basedir}/daily.war" url="${devUrl}" username="${devUn}" password="${devPw}"/>
+
+	</target>
+
+	
+	<!-- =================================
+		     Create a package for deploy to production Weblogic
+		 ================================= -->
+
+		<target name="weblogicProdPckg" depends="tStamp, clean, prep, compile, cpSupport, updateVer" description="Create a tar file for Weblogic deployment">
+
+			<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${drcPrdConStrShared}"/>
+
+			<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/Messages.xml"/>
+			
+			<replaceregexp file="${context}/index.jsp" match="SAICWPRD" replace="SAICPRD_LB"/>
+
+			<tar destfile="${basedir}/SAICWEB.tar" defaultexcludes="true">
+
+				<fileset dir="${context}" excludes="WEB-INF/src/,.settings/,.project,.classpath,build.xml,.tomcatplugin,work/,qccontrol"/>
+
+			</tar>
+			
+			<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+				<fileset dir="${context}" excludes="WEB-INF/src/,.settings/,.project,.classpath,build.xml,.tomcatplugin,work/,qccontrol"/>
+
+			</war>
+			
+		</target>
+	
+	<!-- =================================
+			Deploy pakacge to Weblogic on Producction DRC
+	     ================================= -->
+
+		<target name="depWlPrd" depends="tStamp, clean, prep, compile, cpSupport, updateVer, weblogicProdPckg" description="Install war on Weblogic producction DRC">
+								
+			<wldeploy action="stop" 
+				adminurl="${app2AdminUrl}" 
+				user="${wlPrdUn}}" 
+				password="${wlPrdPw}" 
+				debug="true" 
+				verbose="true" 
+				targets="wl_cluster" 
+				name="SAICWEB"
+				graceful="false"
+				/>
+			
+			<wldeploy action="undeploy" 
+				adminurl="${app2AdminUrl}" 
+				user="${wlPrdUn}" 
+				password="${wlPrdPw}" 
+				debug="true" 
+				verbose="true" 
+				targets="wl_cluster" 
+				name="SAICWEB"/>
+			
+			<wldeploy action="deploy" 
+				adminurl="${app2AdminUrl}" 
+				user="${wlPrdUn}}" 
+				password="${wlPrdPw}" 
+				debug="true" 
+				verbose="true" 
+				appversion="${TODAY}.${svn.info.lastRev}" 
+				targets="wl_cluster" 
+				source="${basedir}/SAICWEB.war"
+				upload="true"
+				remote="true"/>							
+		
+		</target>
+
+	<!-- =================================
+		          target: usage
+		 ================================= -->
+
+	<target name="usage" description="Usage instructions when invoking ANT default target on SAICWEB make file">
+
+		<echo message="TODO: Usage instructions"/>
+
+	</target>
+
+	<!-- =================================
+		          target: checkout
+		 ================================= -->
+
+	<target name="checkout" description="Downloads the latest code from the trunk in the repository. Used in stand alone script testing execution.">
+
+		<svn username="ant" password="ant">
+
+			<checkout url="http://10.200.11.192/svn/SAICWeb/trunk" destPath="${checkoutPath}"/>
+
+		</svn>
+
+	</target>
+
+</project>

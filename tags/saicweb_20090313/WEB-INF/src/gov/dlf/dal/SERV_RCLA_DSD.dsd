@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="SERV_RCLA_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="COD_SERVICIO,COD_STATUS_SERVICIO,RMO_OFICINA,SEGURO_SOCIAL_JEFE_FAM,SEGURO_SOCIAL_JEFE_SERV" updateKey="SEGURO_SOCIAL_JEFE_SERV,COD_SERVICIO" updateSourceName="SERVICIOS" useTransactions="false" definition="select  SERVICIOS.COD_SERVICIO,  SERVICIOS.COD_STATUS_SERVICIO,  SERVICIOS.RMO_OFICINA,  SERVICIOS.SEGURO_SOCIAL_JEFE_FAM,  SERVICIOS.SEGURO_SOCIAL_JEFE_SERV from SERVICIOS SERVICIOS where ( SERVICIOS.RMO_OFICINA = RMO_PAR and SERVICIOS.SEGURO_SOCIAL_JEFE_FAM = SSJF and SERVICIOS.SEGURO_SOCIAL_JEFE_SERV = SSJS and SERVICIOS.COD_SERVICIO = CS )" adapter="1" recordLength="0">
+  <argument name="SSJS"/>
+  <argument name="SSJF"/>
+  <argument name="RMO_PAR"/>
+  <argument name="CS"/>
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB</extended>
+  <extended name="storage">SAIC_DB</extended>
+  <field name="COD_SERVICIO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="SERVICE CODE" dataType="String" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="5" sourceAlias="SERVICIOS" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_SERVICIO" sourceLocation="" sourceName="SERVICIOS" sourceOwner="" unique="false" updateable="true"/>
+  <field name="COD_STATUS_SERVICIO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="SERVICE STATUS CODE" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="SERVICIOS" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_STATUS_SERVICIO" sourceLocation="" sourceName="SERVICIOS" sourceOwner="" unique="false" updateable="true"/>
+  <field name="RMO_OFICINA" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="REGION/MUNICIPALITY/OFFICE CODE" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="SERVICIOS" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="RMO_OFICINA" sourceLocation="" sourceName="SERVICIOS" sourceOwner="" unique="false" updateable="true"/>
+  <field name="SEGURO_SOCIAL_JEFE_FAM" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="SOCIAL SECURITY CODE" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="SERVICIOS" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="SEGURO_SOCIAL_JEFE_FAM" sourceLocation="" sourceName="SERVICIOS" sourceOwner="" unique="false" updateable="true"/>
+  <field name="SEGURO_SOCIAL_JEFE_SERV" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="SOCIAL SECURITY CODE" dataType="double" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="SERVICIOS" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="SEGURO_SOCIAL_JEFE_SERV" sourceLocation="" sourceName="SERVICIOS" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

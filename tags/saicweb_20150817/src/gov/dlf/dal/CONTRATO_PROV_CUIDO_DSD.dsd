@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="CONTRATO_PROV_CUIDO_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="" updateKey="" updateSourceName="CONTRATOS_CUIDO" useTransactions="false" definition="SELECT ID_PROVEEDOR,NOM_PROVEEDOR, PROV_SERVID,COSTO_MENSUAL,TIPO_SERVICIO FROM CONTRATOS_CUIDO WHERE TIPO_SERVICIO LIKE TIPO_PAR AND STS_PROVEEDOR LIKE 'ACTIVO' AND ID_PROVEEDOR = PROV_PAR AND SEGURO_SOCIAL_CLIENTE = SSN_MENOR" adapter="1" recordLength="0">
+  <argument  name="TIPO_PAR"/>
+  <argument  name="PROV_PAR"/>
+  <argument  name="SSN_MENOR"/>
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="ID_PROVEEDOR" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="Double" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="9" sourceAlias="CONTRATOS_CUIDO" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="ID_PROVEEDOR" sourceLocation="" sourceName="CONTRATOS_CUIDO" sourceOwner="" unique="false" updateable="true"/>
+  <field name="NOM_PROVEEDOR" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="25" sourceAlias="CONTRATOS_CUIDO" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="NOM_PROVEEDOR" sourceLocation="" sourceName="CONTRATOS_CUIDO" sourceOwner="" unique="false" updateable="true"/>
+  <field name="PROV_SERVID" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="Double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="25" sourceAlias="CONTRATOS_CUIDO" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="PROV_SERVID" sourceLocation="" sourceName="CONTRATOS_CUIDO" sourceOwner="" unique="false" updateable="true"/>
+  <field name="COSTO_MENSUAL" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="25" sourceAlias="CONTRATOS_CUIDO" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COSTO_MENSUAL" sourceLocation="" sourceName="CONTRATOS_CUIDO" sourceOwner="" unique="false" updateable="true"/>
+  <field name="TIPO_SERVICIO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="25" sourceAlias="CONTRATOS_CUIDO" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="TIPO_SERVICIO" sourceLocation="" sourceName="CONTRATOS_CUIDO" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

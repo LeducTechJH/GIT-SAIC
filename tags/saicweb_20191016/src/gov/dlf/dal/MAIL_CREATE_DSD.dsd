@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="MAIL_CREATE_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="true" deleteAllowed="true" insertAllowed="true" retrieveLimit="0" trimEndOnRetrieve="true" updateAllowed="true" updateFields="" updateKey="" updateSourceName="" useTransactions="true" definition="No Definition" adapter="11" recordLength="128">
+  <extended name="DSDExtDeleteOffset">0</extended>
+  <extended name="DSDExtFileName">MAIL_FILE.MAIL</extended>
+  <extended name="DSDExtRecordLength">128</extended>
+  <extended name="defConnect">BASE={};FILENAME={MAIL_FILE.MAIL};OPENMODE={rw};LOGIN={};PASSWORD={};</extended>
+  <extended name="DSDExtDeleteLength">128</extended>
+  <field name="TEXT_LINE" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="128" sourceAlias="" sourceCatalog="" sourceDataType="String" sourceExpression="" sourceFieldName="TEXT_LINE" sourceLocation="" sourceName="" sourceOwner="" unique="false" updateable="false"/>
+</datastore>

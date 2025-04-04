@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Configuration>
+  <Locale.encoding1>ISO8859-1</Locale.encoding1>
+  <Locale.encoding2>cp1252</Locale.encoding2>
+  <StringService.Language>SPANISH</StringService.Language>
+
+  <AppManager.ClassName>gov.dlf.facade.SAIC_DMQ_ORA_Application</AppManager.ClassName>
+  <MainTask.ClassName>gov.dlf.facade.SAIC_TASK</MainTask.ClassName>
+
+  <ConnectionString>DRIVER={Oracle10g};DataBaseURL={jdbc:oracle:thin:hr/hr@//10.200.10.50:1521/SAICQC};LOGIN={saic};PASSWORD={ora12cr2};SCHEMA={saic};</ConnectionString>
+
+  <TemporaryDir>C:\apache\server7\wtpwebapps\SAICWEB\WEB-INF\doc\COVID19.pdf</TemporaryDir>
+
+  <DataManager.maxRetrieveLimit>5000</DataManager.maxRetrieveLimit>
+
+  <DBDefaultDateTimeFormat>dd-MMM-yyyy KK:mm:ssa</DBDefaultDateTimeFormat>
+  <DBDefaultDateFormat>dd-MMM-yyyy</DBDefaultDateFormat>
+
+  <SqlSyntax.StringConcatenation> || </SqlSyntax.StringConcatenation>
+  <SqlSyntax.NotEqual> &lt;&gt; </SqlSyntax.NotEqual>
+  <SqlSyntax.Lowercase/>
+
+  <EditDefaultDateFormat>dd-MMM-yyyy</EditDefaultDateFormat>
+  <PresentationLayer>gov/dlf/presentation/</PresentationLayer>
+
+  <DALPackage>gov.dlf.dal.</DALPackage>
+  <FacadePackage>gov.dlf.facade.</FacadePackage>
+  <UIPackage>gov.dlf.presentation.</UIPackage>
+
+  <JDataPanelHtmlRenderer.cssPath>\<link rel="stylesheet" href="css/jdp.css" type="text/css" />
+
+</JDataPanelHtmlRenderer.cssPath>
+  <JDataPanelHtmlRenderer.jsPath>\<script language="JavaScript" src="js/jdp.js">\</script>
+/<script language="JavaScript">
+
+//if ( parent == parent.servletPath ) {servletPath = parent.servletPath;}
+/</script>
+
+</JDataPanelHtmlRenderer.jsPath>
+  <JDataPanelHtmlRenderer.background1>images/DLFBackground.gif</JDataPanelHtmlRenderer.background1>
+  <JDataPanelHtmlRenderer.background/>
+
+  <Menu.cssPath>\<link rel="stylesheet" href="css/menu.css" type="text/css" />
+
+</Menu.cssPath>
+  <Menu.jsPath>\<script language="JavaScript" src="js/menu.js">\</script>
+\<script language="JavaScript">
+//if ( parent == parent.servletPath ) {servletPath = parent.servletPath;}
+\</script>
+
+</Menu.jsPath>
+  <Menu.background1>background="images/DLFBackground.gif"</Menu.background1>
+  <Menu.exclude1>MANTENIMIENTO DE CASOS Y SOLICITUDES;INFORMES ADMINISTRATIVOS;MANTENIMIENTO DEL SISTEMA;CHEQUES;RECAUDACIONES;</Menu.exclude1>
+  <Menu.exclude>CHEQUES</Menu.exclude>
+
+  <Debug.printStackTrace>trace</Debug.printStackTrace>
+  <!-- DEBUG - EXCEPTION - APP - DB - DBEXCEPTION - JDP - JDPCOMMAND - CMD - THIN - EXTERNAL - TRACE -->
+  <Debug.categories>01001000010</Debug.categories>
+  <Debug.categories1>11111111111</Debug.categories1>
+  <Debug.storeTime>false</Debug.storeTime>
+
+  <ClassesPath>WEB-INF/classes/</ClassesPath>
+  <CodesPath>code/</CodesPath>
+   <Messages.HomePath>Messages.xml</Messages.HomePath>
+  <WorkDir.Path>/opt/hpws/tomcat/SAICWorkDir/</WorkDir.Path>
+
+  <JavaScript.Path>dlfjs</JavaScript.Path>
+
+  <JavaScript.INGRESOS_CLIENTE_FR>setNextCondition ( "COD_TIPO_INGRESO", "VLR_CANTIDAD_INGRESO", "COD_TIPO_INGRESO", "GLOB", "FCH_PAGO_GBLO" );</JavaScript.INGRESOS_CLIENTE_FR>
+  <JavaScript.INFOR_BIO_FRM>setNextCondition ( "TIPO_REGISTRO", "COD_PASOS", "TIPO_REGISTRO", "OBLI|VOLU", "ACEPTA_REGISTRO_EMPLEO|ACEPTA_REGISTRO_EMPLEO" );</JavaScript.INFOR_BIO_FRM>
+  <JavaScript.RETRO_INSERT_FR>disableNotFocused = true;</JavaScript.RETRO_INSERT_FR>
+  <JavaScript.REFERIDO_RECLA_FR>setNextCondition ( "FECHA_IDENTIFICADO", "FECHA_RECLA_ORIGINAL", "ACCION", "RECL", "DESDE" );</JavaScript.REFERIDO_RECLA_FR>
+
+  <!--
+  <HtmlHead.FECHAS_SERVICIO_FRM>\<script language="JavaScript" src="dlfjs/FECHAS_SERVICIO_FRM.js">\</script></HtmlHead.FECHAS_SERVICIO_FRM>
+  <HtmlHead.SOLIC_SERV_COMP_FAMILIAR_FR>\<script language="JavaScript" src="dlfjs/SOLIC_SERV_COMP_FAMILIAR_FR.js">\</script></HtmlHead.SOLIC_SERV_COMP_FAMILIAR_FR>
+  <HtmlHead.NUEVO_JEFE_FAM_FRM>\<script language="JavaScript" src="dlfjs/NUEVO_JEFE_FAM_FRM.js">\</script></HtmlHead.NUEVO_JEFE_FAM_FRM>
+  <HtmlHead.SERV_NUCLEO_SERV_FRM>\<script language="JavaScript" src="dlfjs/SERV_NUCLEO_SERV_FRM.js">\</script></HtmlHead.SERV_NUCLEO_SERV_FRM>
+  <HtmlHead.INFOR_BIO_FRM>\<script language="JavaScript" src="dlfjs/INFOR_BIO_FRM.js">\</script></HtmlHead.INFOR_BIO_FRM>
+  -->
+
+  <DataUnderFormat.DSS172_FR>true</DataUnderFormat.DSS172_FR>
+
+  <PrintForm.GET_SSN_FR>RR_INS_DSS171_FR</PrintForm.GET_SSN_FR>
+
+  <BackgroundAction.></BackgroundAction.>
+
+</Configuration>

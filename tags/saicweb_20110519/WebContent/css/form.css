@@ -1,0 +1,31 @@
+/* 
+CSS Document 
+*/
+
+.bbb
+{
+  width:90pt; 
+  font: 9pt Verdana,Helvetica,Arial; 
+  color:#ffffff; 
+  background-color:orange;
+  vertical-align:top; 
+  border:solid 1px #2020A0;
+}
+
+input.button 
+{
+  width:150px; 
+  font: 14px Arial; 
+  color:#FFFFFF; 
+  background-color:#D2691E;
+  vertical-align:top; 
+  border:solid 1px #FFA500;
+}
+
+td
+{
+  font: 13px bolder Arial; 
+  color:#000040; 
+  background-color:#FFFFCC;
+  border:solid 1px #FFA500;
+}

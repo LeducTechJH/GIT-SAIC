@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="GEN_COD_REGISTRO_ROD_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="COD_GENERAL,COD_ID,DSC_CORTA,DSC_LARGA" updateKey="COD_GENERAL,COD_ID" updateSourceName="GENERAL_TBL" useTransactions="false" definition="select  GENERAL_TBL.COD_GENERAL,  GENERAL_TBL.COD_ID,  GENERAL_TBL.DSC_CORTA,  GENERAL_TBL.DSC_LARGA from GENERAL_TBL GENERAL_TBL where ( GENERAL_TBL.COD_GENERAL = 'REGE' )" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB</extended>
+  <extended name="storage">SAIC_DB</extended>
+  <field name="COD_GENERAL" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="GENERAL CODE" dataType="String" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="GENERAL_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_GENERAL" sourceLocation="" sourceName="GENERAL_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="COD_ID" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="GENERIC CODE FOR TABLES" dataType="String" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="GENERAL_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_ID" sourceLocation="" sourceName="GENERAL_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DSC_CORTA" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="SHORT DESCRIPTION" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="10" sourceAlias="GENERAL_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DSC_CORTA" sourceLocation="" sourceName="GENERAL_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DSC_LARGA" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="LONG DESCRIPTION" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="40" sourceAlias="GENERAL_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DSC_LARGA" sourceLocation="" sourceName="GENERAL_TBL" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

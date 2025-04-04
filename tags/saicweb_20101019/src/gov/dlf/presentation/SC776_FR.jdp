@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="SC776_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="846" pageheight="4500" backcolor="13421772" x="2" y="2" width="564" height="3000" groupstyle="0" highLightSelected="false" firstobject="CANCELAR" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="SC776_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="560" height="380" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="Modelo" x="0" y="16" width="42" height="12"/>
+    <text name="TXT__1" text="SC 776.1" x="48" y="16" width="16" height="12"/>
+    <text name="TXT__4" text="ASOCIADO" x="239" y="16" width="58" height="12"/>
+    <text name="TXT__5" text="DE" x="304" y="16" width="14" height="12"/>
+    <text name="TXT__6" text="PUERTO" x="325" y="16" width="43" height="12"/>
+    <text name="TXT__7" text="RICO" x="373" y="16" width="30" height="12"/>
+    <text name="TXT__8" text="Anejo" x="502" y="1" width="35" height="12"/>
+    <text name="TXT__9" text="3" x="544" y="1" width="11" height="12"/>
+    <text name="TXT__10" text="776.1" x="69" y="16" width="42" height="12"/>
+    <text name="TXT__11" text="Num." x="420" y="48" width="28" height="12"/>
+    <text name="TXT__12" text="Notificación" x="455" y="48" width="84" height="12"/>
+    <text name="TXT__14" text="DIRECCION" x="245" y="109" width="63" height="12"/>
+    <text name="TXT__15" text="A.P. " x="406" y="80" width="35" height="12"/>
+    <text name="TXT__16" text="AGEN. " x="450" y="80" width="45" height="12"/>
+    <text name="TXT__17" text="Número " x="504" y="80" width="49" height="12"/>
+    <text name="TXT__18" text=" " x="441" y="112" width="7" height="12"/>
+    <text name="TXT__19" text=" " x="490" y="112" width="7" height="12"/>
+    <text name="TXT__20" text=" " x="546" y="112" width="7" height="12"/>
+    <text name="TXT__21" text="NOTIFICACION" x="70" y="144" width="84" height="12"/>
+    <text name="TXT__22" text="DE" x="161" y="144" width="14" height="12"/>
+    <text name="TXT__23" text="DEUDAS" x="182" y="144" width="42" height="12"/>
+    <text name="TXT__24" text="NO" x="231" y="144" width="14" height="12"/>
+    <text name="TXT__25" text="CONTRIBUTIVAS" x="252" y="144" width="91" height="12"/>
+    <text name="TXT__26" text="O" x="350" y="144" width="7" height="12"/>
+    <text name="TXT__27" text="AUTORIZACION" x="364" y="144" width="84" height="12"/>
+    <text name="TXT__28" text="PARA" x="462" y="144" width="28" height="12"/>
+    <text name="TXT__29" text="[]" x="112" y="160" width="14" height="12"/>
+    <text name="TXT__30" text="CANCELAR" x="133" y="160" width="56" height="12"/>
+    <text name="TXT__31" text="[]" x="203" y="160" width="14" height="12"/>
+    <text name="TXT__32" text="ENMENDAR" x="224" y="160" width="56" height="12"/>
+    <text name="TXT__33" text="UNA" x="287" y="160" width="21" height="12"/>
+    <text name="TXT__34" text="NOTIFICACION" x="315" y="160" width="84" height="12"/>
+    <text name="TXT__35" text="[" x="0" y="192" width="7" height="12"/>
+    <text name="TXT__36" text="]" x="14" y="192" width="7" height="12"/>
+    <text name="TXT__37" text="De" x="28" y="192" width="14" height="12"/>
+    <text name="TXT__38" text="acuerdo" x="49" y="192" width="49" height="12"/>
+    <text name="TXT__39" text="con" x="105" y="192" width="21" height="12"/>
+    <text name="TXT__40" text="lo" x="133" y="192" width="14" height="12"/>
+    <text name="TXT__41" text="dispuesto" x="154" y="192" width="63" height="12"/>
+    <text name="TXT__42" text="en" x="224" y="192" width="14" height="12"/>
+    <text name="TXT__43" text="el" x="245" y="192" width="14" height="12"/>
+    <text name="TXT__44" text="Artículo" x="266" y="192" width="56" height="12"/>
+    <text name="TXT__45" text="-j" x="336" y="192" width="14" height="12"/>
+    <text name="TXT__46" text="de" x="357" y="192" width="14" height="12"/>
+    <text name="TXT__47" text="la" x="378" y="192" width="14" height="12"/>
+    <text name="TXT__48" text="Ley" x="399" y="192" width="21" height="12"/>
+    <text name="TXT__49" text="Num." x="427" y="192" width="28" height="12"/>
+    <text name="TXT__50" text="230" x="462" y="192" width="21" height="12"/>
+    <text name="TXT__51" text="de" x="46" y="208" width="14" height="12"/>
+    <text name="TXT__52" text="julio" x="63" y="208" width="35" height="12"/>
+    <text name="TXT__53" text="de" x="104" y="208" width="14" height="12"/>
+    <text name="TXT__54" text="1974," x="123" y="208" width="35" height="12"/>
+    <text name="TXT__55" text="según" x="163" y="208" width="35" height="12"/>
+    <text name="TXT__56" text="enmendada," x="202" y="208" width="70" height="12"/>
+    <text name="TXT__57" text="se" x="277" y="208" width="14" height="12"/>
+    <text name="TXT__58" text="ordena" x="296" y="208" width="42" height="12"/>
+    <text name="TXT__59" text="a" x="342" y="208" width="7" height="12"/>
+    <text name="TXT__60" text="esa" x="354" y="208" width="21" height="12"/>
+    <text name="TXT__61" text="agencia" x="380" y="208" width="49" height="12"/>
+    <text name="TXT__62" text="que" x="435" y="208" width="21" height="12"/>
+    <text name="TXT__63" text="efectúe" x="462" y="208" width="49" height="12"/>
+    <text name="TXT__64" text="el" x="28" y="224" width="14" height="12"/>
+    <text name="TXT__65" text="descuento" x="48" y="224" width="63" height="12"/>
+    <text name="TXT__66" text="que" x="116" y="224" width="21" height="12"/>
+    <text name="TXT__67" text="se" x="143" y="224" width="14" height="12"/>
+    <text name="TXT__68" text="indica" x="163" y="224" width="42" height="12"/>
+    <text name="TXT__69" text="más" x="212" y="224" width="21" height="12"/>
+    <text name="TXT__70" text="adelante." x="240" y="224" width="63" height="12"/>
+    <text name="TXT__71" text="[" x="0" y="256" width="7" height="12"/>
+    <text name="TXT__72" text="]" x="14" y="256" width="7" height="12"/>
+    <text name="TXT__73" text="La" x="28" y="256" width="14" height="12"/>
+    <text name="TXT__74" text="Notificación" x="49" y="256" width="84" height="12"/>
+    <text name="TXT__75" text="de" x="140" y="256" width="14" height="12"/>
+    <text name="TXT__76" text="Deuda" x="161" y="256" width="35" height="12"/>
+    <text name="TXT__77" text="Num." x="203" y="256" width="28" height="12"/>
+    <text name="TXT__78" text="debe" x="315" y="256" width="28" height="12"/>
+    <text name="TXT__79" text="[" x="350" y="256" width="7" height="12"/>
+    <text name="TXT__80" text="]" x="364" y="256" width="7" height="12"/>
+    <text name="TXT__81" text="cancelarse" x="378" y="256" width="70" height="12"/>
+    <text name="TXT__82" text="[" x="455" y="256" width="7" height="12"/>
+    <text name="TXT__83" text="]" x="469" y="256" width="7" height="12"/>
+    <text name="TXT__84" text="enmendarse" x="483" y="256" width="70" height="12"/>
+    <text name="TXT__85" text="FECHA" x="47" y="315" width="35" height="12"/>
+    <text name="TXT__86" text="JEFE" x="268" y="316" width="28" height="12"/>
+    <text name="TXT__87" text="DE" x="301" y="315" width="14" height="12"/>
+    <text name="TXT__88" text="LA" x="320" y="315" width="14" height="12"/>
+    <text name="TXT__89" text="AGENCIA" x="340" y="315" width="49" height="12"/>
+    <text name="TXT__90" text="DE" x="395" y="315" width="14" height="12"/>
+    <text name="TXT__91" text="ORIGEN," x="414" y="315" width="49" height="12"/>
+    <text name="TXT__92" text="O" x="466" y="315" width="7" height="12"/>
+    <text name="TXT__93" text="SU" x="477" y="315" width="14" height="12"/>
+    <text name="TXT__94" text="REP." x="497" y="315" width="28" height="12"/>
+    <text name="TXT__95" text="AUTO." x="527" y="315" width="35" height="12"/>
+    <text name="TXT__96" text="DATOS" x="203" y="352" width="35" height="12"/>
+    <text name="TXT__97" text="SOBRE" x="245" y="352" width="35" height="12"/>
+    <text name="TXT__98" text="EL" x="287" y="352" width="14" height="12"/>
+    <text name="TXT__99" text="DEUDOR" x="308" y="352" width="42" height="12"/>
+    <text name="TXT__100" text="Regl." x="0" y="32" width="35" height="12"/>
+    <text name="TXT__101" text="9" x="329" y="192" width="7" height="12"/>
+    <line name="LINE_TXT_0" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="406" y="38" x1="553" y1="38" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_2" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="406" y="70" x1="553" y1="70" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_3" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="406" y="102" x1="553" y1="102" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_4" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="406" y="134" x1="553" y1="134" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_5" tag="rr" visible="true" enabled="true" container="TXT" nextobject=" " objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="238" y="268" x1="301" y1="268" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_7" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="144" y="310" x1="560" y1="310" width="73" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_8" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="342" x1="553" y1="342" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_9" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="374" x1="553" y1="374" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_10" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="406" y="38" x1="406" y1="70" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_11" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="406" y="70" x1="406" y1="134" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_12" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="441" y="70" x1="441" y1="102" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_13" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="490" y="70" x1="490" y1="102" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_14" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="441" y="102" x1="441" y1="134" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_15" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="490" y="102" x1="490" y1="134" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_16" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="553" y="38" x1="553" y1="134" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <text name="Text_0" text="44" x="40" y="32" width="15" height="12"/>
+    <text name="Text_1" text="Rev." x="0" y="49" width="28" height="12"/>
+    <text name="Text_2" text="2007" x="33" y="49" width="30" height="12"/>
+    <text name="Text_3" text="ESTADO" x="146" y="16" width="44" height="12"/>
+    <text name="Text_4" text="LIBRE" x="196" y="16" width="36" height="12"/>
+    <text name="Text_5" text="FIRMA" x="208" y="316" width="38" height="12"/>
+    <text name="Text_6" text="NOMBRE" x="147" y="316" width="44" height="12"/>
+    <text name="Text_7" text="Y" x="194" y="316" width="9" height="12"/>
+    <text name="Text_8" text="DEL" x="248" y="316" width="15" height="12"/>
+    <hline name="Line_0" tag="" visible="true" container="TXT" objectType="hline" pageStart="-1" pageType="0" forecolor="10027008" x="2" y="310" x1="119" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <hline name="Line_1" tag="" visible="true" container="TXT" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="149" y="54" x1="403" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <text name="Text_10" text="AGENCIA" x="249" y="57" width="51" height="11"/>
+    <hline name="Line_2" tag="" visible="true" container="TXT" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="150" y="87" x1="402" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <hline name="Line_3" tag="" visible="true" container="TXT" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="150" y="106" x1="402" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <text name="Text_11" text="del" x="489" y="191" width="22" height="13"/>
+    <text name="Text_12" text="23" x="28" y="208" width="14" height="12"/>
+  </textgroup>
+  <field name="CANCELAR" tag="" visible="true" enabled="true" container="SC776_FR" nextobject="ENMENDAR" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="358" y="256" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="ENMENDAR" tag="" visible="true" enabled="true" container="SC776_FR" nextobject="DAT1" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="463" y="256" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <group name="DAT1" tag="" visible="true" enabled="true" container="SC776_FR" nextobject="DAT2" objectType="group" pageStart="-1" pageType="0" x="0" y="384" width="560" height="650" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="1" highLightSelected="true" datastore="SC776_DSD" discardChildless="false" updatetotop="false" firstobject="RECLA_RETRO_TBL_SEGURO_SOCIAL_JEFE_FAM" indivisible="false" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="640" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <parameter name="SS_JEFE_SERVICIO_GBL"/>
+    <parameter name="SS_JEFE_FAMILIA_GBL"/>
+    <parameter name="RMO_PAR"/>
+    <parameter name="COD_SERVICIO_GBL"/>
+    <parameter name="FCH_FINAL_GBL"/>
+    <parameter name="ACCION_GBL"/>
+    <breakField name="CLIENTES_SEGURO_SOCIAL_CLIENTE"/>
+    <textgroup name="DAT1_TXT0" tag="" visible="true" enabled="true" container="DAT1" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="1" width="560" height="652" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="DAT1_TXT0__0" text="NOMBRE" x="91" y="26" width="42" height="12"/>
+      <text name="DAT1_TXT0__1" text="NUM." x="413" y="32" width="28" height="12"/>
+      <text name="DAT1_TXT0__2" text="SEG." x="448" y="32" width="28" height="12"/>
+      <text name="DAT1_TXT0__3" text="SOC" x="483" y="32" width="21" height="12"/>
+      <text name="DAT1_TXT0__4" text="DIRECCION" x="202" y="92" width="63" height="12"/>
+      <text name="DAT1_TXT0__5" text="RESIDENCIAL" x="272" y="92" width="77" height="12"/>
+      <text name="DAT1_TXT0__6" text="AGENCIA" x="28" y="160" width="49" height="12"/>
+      <text name="DAT1_TXT0__7" text="DONDE" x="84" y="160" width="35" height="12"/>
+      <text name="DAT1_TXT0__8" text="TRABAJA" x="126" y="160" width="49" height="12"/>
+      <text name="DAT1_TXT0__9" text="CARGO" x="273" y="160" width="35" height="12"/>
+      <text name="DAT1_TXT0__10" text="QUE" x="315" y="160" width="21" height="12"/>
+      <text name="DAT1_TXT0__11" text="OCUPA" x="343" y="160" width="35" height="12"/>
+      <text name="DAT1_TXT0__12" text="SUELDO" x="455" y="160" width="42" height="12"/>
+      <text name="DAT1_TXT0__13" text="MENSUAL" x="504" y="160" width="49" height="12"/>
+      <text name="DAT1_TXT0__14" text=" " x="7" y="192" width="7" height="12"/>
+      <text name="DAT1_TXT0__15" text=" FONDO" x="42" y="192" width="42" height="12"/>
+      <text name="DAT1_TXT0__16" text=" AGEN" x="91" y="192" width="35" height="12"/>
+      <text name="DAT1_TXT0__17" text=" ORG" x="133" y="192" width="28" height="12"/>
+      <text name="DAT1_TXT0__18" text=" UP" x="168" y="192" width="21" height="12"/>
+      <text name="DAT1_TXT0__19" text=" ASIG" x="196" y="192" width="35" height="12"/>
+      <text name="DAT1_TXT0__20" text=" OBJ" x="238" y="192" width="28" height="12"/>
+      <text name="DAT1_TXT0__21" text=" CLAF" x="273" y="192" width="35" height="12"/>
+      <text name="DAT1_TXT0__22" text=" DESCRIPCION" x="315" y="192" width="84" height="12"/>
+      <text name="DAT1_TXT0__23" text=" IMPORTE" x="455" y="192" width="56" height="12"/>
+      <text name="DAT1_TXT0__24" text=" " x="553" y="192" width="7" height="12"/>
+      <text name="DAT1_TXT0__25" text=" " x="7" y="224" width="7" height="12"/>
+      <text name="DAT1_TXT0__26" text=" " x="42" y="224" width="7" height="12"/>
+      <text name="DAT1_TXT0__27" text=" " x="91" y="224" width="7" height="12"/>
+      <text name="DAT1_TXT0__28" text=" " x="133" y="224" width="7" height="12"/>
+      <text name="DAT1_TXT0__29" text=" " x="168" y="224" width="7" height="12"/>
+      <text name="DAT1_TXT0__30" text=" " x="196" y="224" width="7" height="12"/>
+      <text name="DAT1_TXT0__31" text=" " x="238" y="224" width="7" height="12"/>
+      <text name="DAT1_TXT0__32" text=" " x="273" y="224" width="7" height="12"/>
+      <text name="DAT1_TXT0__33" text=" " x="315" y="224" width="7" height="12"/>
+      <text name="DAT1_TXT0__34" text=" " x="455" y="224" width="7" height="12"/>
+      <text name="DAT1_TXT0__35" text=" " x="553" y="224" width="7" height="12"/>
+      <text name="DAT1_TXT0__36" text="DATOS" x="231" y="256" width="35" height="12"/>
+      <text name="DAT1_TXT0__37" text="DE" x="273" y="256" width="14" height="12"/>
+      <text name="DAT1_TXT0__38" text="LA" x="294" y="256" width="14" height="12"/>
+      <text name="DAT1_TXT0__39" text="DEUDA" x="315" y="256" width="35" height="12"/>
+      <text name="DAT1_TXT0__40" text=" " x="7" y="288" width="7" height="12"/>
+      <text name="DAT1_TXT0__41" text="FACTURA" x="63" y="288" width="49" height="12"/>
+      <text name="DAT1_TXT0__42" text=" " x="168" y="288" width="7" height="12"/>
+      <text name="DAT1_TXT0__43" text=" " x="259" y="288" width="7" height="12"/>
+      <text name="DAT1_TXT0__44" text="IMPORTE" x="273" y="288" width="49" height="12"/>
+      <text name="DAT1_TXT0__45" text=" " x="336" y="288" width="7" height="12"/>
+      <text name="DAT1_TXT0__46" text="CONCEPTO" x="350" y="288" width="56" height="12"/>
+      <text name="DAT1_TXT0__47" text=" " x="546" y="288" width="7" height="12"/>
+      <text name="DAT1_TXT0__48" text="" x="336" y="304" width="0" height="12"/>
+      <text name="DAT1_TXT0__49" text="" x="546" y="304" width="0" height="12"/>
+      <text name="DAT1_TXT0__50" text=" " x="7" y="320" width="7" height="12"/>
+      <text name="DAT1_TXT0__51" text="NUMERO" x="28" y="320" width="42" height="12"/>
+      <text name="DAT1_TXT0__52" text=" " x="84" y="320" width="7" height="12"/>
+      <text name="DAT1_TXT0__53" text="FECHA" x="105" y="320" width="35" height="12"/>
+      <text name="DAT1_TXT0__54" text=" " x="168" y="320" width="7" height="12"/>
+      <text name="DAT1_TXT0__55" text=" " x="259" y="320" width="7" height="12"/>
+      <text name="DAT1_TXT0__56" text=" " x="336" y="320" width="7" height="12"/>
+      <text name="DAT1_TXT0__57" text=" " x="546" y="320" width="7" height="12"/>
+      <text name="DAT1_TXT0__58" text="" x="0" y="496" width="0" height="12"/>
+      <text name="DAT1_TXT0__59" text="AMORTIZACION" x="168" y="496" width="84" height="12"/>
+      <text name="DAT1_TXT0__60" text="DE" x="259" y="496" width="14" height="12"/>
+      <text name="DAT1_TXT0__61" text="LA" x="280" y="496" width="14" height="12"/>
+      <text name="DAT1_TXT0__62" text="DEUDA" x="301" y="496" width="35" height="12"/>
+      <text name="DAT1_TXT0__63" text="" x="553" y="496" width="0" height="12"/>
+      <text name="DAT1_TXT0__64" text="" x="0" y="512" width="0" height="12"/>
+      <text name="DAT1_TXT0__65" text="" x="553" y="512" width="0" height="12"/>
+      <text name="DAT1_TXT0__66" text="" x="0" y="528" width="0" height="12"/>
+      <text name="DAT1_TXT0__67" text="deuda" x="28" y="528" width="35" height="12"/>
+      <text name="DAT1_TXT0__68" text="debe" x="70" y="528" width="28" height="12"/>
+      <text name="DAT1_TXT0__69" text="amortizarla" x="105" y="528" width="77" height="12"/>
+      <text name="DAT1_TXT0__70" text="en" x="189" y="528" width="14" height="12"/>
+      <text name="DAT1_TXT0__71" text="plazos." x="238" y="528" width="49" height="12"/>
+      <text name="DAT1_TXT0__72" text="El" x="294" y="528" width="14" height="12"/>
+      <text name="DAT1_TXT0__73" text="importe" x="315" y="528" width="49" height="12"/>
+      <text name="DAT1_TXT0__74" text="de" x="371" y="528" width="14" height="12"/>
+      <text name="DAT1_TXT0__75" text="los" x="392" y="528" width="21" height="12"/>
+      <text name="DAT1_TXT0__76" text="pagos" x="420" y="528" width="35" height="12"/>
+      <text name="DAT1_TXT0__77" text="será" x="462" y="528" width="28" height="12"/>
+      <text name="DAT1_TXT0__78" text="" x="553" y="528" width="0" height="12"/>
+      <text name="DAT1_TXT0__79" text="" x="0" y="544" width="0" height="12"/>
+      <text name="DAT1_TXT0__80" text="el" x="21" y="544" width="14" height="12"/>
+      <text name="DAT1_TXT0__81" text="último" x="42" y="544" width="42" height="12"/>
+      <text name="DAT1_TXT0__82" text="será" x="91" y="544" width="28" height="12"/>
+      <text name="DAT1_TXT0__83" text="de" x="126" y="544" width="14" height="12"/>
+      <text name="DAT1_TXT0__84" text="." x="217" y="544" width="7" height="12"/>
+      <text name="DAT1_TXT0__85" text="En" x="231" y="544" width="14" height="12"/>
+      <text name="DAT1_TXT0__86" text="caso" x="252" y="544" width="28" height="12"/>
+      <text name="DAT1_TXT0__87" text="de" x="287" y="544" width="14" height="12"/>
+      <text name="DAT1_TXT0__88" text="descuento" x="308" y="544" width="63" height="12"/>
+      <text name="DAT1_TXT0__89" text="en" x="378" y="544" width="14" height="12"/>
+      <text name="DAT1_TXT0__90" text="sueldo," x="399" y="544" width="49" height="12"/>
+      <text name="DAT1_TXT0__91" text="la" x="455" y="544" width="14" height="12"/>
+      <text name="DAT1_TXT0__92" text="fecha" x="476" y="544" width="35" height="12"/>
+      <text name="DAT1_TXT0__93" text="del" x="518" y="544" width="21" height="12"/>
+      <text name="DAT1_TXT0__94" text="" x="553" y="544" width="0" height="12"/>
+      <text name="DAT1_TXT0__95" text="" x="0" y="560" width="0" height="12"/>
+      <text name="DAT1_TXT0__96" text="descuento" x="56" y="560" width="63" height="12"/>
+      <text name="DAT1_TXT0__97" text="será" x="126" y="560" width="28" height="12"/>
+      <text name="DAT1_TXT0__98" text="." x="294" y="560" width="7" height="12"/>
+      <text name="DAT1_TXT0__99" text="Los" x="308" y="560" width="21" height="12"/>
+      <text name="DAT1_TXT0__100" text="descuentos" x="336" y="560" width="70" height="12"/>
+      <text name="DAT1_TXT0__101" text="los" x="413" y="560" width="21" height="12"/>
+      <text name="DAT1_TXT0__102" text="harán" x="441" y="560" width="35" height="12"/>
+      <text name="DAT1_TXT0__103" text="hasta" x="483" y="560" width="35" height="12"/>
+      <text name="DAT1_TXT0__104" text="que" x="525" y="560" width="21" height="12"/>
+      <text name="DAT1_TXT0__105" text="" x="553" y="560" width="0" height="12"/>
+      <text name="DAT1_TXT0__106" text="" x="0" y="576" width="0" height="12"/>
+      <text name="DAT1_TXT0__107" text="deuda" x="28" y="576" width="35" height="12"/>
+      <text name="DAT1_TXT0__108" text="quede" x="70" y="576" width="35" height="12"/>
+      <text name="DAT1_TXT0__109" text="liquidada." x="112" y="576" width="70" height="12"/>
+      <text name="DAT1_TXT0__110" text="" x="553" y="576" width="0" height="12"/>
+      <text name="DAT1_TXT0__111" text="CONSERVACION:" x="0" y="608" width="91" height="12"/>
+      <text name="DAT1_TXT0__112" text="Seis" x="98" y="608" width="28" height="12"/>
+      <text name="DAT1_TXT0__113" text="años" x="133" y="608" width="28" height="12"/>
+      <text name="DAT1_TXT0__114" text="o" x="168" y="608" width="7" height="12"/>
+      <text name="DAT1_TXT0__115" text="una" x="182" y="608" width="21" height="12"/>
+      <text name="DAT1_TXT0__116" text="intervención" x="210" y="608" width="84" height="12"/>
+      <text name="DAT1_TXT0__117" text="del" x="301" y="608" width="21" height="12"/>
+      <text name="DAT1_TXT0__118" text="Contralor," x="329" y="608" width="70" height="12"/>
+      <text name="DAT1_TXT0__119" text="después" x="406" y="608" width="49" height="12"/>
+      <text name="DAT1_TXT0__120" text="de" x="462" y="608" width="14" height="12"/>
+      <text name="DAT1_TXT0__121" text="cobrada" x="483" y="608" width="49" height="12"/>
+      <text name="DAT1_TXT0__122" text="la" x="539" y="608" width="14" height="12"/>
+      <text name="DAT1_TXT0__123" text="deuda" x="98" y="624" width="35" height="12"/>
+      <text name="DAT1_TXT0__124" text="o" x="140" y="624" width="7" height="12"/>
+      <text name="DAT1_TXT0__125" text="de" x="154" y="624" width="14" height="12"/>
+      <text name="DAT1_TXT0__126" text="cancelada" x="175" y="624" width="63" height="12"/>
+      <text name="DAT1_TXT0__127" text="la" x="245" y="624" width="14" height="12"/>
+      <text name="DAT1_TXT0__128" text="notificación," x="266" y="624" width="91" height="12"/>
+      <text name="DAT1_TXT0__129" text="lo" x="364" y="624" width="14" height="12"/>
+      <text name="DAT1_TXT0__130" text="que" x="385" y="624" width="21" height="12"/>
+      <text name="DAT1_TXT0__131" text="ocurra" x="413" y="624" width="42" height="12"/>
+      <text name="DAT1_TXT0__132" text="primero." x="462" y="624" width="56" height="12"/>
+      <text name="DAT1_TXT0__133" text="AÑO" x="7" y="192" width="21" height="12"/>
+      <text name="DAT1_TXT0__134" text="VENCIMIENTO" x="168" y="288" width="77" height="12"/>
+      <text name="DAT1_TXT0__135" text="DIA" x="168" y="320" width="21" height="12"/>
+      <text name="DAT1_TXT0__136" text="MES" x="203" y="320" width="21" height="12"/>
+      <text name="DAT1_TXT0__137" text="AÑO" x="231" y="320" width="21" height="12"/>
+      <text name="DAT1_TXT0__138" text="La" x="0" y="528" width="14" height="12"/>
+      <text name="DAT1_TXT0__139" text="y" x="0" y="544" width="7" height="12"/>
+      <text name="DAT1_TXT0__140" text="primer" x="0" y="560" width="42" height="12"/>
+      <text name="DAT1_TXT0__141" text="La" x="0" y="576" width="14" height="12"/>
+      <line name="LINE_DAT1_TXT0_0" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="22" x1="224" y1="22" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_1" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="413" y="22" x1="504" y1="22" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_2" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="86" x1="539" y1="86" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_3" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="150" x1="217" y1="150" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_4" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="252" y="150" x1="427" y1="150" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_5" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="455" y="150" x1="546" y1="150" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_6" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="182" x1="560" y1="182" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_7" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="214" x1="560" y1="214" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_8" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="246" x1="560" y1="246" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_9" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="278" x1="553" y1="278" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_10" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="310" x1="266" y1="310" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_11" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="342" x1="553" y1="342" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_12" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="486" x1="560" y1="486" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_13" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="210" y="540" x1="231" y1="540" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_14" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="497" y="540" x1="553" y1="540" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_15" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="147" y="556" x1="217" y1="556" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_16" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="161" y="572" x1="294" y1="572" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_17" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="598" x1="560" y1="598" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_18" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="42" y="182" x1="42" y1="214" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_19" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="91" y="182" x1="91" y1="214" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_20" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="133" y="182" x1="133" y1="214" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_21" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="168" y="182" x1="168" y1="214" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_22" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="196" y="182" x1="196" y1="214" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_23" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="238" y="182" x1="238" y1="214" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_24" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="273" y="182" x1="273" y1="214" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_25" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="315" y="182" x1="315" y1="214" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_26" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="455" y="182" x1="455" y1="214" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_27" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="42" y="214" x1="42" y1="246" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_28" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="91" y="214" x1="91" y1="246" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_29" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="133" y="214" x1="133" y1="246" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_30" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="168" y="214" x1="168" y1="246" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_31" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="196" y="214" x1="196" y1="246" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_32" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="238" y="214" x1="238" y1="246" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_33" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="273" y="214" x1="273" y1="246" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_34" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="315" y="214" x1="315" y1="246" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_35" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="455" y="214" x1="455" y1="246" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_36" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="84" y="310" x1="84" y1="342" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_37" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="168" y="310" x1="168" y1="342" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_38" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="196" y="310" x1="196" y1="342" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_39" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="224" y="310" x1="224" y1="342" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_40" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="182" x1="7" y1="246" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_41" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="560" y="182" x1="560" y1="246" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_42" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="278" x1="7" y1="342" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_43" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="553" y="278" x1="553" y1="342" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_44" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="266" y="278" x1="266" y1="342" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_45" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="336" y="278" x1="336" y1="342" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_46" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="486" x1="0" y1="598" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_DAT1_TXT0_47" tag="" visible="true" enabled="true" container="DAT1_TXT0" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="560" y="486" x1="560" y1="598" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    </textgroup>
+    <field name="RECLA_RETRO_TBL_SEGURO_SOCIAL_JEFE_FAM" tag="" visible="true" enabled="true" container="DAT1" nextobject="NOMBRE_COMPLETO" objectType="field" copyFieldName="" datatypename="double" datafieldname="RECLA_RETRO_TBL_SEGURO_SOCIAL_JEFE_FAM" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="414" y="0" width="90" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="13"/>
+    </field>
+    <field name="NOMBRE_COMPLETO" tag="" visible="true" enabled="true" container="DAT1" nextobject="DR" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="8" y="0" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DR" tag="" visible="true" enabled="true" container="DAT1" nextobject="TRABAJO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="8" y="64" width="489" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="TRABAJO" tag="" visible="true" enabled="true" container="DAT1" nextobject="CARGO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="8" y="128" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="CARGO" tag="" visible="true" enabled="true" container="DAT1" nextobject="SUELDO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="253" y="128" width="174" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="SUELDO" tag="" visible="true" enabled="true" container="DAT1" nextobject="DAT2" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$###,##0.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="456" y="128" width="90" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="$###,##0.00" isDialog="false" inputlimit="0"/>
+    </field>
+    <group name="DAT2" tag="" visible="true" enabled="true" container="DAT1" nextobject="" objectType="group" pageStart="-1" pageType="0" x="0" y="352" width="560" height="19" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="1" highLightSelected="true" datastore="SC776_DSD" discardChildless="false" updatetotop="false" firstobject="FACTURA" indivisible="false" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="16" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+      <linklist>
+        <linkpair detail="CLIENTES_SEGURO_SOCIAL_CLIENTE" master="CLIENTES_SEGURO_SOCIAL_CLIENTE"/>
+      </linklist>
+      <field name="FACTURA" tag="" visible="true" enabled="true" container="DAT2" nextobject="FECHA_FACTURA" objectType="field" copyFieldName="" datatypename="double" datafieldname="FACTURA" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="15" y="0" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+      </field>
+      <field name="FECHA_FACTURA" tag="" visible="true" enabled="true" container="DAT2" nextobject="ANO_VENCE" objectType="field" copyFieldName="" datatypename="Date" datafieldname="FECHA_FACTURA" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="92" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+      </field>
+      <field name="DIA_VENCE" tag="" visible="true" enabled="true" container="DAT2" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="176" y="0" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+      </field>
+      <field name="MES_VENCE" tag="" visible="true" enabled="true" container="DAT2" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="204" y="0" width="20" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+      </field>
+      <field name="ANO_VENCE" tag="" visible="true" enabled="true" container="DAT2" nextobject="IMPORTE" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="232" y="0" width="27" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+      </field>
+      <field name="IMPORTE" tag="" visible="true" enabled="true" container="DAT2" nextobject="CONCEPTO" objectType="field" copyFieldName="" datatypename="double" datafieldname="IMPORTE" emptyisnull="true" format="$###,##0.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="267" y="0" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JNumericField" editTypeName="JNumericField" format="$###,##0.00" isDialog="false" inputlimit="0"/>
+      </field>
+      <field name="CONCEPTO" tag="" visible="true" enabled="true" container="DAT2" nextobject="MES_VENCE" objectType="field" copyFieldName="" datatypename="String" datafieldname="CONCEPTO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="351" y="0" width="41" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+      </field>
+      <field name="HASTA" tag="" visible="false" enabled="true" container="DAT2" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="HASTA" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+      </field>
+    </group>
+    <textgroup name="TXT1" tag="" visible="true" enabled="true" container="DAT1" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="51" backcolor="13421772" border="0" x="2" y="662" width="558" height="1050" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="true" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="Text_0" text="DETALLE" x="178" y="40" width="51" height="12"/>
+      <text name="Text_1" text="DE" x="239" y="40" width="15" height="12"/>
+      <text name="Text_2" text="LOS" x="264" y="40" width="22" height="12"/>
+      <text name="Text_3" text="DESCUENTOS" x="295" y="40" width="72" height="12"/>
+      <text name="Text_4" text="SC" x="9" y="8" width="16" height="11"/>
+      <text name="Text_5" text="776.1" x="30" y="8" width="37" height="11"/>
+      <text name="Text_6" text="Los" x="23" y="77" width="23" height="11"/>
+      <text name="Text_7" text="descuentos" x="51" y="77" width="72" height="11"/>
+      <text name="Text_8" text="se" x="130" y="77" width="14" height="11"/>
+      <text name="Text_9" text="anotarán" x="152" y="77" width="56" height="11"/>
+      <text name="Text_10" text="según" x="215" y="77" width="36" height="11"/>
+      <text name="Text_11" text="se" x="258" y="77" width="15" height="11"/>
+      <text name="Text_12" text="efectúe" x="281" y="77" width="49" height="12"/>
+      <text name="Text_13" text="en" x="338" y="77" width="14" height="12"/>
+      <text name="Text_14" text="la" x="360" y="77" width="16" height="12"/>
+      <text name="Text_15" text="nómina" x="384" y="77" width="44" height="12"/>
+      <text name="Text_16" text="o" x="436" y="77" width="9" height="12"/>
+      <text name="Text_17" text="en" x="453" y="77" width="14" height="12"/>
+      <text name="Text_18" text="el" x="474" y="77" width="14" height="12"/>
+      <text name="Text_19" text="comprobante" x="24" y="94" width="79" height="11"/>
+      <text name="Text_20" text="de" x="112" y="94" width="16" height="11"/>
+      <text name="Text_21" text="pago." x="136" y="94" width="35" height="11"/>
+      <text name="Text_0" text="CONT." x="10" y="25" width="35" height="12"/>
+      <text name="Text_1" text="Pago" x="32" y="131" width="30" height="12"/>
+      <text name="Text_2" text="Núm." x="33" y="147" width="29" height="12"/>
+      <hline name="Line_0" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="18" y="125" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_1" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="17" y="166" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <vline name="Line_2" tag="" visible="true" container="TXT1" objectType="vline" pageStart="-1" pageType="0" forecolor="0" x="17" y="125" y1="166" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <vline name="Line_3" tag="" visible="true" container="TXT1" objectType="vline" pageStart="-1" pageType="0" forecolor="0" x="542" y="125" y1="165" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <vline name="Line_4" tag="" visible="true" container="TXT1" objectType="vline" pageStart="-1" pageType="0" forecolor="0" x="75" y="125" y1="166" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <text name="Text_3" text="Núm. " x="85" y="130" width="29" height="11"/>
+      <text name="Text_4" text="Nómina" x="120" y="130" width="45" height="11"/>
+      <text name="Text_5" text="o" x="172" y="130" width="9" height="11"/>
+      <text name="Text_6" text="Comprobante" x="85" y="145" width="79" height="11"/>
+      <vline name="Line_5" tag="" visible="true" container="TXT1" objectType="vline" pageStart="-1" pageType="0" forecolor="0" x="184" y="125" y1="166" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <text name="Text_7" text="Fecha" x="204" y="138" width="36" height="11"/>
+      <vline name="Line_6" tag="" visible="true" container="TXT1" objectType="vline" pageStart="-1" pageType="0" forecolor="0" x="259" y="125" y1="1050" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <text name="Text_8" text="Importe" x="279" y="138" width="53" height="12"/>
+      <vline name="Line_7" tag="" visible="true" container="TXT1" objectType="vline" pageStart="-1" pageType="0" forecolor="0" x="354" y="126" y1="166" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <text name="Text_9" text="Observaciones" x="407" y="138" width="93" height="11"/>
+      <vline name="Line_0" tag="" visible="true" container="TXT1" objectType="vline" pageStart="-1" pageType="0" forecolor="0" x="17" y="165" y1="1050" anchorObjectNameHorizontal=" " anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <vline name="Line_1" tag="" visible="true" container="TXT1" objectType="vline" pageStart="-1" pageType="0" forecolor="0" x="542" y="166" y1="1050" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_5" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="18" y="186" x1="543" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_1" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="18" y="186" x1="541" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_2" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="17" y="206" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_3" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="17" y="226" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_4" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="18" y="247" x1="541" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_5" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="18" y="269" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_6" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="18" y="291" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_7" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="17" y="311" x1="541" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_8" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="17" y="333" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_9" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="18" y="355" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_10" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="18" y="378" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_11" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="17" y="399" x1="541" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_12" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="18" y="419" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_13" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="18" y="440" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_14" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="18" y="460" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_15" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="18" y="482" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_16" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="17" y="503" x1="541" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_17" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="17" y="523" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_18" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="17" y="544" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_19" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="18" y="565" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_20" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="17" y="587" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_21" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="17" y="608" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_22" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="17" y="629" x1="543" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_23" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="18" y="651" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_24" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="17" y="673" x1="543" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_25" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="18" y="695" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_26" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="17" y="717" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_27" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="18" y="761" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_28" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="17" y="909" x1="541" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_29" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="17" y="993" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <hline name="Line_30" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="17" y="1050" x1="542" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <text name="Text_0" text="PARA" x="54" y="725" width="30" height="10"/>
+      <text name="Text_1" text="USARSE" x="90" y="725" width="42" height="10"/>
+      <text name="Text_2" text="EN" x="138" y="725" width="15" height="10"/>
+      <text name="Text_3" text="LOS" x="159" y="725" width="22" height="10"/>
+      <text name="Text_4" text="CASOS" x="187" y="725" width="36" height="10"/>
+      <text name="Text_5" text="EN" x="49" y="741" width="16" height="10"/>
+      <text name="Text_6" text="QUE" x="70" y="741" width="22" height="10"/>
+      <text name="Text_7" text="SE" x="98" y="741" width="15" height="10"/>
+      <text name="Text_8" text="LIQUIDA" x="119" y="741" width="50" height="10"/>
+      <text name="Text_9" text="LA" x="174" y="741" width="15" height="10"/>
+      <text name="Text_10" text="DEUDA" x="195" y="741" width="37" height="10"/>
+      <text name="Text_12" text="PARA" x="300" y="726" width="30" height="10"/>
+      <text name="Text_13" text="USARSE" x="336" y="726" width="43" height="10"/>
+      <text name="Text_14" text="EN" x="384" y="726" width="14" height="10"/>
+      <text name="Text_15" text="LOS" x="404" y="726" width="21" height="10"/>
+      <text name="Text_16" text="CASOS" x="431" y="726" width="36" height="10"/>
+      <text name="Text_17" text="QUE" x="473" y="726" width="22" height="10"/>
+      <text name="Text_18" text="NO" x="321" y="742" width="14" height="10"/>
+      <text name="Text_19" text="SE" x="341" y="742" width="15" height="10"/>
+      <text name="Text_20" text="LIQUIDA" x="361" y="742" width="51" height="10"/>
+      <text name="Text_21" text="LA" x="418" y="742" width="15" height="10"/>
+      <text name="Text_22" text="DEUDA" x="438" y="742" width="36" height="10"/>
+      <text name="Text_23" text="CERTIFICO" x="24" y="766" width="64" height="11"/>
+      <text name="Text_24" text="que" x="93" y="766" width="22" height="12"/>
+      <text name="Text_25" text="la" x="122" y="766" width="14" height="11"/>
+      <text name="Text_26" text="deuda" x="143" y="766" width="35" height="12"/>
+      <text name="Text_27" text="fue" x="184" y="766" width="21" height="12"/>
+      <text name="Text_28" text="liquidada" x="25" y="783" width="63" height="11"/>
+      <text name="Text_29" text="según" x="94" y="783" width="37" height="11"/>
+      <text name="Text_30" text="se" x="138" y="784" width="16" height="10"/>
+      <text name="Text_31" text="indica" x="159" y="784" width="43" height="11"/>
+      <text name="Text_32" text="en" x="208" y="784" width="16" height="11"/>
+      <text name="Text_33" text="el" x="26" y="801" width="14" height="11"/>
+      <text name="Text_34" text="detalle" x="46" y="801" width="50" height="10"/>
+      <text name="Text_35" text="de" x="103" y="801" width="15" height="11"/>
+      <text name="Text_36" text="los" x="125" y="801" width="22" height="11"/>
+      <text name="Text_37" text="descuentos" x="152" y="801" width="71" height="12"/>
+      <text name="Text_38" text="y" x="27" y="818" width="8" height="12"/>
+      <text name="Text_39" text="que" x="40" y="818" width="22" height="12"/>
+      <text name="Text_40" text="los" x="68" y="818" width="22" height="11"/>
+      <text name="Text_41" text="computos" x="96" y="818" width="56" height="12"/>
+      <text name="Text_42" text="son" x="158" y="818" width="21" height="11"/>
+      <text name="Text_43" text="correctos." x="184" y="818" width="70" height="11"/>
+      <text name="Text_44" text="Fecha" x="119" y="998" width="38" height="11"/>
+      <text name="Text_45" text="Fecha" x="389" y="999" width="38" height="11"/>
+      <text name="Text_46" text="CERTIFICO" x="268" y="767" width="64" height="11"/>
+      <text name="Text_47" text="que" x="338" y="767" width="21" height="13"/>
+      <text name="Text_48" text="se" x="365" y="767" width="16" height="11"/>
+      <text name="Text_49" text="cobró" x="387" y="767" width="36" height="11"/>
+      <text name="Text_50" text="el" x="430" y="767" width="15" height="11"/>
+      <text name="Text_51" text="importe" x="451" y="767" width="49" height="11"/>
+      <text name="Text_52" text="de" x="506" y="766" width="15" height="11"/>
+      <text name="Text_53" text="$" x="270" y="784" width="8" height="12"/>
+      <hline name="Line_31" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="283" y="795" x1="380" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <text name="Text_54" text="y" x="385" y="784" width="8" height="13"/>
+      <text name="Text_55" text="que" x="400" y="784" width="21" height="11"/>
+      <text name="Text_56" text="está" x="427" y="784" width="31" height="11"/>
+      <text name="Text_57" text="pendiente" x="464" y="784" width="63" height="11"/>
+      <text name="Text_58" text="de" x="269" y="803" width="15" height="11"/>
+      <text name="Text_59" text="cobro" x="291" y="803" width="35" height="11"/>
+      <text name="Text_60" text="el" x="332" y="803" width="14" height="11"/>
+      <text name="Text_61" text="importe" x="354" y="803" width="50" height="11"/>
+      <text name="Text_62" text="de" x="411" y="803" width="14" height="11"/>
+      <text name="Text_63" text="$" x="431" y="803" width="8" height="12"/>
+      <hline name="Line_32" tag="" visible="true" container="TXT1" objectType="hline" pageStart="-1" pageType="0" forecolor="0" x="443" y="814" x1="528" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <text name="Text_64" text="." x="532" y="804" width="3" height="10"/>
+      <text name="Text_65" text="Nombre" x="24" y="915" width="43" height="11"/>
+      <text name="Text_67" text="y" x="73" y="915" width="9" height="11"/>
+      <text name="Text_68" text="Firma," x="88" y="915" width="44" height="11"/>
+      <text name="Text_1" text="Jefe" x="135" y="915" width="30" height="11"/>
+      <text name="Text_2" text="de" x="170" y="915" width="15" height="11"/>
+      <text name="Text_3" text="la" x="189" y="915" width="14" height="11"/>
+      <text name="Text_4" text="Agencia" x="207" y="915" width="49" height="12"/>
+      <text name="Text_5" text="o" x="24" y="931" width="9" height="11"/>
+      <text name="Text_6" text="su" x="39" y="931" width="15" height="11"/>
+      <text name="Text_7" text="Representante" x="61" y="931" width="91" height="12"/>
+      <text name="Text_8" text="Autorizado" x="158" y="931" width="71" height="12"/>
+      <text name="Text_9" text="Nombre" x="265" y="915" width="42" height="11"/>
+      <text name="Text_10" text="y" x="313" y="915" width="8" height="12"/>
+      <text name="Text_11" text="Firma," x="327" y="915" width="42" height="11"/>
+      <text name="Text_12" text="Jefe" x="375" y="915" width="28" height="11"/>
+      <text name="Text_13" text="de" x="409" y="915" width="15" height="11"/>
+      <text name="Text_14" text="la" x="430" y="915" width="15" height="11"/>
+      <text name="Text_15" text="Agencia" x="451" y="915" width="50" height="12"/>
+      <text name="Text_16" text="o" x="266" y="931" width="9" height="12"/>
+      <text name="Text_17" text="su" x="282" y="931" width="14" height="12"/>
+      <text name="Text_18" text="Representante" x="302" y="931" width="92" height="12"/>
+      <text name="Text_19" text="Autorizado" x="401" y="931" width="71" height="12"/>
+    </textgroup>
+  </group>
+</model>

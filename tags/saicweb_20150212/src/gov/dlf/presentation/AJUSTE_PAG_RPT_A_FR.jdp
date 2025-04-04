@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="AJUSTE_PAG_RPT_A_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="564" height="384" groupstyle="0" highLightSelected="false" firstobject="AJUSTE_DESDE" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Thu Jul 03 06:38:07 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="AJUSTE_PAG_RPT_A_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="560" height="108" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="Departamento" x="182" y="0" width="84" height="12"/>
+    <text name="TXT__1" text="de" x="273" y="0" width="14" height="12"/>
+    <text name="TXT__2" text="la" x="294" y="0" width="14" height="12"/>
+    <text name="TXT__3" text="Familia" x="315" y="0" width="49" height="12"/>
+    <text name="TXT__4" text="Sistema" x="105" y="16" width="49" height="12"/>
+    <text name="TXT__5" text="de" x="161" y="16" width="14" height="12"/>
+    <text name="TXT__6" text="Administración" x="182" y="16" width="98" height="12"/>
+    <text name="TXT__7" text="e" x="287" y="16" width="7" height="12"/>
+    <text name="TXT__8" text="Información" x="301" y="16" width="77" height="12"/>
+    <text name="TXT__9" text="de" x="385" y="16" width="14" height="12"/>
+    <text name="TXT__10" text="Casos" x="406" y="16" width="35" height="12"/>
+    <text name="TXT__11" text="Informe" x="182" y="32" width="49" height="12"/>
+    <text name="TXT__12" text="Ajustes" x="238" y="32" width="49" height="12"/>
+    <text name="TXT__13" text="en" x="294" y="32" width="14" height="12"/>
+    <text name="TXT__14" text="el" x="315" y="32" width="14" height="12"/>
+    <text name="TXT__15" text="Pago" x="336" y="32" width="28" height="12"/>
+    <text name="TXT__16" text="Desde:" x="147" y="48" width="42" height="12"/>
+    <text name="TXT__17" text="Hasta:" x="280" y="48" width="42" height="12"/>
+    <text name="TXT__18" text="-YYYY)" x="238" y="64" width="42" height="12"/>
+    <text name="TXT__19" text="-YYYY)" x="371" y="64" width="42" height="12"/>
+    <text name="TXT__20" text="S.S." x="0" y="96" width="28" height="12"/>
+    <text name="TXT__21" text="Jefe" x="35" y="96" width="28" height="12"/>
+    <text name="TXT__22" text="Familia" x="70" y="96" width="49" height="12"/>
+    <text name="TXT__23" text="S.S." x="133" y="96" width="28" height="12"/>
+    <text name="TXT__24" text="Encargado" x="168" y="96" width="63" height="12"/>
+    <text name="TXT__25" text="Servicio" x="238" y="96" width="56" height="12"/>
+    <text name="TXT__26" text="Deducción" x="308" y="96" width="63" height="12"/>
+    <text name="TXT__27" text="Anterior" x="378" y="96" width="56" height="12"/>
+    <text name="TXT__28" text="Deducción" x="448" y="96" width="63" height="12"/>
+    <text name="TXT__29" text="Actual" x="518" y="96" width="42" height="12"/>
+    <text name="TXT__30" text="(DD" x="189" y="64" width="21" height="12"/>
+    <text name="TXT__31" text="-MMM" x="210" y="64" width="28" height="12"/>
+    <text name="TXT__32" text="(DD" x="322" y="64" width="21" height="12"/>
+    <text name="TXT__33" text="-MMM" x="343" y="64" width="28" height="12"/>
+  </textgroup>
+  <field name="AJUSTE_DESDE" tag="" visible="true" enabled="true" container="AJUSTE_PAG_RPT_A_FR" nextobject="AJUSTE_HASTA" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="190" y="48" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="true">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="AJUSTE_HASTA" tag="" visible="true" enabled="true" container="AJUSTE_PAG_RPT_A_FR" nextobject="PARK" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="323" y="48" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="true">
+    <event name="JDataPanelListener.BEFORELEAVE"/>
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="PARK" tag="" visible="true" enabled="true" container="AJUSTE_PAG_RPT_A_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="414" y="48" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <event name="JDataPanelListener.BEFOREENTER"/>
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+</model>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="ADSEF_PPT_4_RP" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="564" height="960" groupstyle="0" highLightSelected="false" firstobject="REFERIDO" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Thu Jul 03 06:38:04 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="ADSEF_PPT_4_RP" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="434" height="92" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="-4" x="63" y="0" width="14" height="12"/>
+    <text name="TXT__1" text="ESTADO" x="161" y="0" width="42" height="12"/>
+    <text name="TXT__2" text="LIBRE" x="210" y="0" width="35" height="12"/>
+    <text name="TXT__3" text="ASOCIADO" x="252" y="0" width="56" height="12"/>
+    <text name="TXT__4" text="DE" x="315" y="0" width="14" height="12"/>
+    <text name="TXT__5" text="PUERTO" x="336" y="0" width="42" height="12"/>
+    <text name="TXT__6" text="RICO" x="385" y="0" width="28" height="12"/>
+    <text name="TXT__7" text="Rev." x="0" y="16" width="28" height="12"/>
+    <text name="TXT__8" text="-2003" x="49" y="16" width="35" height="12"/>
+    <text name="TXT__9" text="DEPARTAMENTO" x="203" y="16" width="84" height="12"/>
+    <text name="TXT__10" text="DE" x="294" y="16" width="14" height="12"/>
+    <text name="TXT__11" text="LA" x="315" y="16" width="14" height="12"/>
+    <text name="TXT__12" text="FAMILIA" x="336" y="16" width="49" height="12"/>
+    <text name="TXT__13" text="ADMINISTRACION" x="133" y="32" width="98" height="12"/>
+    <text name="TXT__14" text="DE" x="238" y="32" width="14" height="12"/>
+    <text name="TXT__15" text="DESARROLLO" x="259" y="32" width="70" height="12"/>
+    <text name="TXT__16" text="SOCIOECONOMICO" x="336" y="32" width="98" height="12"/>
+    <text name="TXT__17" text="PROGRAMA" x="189" y="48" width="56" height="12"/>
+    <text name="TXT__18" text="DE" x="252" y="48" width="14" height="12"/>
+    <text name="TXT__19" text="PAN" x="273" y="48" width="21" height="12"/>
+    <text name="TXT__20" text="Y" x="301" y="48" width="7" height="12"/>
+    <text name="TXT__21" text="TRABAJO" x="315" y="48" width="49" height="12"/>
+    <text name="TXT__22" text="REFERIDO" x="210" y="80" width="56" height="12"/>
+    <text name="TXT__23" text="AL" x="273" y="80" width="14" height="12"/>
+    <text name="TXT__24" text="PATRONO" x="294" y="80" width="49" height="12"/>
+    <text name="TXT__25" text="ADSEF" x="0" y="0" width="35" height="12"/>
+    <text name="TXT__26" text="-PPT" x="35" y="0" width="28" height="12"/>
+    <text name="TXT__27" text="10" x="35" y="16" width="14" height="12"/>
+  </textgroup>
+  <group name="REFERIDO" tag="" visible="true" enabled="true" container="ADSEF_PPT_4_RP" nextobject="" objectType="group" pageStart="-1" pageType="0" x="0" y="112" width="560" height="844" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="1" highLightSelected="true" datastore="ADSEF_PPT_4_DSD" discardChildless="false" updatetotop="false" firstobject="NOMBRE_COMPLETO" indivisible="false" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="848" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <parameter name="RMO_PAR"/>
+    <parameter name="PSSN_CLIENTE"/>
+    <textgroup name="REFERIDO_TXT" tag="" visible="true" enabled="true" container="REFERIDO" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="553" height="844" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="REFERIDO_TXT__0" text="A:" x="0" y="32" width="14" height="12"/>
+      <text name="REFERIDO_TXT__1" text="RE:" x="301" y="32" width="21" height="12"/>
+      <text name="REFERIDO_TXT__2" text="Nombre" x="42" y="48" width="42" height="12"/>
+      <text name="REFERIDO_TXT__3" text="Empresa" x="91" y="48" width="49" height="12"/>
+      <text name="REFERIDO_TXT__4" text="Nombre" x="336" y="48" width="42" height="12"/>
+      <text name="REFERIDO_TXT__5" text="del" x="385" y="48" width="21" height="12"/>
+      <text name="REFERIDO_TXT__6" text="participante" x="413" y="48" width="84" height="12"/>
+      <text name="REFERIDO_TXT__7" text="Número" x="336" y="80" width="42" height="12"/>
+      <text name="REFERIDO_TXT__8" text="Seguro" x="385" y="80" width="42" height="12"/>
+      <text name="REFERIDO_TXT__9" text="Social" x="434" y="80" width="42" height="12"/>
+      <text name="REFERIDO_TXT__10" text="Dirección" x="42" y="112" width="63" height="12"/>
+      <text name="REFERIDO_TXT__11" text="Número" x="336" y="112" width="42" height="12"/>
+      <text name="REFERIDO_TXT__12" text="de" x="385" y="112" width="14" height="12"/>
+      <text name="REFERIDO_TXT__13" text="Caso" x="406" y="112" width="28" height="12"/>
+      <text name="REFERIDO_TXT__14" text="Pan" x="441" y="112" width="21" height="12"/>
+      <text name="REFERIDO_TXT__15" text="DE:(" x="0" y="144" width="28" height="12"/>
+      <text name="REFERIDO_TXT__16" text=")" x="35" y="144" width="7" height="12"/>
+      <text name="REFERIDO_TXT__17" text="Estimado(a)" x="0" y="176" width="77" height="12"/>
+      <text name="REFERIDO_TXT__18" text="Señor(a):" x="84" y="176" width="63" height="12"/>
+      <text name="REFERIDO_TXT__19" text="La" x="0" y="208" width="14" height="12"/>
+      <text name="REFERIDO_TXT__20" text="persona" x="21" y="208" width="49" height="12"/>
+      <text name="REFERIDO_TXT__21" text="en" x="77" y="208" width="14" height="12"/>
+      <text name="REFERIDO_TXT__22" text="referencia" x="98" y="208" width="70" height="12"/>
+      <text name="REFERIDO_TXT__23" text="reside" x="175" y="208" width="42" height="12"/>
+      <text name="REFERIDO_TXT__24" text="en" x="224" y="208" width="14" height="12"/>
+      <text name="REFERIDO_TXT__25" text="el" x="245" y="208" width="14" height="12"/>
+      <text name="REFERIDO_TXT__26" text="municipio" x="266" y="208" width="63" height="12"/>
+      <text name="REFERIDO_TXT__27" text="de" x="336" y="208" width="14" height="12"/>
+      <text name="REFERIDO_TXT__28" text="y" x="546" y="208" width="7" height="12"/>
+      <text name="REFERIDO_TXT__29" text="es" x="0" y="224" width="14" height="12"/>
+      <text name="REFERIDO_TXT__30" text="participante" x="21" y="224" width="84" height="12"/>
+      <text name="REFERIDO_TXT__31" text="del" x="112" y="224" width="21" height="12"/>
+      <text name="REFERIDO_TXT__32" text="PAN" x="140" y="224" width="21" height="12"/>
+      <text name="REFERIDO_TXT__33" text="en" x="168" y="224" width="14" height="12"/>
+      <text name="REFERIDO_TXT__34" text="nuestra" x="189" y="224" width="49" height="12"/>
+      <text name="REFERIDO_TXT__35" text="Oficina" x="245" y="224" width="49" height="12"/>
+      <text name="REFERIDO_TXT__36" text="Local" x="301" y="224" width="35" height="12"/>
+      <text name="REFERIDO_TXT__37" text="de" x="343" y="224" width="14" height="12"/>
+      <text name="REFERIDO_TXT__38" text="." x="546" y="224" width="7" height="12"/>
+      <text name="REFERIDO_TXT__39" text="(" x="28" y="256" width="7" height="12"/>
+      <text name="REFERIDO_TXT__40" text=")" x="42" y="256" width="7" height="12"/>
+      <text name="REFERIDO_TXT__41" text="Interesa" x="56" y="256" width="56" height="12"/>
+      <text name="REFERIDO_TXT__42" text="ser" x="119" y="256" width="21" height="12"/>
+      <text name="REFERIDO_TXT__43" text="evaluada" x="147" y="256" width="56" height="12"/>
+      <text name="REFERIDO_TXT__44" text="para" x="210" y="256" width="28" height="12"/>
+      <text name="REFERIDO_TXT__45" text="la" x="245" y="256" width="14" height="12"/>
+      <text name="REFERIDO_TXT__46" text="siguiente" x="266" y="256" width="63" height="12"/>
+      <text name="REFERIDO_TXT__47" text="oferta" x="336" y="256" width="42" height="12"/>
+      <text name="REFERIDO_TXT__48" text="de" x="385" y="256" width="14" height="12"/>
+      <text name="REFERIDO_TXT__49" text="empleo:" x="406" y="256" width="49" height="12"/>
+      <text name="REFERIDO_TXT__50" text="Nombre" x="112" y="288" width="42" height="12"/>
+      <text name="REFERIDO_TXT__51" text="de" x="161" y="288" width="14" height="12"/>
+      <text name="REFERIDO_TXT__52" text="la" x="182" y="288" width="14" height="12"/>
+      <text name="REFERIDO_TXT__53" text="empresa:" x="203" y="288" width="56" height="12"/>
+      <text name="REFERIDO_TXT__54" text="Ocupación:" x="112" y="304" width="70" height="12"/>
+      <text name="REFERIDO_TXT__55" text="(" x="28" y="320" width="7" height="12"/>
+      <text name="REFERIDO_TXT__56" text=")" x="42" y="320" width="7" height="12"/>
+      <text name="REFERIDO_TXT__57" text="Interesa" x="56" y="320" width="56" height="12"/>
+      <text name="REFERIDO_TXT__58" text="ser" x="119" y="320" width="21" height="12"/>
+      <text name="REFERIDO_TXT__59" text="evaluada" x="147" y="320" width="56" height="12"/>
+      <text name="REFERIDO_TXT__60" text="para" x="210" y="320" width="28" height="12"/>
+      <text name="REFERIDO_TXT__61" text="cualquier" x="245" y="320" width="63" height="12"/>
+      <text name="REFERIDO_TXT__62" text="oferta" x="315" y="320" width="42" height="12"/>
+      <text name="REFERIDO_TXT__63" text="de" x="364" y="320" width="14" height="12"/>
+      <text name="REFERIDO_TXT__64" text="empleo" x="385" y="320" width="42" height="12"/>
+      <text name="REFERIDO_TXT__65" text="para" x="434" y="320" width="28" height="12"/>
+      <text name="REFERIDO_TXT__66" text="la" x="469" y="320" width="14" height="12"/>
+      <text name="REFERIDO_TXT__67" text="cual" x="490" y="320" width="28" height="12"/>
+      <text name="REFERIDO_TXT__68" text="pueda" x="56" y="336" width="35" height="12"/>
+      <text name="REFERIDO_TXT__69" text="cualificar." x="98" y="336" width="77" height="12"/>
+      <text name="REFERIDO_TXT__70" text="(" x="28" y="352" width="7" height="12"/>
+      <text name="REFERIDO_TXT__71" text=")" x="42" y="352" width="7" height="12"/>
+      <text name="REFERIDO_TXT__72" text="Interesa" x="56" y="352" width="56" height="12"/>
+      <text name="REFERIDO_TXT__73" text="ser" x="119" y="352" width="21" height="12"/>
+      <text name="REFERIDO_TXT__74" text="evaluado" x="147" y="352" width="56" height="12"/>
+      <text name="REFERIDO_TXT__75" text="para:" x="210" y="352" width="35" height="12"/>
+      <text name="REFERIDO_TXT__76" text="Posición" x="294" y="368" width="56" height="12"/>
+      <text name="REFERIDO_TXT__77" text="El" x="0" y="400" width="14" height="12"/>
+      <text name="REFERIDO_TXT__78" text="caso" x="21" y="400" width="28" height="12"/>
+      <text name="REFERIDO_TXT__79" text="esta" x="56" y="400" width="28" height="12"/>
+      <text name="REFERIDO_TXT__80" text="certificado" x="91" y="400" width="77" height="12"/>
+      <text name="REFERIDO_TXT__81" text="desde" x="175" y="400" width="35" height="12"/>
+      <text name="REFERIDO_TXT__82" text="hasta" x="448" y="400" width="35" height="12"/>
+      <text name="REFERIDO_TXT__83" text="mes" x="266" y="416" width="21" height="12"/>
+      <text name="REFERIDO_TXT__84" text="y" x="294" y="416" width="7" height="12"/>
+      <text name="REFERIDO_TXT__85" text="año" x="308" y="416" width="21" height="12"/>
+      <text name="REFERIDO_TXT__86" text="y" x="217" y="432" width="7" height="12"/>
+      <text name="REFERIDO_TXT__87" text="su" x="231" y="432" width="14" height="12"/>
+      <text name="REFERIDO_TXT__88" text="teléfono" x="252" y="432" width="56" height="12"/>
+      <text name="REFERIDO_TXT__89" text="es" x="315" y="432" width="14" height="12"/>
+      <text name="REFERIDO_TXT__90" text="." x="441" y="432" width="7" height="12"/>
+      <text name="REFERIDO_TXT__91" text="mes" x="49" y="448" width="21" height="12"/>
+      <text name="REFERIDO_TXT__92" text="y" x="77" y="448" width="7" height="12"/>
+      <text name="REFERIDO_TXT__93" text="año" x="91" y="448" width="21" height="12"/>
+      <text name="REFERIDO_TXT__94" text="Este" x="0" y="480" width="28" height="12"/>
+      <text name="REFERIDO_TXT__95" text="referido" x="35" y="480" width="56" height="12"/>
+      <text name="REFERIDO_TXT__96" text="tiene" x="98" y="480" width="35" height="12"/>
+      <text name="REFERIDO_TXT__97" text="validez" x="140" y="480" width="49" height="12"/>
+      <text name="REFERIDO_TXT__98" text="por" x="196" y="480" width="21" height="12"/>
+      <text name="REFERIDO_TXT__99" text="15" x="224" y="480" width="14" height="12"/>
+      <text name="REFERIDO_TXT__100" text="días" x="245" y="480" width="28" height="12"/>
+      <text name="REFERIDO_TXT__101" text="calendario," x="280" y="480" width="77" height="12"/>
+      <text name="REFERIDO_TXT__102" text="al" x="364" y="480" width="14" height="12"/>
+      <text name="REFERIDO_TXT__103" text="cabo" x="385" y="480" width="28" height="12"/>
+      <text name="REFERIDO_TXT__104" text="de" x="420" y="480" width="14" height="12"/>
+      <text name="REFERIDO_TXT__105" text="los" x="441" y="480" width="21" height="12"/>
+      <text name="REFERIDO_TXT__106" text="cuales" x="469" y="480" width="42" height="12"/>
+      <text name="REFERIDO_TXT__107" text="debe" x="518" y="480" width="28" height="12"/>
+      <text name="REFERIDO_TXT__108" text="haber" x="0" y="496" width="35" height="12"/>
+      <text name="REFERIDO_TXT__109" text="tomado" x="42" y="496" width="42" height="12"/>
+      <text name="REFERIDO_TXT__110" text="una" x="91" y="496" width="21" height="12"/>
+      <text name="REFERIDO_TXT__111" text="determinación" x="119" y="496" width="91" height="12"/>
+      <text name="REFERIDO_TXT__112" text="e" x="217" y="496" width="7" height="12"/>
+      <text name="REFERIDO_TXT__113" text="informarnos" x="231" y="496" width="77" height="12"/>
+      <text name="REFERIDO_TXT__114" text="al" x="315" y="496" width="14" height="12"/>
+      <text name="REFERIDO_TXT__115" text="respecto." x="336" y="496" width="63" height="12"/>
+      <text name="REFERIDO_TXT__116" text="Observaciones:" x="0" y="528" width="98" height="12"/>
+      <text name="REFERIDO_TXT__117" text="Fecha" x="49" y="608" width="35" height="12"/>
+      <text name="REFERIDO_TXT__118" text="Firma" x="357" y="608" width="35" height="12"/>
+      <text name="REFERIDO_TXT__119" text="Funcionario" x="399" y="608" width="77" height="12"/>
+      <text name="REFERIDO_TXT__120" text="Designado" x="483" y="608" width="63" height="12"/>
+      <text name="REFERIDO_TXT__121" text="Teléfono" x="35" y="656" width="56" height="12"/>
+      <text name="REFERIDO_TXT__122" text="Dirección" x="413" y="656" width="63" height="12"/>
+      <text name="REFERIDO_TXT__123" text="Acción" x="217" y="672" width="42" height="12"/>
+      <text name="REFERIDO_TXT__124" text="Tomada" x="266" y="672" width="42" height="12"/>
+      <text name="REFERIDO_TXT__125" text="Fecha" x="35" y="784" width="35" height="12"/>
+      <text name="REFERIDO_TXT__126" text="Firma" x="420" y="784" width="35" height="12"/>
+      <text name="REFERIDO_TXT__127" text="Posición" x="378" y="832" width="56" height="12"/>
+      <text name="REFERIDO_TXT__128" text="que" x="441" y="832" width="21" height="12"/>
+      <text name="REFERIDO_TXT__129" text="ocupa" x="469" y="832" width="35" height="12"/>
+    </textgroup>
+    <field name="NOMBRE_COMPLETO" tag="" visible="true" enabled="true" container="REFERIDO" nextobject="NUCLEO_SEGURO_SOCIAL_CLIENTE" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="323" y="32" width="230" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="NUCLEO_SEGURO_SOCIAL_CLIENTE" tag="" visible="true" enabled="true" container="REFERIDO" nextobject="SERVICIOS_SEGURO_SOCIAL_JEFE_FAM" objectType="field" copyFieldName="" datatypename="double" datafieldname="NUCLEO_SEGURO_SOCIAL_CLIENTE" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="323" y="64" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="SERVICIOS_SEGURO_SOCIAL_JEFE_FAM" tag="" visible="true" enabled="true" container="REFERIDO" nextobject="ZIP_TBL_CIUDAD" objectType="field" copyFieldName="" datatypename="double" datafieldname="SERVICIOS_SEGURO_SOCIAL_JEFE_FAM" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="323" y="96" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="SERVICIOS_FCH_COMIENZO" tag="" visible="true" enabled="true" container="REFERIDO" nextobject="SERVICIOS_FCH_TERMINACION" objectType="field" copyFieldName="" datatypename="Date" datafieldname="SERVICIOS_FCH_COMIENZO" emptyisnull="true" format="MMM-yyyy" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="246" y="400" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="MMM-yyyy" isDialog="false" inputlimit="12"/>
+    </field>
+    <field name="SERVICIOS_FCH_TERMINACION" tag="" visible="true" enabled="true" container="REFERIDO" nextobject="TELEFONO_HOGAR" objectType="field" copyFieldName="" datatypename="Date" datafieldname="SERVICIOS_FCH_TERMINACION" emptyisnull="true" format="MMM-yyyy" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="15" y="432" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="MMM-yyyy" isDialog="false" inputlimit="12"/>
+    </field>
+    <field name="REGION" tag="" visible="false" enabled="true" container="REFERIDO" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="1" y="144" width="181" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="OFICINA" tag="" visible="true" enabled="true" container="REFERIDO" nextobject="SERVICIOS_FCH_COMIENZO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="365" y="224" width="181" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="TELEFONO_HOGAR" tag="" visible="true" enabled="true" container="REFERIDO" nextobject="DUMMY1" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="337" y="432" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="ZIP_TBL_CIUDAD" tag="" visible="true" enabled="true" container="REFERIDO" nextobject="OFICINA" objectType="field" copyFieldName="" datatypename="String" datafieldname="ZIP_TBL_CIUDAD" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="358" y="208" width="111" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="16"/>
+    </field>
+    <field name="DUMMY1" tag="" visible="true" enabled="true" container="REFERIDO" nextobject="DUMMY2" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="1" y="768" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DUMMY2" tag="" visible="true" enabled="true" container="REFERIDO" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="1" y="832" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+  </group>
+</model>

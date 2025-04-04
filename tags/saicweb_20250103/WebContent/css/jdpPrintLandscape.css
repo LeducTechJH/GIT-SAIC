@@ -1,0 +1,9 @@
+div 
+{
+  background:#FFFFFF; margin:0px; padding:0px; color:#000000; font:11px Courier New;
+}
+
+div.landscape
+{
+  writing-mode: tb-rl; background:#FFFFFF; color:#005080; font:11px Courier New;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<script type="text/javascript" src="http://dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.1&mkt=es-US"></script>
+
+<script type="text/javascript">
+
+var map = null;
+  
+var shape = null;            
+
+function GetMap( location )
+{
+  map = new VEMap ( 'mtMap' );
+  map.LoadMap ( new VELatLong( 18.15, -66.30), 5 ,'r' ,false);
+  map.setBestMapView =false;
+  map.Find( null, location, null,null, null, null, true,true,true,true,afterfind );         
+}
+
+
+function afterfind ( layer, resultsArray, places, hasMore, veErrorMessage )
+{
+  map.SetZoomLevel ( 13 );
+}
+
+
+function getlocation ( )
+{  
+  var regexS = "[\\?&]location=([^&#]*)";  
+  var regex = new RegExp( regexS );  
+  var results = regex.exec( window.location.href );  
+  if ( results == null )    
+  {
+    return "san juan puerto rico";  
+  }
+  else    
+  {
+    return results[1];
+  }
+}         
+
+</script>
+
+</head>
+
+<body onload="GetMap ( getlocation ( ) );">
+
+<div id='mtMap' style="position:relative; width:400px; height:400px;"></div>
+
+</body>
+
+</html>

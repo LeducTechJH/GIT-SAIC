@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="REDETERMINACION_RECLA_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="564" height="272" groupstyle="0" highLightSelected="false" firstobject="PARK" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Thu Jul 03 06:38:18 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="REDETERMINACION_RECLA_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="560" height="268" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="RECLAMACION" x="28" y="16" width="77" height="12"/>
+    <text name="TXT__1" text="RETROACTIVO" x="350" y="16" width="77" height="12"/>
+    <text name="TXT__2" text="Redeterminación" x="0" y="48" width="105" height="12"/>
+    <text name="TXT__3" text="de" x="119" y="48" width="14" height="12"/>
+    <text name="TXT__4" text="Reclamación" x="140" y="48" width="77" height="12"/>
+    <text name="TXT__5" text="o" x="224" y="48" width="7" height="12"/>
+    <text name="TXT__6" text="Retroactivo" x="238" y="48" width="77" height="12"/>
+    <text name="TXT__7" text="Nueva" x="84" y="64" width="35" height="12"/>
+    <text name="TXT__8" text="Recla/Retro" x="126" y="64" width="77" height="12"/>
+    <text name="TXT__9" text="Pagos" x="357" y="64" width="35" height="12"/>
+    <text name="TXT__10" text="efectuado" x="399" y="64" width="63" height="12"/>
+    <text name="TXT__11" text="a" x="469" y="64" width="7" height="12"/>
+    <text name="TXT__12" text="la" x="483" y="64" width="14" height="12"/>
+    <text name="TXT__13" text="Recla" x="504" y="64" width="35" height="12"/>
+    <text name="TXT__14" text="Pagos" x="84" y="80" width="35" height="12"/>
+    <text name="TXT__15" text="efectuados" x="126" y="80" width="70" height="12"/>
+    <text name="TXT__16" text="a" x="203" y="80" width="7" height="12"/>
+    <text name="TXT__17" text="Recla" x="217" y="80" width="35" height="12"/>
+    <text name="TXT__18" text="o" x="357" y="80" width="7" height="12"/>
+    <text name="TXT__19" text="Cant." x="371" y="80" width="35" height="12"/>
+    <text name="TXT__20" text="otorgada" x="413" y="80" width="56" height="12"/>
+    <text name="TXT__21" text="en" x="476" y="80" width="14" height="12"/>
+    <text name="TXT__22" text="Retro" x="497" y="80" width="35" height="12"/>
+    <text name="TXT__23" text="o" x="84" y="96" width="7" height="12"/>
+    <text name="TXT__24" text="Cant." x="98" y="96" width="35" height="12"/>
+    <text name="TXT__25" text="otorgada" x="140" y="96" width="56" height="12"/>
+    <text name="TXT__26" text="en" x="203" y="96" width="14" height="12"/>
+    <text name="TXT__27" text="Retro" x="224" y="96" width="35" height="12"/>
+    <text name="TXT__28" text="Nueva" x="357" y="96" width="35" height="12"/>
+    <text name="TXT__29" text="Recla" x="399" y="96" width="35" height="12"/>
+    <text name="TXT__30" text="o" x="441" y="96" width="7" height="12"/>
+    <text name="TXT__31" text="Retro" x="455" y="96" width="35" height="12"/>
+    <text name="TXT__32" text="Nueva" x="84" y="112" width="35" height="12"/>
+    <text name="TXT__33" text="Recla" x="126" y="112" width="35" height="12"/>
+    <text name="TXT__34" text="o" x="168" y="112" width="7" height="12"/>
+    <text name="TXT__35" text="Retro" x="182" y="112" width="35" height="12"/>
+    <text name="TXT__36" text="Balance" x="357" y="112" width="49" height="12"/>
+    <text name="TXT__37" text="Recla" x="413" y="112" width="35" height="12"/>
+    <text name="TXT__38" text="por" x="455" y="112" width="21" height="12"/>
+    <text name="TXT__39" text="Retro" x="483" y="112" width="35" height="12"/>
+    <text name="TXT__40" text="en" x="525" y="112" width="14" height="12"/>
+    <text name="TXT__41" text="exceso" x="357" y="128" width="42" height="12"/>
+    <text name="TXT__42" text="o" x="406" y="128" width="7" height="12"/>
+    <text name="TXT__43" text="Retro" x="420" y="128" width="35" height="12"/>
+    <text name="TXT__44" text="por" x="462" y="128" width="21" height="12"/>
+    <text name="TXT__45" text="pagos" x="490" y="128" width="35" height="12"/>
+    <text name="TXT__46" text="en" x="532" y="128" width="14" height="12"/>
+    <text name="TXT__47" text="exceso" x="357" y="144" width="42" height="12"/>
+    <text name="TXT__48" text="a" x="406" y="144" width="7" height="12"/>
+    <text name="TXT__49" text="la" x="420" y="144" width="14" height="12"/>
+    <text name="TXT__50" text="Reclamación" x="441" y="144" width="77" height="12"/>
+    <text name="TXT__51" text="Compensación" x="0" y="176" width="84" height="12"/>
+    <text name="TXT__52" text="de" x="98" y="176" width="14" height="12"/>
+    <text name="TXT__53" text="Reclamación" x="119" y="176" width="77" height="12"/>
+    <text name="TXT__54" text="con" x="203" y="176" width="21" height="12"/>
+    <text name="TXT__55" text="Beneficios" x="231" y="176" width="70" height="12"/>
+    <text name="TXT__56" text="Retroactivos" x="308" y="176" width="84" height="12"/>
+    <text name="TXT__57" text="Si" x="0" y="192" width="14" height="12"/>
+    <text name="TXT__58" text="Recla" x="28" y="192" width="35" height="12"/>
+    <text name="TXT__59" text="es" x="70" y="192" width="14" height="12"/>
+    <text name="TXT__60" text="mayor" x="91" y="192" width="35" height="12"/>
+    <text name="TXT__61" text="que" x="133" y="192" width="21" height="12"/>
+    <text name="TXT__62" text="el" x="161" y="192" width="14" height="12"/>
+    <text name="TXT__63" text="Retro" x="182" y="192" width="35" height="12"/>
+    <text name="TXT__64" text="Si" x="315" y="192" width="14" height="12"/>
+    <text name="TXT__65" text="Retro" x="336" y="192" width="35" height="12"/>
+    <text name="TXT__66" text="es" x="378" y="192" width="14" height="12"/>
+    <text name="TXT__67" text="mayor" x="399" y="192" width="35" height="12"/>
+    <text name="TXT__68" text="que" x="441" y="192" width="21" height="12"/>
+    <text name="TXT__69" text="Recla" x="469" y="192" width="35" height="12"/>
+    <text name="TXT__70" text="Reclamación" x="84" y="208" width="77" height="12"/>
+    <text name="TXT__71" text="Determinada" x="168" y="208" width="77" height="12"/>
+    <text name="TXT__72" text="Beneficios" x="385" y="208" width="70" height="12"/>
+    <text name="TXT__73" text="Retroactivos" x="462" y="208" width="84" height="12"/>
+    <text name="TXT__74" text="Beneficios" x="84" y="224" width="70" height="12"/>
+    <text name="TXT__75" text="Retroactivos" x="161" y="224" width="84" height="12"/>
+    <text name="TXT__76" text="Reclamación" x="385" y="224" width="77" height="12"/>
+    <text name="TXT__77" text="Determinada" x="469" y="224" width="77" height="12"/>
+    <text name="TXT__78" text="Balance" x="84" y="240" width="49" height="12"/>
+    <text name="TXT__79" text="a" x="140" y="240" width="7" height="12"/>
+    <text name="TXT__80" text="Reclamar" x="154" y="240" width="56" height="12"/>
+    <text name="TXT__81" text="Beneficios" x="385" y="240" width="70" height="12"/>
+    <text name="TXT__82" text="Retro" x="462" y="240" width="35" height="12"/>
+    <text name="TXT__83" text="Otorgar" x="504" y="240" width="49" height="12"/>
+    <line name="LINE_TXT_0" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="6" x1="560" y1="6" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_1" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="38" x1="560" y1="38" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_2" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="166" x1="560" y1="166" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_3" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="262" x1="560" y1="262" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_4" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="6" x1="0" y1="38" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_5" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="38" x1="0" y1="182" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_6" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="166" x1="0" y1="262" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_7" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="560" y="6" x1="560" y1="38" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_8" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="560" y="38" x1="560" y1="182" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_9" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="560" y="166" x1="560" y1="262" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  </textgroup>
+  <field name="PARK" tag="" visible="true" enabled="true" container="REDETERMINACION_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="8" y="16" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="RECLAMACION" tag="" visible="true" enabled="true" container="REDETERMINACION_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$##,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="120" y="16" width="62" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$##,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="RETROACTIVO" tag="" visible="true" enabled="true" container="REDETERMINACION_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$##,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="442" y="16" width="62" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$##,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NUEVA_RECLA1" tag="" visible="true" enabled="true" container="REDETERMINACION_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$##,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="15" y="64" width="62" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$##,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="PAGO_A_RECLA" tag="" visible="true" enabled="true" container="REDETERMINACION_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$##,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="15" y="80" width="62" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$##,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NUEVA_RECLA2" tag="" visible="true" enabled="true" container="REDETERMINACION_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$##,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="15" y="112" width="62" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$##,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="PAGO_A_RECLA2" tag="" visible="true" enabled="true" container="REDETERMINACION_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$##,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="288" y="64" width="62" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$##,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NUEVA_RECLA3" tag="" visible="true" enabled="true" container="REDETERMINACION_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$##,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="288" y="96" width="62" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$##,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="BALANCE_RECLA_RETRO" tag="" visible="true" enabled="true" container="REDETERMINACION_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$##,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="288" y="112" width="62" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$##,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="RECLA_DETERMINADA1" tag="" visible="true" enabled="true" container="REDETERMINACION_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$##,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="8" y="208" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$##,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="BENE_RETROACTIVO1" tag="" visible="true" enabled="true" container="REDETERMINACION_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$##,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="8" y="224" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$##,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="BALANCE_RECLAMAR1" tag="" visible="true" enabled="true" container="REDETERMINACION_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$##,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="8" y="240" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$##,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="RECLA_DETERMINADA2" tag="" visible="true" enabled="true" container="REDETERMINACION_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$##,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="309" y="224" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$##,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="BENE_RETROACTIVO2" tag="" visible="true" enabled="true" container="REDETERMINACION_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$##,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="309" y="208" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$##,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="BALANCE_RECLAMAR2" tag="" visible="true" enabled="true" container="REDETERMINACION_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$##,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="309" y="240" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$##,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+</model>

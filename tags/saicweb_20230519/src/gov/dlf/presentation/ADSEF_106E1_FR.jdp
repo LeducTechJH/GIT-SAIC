@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="ADSEF_106E_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="1155" pageheight="1512" backcolor="13421772" x="2" y="2" width="564" height="1008" groupstyle="0" highLightSelected="false" firstobject="HEADER_GP" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <group name="HEADER_GP" tag="" visible="true" enabled="true" container="ADSEF_106E_FR" nextobject="" objectType="group" pageStart="-1" pageType="0" x="0" y="0" width="539" height="1433" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="0" highLightSelected="false" datastore="" discardChildless="false" updatetotop="false" firstobject=" " indivisible="false" repeatdeltax="0" repeatdeltay="0" repeatsizex="0" repeatsizey="0" repeatorder="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <textgroup name="HEADER_GP_TXT0" tag="" visible="true" enabled="true" container="HEADER_GP" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="1" y="1" width="532" height="1448" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="HEADER_GP_TXT0__81" text="2) En TANF, cumplir con el Plan de Responsabilidad Individual (PRI). " x="-1" y="52" width="488" height="12"/>
+      <text name="HEADER_GP_TXT0__82" text="Incumplir con este requisito sin tener causa justificada provocará el que " x="18" y="68" width="515" height="12"/>
+      <text name="HEADER_GP_TXT0__83" text="se apliquen sanciones." x="18" y="84" width="156" height="12"/>
+      <text name="HEADER_GP_TXT0__168" text="h) Gastos por cuido de menores o dependientes con limitaciones físicas o " x="18" y="388" width="514" height="12"/>
+      <text name="HEADER_GP_TXT0__193" text="mentales o con necesidades especiales." x="38" y="404" width="268" height="12"/>
+      <text name="HEADER_GP_TXT0__194" text="Pasaporte, Resolución del Tribunal que certifique la ciudadania." x="38" y="324" width="450" height="12"/>
+      <text name="HEADER_GP_TXT0__196" text="(IRA), certificados de ahorro, acciones, bonos, pólizas de seguros, " x="38" y="484" width="474" height="12"/>
+      <text name="HEADER_GP_TXT0__197" text="k) El valor de los recursos del núcleo de servicio. Se refiere a: dinero " x="18" y="452" width="511" height="12"/>
+      <text name="HEADER_GP_TXT0__200" text="3) Ofrecer información correcta y completa requerida tal como:" x="-1" y="100" width="439" height="12"/>
+      <text name="HEADER_GP_TXT0__201" text="a) Tamaño y composición familiar." x="18" y="116" width="233" height="12"/>
+      <text name="HEADER_GP_TXT0__202" text="Incumplir con este requisito puede resultar en la descalificación de la " x="38" y="148" width="500" height="12"/>
+      <text name="HEADER_GP_TXT0__203" text="incluye: salarios, jornales, beneficios de Seguro Social, Desempleo," x="38" y="260" width="490" height="12"/>
+      <text name="HEADER_GP_TXT0__204" text="f) Evidencia de Ciudadania: Certificado de Nacimiento o de Naturalización," x="18" y="308" width="518" height="12"/>
+      <text name="HEADER_GP_TXT0__205" text="(I-151 ú I-94) o la que proceda y, si aplica, los recursos e ingresos " x="38" y="356" width="487" height="12"/>
+      <text name="HEADER_GP_TXT0__206" text="j) Condición de estudiante post-secundario." x="18" y="436" width="304" height="12"/>
+      <text name="HEADER_GP_TXT0__208" text="en efectivo, cuentas corrientes, de ahorro o de retiro individual " x="38" y="468" width="464" height="12"/>
+      <text name="HEADER_GP_TXT0__212" text="b) Número de Seguro Social de todas las personas del núcleo de servicio. " x="18" y="132" width="507" height="12"/>
+      <text name="HEADER_GP_TXT0__213" text="c) Identidad de todas las personas que integran el núcleo categórico " x="18" y="180" width="481" height="12"/>
+      <text name="HEADER_GP_TXT0__214" text="d) Evidencia de dirección residencial." x="18" y="228" width="269" height="12"/>
+      <text name="HEADER_GP_TXT0__215" text="o voluntaria), etc.o voluntaria), etc." x="38" y="292" width="268" height="12"/>
+      <text name="HEADER_GP_TXT0__216" text="g) Su condición de persona extranjera. Presentar tarjeta de residente " x="18" y="340" width="490" height="12"/>
+      <text name="HEADER_GP_TXT0__217" text="reintegros de contribución sobre ingresos estatal o federal, edificios, " x="38" y="500" width="497" height="12"/>
+      <text name="HEADER_GP_TXT0__219" text="i) Evidencia de condición de incapacidad (someterse a examen médico)." x="18" y="420" width="488" height="12"/>
+      <text name="HEADER_GP_TXT0__220" text="terrenos, casas, todo vehiculo registrado en el Departamento de " x="39" y="516" width="490" height="12"/>
+      <text name="HEADER_GP_TXT0__222" text="persona." x="38" y="164" width="63" height="12"/>
+      <text name="HEADER_GP_TXT0__223" text="presentando licencia de consucir, tarjetas de identificación cualquier " x="38" y="196" width="491" height="12"/>
+      <text name="HEADER_GP_TXT0__224" text="otra identificación válida, etc." x="38" y="212" width="227" height="12"/>
+      <text name="HEADER_GP_TXT0__225" text="e) Los ingresos de todas las personas que integran el núcleo de servicio " x="18" y="244" width="509" height="12"/>
+      <text name="HEADER_GP_TXT0__226" text="Fondo del Seguro del Estado, ACCA, Pensión Alimentaria (tribunal, ASUME " x="38" y="276" width="498" height="12"/>
+      <text name="HEADER_GP_TXT0__227" text="del patrocinador(a) y su cónyuge." x="38" y="372" width="231" height="12"/>
+      <text name="HEADER_GP_TXT0__229" text="descontinuación de la participación." x="18" y="36" width="252" height="12"/>
+      <text name="TXT__773" text="Incumplir con este requerido provoca el rechazo de la solicitud o la " x="18" y="20" width="487" height="12"/>
+      <text name="TXT__774" text="1) Completar el formulario \"Atorización para Requerir u Ofrecer Información\". " x="-1" y="4" width="539" height="12"/>
+      <text name="HEADER_GP_TXT0__17" text="Transportación y Obras Públicas tales como: botes, lanchas, motoras" x="39" y="532" width="472" height="12"/>
+      <text name="HEADER_GP_TXT0__18" text="(incluye acuáticas) autos, etc." x="39" y="548" width="227" height="12"/>
+      <text name="HEADER_GP_TXT0__19" text="l) Cambios ocurridos en cualquiera de las condiciones anteriores." x="26" y="564" width="459" height="12"/>
+      <text name="HEADER_GP_TXT0__20" text="4) Participar de las actividades educativas, adiestramiento o empleo." x="0" y="580" width="487" height="12"/>
+      <text name="HEADER_GP_TXT0__21" text="5) Notificar a la Oficina Local o Centro de Servicios Integrados, cualquier " x="0" y="596" width="535" height="12"/>
+      <text name="HEADER_GP_TXT0__22" text="cambio en la situación económica de la familia dentro de 10 dias " x="19" y="612" width="450" height="12"/>
+      <text name="HEADER_GP_TXT0__23" text="calendario a partir de que ocurra, tales como: si aumenta o reduce el " x="19" y="628" width="491" height="12"/>
+      <text name="HEADER_GP_TXT0__24" text="grupo familiar, sus ingresos, recursos, cambios en la dirección postal o " x="19" y="644" width="513" height="12"/>
+      <text name="HEADER_GP_TXT0__25" text="residencial, regreso del (de la) padre o madre ausente, menor cumple 18 " x="19" y="660" width="504" height="12"/>
+      <text name="HEADER_GP_TXT0__26" text="6) Notificar a la Oficina Local o Centro de Servicios Integrados si recibe " x="0" y="676" width="528" height="12"/>
+      <text name="HEADER_GP_TXT0__28" text="años, menor deja o empieza a asistir a la escuela y cualquier otro cambio." x="19" y="692" width="519" height="12"/>
+      <text name="HEADER_GP_TXT0__29" text="transferencia electrónica de veneficios por una cantidad mayor a la que " x="19" y="708" width="508" height="12"/>
+      <text name="HEADER_GP_TXT0__30" text="tiene derecho." x="19" y="724" width="102" height="12"/>
+      <text name="HEADER_GP_TXT0__31" text="7) Cooperar para que el (la) padre o madre ausente y parientes con " x="0" y="740" width="472" height="12"/>
+      <text name="HEADER_GP_TXT0__32" text="responsabilidad legal cumplan con la obligación de proveer sustento a los " x="19" y="756" width="520" height="12"/>
+      <text name="HEADER_GP_TXT0__33" text="menores. Si aplica, ceder al Departamento de la Familia el derecho a " x="19" y="772" width="483" height="12"/>
+      <text name="HEADER_GP_TXT0__34" text="alimentos que asiste al momento de determinar la elegibilidad, conforme a " x="19" y="788" width="516" height="12"/>
+      <text name="HEADER_GP_TXT0__35" text="8) Cumplir con el requisito de Asistencia a la Escuela o matrícula escolar, " x="0" y="820" width="530" height="12"/>
+      <text name="HEADER_GP_TXT0__37" text="lo que establece la legislación y la reglamentación federal vigente." x="19" y="836" width="489" height="12"/>
+      <text name="HEADER_GP_TXT0__38" text="anticipación, se la acción a tomar es cierre, reducción o suspensión de " x="19" y="852" width="505" height="12"/>
+      <text name="HEADER_GP_TXT0__39" text="Entregar a la ASUME los pagos directos recibidos por pensión alimentaria." x="19" y="868" width="516" height="12"/>
+      <text name="HEADER_GP_TXT0__41" text="vecino(as) o colaterales." x="19" y="884" width="178" height="12"/>
+      <text name="HEADER_GP_TXT0__42" text="10) Asistir a la Oficina Local o Centro de Servicios Integrales cuando sea " x="0" y="900" width="534" height="12"/>
+      <text name="HEADER_GP_TXT0__47" text="citado(a). El no hacerlo podria afectar su participación en el(los) " x="19" y="916" width="477" height="12"/>
+      <text name="HEADER_GP_TXT0__48" text="Programa(s)." x="19" y="932" width="85" height="12"/>
+      <text name="HEADER_GP_TXT0__53" text="11) Solicitar participación en una sola Oficina Local o Centro de Servicios " x="0" y="948" width="534" height="12"/>
+      <text name="HEADER_GP_TXT0__54" text="Integrales que sirva a su zona de residencia." x="19" y="964" width="316" height="12"/>
+      <text name="HEADER_GP_TXT0__57" text="9) Cooperar para que se puedan efectuar visitas al hogar o entrevistar a " x="0" y="804" width="529" height="12"/>
+    </textgroup>
+  </group>
+</model>

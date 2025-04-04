@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="ORG_RO_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="COD_CONCEPTO,COD_SERVICIO,DSC_CONCEPTO" updateKey="COD_SERVICIO" updateSourceName="CONCEPTO_TBL" useTransactions="false" definition="select  CONCEPTO_TBL.COD_CONCEPTO,  CONCEPTO_TBL.COD_SERVICIO,  CONCEPTO_TBL.DSC_CONCEPTO from CONCEPTO_TBL CONCEPTO_TBL order by CONCEPTO_TBL.COD_SERVICIO" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB</extended>
+  <extended name="storage">SAIC_DB</extended>
+  <field name="COD_CONCEPTO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="CONCEPTO_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_CONCEPTO" sourceLocation="" sourceName="CONCEPTO_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="COD_SERVICIO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="SERVICE CODE" dataType="String" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="5" sourceAlias="CONCEPTO_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_SERVICIO" sourceLocation="" sourceName="CONCEPTO_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DSC_CONCEPTO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="15" sourceAlias="CONCEPTO_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DSC_CONCEPTO" sourceLocation="" sourceName="CONCEPTO_TBL" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

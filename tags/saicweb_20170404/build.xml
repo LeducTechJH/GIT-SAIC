@@ -1,0 +1,1396 @@
+<?xml version="1.0"?>
+
+<project name="SAICWEB" default="usage" basedir=".">
+
+	<!-- Class path definition for SAICWEB source code. Necesary for compiling. Code references the net.jar, Maintrend's Rally Engine Framework Library-->
+	<path id="project.class.path">
+		<fileset dir="${basedir}/WebContent/WEB-INF/lib">
+			<include name="**/*.jar"/>
+		</fileset>
+	</path>
+
+	<!-- Class path definition for ANT classes that use Tomcat deployment functions -->
+	<path id="tomcat.tasks.classpath">
+		<fileset dir="C:\Program Files\WinAnt\lib">
+			<include name="catalina-ant.jar"/>
+		</fileset>
+	</path>
+
+	<!-- Class path definition for ANT classes that use Subversion functions -->
+	<path id="svnant.classpath">
+		<fileset dir="C:\Program Files\WinAnt\lib">
+			<include name="**/*.jar"/>
+		</fileset>
+	</path>
+
+	<!-- Configure the custom Ant tasks for the Tomcat deployment and Manager application -->
+	<taskdef name="deploy" classname="org.apache.catalina.ant.DeployTask" classpathref="tomcat.tasks.classpath"/>
+	<taskdef name="list" classname="org.apache.catalina.ant.ListTask" classpathref="tomcat.tasks.classpath"/>
+	<taskdef name="reload" classname="org.apache.catalina.ant.ReloadTask" classpathref="tomcat.tasks.classpath"/>
+	<taskdef name="resources" classname="org.apache.catalina.ant.ResourcesTask" classpathref="tomcat.tasks.classpath"/>
+
+	<taskdef name="start" classname="org.apache.catalina.ant.StartTask" classpathref="tomcat.tasks.classpath"/>
+	<taskdef name="stop" classname="org.apache.catalina.ant.StopTask" classpathref="tomcat.tasks.classpath"/>
+	<taskdef name="undeploy"  classname="org.apache.catalina.ant.UndeployTask" classpathref="tomcat.tasks.classpath"/>
+
+	<!-- Configure the custom Ant tasks for the Weblogic deployment and management functions-->
+	<taskdef name="wldeploy" classname="weblogic.ant.taskdefs.management.WLDeploy" >
+		<classpath>
+			<pathelement location="C:\Program Files\WinAnt\lib\wlfullclient.jar"/>
+		</classpath>
+	</taskdef>
+
+	<!-- Configure the custom Ant tasks for Subversion functions -->
+	<taskdef name="svn" classname="org.tigris.subversion.svnant.SvnTask" classpathref="svnant.classpath"/>
+
+	<!-- Configure the custom Ant tasks for flow control functions -->
+	<taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
+
+	<!-- Configure properties to access the Manager application in DEV-->
+	<property name="devUrl" value="http://10.200.11.180:8081/manager"/>
+	<property name="devUn" value="admin"/>
+	<property name="devPw" value="dlfinvent"/>
+
+	<!-- Configure properties to access the Manager application in QC-->
+	<property name="qcUrl" value="http://10.200.10.83:8080/manager/text"/>
+	<property name="qcUn" value="admin"/>
+	<property name="qcPw" value="dlf2818"/>
+
+	<!-- Configure properties to access the Manager application in PROD-->
+	<property name="tom1Url" value="http://10.201.10.235:8181/manager/html/"/>
+	<property name="tom2Url" value="http://10.201.10.236:8181/manager/html/"/>
+	<property name="tom3Url" value="http://10.201.10.235:9191/manager/html/"/>
+	<property name="tom4Url" value="http://10.201.10.236:9191/manager/html/"/>
+	<property name="tom5Url" value="http://10.201.10.152:8080/manager/text/"/>
+	<property name="tom6Url" value="http://10.201.10.153:8080/manager/text/"/>
+	<property name="tom7Url" value="http://10.201.10.154:8080/manager/text/"/>
+	<property name="tom8Url" value="http://10.201.10.155:8080/manager/text/"/>
+	<property name="tom9Url" value="http://10.201.10.156:8080/manager/text/"/>
+	<property name="tomDRUrl1" value="http://saic1drc:8080/manager/text"/>
+	<property name="tomDRUrl2" value="http://saic2drc:8080/manager/text"/>
+	<property name="tomDRUrl3" value="http://saic3drc:8080/manager/text"/>
+	<property name="tomDRUrl4" value="http://saic4drc:8080/manager/text"/>
+	<property name="tomDRUrl5" value="http://saic5drc:8080/manager/text"/>
+	<property name="tomDRUrl6" value="http://saic6drc:8080/manager/text"/>
+	<property name="tomMiUrl1" value="http://saic1prd:8080/manager/text"/>
+	<property name="tomMiUrl2" value="http://saic2prd:8080/manager/text"/>
+	<property name="tomMiUrl3" value="http://saic3prd:8080/manager/text"/>
+	<property name="tomMiUrl4" value="http://saic4prd:8080/manager/text"/>
+	<property name="tomMiUrl5" value="http://saic5prd:8080/manager/text"/>
+	<property name="tomMiUrl6" value="http://saic6prd:8080/manager/text"/>
+	<property name="proas3Url" value="http://172.16.2.133:8081/manager"/>
+	<property name="proas4Url" value="http://172.16.2.134:8081/manager"/>
+	<property name="proas5Url" value="http://172.16.2.135:8081/manager"/>
+	<property name="proas6Url" value="http://172.16.2.136:8081/manager"/>
+	<property name="proas7Url" value="http://172.16.2.137:8081/manager"/>
+	<property name="proas8Url" value="http://172.16.2.138:8081/manager"/>
+	<property name="prodUn" value="admin"/>
+	<property name="prodPw" value="dlf2818"/>
+	<property name="drprodPw" value="ora12cr2"/>
+	<property name="minprodPw" value="ads3103"/>
+
+	<!-- Property definitions for connection strings-->
+	<property name="devConStr" value="DRIVER={Oracle10g};DataBaseURL={jdbc:oracle:thin:hr/hr@//10.200.11.180:1523/SAICWDEV};LOGIN={saic};PASSWORD={Ora10gr2};SCHEMA={saic};"/>
+	<property name="qcConStr"  value="DRIVER={Oracle10g};DataBaseURL={jdbc:oracle:thin:hr/hr@//10.200.10.181:1521/SAICQC};LOGIN={saic};PASSWORD={ora10gr2};SCHEMA={saic};"/>
+	<property name="trnConnStr" value="DRIVER={Oracle10g};DataBaseURL={jdbc:oracle:thin:hr/hr@//10.200.10.181:1521/SAICTRN};LOGIN={saic};PASSWORD={Ora10gr2};SCHEMA={saic};"/>
+	<property name="prdConStr" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(FAILOVER=ON)(ADDRESS_LIST=(LOAD_BALANCE=ON)(ADDRESS=(PROTOCOL=TCP)(HOST=172.24.27.61)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=172.24.27.62)(PORT=1521)))(CONNECT_DATA= (SERVER = SHARED) (SERVICE_NAME=SAICWPRD)))};LOGIN={saic};PASSWORD={dlf2818};"/>
+	<property name="drcPrdConStr" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=dbrac-scan)(PORT=1521))(LOAD_BALANCE=YES)(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=SAICPRD_LB)(FAILOVER_MODE=(TYPE=SESSION)(METHOD=BASIC)(RETRIES=180)(DELAY = 2))))};LOGIN={saic};PASSWORD={dlf2818};"/>
+	<property name="drcPrdConStrShared" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.201.10.225)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.201.10.227)(PORT=1521))(FAILOVER=ON)(LOAD_BALANCE=ON))(CONNECT_DATA=(SERVER=SHARED)(SERVICE_NAME=SAICPRD_LB)))};LOGIN={saic};PASSWORD={dlf2818};"/>
+	<!--<property name="drcPrdTC1" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.201.10.225)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.201.10.227)(PORT=1521))(FAILOVER=ON)(LOAD_BALANCE=ON))(CONNECT_DATA=(SERVER=SHARED)(SERVICE_NAME=SAICPRD_TC1)))};LOGIN={saic};PASSWORD={dlf2818};"/>-->
+	<property name="drcPrdTC1" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.201.10.225)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.201.10.227)(PORT=1521))(FAILOVER=ON)(LOAD_BALANCE=ON))(CONNECT_DATA=(SERVER=SHARED)(SERVICE_NAME=SAICPRD_TC1)))};LOGIN={saic};PASSWORD={ora11gr2};"/>
+	<property name="drcPrdTC2" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.201.10.225)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.201.10.227)(PORT=1521))(FAILOVER=ON)(LOAD_BALANCE=ON))(CONNECT_DATA=(SERVER=SHARED)(SERVICE_NAME=SAICPRD_TC2)))};LOGIN={saic};PASSWORD={dlf2818};"/>
+	<property name="drcPrdTC3" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.201.10.225)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.201.10.227)(PORT=1521))(FAILOVER=ON)(LOAD_BALANCE=ON))(CONNECT_DATA=(SERVER=SHARED)(SERVICE_NAME=SAICPRD_TC3)))};LOGIN={saic};PASSWORD={dlf2818};"/>
+	<property name="drcPrdTC4" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.201.10.225)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.201.10.227)(PORT=1521))(FAILOVER=ON)(LOAD_BALANCE=ON))(CONNECT_DATA=(SERVER=SHARED)(SERVICE_NAME=SAICPRD_TC4)))};LOGIN={saic};PASSWORD={dlf2818};"/>
+	<property name="drcPrdTC5" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.201.10.225)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.201.10.227)(PORT=1521))(FAILOVER=ON)(LOAD_BALANCE=ON))(CONNECT_DATA=(SERVER=SHARED)(SERVICE_NAME=SAICPRD_TC5)))};LOGIN={saic};PASSWORD={dlf2818};"/>
+	<property name="drcPrdTC6" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.201.10.225)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.201.10.227)(PORT=1521))(FAILOVER=ON)(LOAD_BALANCE=ON))(CONNECT_DATA=(SERVER=SHARED)(SERVICE_NAME=SAICPRD_TC6)))};LOGIN={saic};PASSWORD={dlf2818};"/>
+	<property name="appdrConStr1" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.10.50)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME = SAICDRC)))};LOGIN={saic};PASSWORD={ora12cr2};"/>
+	<property name="appdrConStr2" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.10.50)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME = SAICDRC)))};LOGIN={saic};PASSWORD={ora12cr2};"/>
+	<property name="appdrConStr3" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.10.50)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME = SAICDRC)))};LOGIN={saic};PASSWORD={ora12cr2};"/>
+	<property name="appdrConStr4" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.10.50)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME = SAICDRC)))};LOGIN={saic};PASSWORD={ora12cr2};"/>
+	<property name="appdrConStr5" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.10.50)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME = SAICDRC)))};LOGIN={saic};PASSWORD={ora12cr2};"/>
+	<property name="appdrConStr6" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.10.50)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME = SAICDRC)))};LOGIN={saic};PASSWORD={ora12cr2};"/>
+	<property name="minTC1" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.255.151)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.255.152)(PORT=1521))(FAILOVER=ON)(LOAD_BALANCE=ON))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=SAICPROD_TC1)))};LOGIN={saic};PASSWORD={ads3103};"/>
+	<property name="minTC2" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.255.151)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.255.152)(PORT=1521))(FAILOVER=ON)(LOAD_BALANCE=ON))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=SAICPROD_TC2)))};LOGIN={saic};PASSWORD={ads3103};"/>
+	<property name="minTC3" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.255.151)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.255.152)(PORT=1521))(FAILOVER=ON)(LOAD_BALANCE=ON))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=SAICPROD_TC3)))};LOGIN={saic};PASSWORD={ads3103};"/>
+	<property name="minTC4" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.255.151)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.255.152)(PORT=1521))(FAILOVER=ON)(LOAD_BALANCE=ON))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=SAICPROD_TC4)))};LOGIN={saic};PASSWORD={ads3103};"/>
+	<property name="minTC5" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.255.151)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.255.152)(PORT=1521))(FAILOVER=ON)(LOAD_BALANCE=ON))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=SAICPROD_TC5)))};LOGIN={saic};PASSWORD={ads3103};"/>
+	<property name="minTC6" value="DRIVER={Oracle10g};SCHEMA={saic};DataBaseURL={jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.255.151)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.255.152)(PORT=1521))(FAILOVER=ON)(LOAD_BALANCE=ON))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=SAICPROD_TC6)))};LOGIN={saic};PASSWORD={ads3103};"/>
+	<property name="appdrQcConStr" value="DRIVER={Oracle10g};DataBaseURL={jdbc:oracle:thin:hr/hr@//10.200.10.181:1521/SAICQC};LOGIN={saic};PASSWORD={ora10gr2};SCHEMA={saic};"/>
+	<property name="prdConStringAviso" value="10.201.10.225:1521:SAICPRD1"/>
+	<property name="drConStringAviso" value="10.200.10.50:1521:SAICDRC"/>
+	<property name="qcConStringAviso" value="10.200.10.181:1521:SAICQC"/>
+	<property name="trnConStringAviso" value="10.200.10.181:1521:SAICTRN"/>
+	<property name="minprdConStringAviso" value="10.200.255.151:1521:SAICPROD1"/>
+
+	<!-- Property to hold the command output. -->
+	<property name="qcCmdOut" value="" id="qcCmId"/>
+
+	<!-- Variable definitions for source code directory and build directory -->
+	<property name="src" value="src"/>
+	<property name="build" value="WebContent/WEB-INF/classes"/>
+	<property name="context" value="WebContent"/>
+
+	<!-- Variable definition for checkout directory when SVN Checkout is used within ANT. For testing purposes. -->
+	<property name="checkoutPath" value="${basedir}/SAICWEB"/>
+
+	<!-- Property for commit message on SVN tagging -->
+	<property name="msg" value="Tag copy for version release to QC."/>
+
+	<!-- Propery for branching a tagged QC version -->
+	<property environment="env"/>
+	<property name="qcTag" value="${env.VERSION}"/>
+
+	<!-- Propery for deploying a branch version -->
+	<property name="branchName" value="${env.BRANCH}"/>
+
+	<!-- Propery for deploying a tag from a previously deployed QC version -->
+	<property name="tagName" value="${env.TAG}"/>
+
+	<!-- Propery for deploying a tag from a previously deployed QC version -->
+	<property name="envName" value="${env.ENV}"/>
+
+	<!-- Weblogic user and password envirnment variable definition for credentials as parameters in Jenkins buil execution. -->
+	<property name="wlPrdUn" value="${env.wlUser}"/>
+	<property name="wlPrdPw" value="${env.wlPassword}"/>
+
+	<!-- Configure properties to access Weblogic deployment URL in Production DRC and ADSEF DR-->
+	<property name="app2AdminUrl" value="t3://app2:7001"/>
+	<property name="appdrAdminUrl" value="t3://appdr:7001"/>
+
+	<!-- Configure properties to access Weblogic deployment URL in Quality DRC and ADSEF DR-->
+	<property name="appdrqcAdminUrl" value="t3://appdrqc:7001"/>
+
+	<property name="excludes" value="src/,.settings/,.project,.classpath,build.xml,qccontrol,WEB-INF/weblogic.xml,WEB-INF/weblogicdr.xml,"/>
+
+
+	<!-- =================================
+	     Get the date & timestamp, format it, and load it in variables.
+	     ================================= -->
+
+	<!-- =================================
+          target: tStamp
+         ================================= -->
+	<target name="tStamp" depends="" description="Load in variables the current date and time.">
+
+		<tstamp>
+
+			<format property="TODAY" pattern="yyyyMMdd" locale="en,US"/>
+			<format property="TIME" pattern="HH:mm" locale="en,US" offset="30" unit="minute"/>
+
+		</tstamp>
+
+	</target>
+
+
+	<!-- =================================
+	     Clean build directory. Necesary when SVN Update from HUDSON is used.
+	     ================================= -->
+
+	<target name="clean" description="Deletes build directory contaning compiled classes">
+
+		<delete dir="${build}"/>
+
+	</target>
+
+
+	<!-- =================================
+		 Create build directory. Used after clean invoke.
+		 ================================= -->
+
+	<target name="prep" description="Creates the build directory for class output compilation">
+
+		<mkdir dir="${build}"/>
+
+	</target>
+
+
+	<!-- =================================
+	     Compile SAICWEB source code. Due to more than 2606 classes compiled, the compiler task needs to fork threads and maximize heap or else will run out of memory.
+	     ================================= -->
+
+	<target name="compile" description="Builds the source code.">
+
+		<javac srcdir="${src}" destdir="${build}" fork="true" memoryinitialsize="128m" memorymaximumsize="1024m">
+
+			<classpath refid="project.class.path">
+			</classpath>
+
+		</javac>
+
+	</target>
+
+
+	<!-- =================================
+          Copy JDPs and DSDs to the classes directory. Used after compilation.
+         ================================= -->
+
+	<target name="cpSupport" description="Copy datastores and JDPs to classes directory">
+
+		<copydir dest="${context}/WEB-INF/classes/" src="src" excludes="**/*.java"/>
+
+	</target>
+
+
+	<!-- =================================
+	     Get the build number from the checked out files and load it in a variable.
+	     ================================= -->
+
+	<target name="buildNo" description="Get revision number and save it in a property">
+		<svn username="ant" password="ant">
+			<info target="${basedir}" verbose="true"/>
+		</svn>
+
+		<echo>SAICWEB Revision: ${svn.info.lastRev}</echo>
+	</target>
+
+
+	<!-- =================================
+         Automatic update of version number and build number on index.jsp file according to '########.###' convention.
+         ================================= -->
+
+	<target name="updateVer" depends="buildNo" description="Updates build number">
+
+		<replaceregexp file="${context}/index.jsp" match="[0-9]{8}\.[0-9][0-9]+" replace="${TODAY}.${svn.info.lastRev}"/>
+
+	</target>
+
+	<!-- =================================
+	     Automatic update of version number and build number on index.jsp file according to '########.###' naming convention.
+	     ================================= -->
+
+	<target name="updateProdVer" depends="buildNo" description="Updates build number">
+
+		<replaceregexp file="${context}/index.jsp" match="[0-9]{8}\.[0-9][0-9]+" replace="${qcTag}.${svn.info.lastRev}"/>
+
+	</target>
+
+
+	<!-- =================================
+	          target: qcRead
+	     ================================= -->
+	<target name="qcRead" depends="" description="Retrieves the oldest QC version and updates the control file">
+
+		<loadfile property="oldVer" srcfile="qccontrol">
+			<filterchain>
+				<headfilter lines="1"/>
+				<striplinebreaks/>
+			</filterchain>
+		</loadfile>
+
+		<loadfile property="midVer" srcfile="qccontrol">
+			<filterchain>
+				<headfilter lines="1" skip="1"/>
+				<striplinebreaks/>
+			</filterchain>
+		</loadfile>
+
+		<loadfile property="recVer" srcfile="qccontrol">
+			<filterchain>
+				<headfilter lines="1" skip="2"/>
+				<striplinebreaks/>
+			</filterchain>
+		</loadfile>
+
+		<echo message="${oldVer}"/>
+		<echo message="${midVer}"/>
+		<echo message="${recVer}"/>
+
+	</target>
+
+
+
+	<!-- =================================
+          target: qcWrite (For testing purposes)
+         ================================= -->
+	<target name="qcWrite" depends="qcRead" description="Updates the control file with the most recent QC versions">
+
+		<echo file="qccontrol" message="${midVer}${line.separator}${recVer}${line.separator}SAICWEB_${TODAY}"/>
+
+	</target>
+
+	<!-- =================================
+          target: qcCheck
+         ================================= -->
+	<target name="qcCheck" description="Check if a deployment has been made today on Quality">
+
+		<echo message=" Checking to see if http://10.200.10.83:8080/SAICWEB_${TODAY} already exists"/>
+		<condition property="deployed" value="true" else="false">
+			<http url="http://10.200.10.83:8080/SAICWEB_${TODAY}" />
+		</condition>
+		<echo message="Check returned ${deployed}"/>
+
+	</target>
+
+	<!-- =================================
+	          target: wlQcCheck
+	     ================================= -->
+	<target name="wlQcCheck" description="Check if a deployment has been made today on Weblogic Quality">
+
+		<echo message=" Checking to see if http://10.200.10.184:8081/SAICWEB_${TODAY} already exists"/>
+		<condition property="deployed" value="true" else="false">
+			<http url="http://10.200.10.184:8081/SAICWEB_${TODAY}" />
+		</condition>
+		<echo message="Check returned ${deployed}"/>
+
+	</target>
+
+
+	<!-- =================================
+	     Deploy to QC on demand with /SAICWEB_######## context
+	     ================================= -->
+
+	<target name="depQc" depends="tStamp, clean, prep, compile, cpSupport, updateVer, qcRead, qcCheck" description="Deploy to QC the checkedout revision">
+
+
+		<!--<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${qcConStr}"/>-->
+		
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${drcPrdTC1}"/>
+
+		<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/var/lib/tomcat7/webapps/SAICWEB_${TODAY}/Messages.xml"/>
+
+		<!--<replaceregexp file="${context}/login.jsp" match="10.201.*;*\b" replace="${qcConStringAviso}"/>
+
+		<replaceregexp file="${context}/login.jsp" match="dlf2818" replace="ora10gr2"/>-->
+		
+		<replaceregexp file="${context}/login.jsp" match="10.201.*;*\b" replace="${prdConStringAviso}"/>
+
+		<replaceregexp file="${context}/login.jsp" match="dlf2818" replace="ora11gr2"/>
+
+		<war destfile="${basedir}/SAICWEB_${TODAY}.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+
+		<if>
+			<equals arg1="${deployed}" arg2="false" />
+			<then>
+
+				<undeploy path="/${oldVer}" url="${qcUrl}" username="${qcUn}" password="${qcPw}"/>
+
+				<deploy path="/SAICWEB_${TODAY}" war="file:///${basedir}/SAICWEB_${TODAY}.war" url="${qcUrl}" username="${qcUn}" password="${qcPw}"/>
+
+				<svn username="ant" password="ant">
+
+					<copy srcUrl="https://10.200.10.117/svn/SAICWeb/trunk" destUrl="https://10.200.10.117/svn/SAICWeb/tags/saicweb_${TODAY}" message="${msg}">
+					</copy>
+
+				</svn>
+
+				<echo file="qccontrol" message="${midVer}${line.separator}${recVer}${line.separator}SAICWEB_${TODAY}"/>
+
+				<svn username="ant" password="ant">
+
+					<commit file="qccontrol" message="Commited control file for next QC deployment. Versions on QC server are:${line.separator}${midVer}${line.separator}${recVer}${line.separator}SAICWEB_${TODAY}"/>
+
+				</svn>
+
+			</then>
+
+			<else>
+
+				<undeploy path="/SAICWEB_${TODAY}" url="${qcUrl}" username="${qcUn}" password="${qcPw}"/>
+
+				<deploy path="/SAICWEB_${TODAY}" war="file:///${basedir}/SAICWEB_${TODAY}.war" url="${qcUrl}" username="${qcUn}" password="${qcPw}"/>
+
+				<svn username="ant" password="ant">
+
+					<delete url="https://10.200.10.117/svn/SAICWeb/tags/saicweb_${TODAY}" message="Removing previously tagged copy for re-deploy"/>
+
+				</svn>
+
+				<svn username="ant" password="ant">
+
+					<copy srcUrl="https://10.200.10.117/svn/SAICWeb/trunk" destUrl="https://10.200.10.117/svn/SAICWeb/tags/saicweb_${TODAY}" message="${msg}">
+					</copy>
+
+				</svn>
+
+			</else>
+
+		</if>
+
+	</target>
+
+	<!-- =================================
+					Deploy pakacge to Weblogic on Producction DRC with QC Connection String
+				     ================================= -->
+
+	<target name="depTomcatTrn" depends="tStamp, clean, prep, compile, cpSupport, updateVer" description="Create a tar file for Weblogic deployment">
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${trnConnStr}"/>
+
+		<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/var/lib/tomcat7/webapps/SAICTRN/Messages.xml"/>
+
+		<replaceregexp file="${context}/WEB-INF/weblogic.xml" match="SAICWEB" replace="SAICTRN"/>
+
+		<replaceregexp file="${context}/login.jsp" match="10.201.*;*\b" replace="${trnConStringAviso}"/>
+
+		<replaceregexp file="${context}/login.jsp" match="dlf2818" replace="Ora10gr2"/>
+
+		<war destfile="${basedir}/SAICTRN.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+		<stopwatch name="SAICTRN" action= "start"/>
+		<deploy path="/SAICTRN" update="true" war="file:///${basedir}/SAICTRN.war" url="${qcUrl}" username="${qcUn}" password="${qcPw}"/>
+		<stopwatch name="SAICTRN" action= "total"/>
+
+	</target>
+
+	<!-- =================================
+		     Create a package for deploy to production Weblogic and Tomcat
+		 ================================= -->
+
+	<target name="weblogicProdPckg" depends="tStamp, clean, prep, compile, cpSupport, updateVer" description="Create a tar file for Weblogic deployment">
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${drcPrdConStrShared}"/>
+
+		<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/Messages.xml"/>
+
+		<replaceregexp file="${context}/index.jsp" match="SAICWPRD" replace="SAICPRD_LB"/>
+
+		<replaceregexp file="${context}/login.jsp" match="SAICWPRD" replace="SAICPRD_LB"/>
+
+		<tar destfile="${basedir}/SAICWEB.tar" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="WEB-INF/src/,.settings/,.project,.classpath,build.xml,.tomcatplugin,work/,qccontrol"/>
+
+		</tar>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+
+	</target>
+
+	<!-- =================================
+		     Create a package for deploy to training Weblogic and Tomcat with training Connection String
+		 ================================= -->
+
+	<target name="wlProdPckgQCCS" depends="tStamp, clean, prep, compile, cpSupport, updateVer" description="Create a tar file for Weblogic deployment">
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${trnConnStr}"/>
+
+		<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/Messages.xml"/>
+
+		<replaceregexp file="${context}/WEB-INF/weblogic.xml" match="SAICWEB" replace="SAICTRN"/>
+
+		<replaceregexp file="${context}/login.jsp" match="10.201.*;*\b" replace="${trnConStringAviso}"/>
+
+		<replaceregexp file="${context}/login.jsp" match="dlf2818" replace="Ora10gr2"/>
+
+		<tar destfile="${basedir}/SAICTRN.tar" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="WEB-INF/src/,.settings/,.project,.classpath,build.xml,.tomcatplugin,work/,qccontrol"/>
+
+		</tar>
+
+		<war destfile="${basedir}/SAICTRN.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+
+	</target>
+
+	<!-- =================================
+			Deploy pakacge to Weblogic on ADSEF DR
+	     ================================= -->
+
+	<target name="depWlAppdr" depends="tStamp, clean, prep, compile, cpSupport, updateVer" description="Install SAIC on Weblogic producction DRC">
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${appdrConStr}"/>
+
+		<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/Messages.xml"/>
+
+		<replaceregexp file="${context}/index.jsp" match="SAICWPRD" replace="SAICDR"/>
+
+		<replaceregexp file="${context}/login.jsp" match="SAICWPRD" replace="SAICDR"/>
+
+		<move file="${context}/WEB-INF/weblogic.xml" tofile="${context}/WEB-INF/weblogic.no"/>
+
+		<move file="${context}/WEB-INF/weblogicdr.xml" tofile="${context}/WEB-INF/weblogic.xml"/>
+
+		<delete file="${context}/WEB-INF/weblogic.no"/>
+
+		<tar destfile="${basedir}/SAICWEB.tar" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="WEB-INF/src/,.settings/,.project,.classpath,build.xml,.tomcatplugin,work/,qccontrol,{context}/WEB-INF/weblogic.no"/>
+
+		</tar>
+
+
+		<wldeploy action="stop" 
+				adminurl="${appdrAdminUrl}" 
+				user="${wlPrdUn}" 
+				password="${wlPrdPw}" 
+				debug="true" 
+				verbose="true" 
+				targets="wl_mmanageddr" 
+				name="SAICWEB"
+				graceful="false"
+				/>
+
+		<wldeploy action="undeploy" 
+				adminurl="${appdrAdminUrl}" 
+				user="${wlPrdUn}" 
+				password="${wlPrdPw}" 
+				debug="true" 
+				verbose="true" 
+				targets="wl_mmanageddr" 
+				name="SAICWEB"/>
+
+		<wldeploy action="deploy"
+				library="false"
+				adminurl="${appdrAdminUrl}" 
+				user="${wlPrdUn}" 
+				password="${wlPrdPw}" 
+				debug="true" 
+				verbose="true" 
+				appversion="${TODAY}.${svn.info.lastRev}" 
+				targets="wl_mmanageddr" 
+				source="${context}"
+				upload="true"
+				remote="true"
+				name="SAICWEB"/>
+
+	</target>
+	<!-- =================================
+		Deploy package to Tomcats on Producction DRC
+	     ================================= -->
+
+	<target name ="tomcatdep" depends="tStamp, clean, prep, compile, cpSupport, updateVer" description="Install war on tomcat at Production">
+
+		<!-- Tomcat 1 -->
+		<!--
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${drcPrdTC1}"/>
+
+		<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/Messages.xml"/>
+
+		<replaceregexp file="${context}/index.jsp" match="SAICWPRD" replace="SAICPRD_TC1"/>
+
+		<replaceregexp file="${context}/login.jsp" match="SAICWPRD" replace="SAICPRD_TC1"/>
+
+		<replaceregexp file="${context}/login.jsp" match="10.201.*;*\b" replace="${prdConStringAviso}"/>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+		<stopwatch name="ADSEF64TC1" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tom1Url}" username="${prodUn}" password="${prodPw}"/>
+		<stopwatch name="ADSEF64TC1" action= "total"/>
+		 Tomcat 2 
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${drcPrdTC2}"/>
+
+		<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC1" replace="SAICPRD_TC2"/>
+
+		<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC1" replace="SAICPRD_TC2"/>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+		<stopwatch name="ADSEF64TC2" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tom2Url}" username="${prodUn}" password="${prodPw}"/>
+		<stopwatch name="ADSEF64TC2" action= "total"/>
+		 Tomcat 3 
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${drcPrdTC3}"/>
+
+		<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC2" replace="SAICPRD_TC3"/>
+
+		<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC2" replace="SAICPRD_TC3"/>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+		<stopwatch name="ADSEF64TC3" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tom3Url}" username="${prodUn}" password="${prodPw}"/>
+		<stopwatch name="ADSEF64TC3" action= "total"/>
+		  Tomcat 4 
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${drcPrdTC4}"/>
+
+		<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC3" replace="SAICPRD_TC4"/>
+
+		<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC3" replace="SAICPRD_TC4"/>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+		<stopwatch name="ADSEF64TC4" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tom4Url}" username="${prodUn}" password="${prodPw}"/>
+		<stopwatch name="ADSEF64TC4" action= "total"/>-->
+
+		<!-- ADSEF64TCOS2 -->
+
+		<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/var/lib/tomcat7/webapps/SAICWEB/Messages.xml"/>
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${drcPrdTC1}"/>
+
+		<replaceregexp file="${context}/index.jsp" match="SAICWPRD" replace="SAICPRD_TC1"/>
+
+		<replaceregexp file="${context}/login.jsp" match="SAICWPRD" replace="SAICPRD_TC1"/>
+
+		<replaceregexp file="${context}/login.jsp" match="10.201.*;*\b" replace="${prdConStringAviso}"/>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+		<stopwatch name="ADSEF64TCOS2" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tom5Url}" username="${prodUn}" password="${prodPw}"/>
+		<stopwatch name="ADSEF64TCOS2" action= "total"/>
+		<!-- ADSEF64TCOS3 -->
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${drcPrdTC2}"/>
+
+		<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC1" replace="SAICPRD_TC2"/>
+
+		<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC1" replace="SAICPRD_TC2"/>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+		<stopwatch name="ADSEF64TCOS3" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tom6Url}" username="${prodUn}" password="${prodPw}"/>
+		<stopwatch name="ADSEF64TCOS3" action= "total"/>
+		<!-- ADSEF64TCOS4 -->
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${drcPrdTC3}"/>
+
+		<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC2" replace="SAICPRD_TC3"/>
+
+		<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC2" replace="SAICPRD_TC3"/>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+		<stopwatch name="ADSEF64TCOS4" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tom7Url}" username="${prodUn}" password="${prodPw}"/>
+		<stopwatch name="ADSEF64TCOS4" action= "total"/>
+		<!-- ADSEF64TCOS5 -->
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${drcPrdTC4}"/>
+
+		<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC3" replace="SAICPRD_TC4"/>
+
+		<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC3" replace="SAICPRD_TC4"/>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+		<stopwatch name="ADSEF64TCOS5" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tom8Url}" username="${prodUn}" password="${prodPw}"/>
+		<stopwatch name="ADSEF64TCOS5" action= "total"/>
+		<!-- ADSEF64TCOS6 -->
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${drcPrdTC5}"/>
+
+		<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC4" replace="SAICPRD_TC5"/>
+
+		<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC4" replace="SAICPRD_TC5"/>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+		<stopwatch name="ADSEF64TCOS6" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tom9Url}" username="${prodUn}" password="${prodPw}"/>
+		<stopwatch name="ADSEF64TCOS6" action= "total"/>
+		<!-- Tomcat DR 1 -->
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${appdrConStr1}"/>
+
+		<!--<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/var/lib/tomcat7/webapps/SAICWEB/Messages.xml"/>-->
+
+		<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC5" replace="SAICPRD_TC1" />
+
+		<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC5" replace="SAICPRD_TC1" />
+
+		<replaceregexp file="${context}/login.jsp" match="10.201.*;*\b" replace="${drConStringAviso}"/>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}" />
+
+		</war>
+		<stopwatch name="ADSEF64SAICTC1" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomDRUrl1}" username="${prodUn}" password="${prodPw}" />
+		<stopwatch name="ADSEF64SAICTC1" action= "total"/>
+		<!-- Tomcat DR 2 -->
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${appdrConStr2}" />
+
+		<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC1" replace="SAICPRD_TC2" />
+
+		<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC1" replace="SAICPRD_TC2" />
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}" />
+
+		</war>
+		<stopwatch name="ADSEF64SAICTC2" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomDRUrl2}" username="${prodUn}" password="${prodPw}" />
+		<stopwatch name="ADSEF64SAICTC2" action= "total"/>
+		<!-- Tomcat DR 3 -->
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${appdrConStr3}" />
+
+		<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC2" replace="SAICPRD_TC3" />
+
+		<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC2" replace="SAICPRD_TC3" />
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}" />
+
+		</war>
+		<stopwatch name="ADSEF64SAICTC3" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomDRUrl3}" username="${prodUn}" password="${prodPw}" />
+		<stopwatch name="ADSEF64SAICTC3" action= "total"/>
+		<!-- Tomcat DR 4 -->
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${appdrConStr4}" />
+
+		<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC3" replace="SAICPRD_TC4" />
+
+		<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC3" replace="SAICPRD_TC4" />
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}" />
+
+		</war>
+		<stopwatch name="ADSEF64SAICTC4" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomDRUrl4}" username="${prodUn}" password="${prodPw}" />
+		<stopwatch name="ADSEF64SAICTC4" action= "total"/>
+
+		<!--*************************-->
+		<!-- TomCat Minillas 1 -->
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${minTC1}"/>
+
+		<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC4" replace="SAICPROD_TC1"/>
+
+		<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC4" replace="SAICPROD_TC1"/>
+
+		<replaceregexp file="${context}/login.jsp" match="10.200.*;*\b" replace="${minprdConStringAviso}"/>
+
+		<replaceregexp file="${context}/login.jsp" match="dlf2818" replace="${minprodPw}"/>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+		<stopwatch name="TomCat Minillas 1" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomMiUrl1}" username="${prodUn}" password="${prodPw}"/>
+		<stopwatch name="TomCat Minillas 1" action= "total"/>
+
+		<!-- TomCat Minillas 2 -->
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${minTC2}"/>
+
+		<replaceregexp file="${context}/index.jsp" match="SAICPROD_TC1" replace="SAICPROD_TC2"/>
+
+		<replaceregexp file="${context}/login.jsp" match="SAICPROD_TC1" replace="SAICPROD_TC2"/>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+		<stopwatch name="TomCat Minillas 2" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomMiUrl2}" username="${prodUn}" password="${prodPw}"/>
+		<stopwatch name="TomCat Minillas 2" action= "total"/>
+
+		<!-- TomCat Minillas 3 -->
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${minTC3}"/>
+
+		<replaceregexp file="${context}/index.jsp" match="SAICPROD_TC2" replace="SAICPROD_TC3"/>
+
+		<replaceregexp file="${context}/login.jsp" match="SAICPROD_TC2" replace="SAICPROD_TC3"/>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+		<stopwatch name="TomCat Minillas 3" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomMiUrl3}" username="${prodUn}" password="${prodPw}"/>
+		<stopwatch name="TomCat Minillas 3" action= "total"/>
+
+		<!-- TomCat Minillas 4 -->
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${minTC4}"/>
+
+		<replaceregexp file="${context}/index.jsp" match="SAICPROD_TC3" replace="SAICPROD_TC4"/>
+
+		<replaceregexp file="${context}/login.jsp" match="SAICPROD_TC3" replace="SAICPROD_TC4"/>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+		<stopwatch name="TomCat Minillas 4" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomMiUrl4}" username="${prodUn}" password="${prodPw}"/>
+		<stopwatch name="TomCat Minillas 4" action= "total"/>
+
+		<!-- TomCat Minillas 5 -->
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${minTC5}"/>
+
+		<replaceregexp file="${context}/index.jsp" match="SAICPROD_TC4" replace="SAICPROD_TC5"/>
+
+		<replaceregexp file="${context}/login.jsp" match="SAICPROD_TC4" replace="SAICPROD_TC5"/>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+		<stopwatch name="TomCat Minillas 5" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomMiUrl5}" username="${prodUn}" password="${prodPw}"/>
+		<stopwatch name="TomCat Minillas 5" action= "total"/>
+
+		<!-- TomCat Minillas 6 -->
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${minTC6}"/>
+
+		<replaceregexp file="${context}/index.jsp" match="SAICPROD_TC5" replace="SAICPROD_TC6"/>
+
+		<replaceregexp file="${context}/login.jsp" match="SAICPROD_TC5" replace="SAICPROD_TC6"/>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+		<stopwatch name="TomCat Minillas 6" action= "start"/>
+		<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomMiUrl6}" username="${prodUn}" password="${prodPw}"/>
+		<stopwatch name="TomCat Minillas 6" action= "total"/>
+		<!--*************************-->
+	</target>
+
+	<!-- =================================
+					Deploy package to selected  on Production environment 
+				     ================================= -->
+
+	<target name ="TomcatSelDepPRD" depends="tStamp, clean, prep, compile, cpSupport, updateVer" description="Install war on tomcat at Production">
+
+		<!-- Tomcat 1 -->
+		<if>
+
+			<equals arg1="${envName}" arg2="ADSEF DRC NEW" />
+
+			<then>
+
+				<echo message="Deploying to ADSEF DRC NEW"/>
+
+				<!-- ADSEF64TCOS2 -->
+
+				<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/var/lib/tomcat7/webapps/SAICWEB/Messages.xml"/>
+
+				<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${drcPrdTC1}"/>
+
+				<replaceregexp file="${context}/index.jsp" match="SAICWPRD" replace="SAICPRD_TC1"/>
+
+				<replaceregexp file="${context}/login.jsp" match="SAICWPRD" replace="SAICPRD_TC1"/>
+
+				<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+					<fileset dir="${context}" excludes="${excludes}"/>
+
+				</war>
+				<stopwatch name="ADSEF64TCOS2" action= "start"/>
+				<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tom5Url}" username="${prodUn}" password="${prodPw}"/>
+				<stopwatch name="ADSEF64TCOS2" action= "total"/>
+				<!-- ADSEF64TCOS3 -->
+
+				<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${drcPrdTC2}"/>
+
+				<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC1" replace="SAICPRD_TC2"/>
+
+				<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC1" replace="SAICPRD_TC2"/>
+
+				<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+					<fileset dir="${context}" excludes="${excludes}"/>
+
+				</war>
+				<stopwatch name="ADSEF64TCOS3" action= "start"/>
+				<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tom6Url}" username="${prodUn}" password="${prodPw}"/>
+				<stopwatch name="ADSEF64TCOS3" action= "total"/>
+				<!-- ADSEF64TCOS4 -->
+
+				<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${drcPrdTC3}"/>
+
+				<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC2" replace="SAICPRD_TC3"/>
+
+				<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC2" replace="SAICPRD_TC3"/>
+
+				<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+					<fileset dir="${context}" excludes="${excludes}"/>
+
+				</war>
+				<stopwatch name="ADSEF64TCOS4" action= "start"/>
+				<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tom7Url}" username="${prodUn}" password="${prodPw}"/>
+				<stopwatch name="ADSEF64TCOS4" action= "total"/>
+				<!-- ADSEF64TCOS5 -->
+
+				<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${drcPrdTC4}"/>
+
+				<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC3" replace="SAICPRD_TC4"/>
+
+				<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC3" replace="SAICPRD_TC4"/>
+
+				<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+					<fileset dir="${context}" excludes="${excludes}"/>
+
+				</war>
+				<stopwatch name="ADSEF64TCOS5" action= "start"/>
+				<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tom8Url}" username="${prodUn}" password="${prodPw}"/>
+				<stopwatch name="ADSEF64TCOS5" action= "total"/>
+				<!-- ADSEF64TCOS6 -->
+
+				<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${drcPrdTC5}"/>
+
+				<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC4" replace="SAICPRD_TC5"/>
+
+				<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC4" replace="SAICPRD_TC5"/>
+
+				<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+					<fileset dir="${context}" excludes="${excludes}"/>
+
+				</war>
+				<stopwatch name="ADSEF64TCOS6" action= "start"/>
+				<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tom9Url}" username="${prodUn}" password="${prodPw}"/>
+				<stopwatch name="ADSEF64TCOS6" action= "total"/>
+			</then>
+
+			<elseif>
+
+				<equals arg1="${envName}" arg2="ADSEF DRC OLD" />
+
+				<then>
+
+					<echo message="Deploying to ADSEF DRC OLD"/>
+
+					<!-- TomcatDR 1 -->
+
+					<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${appdrConStr1}"/>
+
+					<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/var/lib/tomcat7/webapps/SAICWEB/Messages.xml"/>
+
+					<replaceregexp file="${context}/index.jsp" match="SAICWPRD" replace="SAICDRC"/>
+
+					<replaceregexp file="${context}/login.jsp" match="SAICWPRD" replace="SAICDRC"/>
+
+					<replaceregexp file="${context}/login.jsp" match="10.201.*;*\b" replace="${drConStringAviso}"/>
+
+					<replaceregexp file="${context}/login.jsp" match="dlf2818" replace="${drprodPw}"/>
+
+					<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+						<fileset dir="${context}" excludes="${excludes}"/>
+
+					</war>
+					<stopwatch name="DRC1" action= "start"/>
+					<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomDRUrl1}" username="${prodUn}" password="${prodPw}"/>
+					<stopwatch name="DRC1" action= "total"/>
+
+					<!-- TomcatDR 2-->
+
+					<!--<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${appdrConStr2}"/>
+
+					<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/var/lib/tomcat7/webapps/SAICWEB/Messages.xml"/>
+
+					<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC1" replace="SAICDRC"/>
+
+					<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC1" replace="SAICPRD_TC2"/>
+
+					<replaceregexp file="${context}/login.jsp" match="10.201.*;*\b" replace="${prdConStringAviso}"/>-->
+
+					<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+						<fileset dir="${context}" excludes="${excludes}"/>
+
+					</war>
+					<stopwatch name="DRC2" action= "start"/>
+					<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomDRUrl2}" username="${prodUn}" password="${prodPw}"/>
+					<stopwatch name="DRC2" action= "total"/>
+
+					<!-- TomcatDR 3 -->
+
+					<!--<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${appdrConStr3}"/>
+
+					<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/var/lib/tomcat7/webapps/SAICWEB/Messages.xml"/>
+
+					<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC2" replace="SAICPRD_TC3"/>
+
+					<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC2" replace="SAICPRD_TC3"/>
+
+					<replaceregexp file="${context}/login.jsp" match="10.201.*;*\b" replace="${prdConStringAviso}"/>-->
+
+					<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+						<fileset dir="${context}" excludes="${excludes}"/>
+
+					</war>
+					<stopwatch name="DRC3" action= "start"/>
+					<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomDRUrl3}" username="${prodUn}" password="${prodPw}"/>
+					<stopwatch name="DRC3" action= "total"/>
+
+					<!-- TomcatDR 4 -->
+
+					<!--<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${appdrConStr4}"/>
+
+					<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/var/lib/tomcat7/webapps/SAICWEB/Messages.xml"/>
+
+					<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC3" replace="SAICPRD_TC4"/>
+
+					<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC3" replace="SAICPRD_TC4"/>
+
+					<replaceregexp file="${context}/login.jsp" match="10.201.*;*\b" replace="${prdConStringAviso}"/>-->
+
+					<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+						<fileset dir="${context}" excludes="${excludes}"/>
+
+					</war>
+					<stopwatch name="DRC4" action= "start"/>
+					<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomDRUrl4}" username="${prodUn}" password="${prodPw}"/>
+					<stopwatch name="DRC4" action= "total"/>
+
+					<!-- TomcatDR 5 -->
+
+					<!--<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${appdrConStr5}"/>
+
+					<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/var/lib/tomcat7/webapps/SAICWEB/Messages.xml"/>
+
+					<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC4" replace="SAICPRD_TC1"/>
+
+					<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC4" replace="SAICPRD_TC1"/>
+
+					<replaceregexp file="${context}/login.jsp" match="10.201.*;*\b" replace="${prdConStringAviso}"/>-->
+
+					<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+						<fileset dir="${context}" excludes="${excludes}"/>
+
+					</war>
+					<stopwatch name="DRC5" action= "start"/>
+					<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomDRUrl5}" username="${prodUn}" password="${prodPw}"/>
+					<stopwatch name="DRC5" action= "total"/>
+
+					<!-- TomcatDR 6 -->
+
+					<!--<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${appdrConStr6}"/>
+
+					<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/var/lib/tomcat7/webapps/SAICWEB/Messages.xml"/>
+
+					<replaceregexp file="${context}/index.jsp" match="SAICPRD_TC1" replace="SAICPRD_TC2"/>
+
+					<replaceregexp file="${context}/login.jsp" match="SAICPRD_TC1" replace="SAICPRD_TC2"/>
+
+					<replaceregexp file="${context}/login.jsp" match="10.201.*;*\b" replace="${prdConStringAviso}"/>-->
+
+					<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+						<fileset dir="${context}" excludes="${excludes}"/>
+
+					</war>
+					<stopwatch name="DRC6" action= "start"/>
+					<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomDRUrl6}" username="${prodUn}" password="${prodPw}"/>
+					<stopwatch name="DRC6" action= "total"/>
+
+				</then>
+
+			</elseif>
+
+			<elseif>
+
+				<equals arg1="${envName}" arg2="MINILLAS" />
+
+				<then>
+
+					<echo message="Deploying to MINILLAS"/>
+
+					<!--*************************-->
+					<!-- TomCat Minillas 1 -->
+
+					<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/var/lib/tomcat7/webapps/SAICWEB/Messages.xml"/>
+
+					<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${minTC1}"/>
+
+					<replaceregexp file="${context}/index.jsp" match="SAICWPRD" replace="SAICPROD_TC1"/>
+
+					<replaceregexp file="${context}/login.jsp" match="SAICWPRD" replace="SAICPROD_TC1"/>
+
+					<replaceregexp file="${context}/login.jsp" match="10.201.*;*\b" replace="${minprdConStringAviso}"/>
+
+					<replaceregexp file="${context}/login.jsp" match="dlf2818" replace="${minprodPw}"/>
+
+					<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+						<fileset dir="${context}" excludes="${excludes}"/>
+
+					</war>
+					<stopwatch name="TomCat Minillas 1" action= "start"/>
+					<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomMiUrl1}" username="${prodUn}" password="${prodPw}"/>
+					<stopwatch name="TomCat Minillas 1" action= "total"/>
+
+					<!-- TomCat Minillas 2 -->
+
+					<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${minTC2}"/>
+
+					<replaceregexp file="${context}/index.jsp" match="SAICPROD_TC1" replace="SAICPROD_TC2"/>
+
+					<replaceregexp file="${context}/login.jsp" match="SAICPROD_TC1" replace="SAICPROD_TC2"/>
+
+					<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+						<fileset dir="${context}" excludes="${excludes}"/>
+
+					</war>
+					<stopwatch name="TomCat Minillas 2" action= "start"/>
+					<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomMiUrl2}" username="${prodUn}" password="${prodPw}"/>
+					<stopwatch name="TomCat Minillas 2" action= "total"/>
+
+					<!-- TomCat Minillas 3 -->
+
+					<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${minTC3}"/>
+
+					<replaceregexp file="${context}/index.jsp" match="SAICPROD_TC2" replace="SAICPROD_TC3"/>
+
+					<replaceregexp file="${context}/login.jsp" match="SAICPROD_TC2" replace="SAICPROD_TC3"/>
+
+					<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+						<fileset dir="${context}" excludes="${excludes}"/>
+
+					</war>
+					<stopwatch name="TomCat Minillas 3" action= "start"/>
+					<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomMiUrl3}" username="${prodUn}" password="${prodPw}"/>
+					<stopwatch name="TomCat Minillas 3" action= "total"/>
+
+					<!-- TomCat Minillas 4 -->
+
+					<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${minTC4}"/>
+
+					<replaceregexp file="${context}/index.jsp" match="SAICPROD_TC3" replace="SAICPROD_TC4"/>
+
+					<replaceregexp file="${context}/login.jsp" match="SAICPROD_TC3" replace="SAICPROD_TC4"/>
+
+					<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+						<fileset dir="${context}" excludes="${excludes}"/>
+
+					</war>
+					<stopwatch name="TomCat Minillas 4" action= "start"/>
+					<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomMiUrl4}" username="${prodUn}" password="${prodPw}"/>
+					<stopwatch name="TomCat Minillas 4" action= "total"/>
+
+					<!-- TomCat Minillas 5 -->
+
+					<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${minTC5}"/>
+
+					<replaceregexp file="${context}/index.jsp" match="SAICPROD_TC4" replace="SAICPROD_TC5"/>
+
+					<replaceregexp file="${context}/login.jsp" match="SAICPROD_TC4" replace="SAICPROD_TC5"/>
+
+					<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+						<fileset dir="${context}" excludes="${excludes}"/>
+
+					</war>
+					<stopwatch name="TomCat Minillas 5" action= "start"/>
+					<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomMiUrl5}" username="${prodUn}" password="${prodPw}"/>
+					<stopwatch name="TomCat Minillas 5" action= "total"/>
+
+					<!-- TomCat Minillas 6 -->
+
+					<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${minTC6}"/>
+
+					<replaceregexp file="${context}/index.jsp" match="SAICPROD_TC5" replace="SAICPROD_TC6"/>
+
+					<replaceregexp file="${context}/login.jsp" match="SAICPROD_TC5" replace="SAICPROD_TC6"/>
+
+					<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+						<fileset dir="${context}" excludes="${excludes}"/>
+
+					</war>
+					<stopwatch name="TomCat Minillas 6" action= "start"/>
+					<deploy path="/SAICWEB" update="true" war="file:///${basedir}/SAICWEB.war" url="${tomMiUrl6}" username="${prodUn}" password="${prodPw}"/>
+					<stopwatch name="TomCat Minillas 6" action= "total"/>
+					<!--*************************-->
+
+				</then>
+
+			</elseif>
+			<else>
+
+			</else>
+		</if>
+
+	</target>
+
+	<!-- =================================
+				Deploy pakacge to Weblogic on Producction DRC with QC Connection String
+			     ================================= -->
+
+	<target name="dTomcatQCCS" depends="tStamp, clean, prep, compile, cpSupport, updateVer" description="Create a tar file for Weblogic deployment">
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${qcConStr}"/>
+
+		<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/Messages.xml"/>
+
+		<replaceregexp file="${context}/WEB-INF/weblogic.xml" match="SAICWEB" replace="SAICWEB"/>
+
+		<replaceregexp file="${context}/login.jsp" match="10.201.*;*\b" replace="${qcConStringAviso}"/>
+
+		<replaceregexp file="${context}/login.jsp" match="dlf2818" replace="Ora10gr2"/>
+
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}"/>
+
+		</war>
+
+	</target>
+	<!-- =================================
+		 Deploy package to Quality Weblogic on APPDR
+		 ================================= -->
+
+	<target name="depwlqc" description="Install SAIC on Quality Weblogic APPDR" depends="tStamp, clean, prep, compile, cpSupport, updateVer, qcRead, wlQcCheck">
+
+		<replaceregexp file="${context}/Configuration.xml" match="D.*;" replace="${qcConStr}"/>
+
+		<replaceregexp file="${context}/Configuration.xml" match="Messages.xml" replace="/Messages.xml"/>
+
+		<replaceregexp file="${context}/login.jsp" match="10.201.*;*\b" replace="${qcConStringAviso}"/>
+
+		<replaceregexp file="${context}/login.jsp" match="dlf2818" replace="ora10gr2"/>
+
+		<move file="${context}/WEB-INF/weblogic.xml" tofile="${context}/WEB-INF/weblogic.no"/>
+
+		<move file="${context}/WEB-INF/weblogicdr.xml" tofile="${context}/WEB-INF/weblogic.xml"/>
+
+		<replaceregexp file="${context}/WEB-INF/weblogic.xml" match="SAICWEB" replace="SAICWEB_${TODAY}"/>
+
+		<delete file="${context}/WEB-INF/weblogic.no"/>
+
+		<tar destfile="${basedir}/SAICWEB.tar" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="WEB-INF/src/,.settings/,.project,.classpath,build.xml,.tomcatplugin,work/,qccontrol,{context}/WEB-INF/weblogic.no"/>
+
+		</tar>
+		<war destfile="${basedir}/SAICWEB.war" webxml="${context}/WEB-INF/web.xml" defaultexcludes="true">
+
+			<fileset dir="${context}" excludes="${excludes}" />
+
+		</war>
+
+		<if>
+			<equals arg1="${deployed}" arg2="false" />
+			<then>
+
+				<wldeploy action="stop" adminurl="${appdrqcAdminUrl}" user="${wlPrdUn}" password="${wlPrdPw}" debug="true" verbose="true" targets="quality" name="${oldVer}" graceful="false" />
+				<wldeploy action="undeploy" adminurl="${appdrqcAdminUrl}" user="${wlPrdUn}" password="${wlPrdPw}" debug="true" verbose="true" targets="quality" name="${oldVer}"/>
+				<wldeploy action="deploy" library="false" adminurl="${appdrqcAdminUrl}" user="${wlPrdUn}" password="${wlPrdPw}" debug="true" verbose="true" appversion="${TODAY}.${svn.info.lastRev}" targets="quality" source="${context}"	upload="true" remote="true" name="SAICWEB_${TODAY}"/>
+
+				<svn username="ant" password="ant">
+
+					<copy srcUrl="https://10.200.10.117/svn/SAICWeb/trunk" destUrl="https://10.200.10.117/svn/SAICWeb/tags/saicweb_${TODAY}" message="${msg}">
+					</copy>
+
+				</svn>
+
+				<echo file="qccontrol" message="${midVer}${line.separator}${recVer}${line.separator}SAICWEB_${TODAY}"/>
+
+				<svn username="ant" password="ant">
+
+					<commit file="qccontrol" message="Commited control file for next QC deployment. Versions on QC server are:${line.separator}${midVer}${line.separator}${recVer}${line.separator}SAICWEB_${TODAY}"/>
+
+				</svn>
+
+			</then>
+
+			<else>
+
+				<wldeploy action="stop" adminurl="${appdrqcAdminUrl}" user="${wlPrdUn}" password="${wlPrdPw}" debug="true" verbose="true" targets="quality" name="SAICWEB_${TODAY}" graceful="false" />
+				<wldeploy action="undeploy" adminurl="${appdrqcAdminUrl}" user="${wlPrdUn}" password="${wlPrdPw}" debug="true" verbose="true" targets="quality" name="SAICWEB_${TODAY}"/>
+				<wldeploy action="deploy" library="false" adminurl="${appdrqcAdminUrl}" user="${wlPrdUn}" password="${wlPrdPw}" debug="true" verbose="true" appversion="${TODAY}.${svn.info.lastRev}" targets="quality" source="${context}"	upload="true" remote="true" name="SAICWEB_${TODAY}"/>
+
+				<svn username="ant" password="ant">
+
+					<delete url="https://10.200.10.117/svn/SAICWeb/tags/saicweb_${TODAY}" message="Removing previously tagged copy for re-deploy"/>
+
+				</svn>
+
+				<svn username="ant" password="ant">
+
+					<copy srcUrl="https://10.200.10.117/svn/SAICWeb/trunk" destUrl="https://10.200.10.117/svn/SAICWeb/tags/saicweb_${TODAY}" message="${msg}">
+					</copy>
+
+				</svn>
+
+			</else>
+
+		</if>
+
+	</target>
+
+	<!-- =================================
+		          target: usage
+		 ================================= -->
+
+	<target name="usage" description="Usage instructions when invoking ANT default target on SAICWEB make file">
+
+		<echo message="TODO: Usage instructions"/>
+
+	</target>
+
+	<!-- =================================
+		          target: checkout
+		 ================================= -->
+
+	<target name="checkout" description="Downloads the latest code from the trunk in the repository. Used in stand alone script testing execution.">
+
+		<svn username="ant" password="ant">
+
+			<checkout url="https://10.200.10.117/svn/SAICWeb/trunk" destPath="${checkoutPath}"/>
+
+		</svn>
+
+	</target>
+
+</project>

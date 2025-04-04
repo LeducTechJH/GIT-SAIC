@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="ZIP_TBL_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="true" insertAllowed="true" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="true" updateFields="CIUDAD,COD_MUNICIPIO,ESTADO,ZIP_CODE" updateKey="ZIP_CODE" updateSourceName="ZIP_TBL" useTransactions="false" definition="select  ZIP_TBL.CIUDAD,  ZIP_TBL.COD_MUNICIPIO,  ZIP_TBL.ESTADO,  ZIP_TBL.ZIP_CODE from ZIP_TBL ZIP_TBL order by ZIP_TBL.CIUDAD asc, ZIP_TBL.ZIP_CODE asc" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">SHARED WRITE</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="CIUDAD" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="15" sourceAlias="ZIP_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="CIUDAD" sourceLocation="" sourceName="ZIP_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="COD_MUNICIPIO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="2" sourceAlias="ZIP_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_MUNICIPIO" sourceLocation="" sourceName="ZIP_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="ESTADO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="2" sourceAlias="ZIP_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="ESTADO" sourceLocation="" sourceName="ZIP_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="ZIP_CODE" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="ZIP_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="ZIP_CODE" sourceLocation="" sourceName="ZIP_TBL" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

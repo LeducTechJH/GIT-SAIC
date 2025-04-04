@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="REPORT_9_21_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="1069" pageheight="1440" backcolor="13421772" x="2" y="2" width="564" height="960" groupstyle="0" highLightSelected="false" firstobject="" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <group name="PAGE_1" tag="" visible="true" enabled="true" container="REPORT_9_21_FR" nextobject="PAGE_2" objectType="group" pageStart="-1" pageType="0" x="42" y="0" width="476" height="956" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="2" highLightSelected="true" datastore="" discardChildless="false" updatetotop="false" firstobject="" indivisible="false" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="960" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="true" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <textgroup name="TXT_PAGE_1" tag="" visible="true" enabled="true" container="PAGE_1" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="476" height="812" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="TXT_PAGE_1__0" text="DEPARTAMENTO" x="140" y="32" width="84" height="12"/>
+      <text name="TXT_PAGE_1__1" text="DE" x="231" y="32" width="14" height="12"/>
+      <text name="TXT_PAGE_1__2" text="LA" x="252" y="32" width="14" height="12"/>
+      <text name="TXT_PAGE_1__3" text="FAMILIA" x="273" y="32" width="49" height="12"/>
+      <text name="TXT_PAGE_1__4" text="ADMINISTRACION" x="42" y="48" width="98" height="12"/>
+      <text name="TXT_PAGE_1__5" text="DE" x="147" y="48" width="14" height="12"/>
+      <text name="TXT_PAGE_1__6" text="DESARROLLO" x="168" y="48" width="70" height="12"/>
+      <text name="TXT_PAGE_1__7" text="SOCIOECONOMICO" x="245" y="48" width="98" height="12"/>
+      <text name="TXT_PAGE_1__8" text="DE" x="350" y="48" width="14" height="12"/>
+      <text name="TXT_PAGE_1__9" text="LA" x="371" y="48" width="14" height="12"/>
+      <text name="TXT_PAGE_1__10" text="FAMILIA" x="392" y="48" width="49" height="12"/>
+      <text name="TXT_PAGE_1__11" text="LISTA" x="112" y="80" width="35" height="12"/>
+      <text name="TXT_PAGE_1__12" text="DE" x="154" y="80" width="14" height="12"/>
+      <text name="TXT_PAGE_1__13" text="DOCUMENTOS" x="175" y="80" width="70" height="12"/>
+      <text name="TXT_PAGE_1__14" text="DE" x="252" y="80" width="14" height="12"/>
+      <text name="TXT_PAGE_1__15" text="VERIFICACION" x="273" y="80" width="84" height="12"/>
+      <text name="TXT_PAGE_1__16" text="Nombre:" x="0" y="112" width="49" height="12"/>
+      <text name="TXT_PAGE_1__17" text="Número" x="210" y="112" width="42" height="12"/>
+      <text name="TXT_PAGE_1__18" text="Seguro" x="259" y="112" width="42" height="12"/>
+      <text name="TXT_PAGE_1__19" text="Social:" x="308" y="112" width="49" height="12"/>
+      <text name="TXT_PAGE_1__20" text="Encargado" x="210" y="128" width="63" height="12"/>
+      <text name="TXT_PAGE_1__21" text="de" x="280" y="128" width="14" height="12"/>
+      <text name="TXT_PAGE_1__22" text="Servicios:" x="301" y="128" width="70" height="12"/>
+      <text name="TXT_PAGE_1__23" text="El" x="0" y="160" width="14" height="12"/>
+      <text name="TXT_PAGE_1__24" text="día" x="21" y="160" width="21" height="12"/>
+      <text name="TXT_PAGE_1__25" text="de" x="49" y="160" width="14" height="12"/>
+      <text name="TXT_PAGE_1__26" text="la" x="70" y="160" width="14" height="12"/>
+      <text name="TXT_PAGE_1__27" text="entrevista" x="91" y="160" width="70" height="12"/>
+      <text name="TXT_PAGE_1__28" text="debe" x="168" y="160" width="28" height="12"/>
+      <text name="TXT_PAGE_1__29" text="presentar" x="203" y="160" width="63" height="12"/>
+      <text name="TXT_PAGE_1__30" text="los" x="273" y="160" width="21" height="12"/>
+      <text name="TXT_PAGE_1__31" text="documentos" x="301" y="160" width="70" height="12"/>
+      <text name="TXT_PAGE_1__32" text="marcados (X):" x="378" y="160" width="95" height="12"/>
+      <text name="TXT_PAGE_1__33" text="RECURSOS:" x="0" y="192" width="65" height="12"/>
+      <text name="TXT_PAGE_1__34" text="[" x="0" y="224" width="7" height="12"/>
+      <text name="TXT_PAGE_1__35" text="]" x="28" y="224" width="7" height="12"/>
+      <text name="TXT_PAGE_1__36" text="Evidencia" x="91" y="224" width="65" height="12"/>
+      <text name="TXT_PAGE_1__37" text="de" x="162" y="224" width="14" height="12"/>
+      <text name="TXT_PAGE_1__38" text="cuenta" x="181" y="224" width="42" height="12"/>
+      <text name="TXT_PAGE_1__39" text="de" x="228" y="224" width="16" height="12"/>
+      <text name="TXT_PAGE_1__40" text="ahorro" x="251" y="224" width="42" height="12"/>
+      <text name="TXT_PAGE_1__90" text="depósito directo o" x="91" y="480" width="129" height="12"/>
+      <text name="TXT_PAGE_1__42" text="correo," x="372" y="224" width="58" height="12"/>
+      <text name="TXT_PAGE_1__43" text="en" x="298" y="224" width="18" height="12"/>
+      <text name="TXT_PAGE_1__44" text="banco," x="324" y="224" width="43" height="12"/>
+      <text name="TXT_PAGE_1__45" text="bono," x="91" y="240" width="35" height="12"/>
+      <text name="TXT_PAGE_1__46" text="acciones en cooperativa, etc." x="130" y="240" width="204" height="12"/>
+      <text name="TXT_PAGE_1__47" text="[" x="0" y="256" width="7" height="12"/>
+      <text name="TXT_PAGE_1__48" text="]" x="28" y="256" width="7" height="12"/>
+      <text name="TXT_PAGE_1__49" text="Evidencia de dinero" x="91" y="256" width="134" height="12"/>
+      <text name="TXT_PAGE_1__50" text="en" x="230" y="256" width="14" height="12"/>
+      <text name="TXT_PAGE_1__51" text="efectivo en su poder." x="251" y="256" width="150" height="12"/>
+      <text name="TXT_PAGE_1__52" text="[" x="0" y="272" width="7" height="12"/>
+      <text name="TXT_PAGE_1__53" text="]" x="28" y="272" width="7" height="12"/>
+      <text name="TXT_PAGE_1__54" text="Certificados de Ahorro /" x="91" y="272" width="171" height="12"/>
+      <text name="TXT_PAGE_1__55" text="Cuentas IRA." x="266" y="272" width="86" height="12"/>
+      <text name="TXT_PAGE_1__56" text="[" x="0" y="288" width="7" height="12"/>
+      <text name="TXT_PAGE_1__57" text="]" x="28" y="288" width="7" height="12"/>
+      <text name="TXT_PAGE_1__58" text="Retroactivos " x="91" y="288" width="85" height="12"/>
+      <text name="TXT_PAGE_1__59" text="o Rembolsos." x="182" y="288" width="92" height="12"/>
+      <text name="TXT_PAGE_1__60" text="[" x="0" y="304" width="7" height="12"/>
+      <text name="TXT_PAGE_1__61" text="]" x="28" y="304" width="7" height="12"/>
+      <text name="TXT_PAGE_1__62" text="Vehículos." x="91" y="304" width="71" height="12"/>
+      <text name="TXT_PAGE_1__63" text="" x="246" y="304" width="86" height="12"/>
+      <text name="TXT_PAGE_1__64" text="[" x="0" y="320" width="7" height="12"/>
+      <text name="TXT_PAGE_1__65" text="]" x="28" y="320" width="7" height="12"/>
+      <text name="TXT_PAGE_1__66" text="Evidencia de tasación" x="91" y="320" width="148" height="12"/>
+      <text name="TXT_PAGE_1__67" text="de vivienda." x="246" y="320" width="86" height="12"/>
+      <text name="TXT_PAGE_1__68" text="[" x="0" y="336" width="7" height="12"/>
+      <text name="TXT_PAGE_1__69" text="]" x="28" y="336" width="7" height="12"/>
+      <text name="TXT_PAGE_1__70" text="Otros Recursos" x="91" y="336" width="103" height="12"/>
+      <text name="TXT_PAGE_1__71" text="(Explique):" x="197" y="336" width="77" height="12"/>
+      <text name="TXT_PAGE_1__72" text="INGRESOS MENSUALES:" x="0" y="368" width="135" height="12"/>
+      <text name="TXT_PAGE_1__73" text="[" x="0" y="400" width="7" height="12"/>
+      <text name="TXT_PAGE_1__74" text="]" x="28" y="400" width="7" height="12"/>
+      <text name="TXT_PAGE_1__75" text="Cheque mensual," x="91" y="400" width="106" height="12"/>
+      <text name="TXT_PAGE_1__76" text="talonarios de pagos" x="203" y="400" width="138" height="12"/>
+      <text name="TXT_PAGE_1__77" text="de últimos tres" x="344" y="400" width="112" height="12"/>
+      <text name="TXT_PAGE_1__78" text="mensual de cada persona" x="91" y="432" width="165" height="12"/>
+      <text name="TXT_PAGE_1__79" text="empleada en su familia." x="259" y="432" width="163" height="12"/>
+      <text name="TXT_PAGE_1__80" text="meses o carta de" x="91" y="416" width="112" height="12"/>
+      <text name="TXT_PAGE_1__81" text="patrono indicando el salario bruto" x="208" y="416" width="250" height="12"/>
+      <text name="TXT_PAGE_1__82" text="[" x="0" y="448" width="7" height="12"/>
+      <text name="TXT_PAGE_1__83" text="]" x="28" y="448" width="7" height="12"/>
+      <text name="TXT_PAGE_1__84" text="Evidencia de ingresos por" x="91" y="448" width="178" height="12"/>
+      <text name="TXT_PAGE_1__85" text="concepto negocio propio." x="274" y="448" width="178" height="12"/>
+      <text name="TXT_PAGE_1__86" text="[" x="0" y="464" width="7" height="12"/>
+      <text name="TXT_PAGE_1__87" text="]" x="28" y="464" width="7" height="12"/>
+      <text name="TXT_PAGE_1__88" text="Cheque de Seguro Social, " x="91" y="464" width="169" height="12"/>
+      <text name="TXT_PAGE_1__89" text="evidencia del banco del" x="266" y="464" width="169" height="12"/>
+      <text name="TXT_PAGE_1__90" text="depósito directo o" x="91" y="480" width="129" height="12"/>
+      <text name="TXT_PAGE_1__91" text="carta de autorización de beneficios." x="224" y="480" width="253" height="12"/>
+      <text name="TXT_PAGE_1__92" text="[" x="0" y="496" width="7" height="12"/>
+      <text name="TXT_PAGE_1__93" text="]" x="28" y="496" width="7" height="12"/>
+      <text name="TXT_PAGE_1__94" text="Cheque o evidencia del banco" x="91" y="496" width="197" height="12"/>
+      <text name="TXT_PAGE_1__95" text="del depósito directo de" x="294" y="496" width="163" height="12"/>
+      <text name="TXT_PAGE_1__96" text="pensión: Veterano," x="91" y="512" width="129" height="12"/>
+      <text name="TXT_PAGE_1__97" text="Retiro, etc., o certificación" x="224" y="512" width="216" height="12"/>
+      <text name="TXT_PAGE_1__98" text="reciente de esos " x="91" y="528" width="114" height="12"/>
+      <text name="TXT_PAGE_1__99" text="beneficios." x="212" y="528" width="83" height="12"/>
+      <text name="TXT_PAGE_1__100" text="[" x="0" y="544" width="7" height="12"/>
+      <text name="TXT_PAGE_1__101" text="]" x="28" y="544" width="7" height="12"/>
+      <text name="TXT_PAGE_1__102" text="Evidencia de compensación" x="91" y="544" width="176" height="12"/>
+      <text name="TXT_PAGE_1__103" text="recibida: Beneficios por" x="273" y="544" width="173" height="12"/>
+      <text name="TXT_PAGE_1__104" text="Desempleo, Fondo del" x="91" y="560" width="143" height="12"/>
+      <text name="TXT_PAGE_1__105" text="Seguro, ACCA, Sinot u otra." x="241" y="560" width="191" height="12"/>
+      <text name="TXT_PAGE_1__106" text="[" x="0" y="576" width="7" height="12"/>
+      <text name="TXT_PAGE_1__107" text="]" x="28" y="576" width="7" height="12"/>
+      <text name="TXT_PAGE_1__108" text="Renta de propiedades" x="91" y="576" width="142" height="12"/>
+      <text name="TXT_PAGE_1__109" text="(casas, fincas, autos, etc.)." x="239" y="576" width="213" height="12"/>
+      <text name="TXT_PAGE_1__110" text="[" x="0" y="592" width="7" height="12"/>
+      <text name="TXT_PAGE_1__111" text="]" x="28" y="592" width="7" height="12"/>
+      <text name="TXT_PAGE_1__112" text="Recibo o certificación" x="91" y="592" width="157" height="12"/>
+      <text name="TXT_PAGE_1__113" text="de la pensión que recibe por" x="255" y="592" width="197" height="12"/>
+      <text name="TXT_PAGE_1__114" text="Corte o voluntaria para niños, si existe divorcio," x="91" y="608" width="359" height="12"/>
+      <text name="TXT_PAGE_1__115" text="abandono o separación de los padres." x="91" y="624" width="257" height="12"/>
+      <text name="TXT_PAGE_1__116" text="[" x="0" y="640" width="7" height="12"/>
+      <text name="TXT_PAGE_1__117" text="]" x="28" y="640" width="7" height="12"/>
+      <text name="TXT_PAGE_1__118" text="Pagos de hospedados" x="91" y="640" width="135" height="12"/>
+      <text name="TXT_PAGE_1__119" text="en el hogar." x="233" y="640" width="86" height="12"/>
+      <text name="TXT_PAGE_1__120" text="[" x="0" y="656" width="7" height="12"/>
+      <text name="TXT_PAGE_1__121" text="]" x="28" y="656" width="7" height="12"/>
+      <text name="TXT_PAGE_1__122" text="certificación por escrito" x="91" y="656" width="178" height="12"/>
+      <text name="TXT_PAGE_1__123" text="u otro documento sobre" x="276" y="656" width="169" height="12"/>
+      <text name="TXT_PAGE_1__124" text="ganancias obtenidas por negocio propio." x="91" y="672" width="279" height="12"/>
+      <text name="TXT_PAGE_1__125" text="[" x="0" y="688" width="7" height="12"/>
+      <text name="TXT_PAGE_1__126" text="]" x="28" y="688" width="7" height="12"/>
+      <text name="TXT_PAGE_1__127" text="Planilla de Contribución" x="91" y="688" width="170" height="12"/>
+      <text name="TXT_PAGE_1__128" text="sobre Ingresos (última)." x="269" y="688" width="187" height="12"/>
+      <text name="TXT_PAGE_1__129" text="[" x="0" y="704" width="7" height="12"/>
+      <text name="TXT_PAGE_1__130" text="]" x="28" y="704" width="7" height="12"/>
+      <text name="TXT_PAGE_1__131" text="Carta, certificación o" x="91" y="704" width="156" height="12"/>
+      <text name="TXT_PAGE_1__132" text="giro sobre ayuda económica" x="255" y="704" width="201" height="12"/>
+      <text name="TXT_PAGE_1__133" text="regular que recibe" x="91" y="720" width="130" height="12"/>
+      <text name="TXT_PAGE_1__134" text="de familiares u otras personas" x="226" y="720" width="230" height="12"/>
+      <text name="TXT_PAGE_1__135" text="en o fuera del hogar." x="91" y="735" width="152" height="12"/>
+      <text name="TXT_PAGE_1__136" text="[" x="0" y="752" width="7" height="12"/>
+      <text name="TXT_PAGE_1__137" text="]" x="28" y="752" width="7" height="12"/>
+      <text name="TXT_PAGE_1__138" text="Otros Ingresos" x="91" y="752" width="100" height="12"/>
+      <text name="TXT_PAGE_1__139" text="(explique):" x="196" y="752" width="79" height="12"/>
+      <line name="LINE_TXT_PAGE_1_0" tag="" visible="true" enabled="true" container="TXT_PAGE_1" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="277" y="344" x1="460" y1="344" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_TXT_PAGE_1_1" tag="" visible="true" enabled="true" container="TXT_PAGE_1" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="278" y="760" x1="460" y1="760" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    </textgroup>
+    <field name="SEGURO_SOCIAL_SERVICIO" tag="" visible="true" enabled="true" container="PAGE_1" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="372" y="128" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="NOMBRE_COMPLETO" tag="" visible="true" enabled="true" container="PAGE_1" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="50" y="112" width="153" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="SEGURO_SOCIAL_JEFE_FAM" tag="" visible="true" enabled="true" container="PAGE_1" nextobject="DOC01" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="358" y="112" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC01" tag="" visible="true" enabled="true" container="PAGE_1" nextobject="DOC02" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="224" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC02" tag="" visible="true" enabled="false" container="PAGE_1" nextobject="DOC03" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="256" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC03" tag="" visible="true" enabled="false" container="PAGE_1" nextobject="DOC04" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="272" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC04" tag="" visible="true" enabled="false" container="PAGE_1" nextobject="DOC05" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="288" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC05" tag="" visible="true" enabled="false" container="PAGE_1" nextobject="DOC06" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="304" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC06" tag="" visible="true" enabled="false" container="PAGE_1" nextobject="DOC07" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="320" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC07" tag="" visible="true" enabled="false" container="PAGE_1" nextobject="DOC08" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="336" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC08" tag="" visible="true" enabled="false" container="PAGE_1" nextobject="DOC09" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="400" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC09" tag="" visible="true" enabled="false" container="PAGE_1" nextobject="DOC10" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="448" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC10" tag="" visible="true" enabled="false" container="PAGE_1" nextobject="DOC11" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="464" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC11" tag="" visible="true" enabled="false" container="PAGE_1" nextobject="DOC12" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="496" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC12" tag="" visible="true" enabled="false" container="PAGE_1" nextobject="DOC13" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="544" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC13" tag="" visible="true" enabled="false" container="PAGE_1" nextobject="DOC14" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="576" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC14" tag="" visible="true" enabled="false" container="PAGE_1" nextobject="DOC15" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="592" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC15" tag="" visible="true" enabled="false" container="PAGE_1" nextobject="DOC16" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="640" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC16" tag="" visible="true" enabled="false" container="PAGE_1" nextobject="DOC17" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="656" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC17" tag="" visible="true" enabled="false" container="PAGE_1" nextobject="DOC18" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="688" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC18" tag="" visible="true" enabled="false" container="PAGE_1" nextobject="DOC19" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="704" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC19" tag="" visible="true" enabled="false" container="PAGE_1" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="752" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+  </group>
+  <group name="PAGE_2" tag="" visible="true" enabled="true" container="REPORT_9_21_FR" nextobject="PAGE_3" objectType="group" pageStart="-1" pageType="0" x="42" y="1060" width="476" height="956" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="2" highLightSelected="true" datastore="" discardChildless="false" updatetotop="false" firstobject="" indivisible="false" repeatdeltax="0" repeatdeltay="0" repeatsizex="0" repeatsizey="0" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="PAGE_1" anchorTypeVertical="2" autosizeheight="true" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <textgroup name="TXT_PAGE_2" tag="" visible="true" enabled="true" container="PAGE_2" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="476" height="764" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="TXT_PAGE_2__0" text="OTROS DOCUMENTOS NECESARIOS:" x="0" y="16" width="201" height="12"/>
+      <text name="TXT_PAGE_2__1" text="[" x="0" y="48" width="7" height="12"/>
+      <text name="TXT_PAGE_2__2" text="]" x="28" y="48" width="7" height="12"/>
+      <text name="TXT_PAGE_2__3" text="Identificación" x="91" y="48" width="100" height="12"/>
+      <text name="TXT_PAGE_2__4" text="personal con foto." x="199" y="48" width="129" height="12"/>
+      <text name="TXT_PAGE_2__5" text="[" x="0" y="64" width="7" height="12"/>
+      <text name="TXT_PAGE_2__6" text="]" x="28" y="64" width="7" height="12"/>
+      <text name="TXT_PAGE_2__7" text="Certificado de Nacimiento" x="91" y="64" width="178" height="12"/>
+      <text name="TXT_PAGE_2__8" text="o de Naturalización," x="273" y="64" width="184" height="12"/>
+      <text name="TXT_PAGE_2__9" text="Pasaporte o Resolución del" x="91" y="80" width="185" height="12"/>
+      <text name="TXT_PAGE_2__10" text="Tribunal que certifique" x="282" y="80" width="176" height="12"/>
+      <text name="TXT_PAGE_2__11" text="la ciudadanía." x="91" y="96" width="101" height="12"/>
+      <text name="TXT_PAGE_2__12" text="[" x="0" y="112" width="7" height="12"/>
+      <text name="TXT_PAGE_2__13" text="]" x="28" y="112" width="7" height="12"/>
+      <text name="TXT_PAGE_2__14" text="Evidencia de condición de" x="91" y="112" width="181" height="12"/>
+      <text name="TXT_PAGE_2__15" text="extranjero legal en el país." x="273" y="112" width="200" height="12"/>
+      <text name="TXT_PAGE_2__16" text="[" x="0" y="128" width="7" height="12"/>
+      <text name="TXT_PAGE_2__17" text="]" x="28" y="128" width="7" height="12"/>
+      <text name="TXT_PAGE_2__18" text="Evidencia de " x="91" y="128" width="89" height="12"/>
+      <text name="TXT_PAGE_2__19" text="Residencia." x="183" y="128" width="78" height="12"/>
+      <text name="TXT_PAGE_2__20" text="[" x="0" y="144" width="7" height="12"/>
+      <text name="TXT_PAGE_2__21" text="]" x="28" y="144" width="7" height="12"/>
+      <text name="TXT_PAGE_2__22" text="Certificado de defunción." x="91" y="144" width="177" height="12"/>
+      <text name="TXT_PAGE_2__23" text="[" x="0" y="160" width="7" height="12"/>
+      <text name="TXT_PAGE_2__24" text="]" x="28" y="160" width="7" height="12"/>
+      <text name="TXT_PAGE_2__25" text="Tarjeta original del" x="91" y="160" width="142" height="12"/>
+      <text name="TXT_PAGE_2__26" text="Seguro Social de todas las" x="239" y="160" width="186" height="12"/>
+      <text name="TXT_PAGE_2__27" text="los cuáles interesa o recibe" x="266" y="176" width="201" height="12"/>
+      <text name="TXT_PAGE_2__28" text="personas de familia para" x="91" y="176" width="172" height="12"/>
+      <text name="TXT_PAGE_2__29" text="PAN o TANF." x="91" y="192" width="78" height="12"/>
+      <text name="TXT_PAGE_2__30" text="[" x="0" y="208" width="7" height="12"/>
+      <text name="TXT_PAGE_2__31" text="]" x="28" y="208" width="7" height="12"/>
+      <text name="TXT_PAGE_2__32" text="Evidencia de Asistencia a la" x="91" y="208" width="198" height="12"/>
+      <text name="TXT_PAGE_2__33" text="escuela o participación" x="293" y="208" width="168" height="12"/>
+      <text name="TXT_PAGE_2__34" text="en \"Homeschooling\" o" x="91" y="224" width="148" height="12"/>
+      <text name="TXT_PAGE_2__35" text="estudios libres de los menores" x="311" y="224" width="229" height="12"/>
+      <text name="TXT_PAGE_2__36" text="para verificar si asiste" x="91" y="240" width="171" height="12"/>
+      <text name="TXT_PAGE_2__37" text="con regularidad y con quién" x="267" y="240" width="195" height="12"/>
+      <text name="TXT_PAGE_2__38" text="convive:" x="91" y="256" width="56" height="12"/>
+      <text name="TXT_PAGE_2__39" text="[" x="0" y="272" width="7" height="12"/>
+      <text name="TXT_PAGE_2__40" text="]" x="28" y="272" width="7" height="12"/>
+      <text name="TXT_PAGE_2__41" text="Evidencia de estudios" x="91" y="272" width="152" height="12"/>
+      <text name="TXT_PAGE_2__42" text="post secundarios a tiempo" x="244" y="272" width="198" height="12"/>
+      <text name="TXT_PAGE_2__43" text="completo." x="91" y="288" width="67" height="12"/>
+      <text name="TXT_PAGE_2__44" text="[" x="0" y="304" width="7" height="12"/>
+      <text name="TXT_PAGE_2__45" text="]" x="28" y="304" width="7" height="12"/>
+      <text name="TXT_PAGE_2__46" text="Certificación de condición" x="91" y="304" width="187" height="12"/>
+      <text name="TXT_PAGE_2__47" text="médica / Tarjetas de citas" x="281" y="304" width="186" height="12"/>
+      <text name="TXT_PAGE_2__48" text="médicas." x="91" y="320" width="57" height="12"/>
+      <text name="TXT_PAGE_2__49" text="[" x="0" y="336" width="7" height="12"/>
+      <text name="TXT_PAGE_2__50" text="]" x="28" y="336" width="7" height="12"/>
+      <text name="TXT_PAGE_2__51" text="Autorización para nombrar" x="91" y="336" width="180" height="12"/>
+      <text name="TXT_PAGE_2__52" text="un Representante Autorizado" x="272" y="336" width="196" height="12"/>
+      <text name="TXT_PAGE_2__53" text="o \"Payee\"." x="91" y="352" width="73" height="12"/>
+      <text name="TXT_PAGE_2__54" text="[" x="0" y="368" width="7" height="12"/>
+      <text name="TXT_PAGE_2__55" text="]" x="28" y="368" width="7" height="12"/>
+      <text name="TXT_PAGE_2__56" text="Autorización para Requerir u" x="91" y="368" width="198" height="12"/>
+      <text name="TXT_PAGE_2__57" text="Ofrecer Información" x="294" y="368" width="140" height="12"/>
+      <text name="TXT_PAGE_2__58" text="(ADSEF-128) de:" x="91" y="384" width="106" height="12"/>
+      <text name="TXT_PAGE_2__59" text="[" x="0" y="416" width="7" height="12"/>
+      <text name="TXT_PAGE_2__60" text="]" x="28" y="416" width="7" height="12"/>
+      <text name="TXT_PAGE_2__61" text="Declaración de Ciudadanía o" x="91" y="416" width="194" height="12"/>
+      <text name="TXT_PAGE_2__62" text="Condición de Extranjero" x="287" y="416" width="176" height="12"/>
+      <text name="TXT_PAGE_2__63" text="(ADSEF-153) de:" x="91" y="432" width="110" height="12"/>
+      <text name="TXT_PAGE_2__64" text="[" x="0" y="464" width="7" height="12"/>
+      <text name="TXT_PAGE_2__65" text="]" x="28" y="464" width="7" height="12"/>
+      <text name="TXT_PAGE_2__64" text="Registro para Empleo (ADSEF-PAN-01) para:" x="91" y="464" width="294" height="12"/>
+      <text name="TXT_PAGE_2__65" text="[" x="0" y="496" width="7" height="12"/>
+      <text name="TXT_PAGE_2__66" text="]" x="28" y="496" width="7" height="12"/>
+      <text name="TXT_PAGE_2__67" text="Dirección de padre o madre ausente:" x="91" y="496" width="246" height="12"/>
+      <text name="TXT_PAGE_2__68" text="[" x="0" y="528" width="7" height="12"/>
+      <text name="TXT_PAGE_2__69" text="]" x="28" y="528" width="7" height="12"/>
+      <text name="TXT_PAGE_2__70" text="Certificado" x="91" y="528" width="77" height="12"/>
+      <text name="TXT_PAGE_2__71" text="de" x="175" y="528" width="14" height="12"/>
+      <text name="TXT_PAGE_2__72" text="Ingreso" x="196" y="528" width="49" height="12"/>
+      <text name="TXT_PAGE_2__73" text="a" x="252" y="528" width="7" height="12"/>
+      <text name="TXT_PAGE_2__74" text="Institución" x="266" y="528" width="77" height="12"/>
+      <text name="TXT_PAGE_2__75" text="de:" x="350" y="528" width="24" height="12"/>
+      <text name="TXT_PAGE_2__76" text="[" x="0" y="560" width="7" height="12"/>
+      <text name="TXT_PAGE_2__77" text="]" x="28" y="560" width="7" height="12"/>
+      <text name="TXT_PAGE_2__78" text="Copia" x="91" y="560" width="35" height="12"/>
+      <text name="TXT_PAGE_2__79" text="de" x="140" y="560" width="14" height="12"/>
+      <text name="TXT_PAGE_2__80" text="la" x="161" y="560" width="14" height="12"/>
+      <text name="TXT_PAGE_2__81" text="Resolución" x="182" y="560" width="70" height="12"/>
+      <text name="TXT_PAGE_2__82" text="dictando" x="259" y="560" width="56" height="12"/>
+      <text name="TXT_PAGE_2__83" text="Sentencia" x="322" y="560" width="63" height="12"/>
+      <text name="TXT_PAGE_2__84" text="de" x="392" y="560" width="14" height="12"/>
+      <text name="TXT_PAGE_2__85" text="divorcio." x="413" y="560" width="63" height="12"/>
+      <text name="TXT_PAGE_2__86" text="[" x="0" y="576" width="7" height="12"/>
+      <text name="TXT_PAGE_2__87" text="]" x="28" y="576" width="7" height="12"/>
+      <text name="TXT_PAGE_2__88" text="Correspondencia" x="91" y="576" width="105" height="12"/>
+      <text name="TXT_PAGE_2__89" text="del" x="210" y="576" width="21" height="12"/>
+      <text name="TXT_PAGE_2__90" text="padre" x="245" y="576" width="35" height="12"/>
+      <text name="TXT_PAGE_2__91" text="o" x="294" y="576" width="7" height="12"/>
+      <text name="TXT_PAGE_2__92" text="madre" x="315" y="576" width="35" height="12"/>
+      <text name="TXT_PAGE_2__93" text="ausente" x="364" y="576" width="49" height="12"/>
+      <text name="TXT_PAGE_2__94" text="y" x="427" y="576" width="7" height="12"/>
+      <text name="TXT_PAGE_2__95" text="otros" x="441" y="576" width="35" height="12"/>
+      <text name="TXT_PAGE_2__96" text="familiares." x="91" y="592" width="77" height="12"/>
+      <text name="TXT_PAGE_2__97" text="[" x="0" y="608" width="7" height="12"/>
+      <text name="TXT_PAGE_2__98" text="]" x="28" y="608" width="7" height="12"/>
+      <text name="TXT_PAGE_2__99" text="Otros documentos requeridos:" x="91" y="608" width="200" height="12"/>
+      <text name="TXT_PAGE_2__100" text="GASTOS:" x="0" y="640" width="51" height="12"/>
+      <text name="TXT_PAGE_2__101" text="[" x="0" y="672" width="7" height="12"/>
+      <text name="TXT_PAGE_2__102" text="]" x="28" y="672" width="7" height="12"/>
+      <text name="TXT_PAGE_2__103" text="Recibo de pago de vivienda," x="91" y="672" width="191" height="12"/>
+      <text name="TXT_PAGE_2__104" text="renta o hipoteca (último" x="287" y="672" width="172" height="12"/>
+      <text name="TXT_PAGE_2__105" text="recibo de pago)." x="91" y="688" width="116" height="12"/>
+      <text name="TXT_PAGE_2__106" text="[" x="0" y="704" width="7" height="12"/>
+      <text name="TXT_PAGE_2__107" text="]" x="28" y="704" width="7" height="12"/>
+      <text name="TXT_PAGE_2__108" text="Recibo de pago de contribución" x="91" y="704" width="214" height="12"/>
+      <text name="TXT_PAGE_2__109" text="de su casa." x="310" y="704" width="78" height="12"/>
+      <text name="TXT_PAGE_2__110" text="[" x="0" y="720" width="7" height="12"/>
+      <text name="TXT_PAGE_2__111" text="]" x="28" y="720" width="7" height="12"/>
+      <text name="TXT_PAGE_2__112" text="Recibo de alquiler del solar." x="91" y="720" width="203" height="12"/>
+      <text name="TXT_PAGE_2__113" text="[" x="0" y="736" width="7" height="12"/>
+      <text name="TXT_PAGE_2__114" text="]" x="28" y="736" width="7" height="12"/>
+      <text name="TXT_PAGE_2__115" text="Estado de cuenta, libreta de pagos" x="91" y="736" width="240" height="12"/>
+      <text name="TXT_PAGE_2__116" text="por préstamos," x="335" y="736" width="101" height="12"/>
+      <text name="TXT_PAGE_2__117" text="deuda para reparación de" x="91" y="752" width="171" height="12"/>
+      <text name="TXT_PAGE_2__118" text="vivienda o por compra de" x="265" y="752" width="191" height="12"/>
+      <text name="TXT_PAGE_2__119" text="equipo del hogar." x="91" y="768" width="143" height="12"/>
+      <line name="LINE_TXT_PAGE_2_0" tag="" visible="true" enabled="true" container="TXT_PAGE_2" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="150" y="264" x1="450" y1="264" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_TXT_PAGE_2_1" tag="" visible="true" enabled="true" container="TXT_PAGE_2" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="200" y="392" x1="450" y1="392" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_TXT_PAGE_2_2" tag="" visible="true" enabled="true" container="TXT_PAGE_2" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="91" y="408" x1="450" y1="408" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_TXT_PAGE_2_3" tag="" visible="true" enabled="true" container="TXT_PAGE_2" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="204" y="440" x1="450" y1="440" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_TXT_PAGE_2_4" tag="" visible="true" enabled="true" container="TXT_PAGE_2" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="91" y="456" x1="450" y1="456" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_TXT_PAGE_2_5" tag="" visible="true" enabled="true" container="TXT_PAGE_2" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="390" y="472" x1="450" y1="472" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_TXT_PAGE_2_6" tag="" visible="true" enabled="true" container="TXT_PAGE_2" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="91" y="488" x1="450" y1="488" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_TXT_PAGE_2_7" tag="" visible="true" enabled="true" container="TXT_PAGE_2" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="340" y="504" x1="450" y1="504" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_TXT_PAGE_2_8" tag="" visible="true" enabled="true" container="TXT_PAGE_2" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="91" y="520" x1="450" y1="520" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_TXT_PAGE_2_9" tag="" visible="true" enabled="true" container="TXT_PAGE_2" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="380" y="536" x1="450" y1="536" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_TXT_PAGE_2_10" tag="" visible="true" enabled="true" container="TXT_PAGE_2" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="91" y="552" x1="450" y1="552" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    </textgroup>
+    <field name="DOC14" tag="" visible="true" enabled="true" container="PAGE_2" nextobject="DOC15" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="48" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC15" tag="" visible="true" enabled="true" container="PAGE_2" nextobject="DOC16" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="64" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC16" tag="" visible="true" enabled="true" container="PAGE_2" nextobject="DOC17" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="112" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC17" tag="" visible="true" enabled="true" container="PAGE_2" nextobject="DOC18" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="128" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC18" tag="" visible="true" enabled="true" container="PAGE_2" nextobject="DOC19" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="144" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC19" tag="" visible="true" enabled="true" container="PAGE_2" nextobject="DOC20" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="160" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC20" tag="" visible="true" enabled="false" container="PAGE_2" nextobject="DOC21" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="208" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC21" tag="" visible="true" enabled="true" container="PAGE_2" nextobject="DOC22" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="272" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC22" tag="" visible="true" enabled="true" container="PAGE_2" nextobject="DOC23" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="304" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC23" tag="" visible="true" enabled="false" container="PAGE_2" nextobject="DOC24" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="336" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC24" tag="" visible="true" enabled="false" container="PAGE_2" nextobject="DOC25" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="368" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC25" tag="" visible="true" enabled="false" container="PAGE_2" nextobject="DOC26" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="416" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC26" tag="" visible="true" enabled="false" container="PAGE_2" nextobject="DOC27" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="464" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC27" tag="" visible="true" enabled="false" container="PAGE_2" nextobject="DOC28" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="496" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC28" tag="" visible="true" enabled="false" container="PAGE_2" nextobject="DOC29" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="528" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC29" tag="" visible="true" enabled="false" container="PAGE_2" nextobject="DOC30" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="560" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC30" tag="" visible="true" enabled="false" container="PAGE_2" nextobject="DOC31" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="576" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC31" tag="" visible="true" enabled="false" container="PAGE_2" nextobject="DOC32" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="608" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC32" tag="" visible="true" enabled="false" container="PAGE_2" nextobject="DOC33" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="672" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC33" tag="" visible="true" enabled="false" container="PAGE_2" nextobject="DOC34" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="704" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC34" tag="" visible="true" enabled="false" container="PAGE_2" nextobject="DOC35" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="720" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC35" tag="" visible="true" enabled="false" container="PAGE_2" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="736" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+  </group>
+  <group name="PAGE_3" tag="" visible="true" enabled="true" container="REPORT_9_21_FR" nextobject="" objectType="group" pageStart="-1" pageType="0" x="42" y="2060" width="476" height="956" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="2" highLightSelected="true" datastore="" discardChildless="false" updatetotop="false" firstobject="" indivisible="false" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="960" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="true" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <textgroup name="TXT_PAGE_3" tag="" visible="true" enabled="true" container="PAGE_3" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="476" height="812" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="TXT_PAGE_3__0" text="[" x="0" y="48" width="7" height="12"/>
+      <text name="TXT_PAGE_3__1" text="]" x="28" y="48" width="7" height="12"/>
+      <text name="TXT_PAGE_3__2" text="Recibo de abonos mensuales" x="91" y="48" width="185" height="12"/>
+      <text name="TXT_PAGE_3__3" text="por concepto de equipo" x="279" y="48" width="161" height="12"/>
+      <text name="TXT_PAGE_3__4" text="del hogar o del negocio." x="91" y="64" width="171" height="12"/>
+      <text name="TXT_PAGE_3__5" text="[" x="0" y="80" width="7" height="12"/>
+      <text name="TXT_PAGE_3__6" text="]" x="28" y="80" width="7" height="12"/>
+      <text name="TXT_PAGE_3__7" text="Evidencia de gastos médicos" x="91" y="80" width="192" height="12"/>
+      <text name="TXT_PAGE_3__8" text="de personas mayores de 60" x="288" y="80" width="182" height="12"/>
+      <text name="TXT_PAGE_3__9" text="años o más y/o incapacitadas." x="91" y="96" width="211" height="12"/>
+      <text name="TXT_PAGE_3__10" text="[" x="0" y="112" width="7" height="12"/>
+      <text name="TXT_PAGE_3__11" text="]" x="28" y="112" width="7" height="12"/>
+      <text name="TXT_PAGE_3__12" text="Evidencia de cuido de menores" x="91" y="112" width="207" height="12"/>
+      <text name="TXT_PAGE_3__13" text="o dependientes con" x="303" y="112" width="167" height="12"/>
+      <text name="TXT_PAGE_3__14" text="limitaciones físicas o mentales o con necesidades" x="91" y="128" width="361" height="12"/>
+      <text name="TXT_PAGE_3__15" text="especiales." x="91" y="144" width="81" height="12"/>
+      <text name="TXT_PAGE_3__16" text="[" x="0" y="160" width="7" height="12"/>
+      <text name="TXT_PAGE_3__17" text="]" x="28" y="160" width="7" height="12"/>
+      <text name="TXT_PAGE_3__18" text="Documentos que prueben los gastos" x="91" y="160" width="235" height="12"/>
+      <text name="TXT_PAGE_3__19" text=" de producción que" x="331" y="160" width="139" height="12"/>
+      <text name="TXT_PAGE_3__20" text="incurren al operar un" x="91" y="176" width="150" height="12"/>
+      <text name="TXT_PAGE_3__21" text="negocio propio. Favor presentar" x="247" y="176" width="219" height="12"/>
+      <text name="TXT_PAGE_3__22" text="la copia de la Planilla" x="91" y="192" width="165" height="12"/>
+      <text name="TXT_PAGE_3__23" text="de Contibución sobre Ingresos" x="260" y="192" width="206" height="12"/>
+      <text name="TXT_PAGE_3__24" text="o certificación Negativa" x="91" y="208" width="170" height="12"/>
+      <text name="TXT_PAGE_3__25" text="del Departamento de Hacienda." x="266" y="208" width="209" height="12"/>
+      <text name="TXT_PAGE_3__26" text="Además, tiene que presentar" x="91" y="224" width="190" height="12"/>
+      <text name="TXT_PAGE_3__27" text="el Certificado de Registro" x="286" y="224" width="189" height="12"/>
+      <text name="TXT_PAGE_3__28" text="de Comerciante y la Certificación" x="91" y="240" width="226" height="12"/>
+      <text name="TXT_PAGE_3__29" text="de Agente Retenedor o" x="326" y="240" width="152" height="12"/>
+      <text name="TXT_PAGE_3__30" text="la de Agente Retenedor" x="91" y="256" width="156" height="12"/>
+      <text name="TXT_PAGE_3__31" text="Exento." x="251" y="256" width="52" height="12"/>
+      <text name="TXT_PAGE_3__32" text="[" x="0" y="272" width="7" height="12"/>
+      <text name="TXT_PAGE_3__33" text="]" x="28" y="272" width="7" height="12"/>
+      <text name="TXT_PAGE_3__34" text="Pago del gasto mensual de" x="91" y="272" width="177" height="12"/>
+      <text name="TXT_PAGE_3__35" text="luz, agua y de gas." x="272" y="272" width="137" height="12"/>
+      <text name="TXT_PAGE_3__36" text="[" x="0" y="288" width="7" height="12"/>
+      <text name="TXT_PAGE_3__37" text="]" x="28" y="288" width="7" height="12"/>
+      <text name="TXT_PAGE_3__38" text="Otros gastos (explique):" x="91" y="288" width="177" height="12"/>
+      <text name="TXT_PAGE_3__39" text="," x="276" y="792" width="7" height="12"/>
+      <line name="LINE_TXT_PAGE_3_0" tag="" visible="true" enabled="true" container="TXT_PAGE_3" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="276" y="296" x1="450" y1="296" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_TXT_PAGE_3_1" tag="" visible="true" enabled="true" container="TXT_PAGE_3" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="91" y="788" x1="301" y1="788" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_TXT_PAGE_3_2" tag="" visible="true" enabled="true" container="TXT_PAGE_3" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="91" y="804" x1="273" y1="804" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_TXT_PAGE_3_3" tag="" visible="true" enabled="true" container="TXT_PAGE_3" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="287" y="804" x1="441" y1="804" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    </textgroup>
+    <field name="DOC36" tag="" visible="true" enabled="true" container="PAGE_3" nextobject="DOC37" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="48" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC37" tag="" visible="true" enabled="false" container="PAGE_3" nextobject="DOC38" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="80" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC38" tag="" visible="true" enabled="true" container="PAGE_3" nextobject="DOC39" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="112" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC39" tag="" visible="true" enabled="false" container="PAGE_3" nextobject="DOC40" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="160" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC40" tag="" visible="true" enabled="false" container="PAGE_3" nextobject="DOC41" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="272" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DOC41" tag="" visible="true" enabled="false" container="PAGE_3" nextobject=" " objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="13" y="288" width="8" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+  </group>
+</model>

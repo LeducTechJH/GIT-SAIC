@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="AUTPAG_AG1_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="true" updateFields="FCH_PAGO" updateKey="FCH_PAGO" updateSourceName="RECAUDACIONES" useTransactions="false" definition="select  RECAUDACIONES.FCH_PAGO from RECAUDACIONES RECAUDACIONES " adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">SHARED WRITE</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB</extended>
+  <extended name="storage">SAIC_DB</extended>
+  <field name="FCH_PAGO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="DATE" dataType="Date" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="RECAUDACIONES" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="FCH_PAGO" sourceLocation="" sourceName="RECAUDACIONES" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

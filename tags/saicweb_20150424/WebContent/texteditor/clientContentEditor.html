@@ -1,0 +1,212 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<html>
+<head>
+<meta name="author" content="MainTrend Ltd." />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<meta name="GENERATOR" content="IBM WebSphere Studio"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+
+<title>SAIC Editor</title>
+
+<style type="text/css">
+html, body { font-family: Verdana,sans-serif;background-color: #fea;color: #000; }
+textarea { font-family: Arial,Verdana,sans-serif; font-size:10pt; background-color: #fff; border: 1px solid 00f; }
+</style>
+
+<script src='editor.js'></script> 
+
+<script language="JavaScript1.2">
+<!--
+
+var xmlHttpEdit;
+
+/**
+ * 
+ */
+function initTextarea ( )
+{
+  var text = "";
+  if ( opener )
+  {
+    text = opener.bodyText;
+    if ( !text ) text = "";
+    
+    if ( document.all )
+    {
+      while ( text.indexOf ( "\r\n" ) > -1 )
+      {
+        text = text.replace ( "\r\n", "<p>" );
+      }
+      while ( text.indexOf ( "<" ) > -1 || text.indexOf ( ">" ) > -1 )
+      {
+        text = text.replace ( "<", "&lt;" );
+        text = text.replace ( ">", "&gt;" );
+      }
+    }
+    else if ( document.getElementById )
+    {
+      if ( text != "" )
+      {
+        if ( text.indexOf ( "&lt;p&gt;" ) == 0 ) text = text.substr ( 9 );
+        while ( text.indexOf ( "&lt;/p&gt;&lt;p&gt;" ) > -1 )
+        {
+          text = text.replace ( "&lt;/p&gt;&lt;p&gt;", "\n" );
+        }
+        if ( text.indexOf ( "&lt;/p&gt;" ) == text.length - 10 ) text = text.substring ( 0, text.length - 10 );
+      }
+    }
+  } 
+  
+  var elem = document.getElementById ( "foredit" );
+  if ( elem )
+  {
+    elem.innerHTML = text;
+  }
+}
+
+
+/**
+ * 
+ */
+function windowResized ( )
+{
+  if ( document.all )
+  {
+    var delta = 0;
+    if ( ( window.document.body.offsetWidth ) < 585 ) delta = 20;
+    if ( ( window.document.body.offsetWidth ) < 312 ) delta = 40;
+
+    editorResize ( "foredit", ( window.document.body.offsetWidth - 22 ) + "px", ( window.document.body.offsetHeight - 84 - delta ) + "px" );
+  }
+  else if ( document.getElementById )
+  {
+    var elem = document.getElementById ( "foredit" );
+    elem.style.width = ( window.innerWidth - 17 ) + "px"; 
+    elem.style.height = ( window.innerHeight - 80 ) + "px"; 
+  }
+}
+
+/**
+ * 
+ */
+function closeWindowWithSave ( )
+{
+  var elem = document.getElementById ( "foredit" );
+  if ( opener )
+  {
+    if ( elem )
+    {
+      var file = opener.editFileName;
+      if ( file ) 
+      {    
+        var result = elem.value;
+        if ( document.all )
+        {
+          //ok
+        }
+        else if ( document.getElementById )
+        {
+          if ( result != "" )
+          {
+            result = "&lt;p&gt;" + result + "&lt;/p&gt;";
+            while ( result.indexOf ( "\n" ) > -1 )
+            {
+              result = result.replace ( "\n", "&lt;/p&gt;&lt;p&gt;" );
+            }
+          }
+        }
+        saveEditFile ( file, result ); 
+      }
+    }
+  }    
+
+  //window.close ( );
+}
+
+
+/**
+ * 
+ */
+function closeWindowAfterSave ( )
+{
+  if ( xmlHttpEdit.readyState == 4 ) 
+  {
+    if ( xmlHttpEdit.status == 200 ) 
+    {
+      var result = xmlHttpEdit.responseText;
+      if ( result && result.length > 0 )
+      { 
+        if ( result == 'false' )
+        {
+          alert ( "Save after file changing is failed!" );
+        }
+      }
+    }
+  }
+  window.close ( );
+}
+
+
+/**
+ * 
+ */
+function saveEditFile ( file, result )
+{
+  
+  if ( window.ActiveXObject )
+  {
+    xmlHttpEdit = new ActiveXObject ( "Microsoft.XMLHTTP" );
+  }
+  else if ( window.XMLHttpRequest )
+  {
+    xmlHttpEdit = new XMLHttpRequest ( );
+  }
+ 
+  var url = "ClientContentService.mes?setContentAction=" + file + "&text=" + result;
+  xmlHttpEdit.open ( "POST", url, true );
+  xmlHttpEdit.send ( null  );
+  xmlHttpEdit.onreadystatechange = closeWindowAfterSave;
+}
+
+
+/**
+ * 
+ */
+function closeWindowWithoutSave ( )
+{
+  window.close ( );
+}
+
+window.onresize = windowResized;
+
+// -->
+</script>
+
+</head>
+
+<body onload="initTextarea ( );">
+
+<textarea id="foredit" name="foredit" style="width:622px; height:400px"></textarea>
+
+<table align="center">
+  <tr>
+    <td><input type="button" value="OK" style="width:70px;" onclick="closeWindowWithSave ( );"/></td>
+    <td>&nbsp;</td>
+    <td><input type="button" value="Cancel" style="width:70px;" onclick="closeWindowWithoutSave ( );"/></td>    
+  </tr>
+</table>
+
+<script language="javascript1.2">
+
+var browser_version = parseFloat ( navigator.appVersion.split ( "MSIE" ) [ 1 ] );
+var browser_user_agent = navigator.userAgent; 
+if ( browser_user_agent.indexOf ( 'Mac' ) < 0 && browser_user_agent.indexOf ( 'Windows CE' ) < 0 &&
+     browser_user_agent.indexOf ( 'Opera' ) < 0 && browser_user_agent.indexOf ( 'Firefox' ) < 0 )
+{
+  set_editor ( 'foredit' );
+}
+
+</script>
+
+</body>
+</html>

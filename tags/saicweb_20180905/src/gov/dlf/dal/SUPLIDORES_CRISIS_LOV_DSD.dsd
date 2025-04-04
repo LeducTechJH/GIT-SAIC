@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="SUPLIDORES_CRISIS_LOV_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="NOMBRE_SUPLIDOR,CATEGORIA_SUPLIDOR" updateKey="NOMBRE_SUPLIDOR" updateSourceName="SUPLIDORES_CRISIS" useTransactions="false" definition="select  SUPLIDORES_CRISIS.NOMBRE_SUPLIDOR,  SUPLIDORES_CRISIS.CATEGORIA_SUPLIDOR from SUPLIDORES_CRISIS SUPLIDORES_CRISIS order by SUPLIDORES_CRISIS.NOMBRE_SUPLIDOR asc" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="NOMBRE_SUPLIDOR" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="6" sourceAlias="SUPLIDORES_CRISIS" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="NOMBRE_SUPLIDOR" sourceLocation="" sourceName="SUPLIDORES_CRISIS" sourceOwner="" unique="false" updateable="true"/>
+  <field name="CATEGORIA_SUPLIDOR" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="25" sourceAlias="SUPLIDORES_CRISIS" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="CATEGORIA_SUPLIDOR" sourceLocation="" sourceName="SUPLIDORES_CRISIS" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>SAIC Help</title>
+
+<script language="JavaScript">
+<!--
+
+function init ( )
+{
+  var elemFrom = opener.document.getElementById ( "helpText" );
+  if ( elemFrom )
+  {
+    var elemTo = document.getElementById ( "help_text" );
+    if ( elemTo )
+    {
+      elemTo.innerHTML = "";
+      elemTo.innerHTML = elemFrom.innerHTML;
+      elemFrom.innerHTML = "";
+    }
+  }
+}
+
+
+// -->
+</script>
+
+</head>
+<body onload="init ( );">
+<div id="help_text" style="border:1px solid orange; font:normal 13px Courier New; width:582; height:372; overflow-x:scroll; overflow-y:scroll;"></div>
+</body>
+</html>

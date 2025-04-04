@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://acsi.familia.pr/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://acsi.familia.pr/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">ACSI Web service to allow external applications to validate the user/tokens.</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://acsi.familia.pr/">
+      <s:element name="WebServiceVersion">
+        <s:complexType />
+      </s:element>
+      <s:element name="WebServiceVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WebServiceVersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidateTokenUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strToken" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidateTokenUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ValidateTokenUserResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GenerateTokenUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strNombreAplicacion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCodigoUsuario" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="intUsuarioID" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="intAplicacionID" type="s:decimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GenerateTokenUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GenerateTokenUserResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="WebServiceVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:WebServiceVersion" />
+  </wsdl:message>
+  <wsdl:message name="WebServiceVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:WebServiceVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidateTokenUserSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidateTokenUser" />
+  </wsdl:message>
+  <wsdl:message name="ValidateTokenUserSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidateTokenUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="GenerateTokenUserSoapIn">
+    <wsdl:part name="parameters" element="tns:GenerateTokenUser" />
+  </wsdl:message>
+  <wsdl:message name="GenerateTokenUserSoapOut">
+    <wsdl:part name="parameters" element="tns:GenerateTokenUserResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ACSISecuritySoap">
+    <wsdl:operation name="WebServiceVersion">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get the web server version number.</wsdl:documentation>
+      <wsdl:input message="tns:WebServiceVersionSoapIn" />
+      <wsdl:output message="tns:WebServiceVersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateTokenUser">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Validate the user and token combination. Returns true or false.</wsdl:documentation>
+      <wsdl:input message="tns:ValidateTokenUserSoapIn" />
+      <wsdl:output message="tns:ValidateTokenUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateTokenUser">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Generate a User new User token</wsdl:documentation>
+      <wsdl:input message="tns:GenerateTokenUserSoapIn" />
+      <wsdl:output message="tns:GenerateTokenUserSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ACSISecuritySoap" type="tns:ACSISecuritySoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WebServiceVersion">
+      <soap:operation soapAction="http://acsi.familia.pr/WebServiceVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateTokenUser">
+      <soap:operation soapAction="http://acsi.familia.pr/ValidateTokenUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateTokenUser">
+      <soap:operation soapAction="http://acsi.familia.pr/GenerateTokenUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ACSISecuritySoap12" type="tns:ACSISecuritySoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WebServiceVersion">
+      <soap12:operation soapAction="http://acsi.familia.pr/WebServiceVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateTokenUser">
+      <soap12:operation soapAction="http://acsi.familia.pr/ValidateTokenUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateTokenUser">
+      <soap12:operation soapAction="http://acsi.familia.pr/GenerateTokenUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ACSISecurity">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">ACSI Web service to allow external applications to validate the user/tokens.</wsdl:documentation>
+    <wsdl:port name="ACSISecuritySoap" binding="tns:ACSISecuritySoap">
+      <soap:address location="http://10.200.15.23/CeSIAuthWS/ACSISecurity.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ACSISecuritySoap12" binding="tns:ACSISecuritySoap12">
+      <soap12:address location="http://10.200.15.23/CeSIAuthWS/ACSISecurity.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="MODULO_ACCESS_UPD_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="true" insertAllowed="true" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="true" updateFields="COD_ACCESS_LEVEL,COD_MODULO" updateKey="COD_MODULO,COD_ACCESS_LEVEL" updateSourceName="MODULOS_ACCESS_TBL" useTransactions="false" definition="select  MODULOS_ACCESS_TBL.COD_ACCESS_LEVEL,  MODULOS_ACCESS_TBL.COD_MODULO from MODULOS_ACCESS_TBL MODULOS_ACCESS_TBL" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">SHARED WRITE</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="COD_ACCESS_LEVEL" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="GENERIC CODE FOR TABLES" dataType="String" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="MODULOS_ACCESS_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_ACCESS_LEVEL" sourceLocation="" sourceName="MODULOS_ACCESS_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="COD_MODULO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="GENERAL CODE" dataType="String" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="MODULOS_ACCESS_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_MODULO" sourceLocation="" sourceName="MODULOS_ACCESS_TBL" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

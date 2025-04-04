@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="ADSEF_106E3_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="1155" pageheight="675" backcolor="13421772" x="2" y="2" width="564" height="450" groupstyle="0" highLightSelected="false" firstobject="HEADER_GP" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <group name="HEADER_GP" tag="" visible="true" enabled="true" container="ADSEF_106E3_FR" nextobject="" objectType="group" pageStart="-1" pageType="0" x="-1" y="0" width="539" height="426" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="0" highLightSelected="false" datastore="" discardChildless="false" updatetotop="false" firstobject=" " indivisible="false" repeatdeltax="0" repeatdeltay="0" repeatsizex="0" repeatsizey="0" repeatorder="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <textgroup name="HEADER_GP_TXT0" tag="" visible="true" enabled="true" container="HEADER_GP" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="-5" y="1" width="532" height="420" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="HEADER_GP_TXT0__209" text="enviar copia a Regional Director, Civil Rights USDA, Food and Nutrition " x="5" y="0" width="507" height="12"/>
+      <text name="HEADER_GP_TXT0__230" text="Service, Mercer Corporate Park, 300 Corporate Boulevard Robinville, NJ 08691-" x="5" y="16" width="539" height="12"/>
+      <text name="HEADER_GP_TXT0__210" text="1598. Puede llamar al 1-866-632-9992(voz), 1-800-877-8339 (TDD) y 1-866-377-" x="5" y="32" width="536" height="12"/>
+      <text name="HEADER_GP_TXT0__211" text="8642 (Relay Voice User)." x="5" y="48" width="172" height="12"/>
+      <text name="HEADER_GP_TXT0__17" text="Si considera que el Programa de Ayuda Temporal para Familias Necesitadas " x="4" y="64" width="512" height="12"/>
+      <text name="HEADER_GP_TXT0__18" text="(TANF) ha discriminado contra usted por razón de raza, color, origen " x="4" y="80" width="485" height="12"/>
+      <text name="HEADER_GP_TXT0__19" text="nacional, sexo, edad, incapacidad, ideas políticas y creencias religiosas, " x="4" y="96" width="524" height="12"/>
+      <text name="HEADER_GP_TXT0__20" text="escriba a: Office of Civil Rights U.S. Department of Health and Human " x="4" y="112" width="488" height="12"/>
+      <text name="HEADER_GP_TXT0__21" text="Services, Jacob Javits Federal Building 26 Federal Plaza - Suite 3312 New " x="4" y="128" width="526" height="12"/>
+      <text name="HEADER_GP_TXT0__22" text="York, NY 10278 Customer Response Center: (800) 368-1019 Fax: (202) 619-3818 " x="4" y="144" width="532" height="12"/>
+      <text name="HEADER_GP_TXT0__23" text="TDD: (800) 537-7697." x="4" y="160" width="147" height="12"/>
+      <text name="HEADER_GP_TXT0__24" text="Para información sobre los Programas llame al (787) 289-7632 y libre de " x="4" y="183" width="518" height="12"/>
+      <text name="HEADER_GP_TXT0__25" text="cargos al 1-800-981-5822 y para Audio Impedidos al 1-800-981-7641." x="4" y="199" width="465" height="12"/>
+      <text name="HEADER_GP_TXT0__26" text="______________________________" x="4" y="240" width="210" height="12"/>
+      <text name="HEADER_GP_TXT0__28" text="____________________________________________________________________________" x="4" y="215" width="537" height="12"/>
+      <text name="HEADER_GP_TXT0__49" text="______________________________" x="4" y="306" width="210" height="12"/>
+      <text name="HEADER_GP_TXT0__50" text="Firma o marca del Jefe, Encargado/a " x="4" y="256" width="247" height="12"/>
+      <text name="HEADER_GP_TXT0__62" text="Nombre y Firma de testigo de la marca" x="4" y="322" width="265" height="12"/>
+      <text name="HEADER_GP_TXT0__181" text="del Servicio, Cónyuge o Representante" x="4" y="272" width="260" height="12"/>
+      <text name="HEADER_GP_TXT0__183" text="________________________" x="345" y="240" width="169" height="12"/>
+      <text name="HEADER_GP_TXT0__184" text="Fecha (Día-Mes-Año)" x="357" y="256" width="133" height="12"/>
+    </textgroup>
+  </group>
+</model>

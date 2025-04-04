@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="SERV_SOST_MAX_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="true" insertAllowed="true" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="true" updateFields="" updateKey="" updateSourceName="SERVICIOS_SOSTENEDORES" useTransactions="false" definition="SELECT SERV_SOST_MAX.SEGURO_SOCIAL_JEFE_SERV,SERV_SOST_MAX.MES_PAGO_ACTIVIDAD FROM SERV_SOST_MAX SERV_SOST_MAX" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">SHARED WRITE</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="SEGURO_SOCIAL_JEFE_SERV" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="Double" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="9" sourceAlias="SERV_SOST_MAX" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="SEGURO_SOCIAL_JEFE_SERV" sourceLocation="" sourceName="SERV_SOST_MAX" sourceOwner="" unique="false" updateable="true"/>
+  <field name="MES_PAGO_ACTIVIDAD" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="DATE" dataType="Date" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="SERV_SOST_MAX" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="MES_PAGO_ACTIVIDAD" sourceLocation="" sourceName="SERV_SOST_MAX" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

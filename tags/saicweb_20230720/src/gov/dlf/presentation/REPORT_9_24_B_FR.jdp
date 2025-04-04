@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="REPORT_9_24_B_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="1709" pageheight="1440" backcolor="13421772" x="2" y="2" width="676" height="980" groupstyle="0" highLightSelected="false" firstobject="HEADER1_GP" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="REPORT_9_24_B_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="490" height="60" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="DEPARTAMENTO" x="175" y="0" width="84" height="12"/>
+    <text name="TXT__1" text="DE" x="266" y="0" width="14" height="12"/>
+    <text name="TXT__2" text="LA" x="287" y="0" width="14" height="12"/>
+    <text name="TXT__3" text="FAMILIA" x="308" y="0" width="49" height="12"/>
+    <text name="TXT__4" text="-109" x="35" y="16" width="28" height="12"/>
+    <text name="TXT__5" text="ADMINISTRACION" x="98" y="16" width="98" height="12"/>
+    <text name="TXT__6" text="DE" x="203" y="16" width="14" height="12"/>
+    <text name="TXT__7" text="DESARROLLO" x="224" y="16" width="70" height="12"/>
+    <text name="TXT__8" text="SOCIECONOMICO" x="301" y="16" width="91" height="12"/>
+    <text name="TXT__9" text="DE" x="399" y="16" width="14" height="12"/>
+    <text name="TXT__10" text="LA" x="420" y="16" width="14" height="12"/>
+    <text name="TXT__11" text="FAMILIA" x="441" y="16" width="49" height="12"/>
+    <text name="TXT__12" text="Rev." x="0" y="32" width="28" height="12"/>
+    <text name="TXT__13" text="3/07" x="35" y="32" width="28" height="12"/>
+    <text name="TXT__14" text="ACCION" x="147" y="48" width="42" height="12"/>
+    <text name="TXT__15" text="TOMADA" x="196" y="48" width="42" height="12"/>
+    <text name="TXT__16" text="-" x="245" y="48" width="7" height="12"/>
+    <text name="TXT__17" text="DESCALIFICACION" x="259" y="48" width="105" height="12"/>
+    <text name="TXT__18" text="(1)" x="371" y="48" width="21" height="12"/>
+    <text name="TXT__19" text="ADSEF" x="0" y="16" width="35" height="12"/>
+  </textgroup>
+  <field name="COD_REVISION" tag="" visible="false" enabled="true" container="REPORT_9_24_B_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NO_REVISION" tag="" visible="false" enabled="true" container="REPORT_9_24_B_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <group name="HEADER1_GP" tag="" visible="true" enabled="true" container="REPORT_9_24_B_FR" nextobject="" objectType="group" pageStart="-1" pageType="0" x="0" y="96" width="672" height="895" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="1" highLightSelected="true" datastore="HEADER_NOTIFICACION_2_DSD" discardChildless="false" updatetotop="false" firstobject="OFICIONA_LOCAL" indivisible="false" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="864" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <parameter name="COD_SERVICIO_GBL"/>
+    <parameter name="SS_JEFE_SERVICIO_GBL"/>
+    <parameter name="SS_JEFE_FAMILIA_GBL"/>
+    <parameter name="RMO_PAR"/>
+    <textgroup name="HEADER1_GP_TXT" tag="" visible="true" enabled="true" container="HEADER1_GP" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="546" height="890" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="HEADER1_GP_TXT__0" text="Oficina" x="231" y="16" width="49" height="12"/>
+      <text name="HEADER1_GP_TXT__1" text="Regional:" x="287" y="16" width="63" height="12"/>
+      <text name="HEADER1_GP_TXT__2" text="Centro" x="231" y="32" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__3" text="Serv.Integrados:" x="280" y="32" width="112" height="12"/>
+      <text name="HEADER1_GP_TXT__4" text="-" x="168" y="48" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__5" text="Número" x="231" y="96" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__6" text="de" x="280" y="96" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__7" text="Seguro" x="301" y="96" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__8" text="Social" x="350" y="96" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__9" text="JUF:" x="399" y="96" width="28" height="12"/>
+      <text name="HEADER1_GP_TXT__10" text="Número" x="231" y="112" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__11" text="de" x="280" y="112" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__12" text="Enc." x="301" y="112" width="28" height="12"/>
+      <text name="HEADER1_GP_TXT__13" text="del" x="336" y="112" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__14" text="Servicio:" x="364" y="112" width="63" height="12"/>
+      <text name="HEADER1_GP_TXT__15" text="Programa/Servicio:" x="231" y="128" width="126" height="12"/>
+      <text name="HEADER1_GP_TXT__16" text="Señor(a):" x="0" y="144" width="63" height="12"/>
+      <text name="HEADER1_GP_TXT__17" text="Informamos" x="7" y="176" width="70" height="12"/>
+      <text name="HEADER1_GP_TXT__18" text="la" x="84" y="176" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__19" text="determinación" x="105" y="176" width="91" height="12"/>
+      <text name="HEADER1_GP_TXT__20" text="de" x="203" y="176" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__21" text="descalificación" x="224" y="176" width="105" height="12"/>
+      <text name="HEADER1_GP_TXT__22" text="con" x="336" y="176" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__23" text="relación" x="364" y="176" width="56" height="12"/>
+      <text name="HEADER1_GP_TXT__24" text="a" x="427" y="176" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__25" text="su" x="441" y="176" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__26" text="[" x="7" y="192" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__27" text="]" x="28" y="192" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__28" text="Solicitud" x="49" y="192" width="63" height="12"/>
+      <text name="HEADER1_GP_TXT__29" text="[" x="133" y="192" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__30" text="]" x="154" y="192" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__31" text="Caso," x="168" y="192" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__32" text="debido" x="210" y="192" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__33" text="a" x="259" y="192" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__34" text="que:" x="273" y="192" width="28" height="12"/>
+      <text name="HEADER1_GP_TXT__35" text="Será" x="7" y="272" width="28" height="12"/>
+      <text name="HEADER1_GP_TXT__36" text="descalificado" x="42" y="272" width="91" height="12"/>
+      <text name="HEADER1_GP_TXT__37" text="para" x="140" y="272" width="28" height="12"/>
+      <text name="HEADER1_GP_TXT__38" text="participar" x="175" y="272" width="70" height="12"/>
+      <text name="HEADER1_GP_TXT__39" text="del" x="252" y="272" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__40" text="programa" x="280" y="272" width="56" height="12"/>
+      <text name="HEADER1_GP_TXT__41" text="por" x="343" y="272" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__42" text="(indique" x="441" y="272" width="56" height="12"/>
+      <text name="HEADER1_GP_TXT__43" text="los" x="504" y="272" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__44" text="meses)." x="7" y="288" width="49" height="12"/>
+      <text name="HEADER1_GP_TXT__45" text="Recibira" x="70" y="288" width="56" height="12"/>
+      <text name="HEADER1_GP_TXT__46" text="desde" x="245" y="288" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__47" text="hasta" x="364" y="288" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__48" text="." x="504" y="288" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__49" text="El" x="7" y="304" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__50" text="periodo" x="28" y="304" width="49" height="12"/>
+      <text name="HEADER1_GP_TXT__51" text="de" x="84" y="304" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__52" text="certificación" x="105" y="304" width="91" height="12"/>
+      <text name="HEADER1_GP_TXT__53" text="vence" x="203" y="304" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__54" text="en" x="245" y="304" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__55" text="le" x="371" y="304" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__56" text="quedarán" x="392" y="304" width="56" height="12"/>
+      <text name="HEADER1_GP_TXT__57" text="pendientes" x="7" y="320" width="70" height="12"/>
+      <text name="HEADER1_GP_TXT__58" text="meses" x="175" y="320" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__59" text="por" x="217" y="320" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__60" text="descalificación." x="245" y="320" width="112" height="12"/>
+      <text name="HEADER1_GP_TXT__61" text="Si" x="371" y="320" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__62" text="resulta" x="392" y="320" width="49" height="12"/>
+      <text name="HEADER1_GP_TXT__63" text="elegible" x="448" y="320" width="56" height="12"/>
+      <text name="HEADER1_GP_TXT__64" text="al" x="511" y="320" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__65" text="certificar" x="7" y="336" width="70" height="12"/>
+      <text name="HEADER1_GP_TXT__66" text="el" x="84" y="336" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__67" text="caso," x="105" y="336" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__68" text="se" x="147" y="336" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__69" text="descalificará" x="168" y="336" width="91" height="12"/>
+      <text name="HEADER1_GP_TXT__70" text="por" x="266" y="336" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__71" text="el" x="294" y="336" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__72" text="número" x="315" y="336" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__73" text="de" x="364" y="336" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__74" text="meses" x="385" y="336" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__75" text="indicados." x="427" y="336" width="70" height="12"/>
+      <text name="HEADER1_GP_TXT__76" text="Le" x="7" y="368" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__77" text="citamos" x="35" y="368" width="49" height="12"/>
+      <text name="HEADER1_GP_TXT__78" text="para" x="98" y="368" width="28" height="12"/>
+      <text name="HEADER1_GP_TXT__79" text="el" x="133" y="368" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__80" text="de" x="224" y="368" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__81" text="de" x="308" y="368" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__82" text="a" x="392" y="368" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__83" text="las" x="406" y="368" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__84" text="en" x="497" y="368" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__85" text="el" x="518" y="368" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__86" text="Centro" x="7" y="384" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__87" text="de" x="56" y="384" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__88" text="Servicios" x="77" y="384" width="63" height="12"/>
+      <text name="HEADER1_GP_TXT__89" text="Integrados." x="147" y="384" width="77" height="12"/>
+      <text name="HEADER1_GP_TXT__90" text="Si" x="231" y="384" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__91" text="usted," x="252" y="384" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__92" text="su" x="301" y="384" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__93" text="cónyugue" x="322" y="384" width="56" height="12"/>
+      <text name="HEADER1_GP_TXT__94" text="o" x="385" y="384" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__95" text="su" x="399" y="384" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__96" text="representante" x="420" y="384" width="91" height="12"/>
+      <text name="HEADER1_GP_TXT__97" text="no" x="518" y="384" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__98" text="puede" x="7" y="400" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__99" text="asistir," x="49" y="400" width="56" height="12"/>
+      <text name="HEADER1_GP_TXT__100" text="llame" x="112" y="400" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__101" text="al" x="154" y="400" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__102" text="teléfono" x="175" y="400" width="56" height="12"/>
+      <text name="HEADER1_GP_TXT__103" text="." x="336" y="400" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__104" text="Si" x="7" y="432" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__105" text="usted" x="28" y="432" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__106" text="no" x="70" y="432" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__107" text="esta" x="91" y="432" width="28" height="12"/>
+      <text name="HEADER1_GP_TXT__108" text="de" x="126" y="432" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__109" text="acuerdo" x="147" y="432" width="49" height="12"/>
+      <text name="HEADER1_GP_TXT__110" text="con" x="203" y="432" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__111" text="la" x="231" y="432" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__112" text="acción," x="252" y="432" width="49" height="12"/>
+      <text name="HEADER1_GP_TXT__113" text="tiene" x="308" y="432" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__114" text="derecho" x="350" y="432" width="49" height="12"/>
+      <text name="HEADER1_GP_TXT__115" text="a" x="406" y="432" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__116" text="radicar" x="420" y="432" width="49" height="12"/>
+      <text name="HEADER1_GP_TXT__117" text="apelación" x="476" y="432" width="63" height="12"/>
+      <text name="HEADER1_GP_TXT__118" text="dentro" x="7" y="448" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__119" text="de" x="56" y="448" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__120" text="quince" x="77" y="448" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__121" text="(15)" x="126" y="448" width="28" height="12"/>
+      <text name="HEADER1_GP_TXT__122" text="días" x="161" y="448" width="28" height="12"/>
+      <text name="HEADER1_GP_TXT__123" text="calendarios" x="196" y="448" width="77" height="12"/>
+      <text name="HEADER1_GP_TXT__124" text="a" x="280" y="448" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__125" text="partir" x="294" y="448" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__126" text="de" x="343" y="448" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__127" text="la" x="364" y="448" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__128" text="fecha" x="385" y="448" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__129" text="de" x="427" y="448" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__130" text="notificación" x="455" y="448" width="84" height="12"/>
+      <text name="HEADER1_GP_TXT__131" text="de" x="7" y="464" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__132" text="la" x="28" y="464" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__133" text="acción" x="49" y="464" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__134" text="los" x="98" y="464" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__135" text="cuales" x="126" y="464" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__136" text="finalizan" x="175" y="464" width="63" height="12"/>
+      <text name="HEADER1_GP_TXT__137" text="el" x="245" y="464" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__138" text="." x="371" y="464" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__139" text="Puede" x="392" y="464" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__140" text="radicar" x="441" y="464" width="49" height="12"/>
+      <text name="HEADER1_GP_TXT__141" text="en" x="504" y="464" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__142" text="el" x="525" y="464" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__143" text="Centro" x="7" y="480" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__144" text="de" x="63" y="480" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__145" text="Servicios" x="91" y="480" width="63" height="12"/>
+      <text name="HEADER1_GP_TXT__146" text="Integrales" x="168" y="480" width="70" height="12"/>
+      <text name="HEADER1_GP_TXT__147" text="o" x="252" y="480" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__148" text="enviar" x="266" y="480" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__149" text="carta" x="315" y="480" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__150" text="a" x="357" y="480" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__151" text="la" x="371" y="480" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__152" text="Junta" x="392" y="480" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__153" text="de" x="434" y="480" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__154" text="Apelaciones," x="455" y="480" width="84" height="12"/>
+      <text name="HEADER1_GP_TXT__155" text="Apelaciones," x="7" y="496" width="84" height="12"/>
+      <text name="HEADER1_GP_TXT__156" text="Apartado" x="98" y="496" width="56" height="12"/>
+      <text name="HEADER1_GP_TXT__157" text="11398," x="161" y="496" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__158" text="San" x="210" y="496" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__159" text="Juan," x="238" y="496" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__160" text="PR" x="280" y="496" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__161" text="00910." x="301" y="496" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__162" text="Si" x="7" y="528" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__163" text="no" x="35" y="528" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__164" text="está" x="63" y="528" width="28" height="12"/>
+      <text name="HEADER1_GP_TXT__165" text="de" x="98" y="528" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__166" text="acuerdo" x="119" y="528" width="49" height="12"/>
+      <text name="HEADER1_GP_TXT__167" text="con" x="175" y="528" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__168" text="la" x="203" y="528" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__169" text="decisión" x="224" y="528" width="56" height="12"/>
+      <text name="HEADER1_GP_TXT__170" text="del" x="287" y="528" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__171" text="Departamento" x="315" y="528" width="84" height="12"/>
+      <text name="HEADER1_GP_TXT__172" text="de" x="406" y="528" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__173" text="Justicia," x="427" y="528" width="63" height="12"/>
+      <text name="HEADER1_GP_TXT__174" text="tiene" x="497" y="528" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__175" text="derecho" x="7" y="544" width="49" height="12"/>
+      <text name="HEADER1_GP_TXT__176" text="a" x="63" y="544" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__177" text="radicar" x="77" y="544" width="49" height="12"/>
+      <text name="HEADER1_GP_TXT__178" text="una" x="133" y="544" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__179" text="moción" x="161" y="544" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__180" text="de" x="210" y="544" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__181" text="reconsideración" x="231" y="544" width="105" height="12"/>
+      <text name="HEADER1_GP_TXT__182" text="ante" x="343" y="544" width="28" height="12"/>
+      <text name="HEADER1_GP_TXT__183" text="el" x="378" y="544" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__184" text="tribunal," x="399" y="544" width="63" height="12"/>
+      <text name="HEADER1_GP_TXT__185" text="dentro" x="469" y="544" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__186" text="de" x="518" y="544" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__187" text="30" x="7" y="560" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__188" text="días," x="28" y="560" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__189" text="loas" x="70" y="560" width="28" height="12"/>
+      <text name="HEADER1_GP_TXT__190" text="cuales" x="105" y="560" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__191" text="finalizan" x="154" y="560" width="63" height="12"/>
+      <text name="HEADER1_GP_TXT__192" text="en" x="224" y="560" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__193" text="." x="336" y="560" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__194" text="Una" x="7" y="592" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__195" text="vez" x="42" y="592" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__196" text="finalizado" x="70" y="592" width="70" height="12"/>
+      <text name="HEADER1_GP_TXT__197" text="el" x="147" y="592" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__198" text="período" x="168" y="592" width="49" height="12"/>
+      <text name="HEADER1_GP_TXT__199" text="de" x="224" y="592" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__200" text="descalificación," x="245" y="592" width="112" height="12"/>
+      <text name="HEADER1_GP_TXT__201" text="se" x="364" y="592" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__202" text="incluirá" x="385" y="592" width="56" height="12"/>
+      <text name="HEADER1_GP_TXT__203" text="en" x="448" y="592" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__204" text="la" x="469" y="592" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__205" text="unidad" x="490" y="592" width="42" height="12"/>
+      <text name="HEADER1_GP_TXT__206" text="de" x="7" y="608" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__207" text="servicios" x="35" y="608" width="63" height="12"/>
+      <text name="HEADER1_GP_TXT__208" text="nuevamente." x="105" y="608" width="77" height="12"/>
+      <text name="HEADER1_GP_TXT__209" text="No" x="196" y="608" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__210" text="obstante," x="217" y="608" width="63" height="12"/>
+      <text name="HEADER1_GP_TXT__211" text="es" x="287" y="608" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__212" text="su" x="308" y="608" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__213" text="responsabilidad" x="329" y="608" width="105" height="12"/>
+      <text name="HEADER1_GP_TXT__214" text="notificar" x="441" y="608" width="63" height="12"/>
+      <text name="HEADER1_GP_TXT__215" text="los" x="511" y="608" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__216" text="cambios" x="7" y="624" width="49" height="12"/>
+      <text name="HEADER1_GP_TXT__217" text="en" x="63" y="624" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__218" text="las" x="84" y="624" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__219" text="circunstancias" x="112" y="624" width="98" height="12"/>
+      <text name="HEADER1_GP_TXT__220" text="familiares" x="217" y="624" width="70" height="12"/>
+      <text name="HEADER1_GP_TXT__221" text="durante" x="294" y="624" width="49" height="12"/>
+      <text name="HEADER1_GP_TXT__222" text="o" x="350" y="624" width="7" height="12"/>
+      <text name="HEADER1_GP_TXT__223" text="finalizado" x="364" y="624" width="70" height="12"/>
+      <text name="HEADER1_GP_TXT__224" text="el" x="441" y="624" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__225" text="período" x="462" y="624" width="49" height="12"/>
+      <text name="HEADER1_GP_TXT__226" text="de" x="518" y="624" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__227" text="descalificación." x="7" y="640" width="112" height="12"/>
+      <text name="HEADER1_GP_TXT__228" text="Cordialmente," x="7" y="672" width="91" height="12"/>
+      <text name="HEADER1_GP_TXT__229" text="Firma" x="28" y="720" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__230" text="del" x="70" y="720" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__231" text="Técnico" x="98" y="720" width="49" height="12"/>
+      <text name="HEADER1_GP_TXT__232" text="Num." x="217" y="720" width="28" height="12"/>
+      <text name="HEADER1_GP_TXT__233" text="del" x="252" y="720" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__234" text="TSS" x="280" y="720" width="21" height="12"/>
+      <text name="HEADER1_GP_TXT__235" text="Fecha" x="336" y="720" width="35" height="12"/>
+      <text name="HEADER1_GP_TXT__236" text="de" x="378" y="720" width="14" height="12"/>
+      <text name="HEADER1_GP_TXT__237" text="notificación" x="399" y="720" width="84" height="12"/>
+      <text name="TXT__704" text="El Departamento de la Familia garantiza igualdad de oportunidades. Si" x="0" y="750" width="556" height="12"/>
+      <text name="TXT__715" text="considera que se ha discriminado contra usted por razón de raza, color," x="0" y="766" width="556" height="12"/>
+      <text name="TXT__728" text="origen nacional, sexo, edad o impedimento, escriba a Director, Civil Rights," x="0" y="782" width="556" height="12"/>
+      <text name="TXT__738" text="USDA, Food and Nutrition Service, 300 Corporate Blvd, Robbinsville," x="0" y="798" width="556" height="12"/>
+      <text name="TXT__749" text="NJ 08691-1598. Personas sordas, con dificultad para oír o tiene impedimentos" x="0" y="814" width="556" height="12"/>
+      <text name="TXT__761" text="para hablar pueden comunicar al 'Federal Relay Service' 1-(800)-877-8339" x="0" y="830" width="556" height="12"/>
+      <text name="TXT__773" text="o al 1-(800)-845-6136 (Español), (787) 289-7632, Isla 1-800-981-8056," x="0" y="846" width="556" height="12"/>
+      <text name="TXT__774" text="1-800-981-7641 (libre de cargos)." x="0" y="862" width="556" height="12"/>
+      <line name="LINE_HEADER1_GP_TXT_0" tag="" visible="true" enabled="true" container="HEADER1_GP_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="371" y="284" x1="434" y1="284" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_HEADER1_GP_TXT_1" tag="" visible="true" enabled="true" container="HEADER1_GP_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="133" y="300" x1="238" y1="300" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_HEADER1_GP_TXT_2" tag="" visible="true" enabled="true" container="HEADER1_GP_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="287" y="300" x1="357" y1="300" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_HEADER1_GP_TXT_3" tag="" visible="true" enabled="true" container="HEADER1_GP_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="406" y="300" x1="504" y1="300" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_HEADER1_GP_TXT_4" tag="" visible="true" enabled="true" container="HEADER1_GP_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="266" y="316" x1="364" y1="316" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_HEADER1_GP_TXT_5" tag="" visible="true" enabled="true" container="HEADER1_GP_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="91" y="332" x1="161" y1="332" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_HEADER1_GP_TXT_6" tag="" visible="true" enabled="true" container="HEADER1_GP_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="154" y="380" x1="217" y1="380" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_HEADER1_GP_TXT_7" tag="" visible="true" enabled="true" container="HEADER1_GP_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="245" y="380" x1="301" y1="380" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_HEADER1_GP_TXT_8" tag="" visible="true" enabled="true" container="HEADER1_GP_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="329" y="380" x1="385" y1="380" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_HEADER1_GP_TXT_9" tag="" visible="true" enabled="true" container="HEADER1_GP_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="434" y="380" x1="483" y1="380" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <line name="LINE_HEADER1_GP_TXT_10" tag="" visible="true" enabled="true" container="HEADER1_GP_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="238" y="412" x1="336" y1="412" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    </textgroup>
+    <field name="FECHA" tag="" visible="false" enabled="true" container="HEADER1_GP" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="OFICINA_REGIONAL" tag="" visible="true" enabled="true" container="HEADER1_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="358" y="16" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="OFICIONA_LOCAL" tag="" visible="true" enabled="true" container="HEADER1_GP" nextobject="SERVICIOS_SEGURO_SOCIAL_JEFE_FAM" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="400" y="32" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="SERVICIOS_SEGURO_SOCIAL_JEFE_FAM" tag="" visible="true" enabled="true" container="HEADER1_GP" nextobject="SERVICIOS_SEGURO_SOCIAL_JEFE_SERV" objectType="field" copyFieldName="" datatypename="double" datafieldname="SERVICIOS_SEGURO_SOCIAL_JEFE_FAM" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="435" y="96" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="SERVICIOS_SEGURO_SOCIAL_JEFE_SERV" tag="" visible="true" enabled="true" container="HEADER1_GP" nextobject="SERVICIOS_FCH_TERMINACION" objectType="field" copyFieldName="" datatypename="double" datafieldname="SERVICIOS_SEGURO_SOCIAL_JEFE_SERV" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="435" y="112" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="SERVICIOS_COD_SERVICIO" tag="" visible="false" enabled="true" container="HEADER1_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="SERVICIOS_COD_SERVICIO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="SERVICIOS_VLR_BENEFICIOS" tag="" visible="false" enabled="true" container="HEADER1_GP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="SERVICIOS_VLR_BENEFICIOS" emptyisnull="true" format="****,000***" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="****,000***" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="SERVICIOS_FCH_SOLICITUD" tag="" visible="false" enabled="true" container="HEADER1_GP" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="SERVICIOS_FCH_SOLICITUD" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="SERVICIOS_FCH_COMIENZO" tag="" visible="false" enabled="true" container="HEADER1_GP" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="SERVICIOS_FCH_COMIENZO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="SERVICIOS_FCH_TERMINACION" tag="" visible="true" enabled="true" container="HEADER1_GP" nextobject="DIRECCIONES_DSC_DIRECCION_1" objectType="field" copyFieldName="" datatypename="Date" datafieldname="SERVICIOS_FCH_TERMINACION" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="267" y="304" width="97" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="NOMBRE_JEFE_SERVICIO" tag="" visible="true" enabled="true" container="HEADER1_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="0" width="258" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DIRECCIONES_DSC_DIRECCION_1" tag="" visible="true" enabled="true" container="HEADER1_GP" nextobject="DIRECCIONES_DSC_DIRECCION_2" objectType="field" copyFieldName="" datatypename="String" datafieldname="DIRECCIONES_DSC_DIRECCION_1" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="16" width="174" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DIRECCIONES_DSC_DIRECCION_2" tag="" visible="true" enabled="true" container="HEADER1_GP" nextobject="DIRECCIONES_ZIP_CODE" objectType="field" copyFieldName="" datatypename="String" datafieldname="DIRECCIONES_DSC_DIRECCION_2" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="32" width="174" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DIRECCIONES_ZIP_CODE" tag="" visible="true" enabled="true" container="HEADER1_GP" nextobject="DIRECCIONES_ZIP_CODE_4" objectType="field" copyFieldName="" datatypename="double" datafieldname="DIRECCIONES_ZIP_CODE" emptyisnull="true" format="00000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="134" y="48" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+        <EditModel formName="ZIP_LOV_FR" groupName="" valueField="ZIP_CODE" cleanDependents="false" manualEntry="true" validateValues="true">
+          <Item targetField="" sourceField=""/>
+        </EditModel>
+      </editcontrol>
+    </field>
+    <field name="DIRECCIONES_ZIP_CODE_4" tag="" visible="true" enabled="true" container="HEADER1_GP" nextobject="CIUDAD" objectType="field" copyFieldName="" datatypename="double" datafieldname="DIRECCIONES_ZIP_CODE_4" emptyisnull="true" format="0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="176" y="48" width="27" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="0000" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="CIUDAD" tag="" visible="true" enabled="true" container="HEADER1_GP" nextobject="ESTADO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="48" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+        <EditModel formName="ZIP_LOV_FR" groupName="" valueField="CIUDAD" cleanDependents="false" manualEntry="true" validateValues="true">
+          <Item targetField="" sourceField=""/>
+        </EditModel>
+      </editcontrol>
+    </field>
+    <field name="ESTADO" tag="" visible="true" enabled="true" container="HEADER1_GP" nextobject="DESCRIPCION_SERVICIO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="113" y="48" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+        <EditModel formName="ZIP_LOV_FR" groupName="" valueField="ESTADO" cleanDependents="false" manualEntry="true" validateValues="true">
+          <Item targetField="" sourceField=""/>
+        </EditModel>
+      </editcontrol>
+    </field>
+    <field name="DIRECCIONES_COD_MUNICIPIO" tag="" visible="false" enabled="true" container="HEADER1_GP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="DIRECCIONES_COD_MUNICIPIO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DESCRIPCION_SERVICIO" tag="" visible="true" enabled="true" container="HEADER1_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="DESCRIPCION_SERVICIO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="365" y="128" width="125" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="SERVICIOS_NUM_MESES" tag="" visible="false" enabled="true" container="HEADER1_GP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="SERVICIOS_NUMERO_MESES" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="VALOR_SERVICIO" tag="" visible="false" enabled="true" container="HEADER1_GP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="VALOR_SERVICIO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="UNIDAD_VALOR_SERVICIO" tag="" visible="false" enabled="true" container="HEADER1_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="UNIDAD_VALOR_SERVICIO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="FECHA_SISTEMA_GBL" tag="" visible="true" enabled="true" container="HEADER1_GP" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="379" y="704" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="FECHA_PLUS_15" tag="" visible="true" enabled="true" container="HEADER1_GP" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="267" y="464" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="FECHA_PLUS_30_GBL" tag="" visible="true" enabled="true" container="HEADER1_GP" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="246" y="560" width="90" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="TSS_NO" tag="" visible="true" enabled="true" container="HEADER1_GP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="246" y="704" width="27" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+  </group>
+</model>

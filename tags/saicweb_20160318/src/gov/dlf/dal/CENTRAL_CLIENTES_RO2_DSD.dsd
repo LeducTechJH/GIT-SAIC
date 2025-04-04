@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="CENTRAL_CLIENTES_RO2_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="COD_STATUS,RMO_OFICINA,SEGURO_SOCIAL_CLIENTE,SEGURO_SOCIAL_JEFE_FAMILIA" updateKey="SEGURO_SOCIAL_CLIENTE" updateSourceName="CLIENTES" useTransactions="false" definition="select  CLIENTES.COD_STATUS,  CLIENTES.RMO_OFICINA,  CLIENTES.SEGURO_SOCIAL_CLIENTE,  CLIENTES.SEGURO_SOCIAL_JEFE_FAMILIA from CLIENTES CLIENTES" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">saic_db:</extended>
+  <extended name="storage">saic_db:</extended>
+  <field name="COD_STATUS" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="SERVICE STATUS CODE" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="CLIENTES" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_STATUS" sourceLocation="" sourceName="CLIENTES" sourceOwner="" unique="false" updateable="true"/>
+  <field name="RMO_OFICINA" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="REGION/MUNICIPALITY/OFFICE CODE" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="CLIENTES" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="RMO_OFICINA" sourceLocation="" sourceName="CLIENTES" sourceOwner="" unique="false" updateable="true"/>
+  <field name="SEGURO_SOCIAL_CLIENTE" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="SOCIAL SECURITY CODE" dataType="double" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="CLIENTES" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="SEGURO_SOCIAL_CLIENTE" sourceLocation="" sourceName="CLIENTES" sourceOwner="" unique="false" updateable="true"/>
+  <field name="SEGURO_SOCIAL_JEFE_FAMILIA" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="SOCIAL SECURITY CODE" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="CLIENTES" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="SEGURO_SOCIAL_JEFE_FAMILIA" sourceLocation="" sourceName="CLIENTES" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

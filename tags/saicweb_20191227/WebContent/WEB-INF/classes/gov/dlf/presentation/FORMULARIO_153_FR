@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="Main" tag="" visible="true" enabled="true" objectType="model" pagewidth="1385" pageheight="720" backcolor="12632256" x="35" y="0" width="640" height="480" groupstyle="0" highLightSelected="true" firstobject="" indivisible="false" autosizewidth="false" autosizeheight="true" stretchx="0" stretchy="0" comment="">
+  <text name="Text_0" text="ADSEF-153" tag="" visible="true" enabled="true" container="Main" nextobject="" objectType="text" pageStart="-1" pageType="0" forecolor="0" backcolor="12632256" border="2" x="35" y="40" width="70" height="15" fontfamily="Times New Roman" fontsize="11" style="plain" alignment="0" righttoleft="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+</model>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="DEDUCCIONES_TBL_RO_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="COD_TIPO_DEDUCCIONE,DSC_DEDUCCIONE,VLR_DEDUCCIONE" updateKey="COD_TIPO_DEDUCCIONE" updateSourceName="DEDUCCIONES_TBL" useTransactions="false" definition="select  DEDUCCIONES_TBL.COD_TIPO_DEDUCCIONE,  DEDUCCIONES_TBL.DSC_DEDUCCIONE,  DEDUCCIONES_TBL.VLR_DEDUCCIONE from DEDUCCIONES_TBL DEDUCCIONES_TBL order by DEDUCCIONES_TBL.COD_TIPO_DEDUCCIONE asc" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="COD_TIPO_DEDUCCIONE" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="DEDUCCIONES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_TIPO_DEDUCCIONE" sourceLocation="" sourceName="DEDUCCIONES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DSC_DEDUCCIONE" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="40" sourceAlias="DEDUCCIONES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DSC_DEDUCCIONE" sourceLocation="" sourceName="DEDUCCIONES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="VLR_DEDUCCIONE" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="2" sourceAlias="DEDUCCIONES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="VLR_DEDUCCIONE" sourceLocation="" sourceName="DEDUCCIONES_TBL" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

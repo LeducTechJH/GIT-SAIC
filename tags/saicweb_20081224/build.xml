@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+
+<project name="SAICWEB" default="all" basedir=".">
+
+
+<path id="svnant.classpath">
+    <fileset dir="C:\Program Files\WinAnt\lib">
+      <include name="**/*.jar"/>
+    </fileset>
+</path>  
+
+<path id="project.class.path">
+    <fileset dir="${basedir}/WEB-INF/lib">
+    	<include name="net.jar"/>
+    </fileset>
+</path>
+
+
+<taskdef name="svn" classname="org.tigris.subversion.svnant.SvnTask" classpathref="svnant.classpath"/>
+
+<property name="src" value="WEB-INF/src"/>
+<property name="build" value="work/classes"/>
+
+<property name="checkoutPath" value="${basedir}/SAICWEB"/>
+
+	<target name="clean" description="Clean all build targets">
+	    
+		<delete dir="${build}"/>
+
+	</target>
+	
+	
+	<target name="prep">
+
+		<mkdir dir="${build}"/>
+
+	</target>
+
+
+	<target name="compile" description="Builds the source code.">
+
+		<javac srcdir="${src}" destdir="${build}" fork="true" memoryinitialsize="128m" memorymaximumsize="1024m">
+
+			<classpath refid="project.class.path">
+			</classpath>
+
+		</javac>
+
+	</target>
+
+	
+	<target name="buildWar">
+
+		<war destfile="${build}/SAICWEB.war" webxml="WEB-INF/web.xml">
+		
+
+			<lib dir="WEB-INF/lib"></lib>
+			<classes dir="WEB-INF/classes"/>
+
+				<zipfileset dir=".">
+
+					<exclude name="WEB-INF/src"/>
+					<exclude name="work"/>
+					<exclude name="META-INF"/>
+
+				</zipfileset>
+		</war>
+
+	</target>
+
+
+	<target name="all" depends="clean, prep, compile" description="Deletes old files, creates output directory and compiles sauce">
+	
+	
+	</target>
+
+
+	<target name="checkout" description="Downloads the latest code from the trunk in the repository">
+
+		<svn username="ant" password="ant" >
+		
+			<checkout url="http://10.200.11.192/svn/SAICWeb/trunk" destPath="${checkoutPath}"/>
+		
+		</svn>
+
+	</target>	
+
+
+</project>

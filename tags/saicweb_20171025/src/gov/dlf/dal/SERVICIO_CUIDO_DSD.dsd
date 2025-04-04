@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore name="SERVICIO_CUIDO_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="true" insertAllowed="true" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="true" updateFields="SEGURO_SOCIAL_CLIENTE,TIPO_SERV" updateKey="SEGURO_SOCIAL_CLIENTE,TIPO_SERV" updateSourceName="SERVICIO_CUIDO" useTransactions="false" definition="select SERVICIO_CUIDO.SEGURO_SOCIAL_CLIENTE, SERVICIO_CUIDO.TIPO_SERV, GENERAL_TBL.DESC_LARGA from SERVICIO_CUIDO, TIPO_CUIDO where  SERVICIO_CUIDO.SEGURO_SOCIAL_CLIENTE = SSN_PAR AND TIPO_CUIDO.COD_CUIDO = SERVICIO_CUIDO.TIPO_SERV" adapter="1" recordLength="0">
+  <argument name="SSN_PAR"/>
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">SHARED WRITE</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="SEGURO_SOCIAL_CLIENTE" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="SERVICIO_CUIDO" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="SEGURO_SOCIAL_CLIENTE" sourceLocation="" sourceName="SERVICIO_CUIDO" sourceOwner="" unique="false" updateable="true"/>
+  <field name="TIPO_SERV" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="SERVICIO_CUIDO" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="TIPO_SERV" sourceLocation="" sourceName="SERVICIO_CUIDO" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DESC_LARGA" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="25" sourceAlias="TIPO_CUIDO" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DESC_LARGA" sourceLocation="" sourceName="TIPO_CUIDO" sourceOwner="" unique="false" updateable="false"/>
+</datastore>

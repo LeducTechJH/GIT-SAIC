@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="GET_COMPROMISO_PAGO_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="564" height="384" groupstyle="0" highLightSelected="false" firstobject="SSNO_JEFE" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Thu Jul 03 06:38:14 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="GET_COMPROMISO_PAGO_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="462" height="236" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="Departamento" x="203" y="16" width="84" height="12"/>
+    <text name="TXT__1" text="de" x="294" y="16" width="14" height="12"/>
+    <text name="TXT__2" text="la" x="315" y="16" width="14" height="12"/>
+    <text name="TXT__3" text="Familia" x="336" y="16" width="49" height="12"/>
+    <text name="TXT__4" text="Sistema" x="126" y="32" width="49" height="12"/>
+    <text name="TXT__5" text="de" x="182" y="32" width="14" height="12"/>
+    <text name="TXT__6" text="Administracion" x="203" y="32" width="98" height="12"/>
+    <text name="TXT__7" text="e" x="308" y="32" width="7" height="12"/>
+    <text name="TXT__8" text="Informacion" x="322" y="32" width="77" height="12"/>
+    <text name="TXT__9" text="de" x="406" y="32" width="14" height="12"/>
+    <text name="TXT__10" text="Casos" x="427" y="32" width="35" height="12"/>
+    <text name="TXT__11" text="Compromiso" x="161" y="64" width="70" height="12"/>
+    <text name="TXT__12" text="de" x="238" y="64" width="14" height="12"/>
+    <text name="TXT__13" text="pago" x="259" y="64" width="28" height="12"/>
+    <text name="TXT__14" text="de" x="294" y="64" width="14" height="12"/>
+    <text name="TXT__15" text="la" x="315" y="64" width="14" height="12"/>
+    <text name="TXT__16" text="Reclamación" x="336" y="64" width="77" height="12"/>
+    <text name="TXT__17" text="Parametros" x="203" y="112" width="70" height="12"/>
+    <text name="TXT__18" text="de" x="280" y="112" width="14" height="12"/>
+    <text name="TXT__19" text="Seleccion" x="301" y="112" width="63" height="12"/>
+    <text name="TXT__20" text="Seguro" x="98" y="144" width="42" height="12"/>
+    <text name="TXT__21" text="Social" x="154" y="144" width="42" height="12"/>
+    <text name="TXT__22" text="Jefe" x="203" y="144" width="28" height="12"/>
+    <text name="TXT__23" text="Familia" x="238" y="144" width="49" height="12"/>
+    <text name="TXT__24" text=":" x="329" y="144" width="7" height="12"/>
+    <text name="TXT__25" text="Seguro" x="98" y="160" width="42" height="12"/>
+    <text name="TXT__26" text="Social" x="154" y="160" width="42" height="12"/>
+    <text name="TXT__27" text="Encargado" x="203" y="160" width="63" height="12"/>
+    <text name="TXT__28" text="Servicio:" x="273" y="160" width="63" height="12"/>
+    <text name="TXT__29" text="Codigo" x="98" y="176" width="42" height="12"/>
+    <text name="TXT__30" text="Servicio" x="154" y="176" width="56" height="12"/>
+    <text name="TXT__31" text=":" x="329" y="176" width="7" height="12"/>
+    <text name="TXT__32" text="Accion" x="98" y="192" width="42" height="12"/>
+    <text name="TXT__33" text=":" x="329" y="192" width="7" height="12"/>
+    <text name="TXT__34" text="Fecha" x="98" y="208" width="35" height="12"/>
+    <text name="TXT__35" text="Identificado" x="147" y="208" width="84" height="12"/>
+    <text name="TXT__36" text=":" x="329" y="208" width="7" height="12"/>
+    <line name="LINE_TXT_0" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="98" y="134" x1="448" y1="134" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_1" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="98" y="230" x1="448" y1="230" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_2" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="98" y="134" x1="98" y1="230" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_3" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="448" y="134" x1="448" y1="230" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  </textgroup>
+  <field name="SSNO_JEFE" tag="" visible="true" enabled="true" container="GET_COMPROMISO_PAGO_FR" nextobject="SSNO_ENCARGADO" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="344" y="144" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="6003" mustfill="false" required="true">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="11"/>
+  </field>
+  <field name="SSNO_ENCARGADO" tag="" visible="true" enabled="true" container="GET_COMPROMISO_PAGO_FR" nextobject="SERVICIO" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="344" y="160" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="6003" mustfill="false" required="true">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="11"/>
+  </field>
+  <field name="SERVICIO" tag="" visible="true" enabled="true" container="GET_COMPROMISO_PAGO_FR" nextobject="ACCION" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="344" y="176" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="6003" mustfill="false" required="true">
+    <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="10" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+      <EditModel formName="LOV_COD_SERV_FR" groupName="" valueField="COD_SERVICIO">
+        <Item targetField="" sourceField=""/>
+      </EditModel>
+    </editcontrol>
+  </field>
+  <field name="ACCION" tag="" visible="true" enabled="true" container="GET_COMPROMISO_PAGO_FR" nextobject="FECHA_ID" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="344" y="192" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="6003" mustfill="false" required="true">
+    <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="10" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+      <EditModel formName="ACC_RECLA_LOV_FR" groupName="" valueField="COD_ID">
+        <Item targetField="" sourceField=""/>
+      </EditModel>
+    </editcontrol>
+  </field>
+  <field name="FECHA_ID" tag="" visible="true" enabled="true" container="GET_COMPROMISO_PAGO_FR" nextobject="PARK" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="344" y="208" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="6003" mustfill="false" required="true">
+    <event name="JDataPanelListener.BEFORELEAVE"/>
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="12"/>
+  </field>
+  <field name="PARK" tag="" visible="true" enabled="true" container="GET_COMPROMISO_PAGO_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="435" y="208" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="6003" mustfill="false" required="false">
+    <event name="JDataPanelListener.BEFOREENTER"/>
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="1"/>
+  </field>
+</model>

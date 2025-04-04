@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="ADSEF_106E_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="1709" pageheight="12375" backcolor="13421772" x="8" y="2" width="522" height="8250" groupstyle="0" highLightSelected="false" firstobject="HEADER_GP" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="ADSEF_106E_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="538" height="60" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="-106E" x="42" y="0" width="37" height="12"/>
+    <text name="TXT__1" text="DEPARTAMENTO" x="196" y="0" width="84" height="12"/>
+    <text name="TXT__2" text="DE" x="287" y="0" width="14" height="12"/>
+    <text name="TXT__3" text="LA" x="308" y="0" width="14" height="12"/>
+    <text name="TXT__4" text="FAMILIA" x="329" y="0" width="49" height="12"/>
+    <text name="TXT__5" text="Rev." x="7" y="16" width="28" height="12"/>
+    <text name="TXT__6" text="3/18" x="42" y="16" width="28" height="12"/>
+    <text name="TXT__7" text="ADMINISTRACION" x="91" y="16" width="98" height="12"/>
+    <text name="TXT__8" text="DE" x="196" y="16" width="14" height="12"/>
+    <text name="TXT__9" text="DESARROLLO" x="217" y="16" width="70" height="12"/>
+    <text name="TXT__10" text="SOCIOECONOMICO" x="294" y="16" width="98" height="12"/>
+    <text name="TXT__11" text="DE" x="399" y="16" width="14" height="12"/>
+    <text name="TXT__12" text="LA" x="420" y="16" width="14" height="12"/>
+    <text name="TXT__13" text="FAMILIA" x="441" y="16" width="49" height="12"/>
+    <text name="TXT__14" text="ACCIONDERECHOS, RESPONSABILIDADES Y ADVERTENCIAS DE LOS PROGRAMAS" x="65" y="32" width="460" height="12"/>
+    <text name="TXT__15" text="DE ASISTENCIA NUTRICIONAL (PAN) Y AYUDA TEMPORAL PARA FAMILIAS" x="75" y="48" width="438" height="12"/>
+    <text name="TXT__16" text="NECESITADAS (TANF)" x="224" y="64" width="128" height="12"/>
+    <text name="TXT__17" text="DERECHOS DE SOLICITANTES O PARTICIPANTES:" x="0" y="89" width="289" height="12"/>
+    <text name="TXT__18" text="ADSEF" x="7" y="0" width="35" height="12"/>
+  </textgroup>
+  <group name="HEADER_GP" tag="" visible="true" enabled="true" container="ADSEF_106E_FR" nextobject="" objectType="group" pageStart="-1" pageType="0" x="0" y="81" width="534" height="4768" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="0" highLightSelected="false" datastore="" discardChildless="false" updatetotop="false" firstobject=" " indivisible="false" repeatdeltax="0" repeatdeltay="0" repeatsizex="0" repeatsizey="0" repeatorder="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <textgroup name="HEADER_GP_TXT0" tag="5000" visible="true" enabled="true" container="HEADER_GP" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="-5" y="26" width="531" height="4731" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="1" text="1) Solicitar personalmente en la oficina local o centro de servicios " x="8" y="18" width="479" height="12"/>
+      <text name="2" text="integrados que sirven a la zona de su residencia, a través de la Línea de" x="8" y="35" width="515" height="12"/>
+      <text name="3" text="Orientación 3-1-1 o página oficial de la ADSEF " x="8" y="51" width="326" height="12"/>
+      <text name="4" text="https://servicios.adsef.pr.gov." x="8" y="67" width="221" height="12"/>
+      <text name="5" text="2) Recibir orientación sobre los programas y los servicios del:" x="8" y="83" width="492" height="12"/>
+      <text name="6" text="Programa de Asistencia Nutricional (PAN), Ayuda Temporal para" x="8" y="99" width="473" height="12"/>
+      <text name="7" text="Familias Nececitadas (TANF), Administración de Familias y Niños (ADFAN)," x="8" y="115" width="514" height="12"/>
+      <text name="8" text="Administración para el Sustento de Menores (ASUME), y otros." x="8" y="131" width="467" height="12"/>
+      <text name="10" text="3) Ser atendido el mismo día que acuda a radicar solicitud en la Oficina " x="8" y="147" width="533" height="12"/>
+      <text name="12" text="4) Que se tome acción con ui solicitud de PAN dentro del término de 30 dias " x="8" y="179" width="530" height="12"/>
+      <text name="11" text="Local o Centro de Servicios Integrados." x="8" y="163" width="277" height="12"/>
+      <text name="13" text="calendario contados a partir de la presentación de la misma. " x="8" y="195" width="494" height="12"/>
+      <text name="HEADER_GP_TXT0__31" text="5) Que se le oriente a como obtener los documentos para probar" x="8" y="211" width="524" height="12"/>
+      <text name="HEADER_GP_TXT0__32" text="su elegibilidad." x="8" y="227" width="525" height="12"/>
+      <text name="HEADER_GP_TXT0__33" text="6) De existir la necesidad, a ser atendido por personal condominio del" x="8" y="243" width="525" height="12"/>
+      <text name="HEADER_GP_TXT0__34" text="idioma inglés o la disponibilidad de personal para servir, interprete" x="8" y="259" width="500" height="12"/>
+      <text name="HEADER_GP_TXT0__35" text="7) Solicitar una vista de apelación si no está de acuerdo con cualquier " x="8" y="296" width="499" height="12"/>
+      <text name="HEADER_GP_TXT0__36" text="acción que haya tomado la Oficina Local o del Centro de Servicios " x="8" y="312" width="472" height="12"/>
+      <text name="HEADER_GP_TXT0__37" text="del lenguaje de señas." x="8" y="275" width="469" height="12"/>
+      <text name="HEADER_GP_TXT0__38" text="17) Si es participante del TANF, a recibir notifiación con 10 días de" x="8" y="742" width="523" height="12"/>
+      <text name="HEADER_GP_TXT0__40" text="Integrados. A comparecer a la vista de apelación con representación legal." x="8" y="328" width="519" height="12"/>
+      <text name="HEADER_GP_TXT0__42" text="8) En PAN recibir beneficios en el mismo mes que se determine elegibilidad. " x="8" y="348" width="534" height="12"/>
+      <text name="HEADER_GP_TXT0__47" text="Los beneficios del PAN pueden variar de acuerdo a los fondos disponibles." x="8" y="364" width="518" height="12"/>
+      <text name="HEADER_GP_TXT0__48" text="que radicó la solicitud." x="8" y="399" width="507" height="12"/>
+      <text name="HEADER_GP_TXT0__49" text="16) Que se tome acción con su solicitud del TANF en o antes de 45 o 60" x="8" y="705" width="503" height="12"/>
+      <text name="HEADER_GP_TXT0__50" text="10) Recibir beneficios retroactivos, si el núcleo de servicio o núcleo" x="8" y="417" width="519" height="12"/>
+      <text name="HEADER_GP_TXT0__51" text="13) El Departamento la Familia limitará el uso o la divulgación de la" x="8" y="538" width="527" height="12"/>
+      <text name="HEADER_GP_TXT0__53" text="9) En el  PAN, recibir beneficios prorrateados de acuerdo a la fecha" x="8" y="383" width="515" height="12"/>
+      <text name="HEADER_GP_TXT0__54" text="información ofrecida por el (la) solicitante o participante." x="8" y="554" width="472" height="12"/>
+      <text name="HEADER_GP_TXT0__55" text="11) Autorizar a un representante para que realice cualquier gestión a su" x="9" y="450" width="523" height="12"/>
+      <text name="HEADER_GP_TXT0__56" text="nombre, En la Oficina Local o Centro de Servicios Integrados" x="9" y="466" width="479" height="12"/>
+      <text name="HEADER_GP_TXT0__57" text="anticipación, si la acción a tomar es un cierre, reducción o suspensión" x="8" y="761" width="504" height="12"/>
+      <text name="HEADER_GP_TXT0__62" text="calendario, según aplique." x="8" y="722" width="194" height="12"/>
+      <text name="HEADER_GP_TXT0__79" text="12) Si el  participante considera que ha sido objeto de discriminación, " x="9" y="483" width="520" height="12"/>
+      <text name="HEADER_GP_TXT0__80" text="podrá presentar una querella por escrito o por teléfono, dentro de 180 " x="9" y="499" width="500" height="12"/>
+      <text name="HEADER_GP_TXT0__93" text="de servicio." x="8" y="777" width="97" height="12"/>
+      <text name="HEADER_GP_TXT0__233" text="subsiguientes tienen un costo de cuarenta (.40) dentavos cada una." x="8" y="686" width="465" height="12"/>
+      <text name="HEADER_GP_TXT0__234" text="15) Tener acceso adecuado y razonable a lugares en donde pueda retirar sus " x="8" y="622" width="528" height="12"/>
+      <text name="HEADER_GP_TXT0__235" text="14) Ser notificado(a) sobre cualquier acción relacionada con la " x="8" y="573" width="453" height="12"/>
+      <text name="HEADER_GP_TXT0__236" text="participación en los Programas, con las excepciones establecidas en el " x="8" y="588" width="497" height="12"/>
+      <text name="HEADER_GP_TXT0__237" text="Reglamento." x="8" y="604" width="83" height="12"/>
+      <text name="HEADER_GP_TXT0__238" text="beneficios en puntos de ventas (máquinas de ATM o ATH)." x="8" y="638" width="508" height="12"/>
+      <text name="HEADER_GP_TXT0__239" text="cargos. La primera transacción de cajeros automaticos es gratis y las " x="8" y="670" width="493" height="12"/>
+      <text name="HEADER_GP_TXT0__240" text="Los retiros y transacciones en los puntos de ventas conllevan " x="8" y="654" width="517" height="12"/>
+      <text name="TXT__704" text="dias calendario a partir de la fecha en la ocurrió la acción." x="9" y="515" width="428" height="12"/>
+      <text name="TXT__715" text="18) Reclamar Justa Causa para rehusar cooperar con el establecimiento" x="8" y="798" width="506" height="12"/>
+      <text name="TXT__728" text="de una pención alimentaria a través de la ASUME." x="8" y="815" width="470" height="12"/>
+      <text name="TXT__738" text="19) Participar en actividades educativas, adiestramientos o empleos que" x="8" y="832" width="508" height="12"/>
+      <text name="TXT__749" text="ofrezcan los Programas que administra la ADSEF" x="8" y="848" width="418" height="12"/>
+      <text name="TXT__761" text="RESPONSABILIDADES DE SOLICITANTES O PARTICIPANTES:" x="8" y="871" width="359" height="12"/>
+      <text name="Text_0" text="1) Completar el formulario \"Autiruzacuón para requerir" x="8" y="892" width="450" height="15"/>
+      <text name="Text_1" text=" u Ofrecer Información\". Incumplir con teste requisito provoca el rechazo" x="8" y="912" width="511" height="14"/>
+      <text name="Text_2" text="de la solicitud o la descontinuación de la participación" x="8" y="931" width="408" height="15"/>
+      <text name="Text_3" text="2) Ofrecer información correcta y completa requerida por los Programas" x="8" y="958" width="521" height="15"/>
+      <text name="Text_4" text="tal como:" x="7" y="978" width="483" height="13"/>
+      <text name="Text_5" text="a. Tamaño y Composición Familiar." x="8" y="1007" width="453" height="14"/>
+      <text name="Text_6" text="b. Número de Seguro Social de todas las personas del núcleo de servicio." x="8" y="1033" width="504" height="14"/>
+      <text name="Text_7" text="Incumplir con este requisito puede resultar en la" x="8" y="1053" width="499" height="15"/>
+      <text name="Text_8" text="descualificación de la persona." x="8" y="1077" width="492" height="15"/>
+      <text name="Text_9" text="c. Identidad del Jefe de la Unidad Familiar o de todas las personas" x="8" y="1099" width="494" height="15"/>
+      <text name="Text_10" text="que integran el núcleo categórico presentando lisencia de conducir" x="8" y="1126" width="494" height="15"/>
+      <text name="Text_11" text="tarjetas de identificación, Pasaporte, Real ID o cualquier otro" x="8" y="1150" width="494" height="16"/>
+      <text name="Text_12" text="documento válido." x="8" y="1174" width="145" height="12"/>
+      <text name="Text_13" text="d.Evidencia de dirección residencial." x="8" y="1195" width="285" height="16"/>
+      <text name="Text_14" text="e. El ingreso de todas las personas del núcleo de servicio tales como:" x="8" y="1218" width="493" height="18"/>
+      <text name="Text_15" text="salarios, jornales,beneficios de Seguro Social, Desempleo," x="8" y="1242" width="415" height="17"/>
+      <text name="Text_16" text="Fondo del Seguro del Estado, ACCA,Pensión Alimentaria (tribunal," x="8" y="1266" width="495" height="17"/>
+      <text name="Text_17" text="ASUME o voluntario), etc." x="8" y="1296" width="189" height="15"/>
+      <text name="Text_0" text="f. Evidencia de ciudadanía:Certificado de Nacimiento o de Naturalización" x="8" y="1323" width="507" height="16"/>
+      <text name="Text_1" text="Pasaporte, Resolución del Tribunal que certifique la ciudadanía" x="8" y="1345" width="503" height="15"/>
+      <text name="Text_0" text="g. Su condición de persona extranjera.  Presentar tarjeta de residente" x="8" y="1367" width="501" height="17"/>
+      <text name="Text_1" text="(1-151  ó 1-94) o la que proceda y, si aplica, los recursos" x="8" y="1393" width="497" height="17"/>
+      <text name="Text_2" text="e ingresos del patrocinador y su cónyugue." x="8" y="1415" width="497" height="18"/>
+      <text name="Text_3" text="h. Gastos por cuido de menores o dependientes con limitaciones físicas " x="8" y="1438" width="498" height="17"/>
+      <text name="Text_4" text="o mentales o con necesidades especiales." x="8" y="1462" width="500" height="15"/>
+      <text name="Text_5" text="i. Evidencia de condición de incapacidad (someterse a examen médico)." x="8" y="1485" width="501" height="16"/>
+      <text name="Text_6" text="j. Condición de estudiante post-secundaria." x="8" y="1507" width="370" height="17"/>
+      <text name="Text_7" text="k. El valor de los recursos del núcleo de servicio.  Se refiere a: dinero" x="8" y="1533" width="504" height="16"/>
+      <text name="Text_8" text="en efectivo, cuentas corrientes, de ahorro o de retiro individual" x="8" y="1555" width="505" height="15"/>
+      <text name="Text_9" text="(IRA), certificados de ahorro, acciones,bonos,pólizas de seguros," x="8" y="1575" width="504" height="16"/>
+      <text name="Text_10" text="reintegros de contribución sobre ingresos estatal a federal, edificios." x="8" y="1596" width="506" height="19"/>
+      <text name="Text_11" text="terrenos, casas, todo vehículo registrado en el Departamento " x="8" y="1620" width="504" height="17"/>
+      <text name="Text_12" text="de Transportación y Obras Públicas y /o Recursos Naturales tales como;" x="8" y="1642" width="503" height="15"/>
+      <text name="Text_13" text="autos, motoras, botes,lanchas,motoras acuáticas,etc. I)" x="8" y="1662" width="505" height="15"/>
+      <text name="Text_14" text="Cambios ocurridos en cualquiera de las condiciones antes mencionadas." x="8" y="1681" width="505" height="14"/>
+      <text name="3) Notificar" text="3) Notificar a la Oficina Local o Centro de Servicios Integrados,cualquier" x="8" y="1704" width="523" height="15"/>
+      <text name="Text_16" text="cambio en la situación socioeconómica de la familia dentro de 10 días" x="8" y="1731" width="505" height="15"/>
+      <text name="Text_17" text="calendario a partir de la fecha en que ocurra, tales como: si aumenta" x="8" y="1754" width="509" height="16"/>
+      <text name="Text_18" text="o reduce el grupo familiar, sus ingresos, recursos, cambios en dirección" x="8" y="1776" width="514" height="16"/>
+      <text name="Text_19" text="postal o residencial,regreso del padre o madre ausente,menor que cumple" x="8" y="1799" width="511" height="19"/>
+      <text name="Text_20" text="los 18 años,menor que deja o empieza a asistir a la escuela y" x="7" y="1826" width="470" height="15"/>
+      <text name="Text_21" text=" cualquier otro cambio" x="8" y="1847" width="204" height="14"/>
+      <text name="Text_22" text="4) Notificar a la Oficina Local o Centro de Servicios Integrados si recibe" x="8" y="1873" width="525" height="17"/>
+      <text name="Text_23" text="transferencia electronica de beneficios por una cantidad mayor a la que tiene" x="8" y="1897" width="508" height="18"/>
+      <text name="Text_24" text="derecho." x="8" y="1919" width="87" height="12"/>
+      <text name="Text_25" text="5) Asistir a la Oficina Local o Centro de Servicios Integrados  cuando" x="8" y="1944" width="507" height="17"/>
+      <text name="Text_26" text="sea citado.  El no hacerlo podría afectar su participación en el " x="8" y="1968" width="469" height="15"/>
+      <text name="Text_27" text="(los) Programa(s)." x="7" y="1987" width="145" height="14"/>
+      <text name="Text_28" text="6) Cooperar para que se peudan efectuar visitas al hogar o entrevistar" x="8" y="2013" width="498" height="17"/>
+      <text name="Text_29" text="a vecinos o colaterales." x="7" y="2034" width="206" height="15"/>
+      <text name="Text_30" text="7) Solicitar participación en una sola Oficina Local o Centro de Servicios Integrados" x="8" y="2057" width="519" height="16"/>
+      <text name="Text_31" text="que sirva a su zona de residencia." x="8" y="2082" width="252" height="14"/>
+      <text name="Text_32" text="8) Notificar si está descalificado en algunos de los Programas." x="8" y="2110" width="470" height="15"/>
+      <text name="Text_33" text="9) Cumplir con el requisito de Asistencia a la Escuela o matrícula escolar," x="8" y="2134" width="531" height="15"/>
+      <text name="Text_34" text="de acuerdo al (los) Reglamentos." x="8" y="2154" width="240" height="16"/>
+      <text name="Text_36" text="10) En PAN,comprar alimentos elegibles en los establecimientos que" x="8" y="2177" width="516" height="17"/>
+      <text name="Text_37" text=" acepten la Tarjeta de la Familia.  Utilizar un 100% de sus beneficios" x="8" y="2200" width="501" height="15"/>
+      <text name="Text_38" text="para la compra de alimentos en comercios certificados por el Departamento" x="8" y="2220" width="516" height="17"/>
+      <text name="Text_39" text=" de la Familia.  No se puede comprar comida preparada para" x="8" y="2241" width="477" height="15"/>
+      <text name="Text_40" text=" consumo inmediato,alcohol,cigarillos,detergentes,pañales desechables," x="8" y="2262" width="512" height="16"/>
+      <text name="Text_41" text="articulos de uso personal, entre otros." x="8" y="2283" width="304" height="14"/>
+      <text name="Text_42" text="11) La distribución de los beneficios del PAN será de la siguiente manera:" x="8" y="2304" width="519" height="17"/>
+      <text name="Text_43" text="de oct. 2018 a sept. 2019 90% alimentos y 10% efectivo, de oct.2019 " x="8" y="2327" width="510" height="15"/>
+      <text name="Text_44" text="a sept.2020,95% alimentos y 5% efectivo, de octubre del 2020 en adelante" x="8" y="2348" width="512" height="14"/>
+      <text name="Text_45" text=" 100% alimentos" x="8" y="2366" width="131" height="14"/>
+      <text name="Text_46" text="12) De no acceder a los beneficios del PAN por un periodo de sesenta (60)" x="8" y="2392" width="521" height="17"/>
+      <text name="Text_47" text="días, la tarjeta será inactivada.  Pasado los cientos veinte (120) días" x="8" y="2415" width="513" height="17"/>
+      <text name="Text_48" text="inactividad de la tarjeta, los fondos greserán a Programa." x="8" y="2437" width="418" height="16"/>
+      <text name="Text_49" text="13) En TANF, de no acceder a los beneficios por un periodo de noventa(90) " x="8" y="2460" width="519" height="14"/>
+      <text name="Text_50" text="días, la tarjeta será inactivada. Pasado los cientosochenta (180) días de " x="8" y="2479" width="518" height="15"/>
+      <text name="Text_51" text="inactividad, los fondos greserán al Programa." x="8" y="2499" width="323" height="14"/>
+      <text name="Text_52" text="14) En TANF, utilizar los beneficios para el uso exclusivo de las  " x="8" y="2523" width="491" height="15"/>
+      <text name="Text_53" text="necesidades básicas de la familia,tales como: compra o pago de alimentos," x="8" y="2544" width="516" height="14"/>
+      <text name="Text_54" text="ropa,vivienda,articulos de uso personal y gastos del hogar,entre otros." x="8" y="2563" width="514" height="15"/>
+      <text name="Text_55" text="15) En TANF, cumplir con el Plan de Responsabilidad Individual (PRI)." x="8" y="2589" width="492" height="13"/>
+      <text name="Text_56" text="incumplir con este requisito sin tener causa justificada provocará el " x="8" y="2607" width="499" height="14"/>
+      <text name="Text_57" text="que se apliquen sanciones." x="8" y="2626" width="207" height="13"/>
+      <text name="Text_58" text="16) En TANF Participar de las actividades educativas, adiestramiento" x="8" y="2647" width="498" height="14"/>
+      <text name="Text_59" text=" o empleo" x="8" y="2665" width="85" height="13"/>
+      <text name="Text_60" text="17) Cooperar para que el padre o madre ausente y parientes con  " x="8" y="2688" width="453" height="13"/>
+      <text name="Text_61" text="responsabilidad legal, cumplan con la obligación de  proveer sustento a" x="8" y="2711" width="505" height="15"/>
+      <text name="Text_62" text=" los menores." x="8" y="2730" width="117" height="11"/>
+      <text name="Text_63" text="- Si aplica, ceder al Departamento de la Familia el derecho a alimentos " x="8" y="2748" width="508" height="14"/>
+      <text name="Text_64" text="que asiste a menores al momento de determinar la elegibilidad, conforme" x="8" y="2767" width="514" height="16"/>
+      <text name="Text_65" text=" lo establece la legislación y la reglamentación federal vigente. " x="8" y="2787" width="472" height="13"/>
+      <text name="Text_66" text="- Entregar a la ASUME los pagos directos recibidos por pensión alimentaria." x="8" y="2805" width="525" height="16"/>
+      <text name="Text_67" text="ADVERTENCIAS Y PENALIDADES:" x="10" y="2829" width="217" height="14"/>
+      <text name="Text_68" text="1) Si no se informan los cambios que ocurran en el núcleo de servicio o " x="8" y="2855" width="522" height="18"/>
+      <text name="Text_69" text="núcleocategórico y se reciben más beneficios  de los que corresponden," x="8" y="2877" width="513" height="18"/>
+      <text name="Text_70" text=" se reclamarán los mismos." x="8" y="2901" width="270" height="15"/>
+      <text name="Text_71" text="2)  No debe alterar o falsificar documentos para ser elegible a participar " x="8" y="2927" width="518" height="16"/>
+      <text name="Text_72" text="en los Programas. " x="8" y="2947" width="135" height="15"/>
+      <text name="Text_73" text="3) Si se oculta u ofrece información falsa sobre los ingresos, gastos, " x="8" y="2979" width="502" height="16"/>
+      <text name="Text_74" text="recursos o composición familiar, la persona será  procesada ante el" x="8" y="3002" width="509" height="16"/>
+      <text name="Text_75" text=" Departamento de Justicia. Si se prueba que se recibieron beneficios " x="8" y="3024" width="510" height="16"/>
+      <text name="Text_76" text="fraudulentamente, la  persona perderá su derecho a participar en los" x="8" y="3045" width="513" height="17"/>
+      <text name="Text_77" text="Programas. Además, podrá ser procesado ante un tribunal y  cumplir con " x="8" y="3067" width="513" height="16"/>
+      <text name="Text_78" text="la penalidad que este le imponga. " x="8" y="3088" width="237" height="15"/>
+      <text name="Text_79" text="4) Si no cumple con presentar las evidencias solicitadas sobre ciudadanía" x="8" y="3110" width="523" height="17"/>
+      <text name="Text_80" text="y/o condición de persona extranjera, su  solicitud podrá ser rechazada" x="8" y="3131" width="510" height="17"/>
+      <text name="Text_81" text="o su caso cerrado." x="8" y="3153" width="145" height="14"/>
+      <text name="Text_82" text="5) La información que se brinde a la Oficina Local o Centro de Servicios" x="8" y="3178" width="522" height="16"/>
+      <text name="Text_83" text=" Integrados estará sujeta a verificación por  funcionarios locales, del " x="8" y="3200" width="516" height="18"/>
+      <text name="Text_84" text="Sistema de Medición de Esfuerzo y Resultado (MER), estatales y federales" x="8" y="3223" width="516" height="14"/>
+      <text name="Text_85" text=" por medio del Sistema de Verificación de Ingresos y Elegibilidad (IEVS)." x="8" y="3242" width="515" height="15"/>
+      <text name="Text_86" text="Esta información puede ser referida al Servicio de  Ciudadanía " x="8" y="3267" width="512" height="19"/>
+      <text name="Text_87" text="e Inmigración (USCI).   Si se verifica que la información provista es" x="8" y="3292" width="494" height="14"/>
+      <text name="Text_88" text=" incorrecta, se rechazarán o descontinuarán los beneficios. Además, la" x="8" y="3311" width="514" height="15"/>
+      <text name="Text_89" text=" persona estará  sujeta a enjuiciamiento, si a sabiendas, brindó" x="8" y="3335" width="480" height="16"/>
+      <text name="Text_90" text=" información falsa." x="8" y="3356" width="144" height="14"/>
+      <text name="Text_91" text="6) Participantes TANF-Categoría C, está prohibido utilizar o retirar los" x="8" y="3382" width="524" height="17"/>
+      <text name="Text_92" text="beneficios para realizar compras en puntos de  ventas localizados en" x="8" y="3406" width="513" height="19"/>
+      <text name="Text_93" text="licorerías  (\"liquor store\"), casinos, o en un establecimiento de" x="8" y="3430" width="517" height="19"/>
+      <text name="Text_94" text="\"entretenimiento de personas  adultas\", se establece específicamente las" x="8" y="3454" width="515" height="19"/>
+      <text name="Text_95" text="siguientes penalidades, éstas se aplicarán consecutivamente" x="8" y="3478" width="450" height="15"/>
+      <text name="Text_96" text="______________________________________________________________________" x="8" y="3501" width="502" height="15"/>
+      <text name="Text_97" text="______________________________________________________________________" x="8" y="3592" width="496" height="14"/>
+      <text name="Text_98" text="|Primera Penalidad  | reducción de los beneficios un (5% por 3 meses)|" x="8" y="3521" width="498" height="15"/>
+      <text name="Text_99" text="|Segunda penalidad  | cierre de caso por tres (3) meses              |" x="8" y="3545" width="497" height="15"/>
+      <text name="Text_100" text="|Tercera penalidad  | cierre de caso por seis (6) meses              |" x="8" y="3568" width="497" height="16"/>
+      <text name="Text_101" text="7) Participantes del TANF-Categoría C que no cumple con Plan de" x="8" y="3619" width="473" height="12"/>
+      <text name="Text_102" text="Responsabiliza Individual (PRI) o en actividades  permitidas conducente " x="8" y="3641" width="497" height="13"/>
+      <text name="Text_103" text=" a empleo o empleo, se establecen las siguientes penalidades, " x="8" y="3662" width="456" height="14"/>
+      <text name="Text_104" text="éstas se aplicarán  consecutivamente. " x="8" y="3684" width="352" height="15"/>
+      <text name="Text_105" text="______________________________________________________________________" x="8" y="3706" width="498" height="16"/>
+      <text name="Text_106" text="|Primera Penalidad  | reducción de los beneficios un por 3 meses     |" x="8" y="3727" width="493" height="15"/>
+      <text name="Text_107" text="|Segunda penalidad  | cierre de caso por tres (3) meses              |" x="8" y="3747" width="493" height="17"/>
+      <text name="Text_108" text="|Tercera penalidad  | cierre de caso por seis (6) meses              |" x="8" y="3770" width="493" height="17"/>
+      <text name="Text_109" text="8) En el PAN, cuando se determine que hubo violación intencional por parte" x="8" y="3816" width="522" height="15"/>
+      <text name="Text_110" text="de algún miembro del Núcleo de  Servicio o uso inadecuado de los" x="8" y="3836" width="499" height="17"/>
+      <text name="Text_111" text="beneficios y/o de la tarjeta de la familia, la persona estará sujeta a" x="8" y="3859" width="500" height="18"/>
+      <text name="Text_112" text=" las siguientes  sanciones." x="8" y="3883" width="208" height="13"/>
+      <text name="Text_113" text="El Programa de Asistencia Nutricional, establece específicamente las " x="8" y="3903" width="486" height="14"/>
+      <text name="Text_114" text="siguientes penalidades:" x="8" y="3927" width="180" height="16"/>
+      <text name="Text_115" text="______________________________________________________________________" x="8" y="3792" width="494" height="16"/>
+      <text name="Text_116" text="_______________________________________________________________________" x="8" y="3949" width="506" height="17"/>
+      <text name="Text_117" text="|Primera Penalidad  | Descalificación por doce (12) meses             |" x="8" y="3970" width="506" height="16"/>
+      <text name="Text_118" text="|Segunda penalidad  | Descalificación por doce (12) meses             |" x="8" y="3990" width="507" height="15"/>
+      <text name="Text_119" text="|Tercera penalidad  | Descalificación permanente                      |" x="8" y="4009" width="507" height="15"/>
+      <text name="Text_120" text="_______________________________________________________________________" x="8" y="4028" width="502" height="17"/>
+      <text name="Text_121" text="El Departamento de la Familia garantiza igualdad de oportunidades." x="8" y="4050" width="516" height="14"/>
+      <text name="Text_122" text="Si considera que el Programa de Asistencia Nutricional (PAN) ha " x="8" y="4069" width="515" height="13"/>
+      <text name="Text_123" text="discriminado contra usted por razón de raza, color, origen  nacional" x="8" y="4088" width="516" height="13"/>
+      <text name="Text_124" text="sexo, edad o impedimento, escriba a: U.S. Department of Agriculture" x="8" y="4105" width="518" height="11"/>
+      <text name="Text_125" text=" Director, Office of Adjudication 1400 Independence Avenue, " x="8" y="4122" width="480" height="13"/>
+      <text name="Text_126" text="SW, Washington, DC 20250-9410.Además, enviar copia a, Regional Director, " x="8" y="4142" width="520" height="13"/>
+      <text name="Text_127" text="Civil Rights USOA,Food and Nutrition Service, Mercer Corporate Park, 300 " x="8" y="4160" width="520" height="13"/>
+      <text name="Text_128" text="Corporate Boulevard Robinville,NJ 08691-1598. Puede llamar al  " x="8" y="4178" width="520" height="13"/>
+      <text name="Text_129" text="1-866-6329992(voz),1-800-877-8339(TDD) y 1-866-377-8642 (Relay Voice User)." x="8" y="4197" width="525" height="12"/>
+      <text name="Text_130" text="Si considera que el Programa de Ayuda Temporal para Familias Necesitadas" x="8" y="4212" width="519" height="13"/>
+      <text name="Text_131" text=" (TANF) ha discriminado contra usted por  razón de raza, color, origen" x="8" y="4232" width="520" height="13"/>
+      <text name="Text_132" text=" nacional, sexo, edad, incapacidad, ideas políticas y creencias religiosas, " x="8" y="4249" width="527" height="13"/>
+      <text name="Text_133" text="escriba a:Office of  Civil Rights U.S. Department of Health and Human " x="8" y="4268" width="526" height="14"/>
+      <text name="Text_134" text="Services, Jacob Javits Federal Building 26 Federal Plaza - Suite 3312 " x="8" y="4287" width="509" height="13"/>
+      <text name="Text_135" text="New York, NY 10278 Customer Response center: (800) 368-1019 " x="8" y="4306" width="453" height="13"/>
+      <text name="Text_136" text="Fax: (202) 619-3818 TDD: (800) 537-7697." x="8" y="4324" width="299" height="13"/>
+      <text name="Text_137" text="Para información sobre los Programas llame al (787) 289-7632 y libre de " x="8" y="4342" width="519" height="15"/>
+      <text name="Text_138" text="cargos al 1-800-981-8056, 1-800-981-5822 y para Audio Impedidos al" x="8" y="4363" width="516" height="14"/>
+      <text name="Text_139" text="1-800-981-7641" x="8" y="4383" width="174" height="11"/>
+      <text name="Text_140" text="________________________________________________" x="6" y="4401" width="337" height="18"/>
+      <text name="Text_141" text="Nombre y firma o marca del Jefe, Encargado/a" x="8" y="4423" width="323" height="15"/>
+      <text name="Text_142" text="del Servicio, Cónyuge o Representante Autorizado" x="8" y="4444" width="342" height="15"/>
+      <text name="Text_143" text="___________________" x="384" y="4397" width="139" height="16"/>
+      <text name="Text_144" text="Fecha (día-mes-año)" x="385" y="4421" width="138" height="16"/>
+      <text name="Text_145" text="________________________________________________" x="8" y="4470" width="346" height="13"/>
+      <text name="Text_146" text="Nombre y firma del testigo de la marca" x="8" y="4491" width="347" height="14"/>
+      <text name="Text_0" text=" categórico pierde beneficios por error de la  Agencia." x="8" y="434" width="498" height="11"/>
+    </textgroup>
+  </group>
+</model>

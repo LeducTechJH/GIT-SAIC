@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="ADSEF_106E2_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="929" pageheight="1512" backcolor="13421772" x="2" y="2" width="564" height="1008" groupstyle="0" highLightSelected="false" firstobject="HEADER_GP" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <group name="HEADER_GP" tag="" visible="true" enabled="true" container="ADSEF_106E2_FR" nextobject="" objectType="group" pageStart="-1" pageType="0" x="0" y="0" width="539" height="1507" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="0" highLightSelected="false" datastore="" discardChildless="false" updatetotop="false" firstobject=" " indivisible="false" repeatdeltax="0" repeatdeltay="0" repeatsizex="0" repeatsizey="0" repeatorder="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <textgroup name="HEADER_GP_TXT0" tag="" visible="true" enabled="true" container="HEADER_GP" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="-5" y="1" width="532" height="1506" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="HEADER_GP_TXT0__49" text="13) En PAN, comprar alimentos elegibles en los establecimientos que acepten " x="5" y="474" width="536" height="12"/>
+      <text name="HEADER_GP_TXT0__51" text="El otro 25% puede obtenerlos a través de cajeros automáticos para la " x="24" y="522" width="485" height="12"/>
+      <text name="HEADER_GP_TXT0__55" text="compra de alimentos elegibles en comercios certificados o no certificados." x="24" y="538" width="518" height="12"/>
+      <text name="HEADER_GP_TXT0__56" text="El 100% de los beneficios son para la compra de alimentos elegibles. No se" x="24" y="554" width="519" height="12"/>
+      <text name="HEADER_GP_TXT0__62" text="la Tarjeta de la Familia. Utilizar un 75% de sus beneficios para la compra " x="24" y="490" width="520" height="12"/>
+      <text name="HEADER_GP_TXT0__79" text="puede comprar comida preparada para el consumo inmediato, alcohol, " x="24" y="570" width="471" height="12"/>
+      <text name="HEADER_GP_TXT0__80" text="cigarrillos, detergentes, pañales desechables, artículos de uso personal, " x="24" y="586" width="518" height="12"/>
+      <text name="HEADER_GP_TXT0__81" text="5) La información que se brinde a la Oficina Local O Centro de Servicios " x="5" y="908" width="535" height="12"/>
+      <text name="HEADER_GP_TXT0__82" text="caso cerrado." x="24" y="892" width="93" height="12"/>
+      <text name="HEADER_GP_TXT0__83" text="Integrados, estará sujeta a verificación por funcionarios locales del " x="24" y="924" width="494" height="12"/>
+      <text name="HEADER_GP_TXT0__93" text="de alimentos en comercios certificados por el Departamento de la Familia. " x="24" y="506" width="517" height="12"/>
+      <text name="HEADER_GP_TXT0__168" text="c) Tercera penalidad-cierre de caso por seis (6) meses." x="24" y="1228" width="386" height="12"/>
+      <text name="HEADER_GP_TXT0__193" text="8) En PAN, cuando se determine que hubo violación intencional o uso " x="5" y="1244" width="481" height="12"/>
+      <text name="HEADER_GP_TXT0__194" text="sujeta a lo siguiente:" x="24" y="1164" width="158" height="12"/>
+      <text name="HEADER_GP_TXT0__196" text="c) Tercera penalidad descalificación permanente." x="24" y="1324" width="339" height="12"/>
+      <text name="HEADER_GP_TXT0__197" text="a) Primera penalidad se descalificará por doce (12) meses." x="24" y="1292" width="411" height="12"/>
+      <text name="HEADER_GP_TXT0__200" text="Esta información puede ser referida al Servicio de Ciudadania e " x="24" y="972" width="472" height="12"/>
+      <text name="HEADER_GP_TXT0__201" text="Sistema de Medición de Esfuerzo y Resultado (MER), estatales y federales " x="24" y="940" width="511" height="12"/>
+      <text name="HEADER_GP_TXT0__202" text="Inmigración (USCI). Si se verifica que la información provista es " x="24" y="988" width="459" height="12"/>
+      <text name="HEADER_GP_TXT0__203" text="\"entretenimiento de personas adultas\"." x="24" y="1100" width="272" height="12"/>
+      <text name="HEADER_GP_TXT0__204" text="en uno de los lugares prohibidos en el inciso número 6, la persona estará " x="24" y="1148" width="515" height="12"/>
+      <text name="HEADER_GP_TXT0__205" text="tres (3) meses." x="44" y="1196" width="108" height="12"/>
+      <text name="HEADER_GP_TXT0__206" text="estará sujeta a lo siguiente:" x="24" y="1276" width="204" height="12"/>
+      <text name="HEADER_GP_TXT0__207" text="Adjudication 1400 Independence Avenue, SW, Washington, DC 20250-9410. Además, " x="5" y="1420" width="541" height="12"/>
+      <text name="HEADER_GP_TXT0__208" text="b) Segunda penalidad se descalificará por veinticuatro (24) meses." x="24" y="1308" width="464" height="12"/>
+      <text name="HEADER_GP_TXT0__209" text="enviar copia a Regional Director, Civil Rights USDA, Food and Nutrition " x="5" y="1436" width="507" height="12"/>
+      <text name="HEADER_GP_TXT0__210" text="1598. Puede llamar al 1-866-632-9992(voz), 1-800-877-8339 (TDD) y 1-866-377-" x="5" y="1468" width="536" height="12"/>
+      <text name="HEADER_GP_TXT0__211" text="8642 (Relay Voice User)." x="5" y="1484" width="172" height="12"/>
+      <text name="HEADER_GP_TXT0__212" text="por medio del Sistema de Verificación de INgresos y Elegibilidad (IEVS)." x="24" y="956" width="506" height="12"/>
+      <text name="HEADER_GP_TXT0__213" text="persona estará sujeta a enjuiciamiento, si brindó información falsa a " x="24" y="1020" width="502" height="12"/>
+      <text name="HEADER_GP_TXT0__214" text="beneficios para realizar compras en un punto de ventas localizado en una " x="24" y="1068" width="511" height="12"/>
+      <text name="HEADER_GP_TXT0__215" text="activamente en actividades permitidas, o se utiliza/retira los beneficios " x="24" y="1132" width="515" height="12"/>
+      <text name="HEADER_GP_TXT0__216" text="a) Primera penalidad-reducción de un cinco (5%) de los beneficios por " x="24" y="1180" width="495" height="12"/>
+      <text name="HEADER_GP_TXT0__217" text="_____________________________________________________________________________" x="5" y="1340" width="539" height="12"/>
+      <text name="HEADER_GP_TXT0__218" text="contra usted por razón de raza, color, origen nacional, sexo, edad o " x="5" y="1388" width="485" height="12"/>
+      <text name="HEADER_GP_TXT0__219" text="inadecuado de los beneficios y/o de la tarjeta de la familia, la persona " x="24" y="1260" width="508" height="12"/>
+      <text name="HEADER_GP_TXT0__220" text="El Departamento de la Familia garantiza igualdad de oportunidades." x="5" y="1356" width="490" height="12"/>
+      <text name="HEADER_GP_TXT0__222" text="incorrecta, se rechazará o descontinuarán los beneficios. Además, la " x="24" y="1004" width="486" height="12"/>
+      <text name="HEADER_GP_TXT0__223" text="sabiendas." x="24" y="1036" width="75" height="12"/>
+      <text name="HEADER_GP_TXT0__224" text="6) Para participantes TANF-Categoría C, está prohibido utilizar o retirar los " x="5" y="1052" width="539" height="12"/>
+      <text name="HEADER_GP_TXT0__225" text="licorería (\"liquor store\"), casino, o en un establecimiento de " x="24" y="1084" width="443" height="12"/>
+      <text name="HEADER_GP_TXT0__226" text="7) En TANF si no cumple con el requisito de empleo, no se participa " x="5" y="1116" width="489" height="12"/>
+      <text name="HEADER_GP_TXT0__227" text="b) Segunda penalidad-cierre de caso por tres (3) meses." x="24" y="1212" width="389" height="12"/>
+      <text name="HEADER_GP_TXT0__228" text="impedimento, escriba a: U.S. Department of Agriculture Director, Office of " x="5" y="1404" width="524" height="12"/>
+      <text name="HEADER_GP_TXT0__229" text="y/o condición de persona extranjera, su solicitud podrá ser rechazada o su " x="24" y="876" width="519" height="12"/>
+      <text name="HEADER_GP_TXT0__230" text="Service, Mercer Corporate Park, 300 Corporate Boulevard Robinville, NJ 08691-" x="5" y="1452" width="539" height="12"/>
+      <text name="HEADER_GP_TXT0__231" text="Si considera que el Programa de Asistencia Nutricional (PAN) ha discriminado " x="5" y="1372" width="535" height="12"/>
+      <text name="HEADER_GP_TXT0__233" text="fraudulentamente, la persona perderá su derecho a participar en los " x="24" y="812" width="479" height="12"/>
+      <text name="HEADER_GP_TXT0__234" text="2) No se debe alterar o falsificar documentos para ser elegible a participar " x="5" y="732" width="535" height="12"/>
+      <text name="HEADER_GP_TXT0__235" text="1) Si no se informan los cambios que ocurran en el núcleo de servicio y se " x="5" y="700" width="524" height="12"/>
+      <text name="HEADER_GP_TXT0__236" text="reciben más beneficios de los que corresponden, se reclamarán los mismos." x="24" y="716" width="514" height="12"/>
+      <text name="HEADER_GP_TXT0__237" text="en los Programas." x="24" y="748" width="123" height="12"/>
+      <text name="HEADER_GP_TXT0__238" text="3) Si se oculta u ofrece información falsa sobre los ingresos, gastos, " x="5" y="764" width="494" height="12"/>
+      <text name="HEADER_GP_TXT0__239" text="Departamento de Justicia. Si se prueba que se recibieron beneficios " x="24" y="796" width="479" height="12"/>
+      <text name="HEADER_GP_TXT0__240" text="recursos o composición familiar, la persona será procesada ante el " x="24" y="780" width="478" height="12"/>
+      <text name="TXT__704" text="entre otros." x="24" y="602" width="89" height="12"/>
+      <text name="TXT__715" text="14) En TANF, utilizar los beneficios para el uso exclusivo de las necesidades " x="5" y="618" width="539" height="12"/>
+      <text name="TXT__728" text="básicas de la familia, tales como compra o pago de alimentos, ropa, " x="24" y="634" width="478" height="12"/>
+      <text name="TXT__738" text="vivienda, artículos de uso personal y gastos del hogar, entre otros." x="24" y="650" width="482" height="12"/>
+      <text name="TXT__749" text="ADVERTENCIAS Y PENALIDADES:" x="5" y="674" width="196" height="12"/>
+      <text name="TXT__761" text="Programas. Además, podrá ser procesado ante un tribunal y cumplir con la " x="24" y="828" width="508" height="12"/>
+      <text name="TXT__773" text="4) Si no cumple con presentar las evidencias solicitadas sobre ciudadania " x="5" y="860" width="517" height="12"/>
+      <text name="TXT__774" text="penalidad que este le imponga." x="24" y="844" width="214" height="12"/>
+    </textgroup>
+  </group>
+</model>

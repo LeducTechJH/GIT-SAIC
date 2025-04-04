@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="DETERMINACION_AEA" tag="" visible="true" enabled="true" objectType="model" pagewidth="846" pageheight="2688" backcolor="13421772" x="2" y="2" width="564" height="1792" groupstyle="0" highLightSelected="false" firstobject="A1" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="553" height="1676" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="GOBIERNO" x="196" y="16" width="56" height="12"/>
+    <text name="TXT__1" text="DE" x="259" y="16" width="14" height="12"/>
+    <text name="TXT__2" text="PUERTO" x="280" y="16" width="42" height="12"/>
+    <text name="TXT__3" text="RICO" x="329" y="16" width="28" height="12"/>
+    <text name="TXT__4" text="" x="546" y="16" width="0" height="12"/>
+    <text name="TXT__5" text="ADMINISTRACION" x="77" y="32" width="98" height="12"/>
+    <text name="TXT__6" text="DE" x="182" y="32" width="14" height="12"/>
+    <text name="TXT__7" text="DESARROLO" x="203" y="32" width="63" height="12"/>
+    <text name="TXT__8" text="SOCIOECONOMICO" x="273" y="32" width="98" height="12"/>
+    <text name="TXT__9" text="DE" x="378" y="32" width="14" height="12"/>
+    <text name="TXT__10" text="LA" x="399" y="32" width="14" height="12"/>
+    <text name="TXT__11" text="FAMILIA" x="420" y="32" width="49" height="12"/>
+    <text name="TXT__12" text="" x="546" y="32" width="0" height="12"/>
+    <text name="TXT__13" text="DEPARTAMENTO" x="182" y="48" width="84" height="12"/>
+    <text name="TXT__14" text="DE" x="273" y="48" width="14" height="12"/>
+    <text name="TXT__15" text="LA" x="294" y="48" width="14" height="12"/>
+    <text name="TXT__16" text="FAMILIA" x="315" y="48" width="49" height="12"/>
+    <text name="TXT__17" text="" x="546" y="48" width="0" height="12"/>
+    <text name="TXT__18" text="" x="546" y="64" width="0" height="12"/>
+    <text name="TXT__19" text="S.S." x="21" y="80" width="28" height="12"/>
+    <text name="TXT__20" text="Jefe" x="56" y="80" width="28" height="12"/>
+    <text name="TXT__21" text="Fam" x="91" y="80" width="21" height="12"/>
+    <text name="TXT__22" text="S.S." x="126" y="80" width="28" height="12"/>
+    <text name="TXT__23" text="Caso" x="161" y="80" width="28" height="12"/>
+    <text name="TXT__24" text="A." x="196" y="80" width="14" height="12"/>
+    <text name="TXT__25" text="T." x="217" y="80" width="14" height="12"/>
+    <text name="TXT__26" text="Categoria" x="245" y="80" width="63" height="12"/>
+    <text name="TXT__27" text="Nombre" x="322" y="80" width="42" height="12"/>
+    <text name="TXT__28" text="Encargado" x="371" y="80" width="63" height="12"/>
+    <text name="TXT__29" text="de" x="441" y="80" width="14" height="12"/>
+    <text name="TXT__30" text="A." x="462" y="80" width="14" height="12"/>
+    <text name="TXT__31" text="E." x="483" y="80" width="14" height="12"/>
+    <text name="TXT__32" text="" x="546" y="80" width="0" height="12"/>
+    <text name="TXT__33" text="" x="546" y="96" width="0" height="12"/>
+    <text name="TXT__34" text="" x="546" y="112" width="0" height="12"/>
+    <text name="TXT__35" text="PRESUPUESTO" x="21" y="128" width="77" height="12"/>
+    <text name="TXT__36" text="DE" x="105" y="128" width="14" height="12"/>
+    <text name="TXT__37" text="ASISTENCIA" x="126" y="128" width="70" height="12"/>
+    <text name="TXT__38" text="TEMPORAL:" x="203" y="128" width="63" height="12"/>
+    <text name="TXT__39" text="A" x="455" y="128" width="7" height="12"/>
+    <text name="TXT__40" text="B" x="511" y="128" width="7" height="12"/>
+    <text name="TXT__41" text="" x="546" y="128" width="0" height="12"/>
+    <text name="TXT__42" text="1.Ingreso" x="28" y="160" width="63" height="12"/>
+    <text name="TXT__43" text="bruto" x="98" y="160" width="35" height="12"/>
+    <text name="TXT__44" text="por" x="140" y="160" width="21" height="12"/>
+    <text name="TXT__45" text="salario," x="168" y="160" width="56" height="12"/>
+    <text name="TXT__46" text="jornal," x="231" y="160" width="49" height="12"/>
+    <text name="TXT__47" text="adiestramiento" x="287" y="160" width="98" height="12"/>
+    <text name="TXT__48" text="o" x="392" y="160" width="7" height="12"/>
+    <text name="TXT__49" text="" x="427" y="160" width="0" height="12"/>
+    <text name="TXT__50" text="" x="483" y="160" width="0" height="12"/>
+    <text name="TXT__51" text="" x="539" y="160" width="0" height="12"/>
+    <text name="TXT__52" text="negocio" x="42" y="176" width="49" height="12"/>
+    <text name="TXT__53" text="propio" x="98" y="176" width="42" height="12"/>
+    <text name="TXT__54" text="" x="427" y="176" width="0" height="12"/>
+    <text name="TXT__55" text="" x="483" y="176" width="0" height="12"/>
+    <text name="TXT__56" text="" x="539" y="176" width="0" height="12"/>
+    <text name="TXT__57" text="" x="546" y="192" width="0" height="12"/>
+    <text name="TXT__58" text="2.Reste" x="28" y="208" width="49" height="12"/>
+    <text name="TXT__59" text="la" x="84" y="208" width="14" height="12"/>
+    <text name="TXT__60" text="exención" x="105" y="208" width="56" height="12"/>
+    <text name="TXT__61" text="por" x="168" y="208" width="21" height="12"/>
+    <text name="TXT__62" text="trabajo," x="196" y="208" width="56" height="12"/>
+    <text name="TXT__63" text="si" x="259" y="208" width="14" height="12"/>
+    <text name="TXT__64" text="aplica" x="280" y="208" width="42" height="12"/>
+    <text name="TXT__65" text="(cat" x="329" y="208" width="28" height="12"/>
+    <text name="TXT__66" text="a,b" x="364" y="208" width="21" height="12"/>
+    <text name="TXT__67" text="y" x="392" y="208" width="7" height="12"/>
+    <text name="TXT__68" text="d)" x="406" y="208" width="14" height="12"/>
+    <text name="TXT__69" text="" x="483" y="208" width="0" height="12"/>
+    <text name="TXT__70" text="" x="539" y="208" width="0" height="12"/>
+    <text name="TXT__71" text="" x="546" y="224" width="0" height="12"/>
+    <text name="TXT__72" text="3.Reste" x="28" y="240" width="49" height="12"/>
+    <text name="TXT__73" text="los" x="84" y="240" width="21" height="12"/>
+    <text name="TXT__74" text="gastos" x="112" y="240" width="42" height="12"/>
+    <text name="TXT__75" text="inherentes" x="161" y="240" width="70" height="12"/>
+    <text name="TXT__76" text="a" x="238" y="240" width="7" height="12"/>
+    <text name="TXT__77" text="negocio" x="252" y="240" width="49" height="12"/>
+    <text name="TXT__78" text="propio," x="308" y="240" width="49" height="12"/>
+    <text name="TXT__79" text="si" x="364" y="240" width="14" height="12"/>
+    <text name="TXT__80" text="aplica" x="385" y="240" width="42" height="12"/>
+    <text name="TXT__81" text="" x="483" y="240" width="0" height="12"/>
+    <text name="TXT__82" text="" x="539" y="240" width="0" height="12"/>
+    <text name="TXT__83" text="" x="546" y="256" width="0" height="12"/>
+    <text name="TXT__84" text="4.Reste" x="28" y="272" width="49" height="12"/>
+    <text name="TXT__85" text="gastos" x="84" y="272" width="42" height="12"/>
+    <text name="TXT__86" text="de" x="133" y="272" width="14" height="12"/>
+    <text name="TXT__87" text="producción" x="154" y="272" width="70" height="12"/>
+    <text name="TXT__88" text="si" x="231" y="272" width="14" height="12"/>
+    <text name="TXT__89" text="aplica" x="252" y="272" width="42" height="12"/>
+    <text name="TXT__90" text="(segun" x="301" y="272" width="42" height="12"/>
+    <text name="TXT__91" text="categoría)" x="350" y="272" width="70" height="12"/>
+    <text name="TXT__92" text="" x="483" y="272" width="0" height="12"/>
+    <text name="TXT__93" text="" x="539" y="272" width="0" height="12"/>
+    <text name="TXT__94" text="" x="546" y="288" width="0" height="12"/>
+    <text name="TXT__95" text="5.Reste" x="28" y="304" width="49" height="12"/>
+    <text name="TXT__96" text="la" x="84" y="304" width="14" height="12"/>
+    <text name="TXT__97" text="exención" x="105" y="304" width="56" height="12"/>
+    <text name="TXT__98" text="por" x="168" y="304" width="21" height="12"/>
+    <text name="TXT__99" text="trabajo," x="196" y="304" width="56" height="12"/>
+    <text name="TXT__100" text="si" x="259" y="304" width="14" height="12"/>
+    <text name="TXT__101" text="aplica" x="280" y="304" width="42" height="12"/>
+    <text name="TXT__102" text="(cat" x="329" y="304" width="28" height="12"/>
+    <text name="TXT__103" text="C" x="364" y="304" width="7" height="12"/>
+    <text name="TXT__104" text="30" x="378" y="304" width="14" height="12"/>
+    <text name="TXT__105" text="y" x="399" y="304" width="7" height="12"/>
+    <text name="TXT__106" text="" x="483" y="304" width="0" height="12"/>
+    <text name="TXT__107" text="" x="539" y="304" width="0" height="12"/>
+    <text name="TXT__108" text="1/3" x="42" y="320" width="21" height="12"/>
+    <text name="TXT__109" text="o" x="70" y="320" width="7" height="12"/>
+    <text name="TXT__110" text="30.00)" x="84" y="320" width="42" height="12"/>
+    <text name="TXT__111" text="" x="483" y="320" width="0" height="12"/>
+    <text name="TXT__112" text="" x="539" y="320" width="0" height="12"/>
+    <text name="TXT__113" text="" x="546" y="336" width="0" height="12"/>
+    <text name="TXT__114" text="6.Reste" x="28" y="352" width="49" height="12"/>
+    <text name="TXT__115" text="hasta" x="84" y="352" width="35" height="12"/>
+    <text name="TXT__116" text="la" x="126" y="352" width="14" height="12"/>
+    <text name="TXT__117" text="cantidad" x="147" y="352" width="56" height="12"/>
+    <text name="TXT__118" text="máxima" x="210" y="352" width="42" height="12"/>
+    <text name="TXT__119" text="permitida" x="259" y="352" width="63" height="12"/>
+    <text name="TXT__120" text="por" x="329" y="352" width="21" height="12"/>
+    <text name="TXT__121" text="cuido" x="357" y="352" width="35" height="12"/>
+    <text name="TXT__122" text="de" x="399" y="352" width="14" height="12"/>
+    <text name="TXT__123" text="" x="483" y="352" width="0" height="12"/>
+    <text name="TXT__124" text="" x="539" y="352" width="0" height="12"/>
+    <text name="TXT__125" text="menores" x="42" y="368" width="49" height="12"/>
+    <text name="TXT__126" text="o" x="98" y="368" width="7" height="12"/>
+    <text name="TXT__127" text="adultos" x="112" y="368" width="49" height="12"/>
+    <text name="TXT__128" text="incapacitados," x="168" y="368" width="98" height="12"/>
+    <text name="TXT__129" text="si" x="273" y="368" width="14" height="12"/>
+    <text name="TXT__130" text="aplica" x="294" y="368" width="42" height="12"/>
+    <text name="TXT__131" text="(cat" x="343" y="368" width="28" height="12"/>
+    <text name="TXT__132" text="C)" x="378" y="368" width="14" height="12"/>
+    <text name="TXT__133" text="" x="483" y="368" width="0" height="12"/>
+    <text name="TXT__134" text="" x="539" y="368" width="0" height="12"/>
+    <text name="TXT__135" text="" x="546" y="384" width="0" height="12"/>
+    <text name="TXT__136" text="7.Ingreso" x="28" y="400" width="63" height="12"/>
+    <text name="TXT__137" text="neto" x="98" y="400" width="28" height="12"/>
+    <text name="TXT__138" text="devengado" x="133" y="400" width="63" height="12"/>
+    <text name="TXT__139" text="" x="483" y="400" width="0" height="12"/>
+    <text name="TXT__140" text="" x="539" y="400" width="0" height="12"/>
+    <text name="TXT__141" text="" x="546" y="416" width="0" height="12"/>
+    <text name="TXT__142" text="8.Ingreso" x="28" y="432" width="63" height="12"/>
+    <text name="TXT__143" text="por" x="98" y="432" width="21" height="12"/>
+    <text name="TXT__144" text="otros" x="126" y="432" width="35" height="12"/>
+    <text name="TXT__145" text="conceptos" x="168" y="432" width="63" height="12"/>
+    <text name="TXT__146" text="(incluye" x="238" y="432" width="56" height="12"/>
+    <text name="TXT__147" text="ingresos" x="301" y="432" width="56" height="12"/>
+    <text name="TXT__148" text="no" x="364" y="432" width="14" height="12"/>
+    <text name="TXT__149" text="" x="483" y="432" width="0" height="12"/>
+    <text name="TXT__150" text="" x="539" y="432" width="0" height="12"/>
+    <text name="TXT__151" text="devengados," x="42" y="448" width="77" height="12"/>
+    <text name="TXT__152" text="exceso" x="126" y="448" width="42" height="12"/>
+    <text name="TXT__153" text="del" x="175" y="448" width="21" height="12"/>
+    <text name="TXT__154" text="padrastro," x="203" y="448" width="70" height="12"/>
+    <text name="TXT__155" text="exceso" x="280" y="448" width="42" height="12"/>
+    <text name="TXT__156" text="del" x="329" y="448" width="21" height="12"/>
+    <text name="TXT__157" text="" x="483" y="448" width="0" height="12"/>
+    <text name="TXT__158" text="" x="539" y="448" width="0" height="12"/>
+    <text name="TXT__159" text="patrocinador" x="42" y="464" width="84" height="12"/>
+    <text name="TXT__160" text="de" x="133" y="464" width="14" height="12"/>
+    <text name="TXT__161" text="un" x="154" y="464" width="14" height="12"/>
+    <text name="TXT__162" text="extranjero," x="175" y="464" width="77" height="12"/>
+    <text name="TXT__163" text="exceso" x="259" y="464" width="42" height="12"/>
+    <text name="TXT__164" text="del" x="308" y="464" width="21" height="12"/>
+    <text name="TXT__165" text="padre" x="336" y="464" width="35" height="12"/>
+    <text name="TXT__166" text="" x="483" y="464" width="0" height="12"/>
+    <text name="TXT__167" text="" x="539" y="464" width="0" height="12"/>
+    <text name="TXT__168" text="(minor" x="42" y="480" width="42" height="12"/>
+    <text name="TXT__169" text="parent)" x="91" y="480" width="49" height="12"/>
+    <text name="TXT__170" text="y" x="147" y="480" width="7" height="12"/>
+    <text name="TXT__171" text="Enc." x="161" y="480" width="28" height="12"/>
+    <text name="TXT__172" text="Necesitado)" x="196" y="480" width="77" height="12"/>
+    <text name="TXT__173" text="" x="483" y="480" width="0" height="12"/>
+    <text name="TXT__174" text="" x="539" y="480" width="0" height="12"/>
+    <text name="TXT__175" text="" x="546" y="496" width="0" height="12"/>
+    <text name="TXT__176" text="9.Total" x="28" y="512" width="49" height="12"/>
+    <text name="TXT__177" text="ingresos" x="84" y="512" width="56" height="12"/>
+    <text name="TXT__178" text="(7" x="147" y="512" width="14" height="12"/>
+    <text name="TXT__179" text="+" x="168" y="512" width="7" height="12"/>
+    <text name="TXT__180" text="8)" x="182" y="512" width="14" height="12"/>
+    <text name="TXT__181" text="" x="483" y="512" width="0" height="12"/>
+    <text name="TXT__182" text="" x="539" y="512" width="0" height="12"/>
+    <text name="TXT__183" text="" x="546" y="528" width="0" height="12"/>
+    <text name="TXT__184" text=" 10.Reste" x="13" y="544" width="63" height="12"/>
+    <text name="TXT__185" text="ayuda" x="84" y="544" width="35" height="12"/>
+    <text name="TXT__186" text="a" x="126" y="544" width="7" height="12"/>
+    <text name="TXT__187" text="fam." x="140" y="544" width="28" height="12"/>
+    <text name="TXT__188" text="Legalmente" x="175" y="544" width="70" height="12"/>
+    <text name="TXT__189" text="responsable" x="252" y="544" width="77" height="12"/>
+    <text name="TXT__190" text="de" x="336" y="544" width="14" height="12"/>
+    <text name="TXT__191" text="cónyuges" x="357" y="544" width="56" height="12"/>
+    <text name="TXT__192" text="" x="483" y="544" width="0" height="12"/>
+    <text name="TXT__193" text="" x="539" y="544" width="0" height="12"/>
+    <text name="TXT__194" text="no" x="42" y="560" width="14" height="12"/>
+    <text name="TXT__195" text="categóricos," x="63" y="560" width="84" height="12"/>
+    <text name="TXT__196" text="si" x="154" y="560" width="14" height="12"/>
+    <text name="TXT__197" text="aplica" x="175" y="560" width="42" height="12"/>
+    <text name="TXT__198" text="(cat" x="224" y="560" width="28" height="12"/>
+    <text name="TXT__199" text="A,B,D" x="259" y="560" width="35" height="12"/>
+    <text name="TXT__200" text="Y" x="301" y="560" width="7" height="12"/>
+    <text name="TXT__201" text="G)" x="315" y="560" width="14" height="12"/>
+    <text name="TXT__202" text="" x="483" y="560" width="0" height="12"/>
+    <text name="TXT__203" text="" x="539" y="560" width="0" height="12"/>
+    <text name="TXT__204" text="" x="546" y="576" width="0" height="12"/>
+    <text name="TXT__205" text=" 11.Total" x="13" y="592" width="63" height="12"/>
+    <text name="TXT__206" text="Ingresos" x="84" y="592" width="56" height="12"/>
+    <text name="TXT__207" text="(9" x="147" y="592" width="14" height="12"/>
+    <text name="TXT__208" text="-" x="168" y="592" width="7" height="12"/>
+    <text name="TXT__209" text="10)" x="182" y="592" width="21" height="12"/>
+    <text name="TXT__210" text="" x="483" y="592" width="0" height="12"/>
+    <text name="TXT__211" text="" x="539" y="592" width="0" height="12"/>
+    <text name="TXT__212" text="" x="546" y="608" width="0" height="12"/>
+    <text name="TXT__213" text=" 12.Reste" x="13" y="624" width="63" height="12"/>
+    <text name="TXT__214" text="parte" x="84" y="624" width="35" height="12"/>
+    <text name="TXT__215" text="proporcional" x="126" y="624" width="84" height="12"/>
+    <text name="TXT__216" text="del" x="217" y="624" width="21" height="12"/>
+    <text name="TXT__217" text="ingreso" x="245" y="624" width="49" height="12"/>
+    <text name="TXT__218" text="de" x="301" y="624" width="14" height="12"/>
+    <text name="TXT__219" text="padres" x="322" y="624" width="42" height="12"/>
+    <text name="TXT__220" text="de" x="371" y="624" width="14" height="12"/>
+    <text name="TXT__221" text="" x="483" y="624" width="0" height="12"/>
+    <text name="TXT__222" text="" x="539" y="624" width="0" height="12"/>
+    <text name="TXT__223" text="menores" x="42" y="640" width="49" height="12"/>
+    <text name="TXT__224" text="no" x="98" y="640" width="14" height="12"/>
+    <text name="TXT__225" text="categóricos" x="119" y="640" width="77" height="12"/>
+    <text name="TXT__226" text="" x="483" y="640" width="0" height="12"/>
+    <text name="TXT__227" text="" x="539" y="640" width="0" height="12"/>
+    <text name="TXT__228" text="" x="546" y="656" width="0" height="12"/>
+    <text name="TXT__229" text=" 13.Total" x="13" y="672" width="63" height="12"/>
+    <text name="TXT__230" text="Ingresos" x="84" y="672" width="56" height="12"/>
+    <text name="TXT__231" text="(11" x="147" y="672" width="21" height="12"/>
+    <text name="TXT__232" text="-" x="175" y="672" width="7" height="12"/>
+    <text name="TXT__233" text="12)" x="189" y="672" width="21" height="12"/>
+    <text name="TXT__234" text="" x="483" y="672" width="0" height="12"/>
+    <text name="TXT__235" text="" x="539" y="672" width="0" height="12"/>
+    <text name="TXT__236" text=" 14.Ingreso" x="13" y="704" width="77" height="12"/>
+    <text name="TXT__237" text="de" x="98" y="704" width="14" height="12"/>
+    <text name="TXT__238" text="cónyuge" x="119" y="704" width="49" height="12"/>
+    <text name="TXT__239" text="categórico" x="175" y="704" width="70" height="12"/>
+    <text name="TXT__240" text="(columna" x="252" y="704" width="56" height="12"/>
+    <text name="TXT__241" text="B)," x="315" y="704" width="21" height="12"/>
+    <text name="TXT__242" text="parte" x="343" y="704" width="35" height="12"/>
+    <text name="TXT__243" text=" " x="546" y="704" width="7" height="12"/>
+    <text name="TXT__244" text="proporcional" x="42" y="720" width="84" height="12"/>
+    <text name="TXT__245" text="del" x="133" y="720" width="21" height="12"/>
+    <text name="TXT__246" text="ingreso" x="161" y="720" width="49" height="12"/>
+    <text name="TXT__247" text="de" x="217" y="720" width="14" height="12"/>
+    <text name="TXT__248" text="cónyuges" x="238" y="720" width="56" height="12"/>
+    <text name="TXT__249" text="no" x="301" y="720" width="14" height="12"/>
+    <text name="TXT__250" text="categóricos" x="322" y="720" width="77" height="12"/>
+    <text name="TXT__251" text=" " x="546" y="720" width="7" height="12"/>
+    <text name="TXT__252" text="(cat." x="42" y="736" width="35" height="12"/>
+    <text name="TXT__253" text="A,B,D,G)" x="84" y="736" width="56" height="12"/>
+    <text name="TXT__254" text="o" x="147" y="736" width="7" height="12"/>
+    <text name="TXT__255" text="parte" x="161" y="736" width="35" height="12"/>
+    <text name="TXT__256" text="proporcional" x="203" y="736" width="84" height="12"/>
+    <text name="TXT__257" text="del" x="294" y="736" width="21" height="12"/>
+    <text name="TXT__258" text="ingreso" x="322" y="736" width="49" height="12"/>
+    <text name="TXT__259" text="de" x="378" y="736" width="14" height="12"/>
+    <text name="TXT__260" text=" " x="546" y="736" width="7" height="12"/>
+    <text name="TXT__261" text="padres" x="42" y="752" width="42" height="12"/>
+    <text name="TXT__262" text="a" x="91" y="752" width="7" height="12"/>
+    <text name="TXT__263" text="menores" x="105" y="752" width="49" height="12"/>
+    <text name="TXT__264" text="(cat" x="161" y="752" width="28" height="12"/>
+    <text name="TXT__265" text="B" x="196" y="752" width="7" height="12"/>
+    <text name="TXT__266" text="y" x="210" y="752" width="7" height="12"/>
+    <text name="TXT__267" text="G)" x="224" y="752" width="14" height="12"/>
+    <text name="TXT__268" text="si" x="245" y="752" width="14" height="12"/>
+    <text name="TXT__269" text="aplica" x="266" y="752" width="42" height="12"/>
+    <text name="TXT__270" text=" " x="546" y="752" width="7" height="12"/>
+    <text name="TXT__271" text=" 15.Ingresos" x="13" y="784" width="84" height="12"/>
+    <text name="TXT__272" text="Acreditables" x="105" y="784" width="84" height="12"/>
+    <text name="TXT__273" text="(13a" x="196" y="784" width="28" height="12"/>
+    <text name="TXT__274" text="+" x="231" y="784" width="7" height="12"/>
+    <text name="TXT__275" text="14)" x="245" y="784" width="21" height="12"/>
+    <text name="TXT__276" text="" x="546" y="784" width="0" height="12"/>
+    <text name="TXT__277" text=" 16.Parte" x="13" y="816" width="63" height="12"/>
+    <text name="TXT__278" text="proporcional" x="84" y="816" width="84" height="12"/>
+    <text name="TXT__279" text="del" x="175" y="816" width="21" height="12"/>
+    <text name="TXT__280" text="ingreso" x="203" y="816" width="49" height="12"/>
+    <text name="TXT__281" text="de" x="259" y="816" width="14" height="12"/>
+    <text name="TXT__282" text="solicitantes" x="280" y="816" width="84" height="12"/>
+    <text name="TXT__283" text="" x="546" y="816" width="0" height="12"/>
+    <text name="TXT__284" text="o" x="42" y="832" width="7" height="12"/>
+    <text name="TXT__285" text="participantes" x="56" y="832" width="91" height="12"/>
+    <text name="TXT__286" text="para" x="154" y="832" width="28" height="12"/>
+    <text name="TXT__287" text="cónyuge" x="189" y="832" width="49" height="12"/>
+    <text name="TXT__288" text="no" x="245" y="832" width="14" height="12"/>
+    <text name="TXT__289" text="categórico" x="266" y="832" width="70" height="12"/>
+    <text name="TXT__290" text="(A,B,D" x="343" y="832" width="42" height="12"/>
+    <text name="TXT__291" text="y" x="392" y="832" width="7" height="12"/>
+    <text name="TXT__292" text="G)" x="406" y="832" width="14" height="12"/>
+    <text name="TXT__293" text="" x="546" y="832" width="0" height="12"/>
+    <text name="TXT__294" text=" 17.Total" x="13" y="864" width="63" height="12"/>
+    <text name="TXT__295" text="ingresos" x="84" y="864" width="56" height="12"/>
+    <text name="TXT__296" text="(col" x="147" y="864" width="28" height="12"/>
+    <text name="TXT__297" text="15" x="182" y="864" width="14" height="12"/>
+    <text name="TXT__298" text="-16)" x="203" y="864" width="28" height="12"/>
+    <text name="TXT__299" text="" x="546" y="864" width="0" height="12"/>
+    <text name="TXT__300" text=" 18.Ingreso" x="13" y="896" width="77" height="12"/>
+    <text name="TXT__301" text="neto" x="98" y="896" width="28" height="12"/>
+    <text name="TXT__302" text="acreditable" x="133" y="896" width="77" height="12"/>
+    <text name="TXT__303" text="" x="546" y="896" width="0" height="12"/>
+    <text name="TXT__304" text=" 19.Necesidades" x="13" y="928" width="105" height="12"/>
+    <text name="TXT__305" text="básicas" x="126" y="928" width="49" height="12"/>
+    <text name="TXT__306" text="ajustadas" x="182" y="928" width="63" height="12"/>
+    <text name="TXT__307" text="Adultos" x="252" y="928" width="49" height="12"/>
+    <text name="TXT__308" text="(" x="308" y="928" width="7" height="12"/>
+    <text name="TXT__309" text=")" x="329" y="928" width="7" height="12"/>
+    <text name="TXT__310" text="Niños" x="343" y="928" width="35" height="12"/>
+    <text name="TXT__311" text="(" x="385" y="928" width="7" height="12"/>
+    <text name="TXT__312" text=")" x="406" y="928" width="7" height="12"/>
+    <text name="TXT__313" text="" x="546" y="928" width="0" height="12"/>
+    <text name="TXT__314" text=" 20.Sume" x="13" y="960" width="56" height="12"/>
+    <text name="TXT__315" text="albergue" x="77" y="960" width="56" height="12"/>
+    <text name="TXT__316" text="ajustado," x="140" y="960" width="63" height="12"/>
+    <text name="TXT__317" text="si" x="210" y="960" width="14" height="12"/>
+    <text name="TXT__318" text="aplica" x="231" y="960" width="42" height="12"/>
+    <text name="TXT__319" text="" x="546" y="960" width="0" height="12"/>
+    <text name="TXT__320" text=" 21.Total" x="13" y="992" width="63" height="12"/>
+    <text name="TXT__321" text="de" x="84" y="992" width="14" height="12"/>
+    <text name="TXT__322" text="necesidades" x="105" y="992" width="77" height="12"/>
+    <text name="TXT__323" text="ajustadas" x="189" y="992" width="63" height="12"/>
+    <text name="TXT__324" text="(19" x="259" y="992" width="21" height="12"/>
+    <text name="TXT__325" text="+" x="287" y="992" width="7" height="12"/>
+    <text name="TXT__326" text="20)" x="301" y="992" width="21" height="12"/>
+    <text name="TXT__327" text="" x="546" y="992" width="0" height="12"/>
+    <text name="TXT__328" text=" 22.Ingreso" x="13" y="1024" width="77" height="12"/>
+    <text name="TXT__329" text="neto" x="98" y="1024" width="28" height="12"/>
+    <text name="TXT__330" text="acreditable" x="133" y="1024" width="77" height="12"/>
+    <text name="TXT__331" text="" x="546" y="1024" width="0" height="12"/>
+    <text name="TXT__332" text=" 23.Déficit" x="13" y="1056" width="77" height="12"/>
+    <text name="TXT__333" text="(21" x="98" y="1056" width="21" height="12"/>
+    <text name="TXT__334" text="-" x="126" y="1056" width="7" height="12"/>
+    <text name="TXT__335" text="22)" x="140" y="1056" width="21" height="12"/>
+    <text name="TXT__336" text="" x="546" y="1056" width="0" height="12"/>
+    <text name="TXT__337" text="" x="546" y="1072" width="0" height="12"/>
+    <text name="TXT__338" text=" 24.Beneficio" x="13" y="1104" width="91" height="12"/>
+    <text name="TXT__339" text="autorizado" x="112" y="1104" width="70" height="12"/>
+    <text name="TXT__340" text="(cat" x="189" y="1104" width="28" height="12"/>
+    <text name="TXT__341" text="c" x="224" y="1104" width="7" height="12"/>
+    <text name="TXT__342" text="si" x="238" y="1104" width="14" height="12"/>
+    <text name="TXT__343" text="es" x="259" y="1104" width="14" height="12"/>
+    <text name="TXT__344" text="menor" x="280" y="1104" width="35" height="12"/>
+    <text name="TXT__345" text="de" x="322" y="1104" width="14" height="12"/>
+    <text name="TXT__346" text="$10.00" x="343" y="1104" width="42" height="12"/>
+    <text name="TXT__347" text="" x="546" y="1104" width="0" height="12"/>
+    <text name="TXT__348" text="declara" x="42" y="1120" width="49" height="12"/>
+    <text name="TXT__349" text="inelegible" x="98" y="1120" width="70" height="12"/>
+    <text name="TXT__350" text="por" x="175" y="1120" width="21" height="12"/>
+    <text name="TXT__351" text="minimo" x="203" y="1120" width="42" height="12"/>
+    <text name="TXT__352" text="administrativo," x="252" y="1120" width="105" height="12"/>
+    <text name="TXT__353" text="" x="546" y="1120" width="0" height="12"/>
+    <text name="TXT__354" text="(" x="42" y="1136" width="7" height="12"/>
+    <text name="TXT__355" text="cat" x="56" y="1136" width="21" height="12"/>
+    <text name="TXT__356" text="A,B,D,G" x="84" y="1136" width="49" height="12"/>
+    <text name="TXT__357" text="y" x="140" y="1136" width="7" height="12"/>
+    <text name="TXT__358" text="T)" x="154" y="1136" width="14" height="12"/>
+    <text name="TXT__359" text="si" x="175" y="1136" width="14" height="12"/>
+    <text name="TXT__360" text="la" x="196" y="1136" width="14" height="12"/>
+    <text name="TXT__361" text="cantidad" x="217" y="1136" width="56" height="12"/>
+    <text name="TXT__362" text="a" x="280" y="1136" width="7" height="12"/>
+    <text name="TXT__363" text="asignar" x="294" y="1136" width="49" height="12"/>
+    <text name="TXT__364" text="es" x="350" y="1136" width="14" height="12"/>
+    <text name="TXT__365" text="entre" x="371" y="1136" width="35" height="12"/>
+    <text name="TXT__366" text="" x="546" y="1136" width="0" height="12"/>
+    <text name="TXT__367" text="$1.00" x="42" y="1152" width="35" height="12"/>
+    <text name="TXT__368" text="y" x="84" y="1152" width="7" height="12"/>
+    <text name="TXT__369" text="$5.00," x="98" y="1152" width="42" height="12"/>
+    <text name="TXT__370" text="asigne" x="147" y="1152" width="42" height="12"/>
+    <text name="TXT__371" text="$5.00)" x="196" y="1152" width="42" height="12"/>
+    <text name="TXT__372" text="" x="546" y="1152" width="0" height="12"/>
+    <text name="TXT__373" text="" x="546" y="1168" width="0" height="12"/>
+    <text name="TXT__374" text="*" x="21" y="1200" width="7" height="12"/>
+    <text name="TXT__375" text="Col" x="35" y="1200" width="21" height="12"/>
+    <text name="TXT__376" text="A" x="63" y="1200" width="7" height="12"/>
+    <text name="TXT__377" text="-" x="77" y="1200" width="7" height="12"/>
+    <text name="TXT__378" text="Se" x="91" y="1200" width="14" height="12"/>
+    <text name="TXT__379" text="utilizará" x="112" y="1200" width="63" height="12"/>
+    <text name="TXT__380" text="para" x="182" y="1200" width="28" height="12"/>
+    <text name="TXT__381" text="ingresos" x="217" y="1200" width="56" height="12"/>
+    <text name="TXT__382" text="de" x="280" y="1200" width="14" height="12"/>
+    <text name="TXT__383" text="solicitantes" x="301" y="1200" width="84" height="12"/>
+    <text name="TXT__384" text="o" x="392" y="1200" width="7" height="12"/>
+    <text name="TXT__385" text="participantes" x="406" y="1200" width="91" height="12"/>
+    <text name="TXT__386" text="en" x="504" y="1200" width="14" height="12"/>
+    <text name="TXT__387" text="Cat" x="525" y="1200" width="21" height="12"/>
+    <text name="TXT__388" text="A,B,D,G" x="35" y="1216" width="49" height="12"/>
+    <text name="TXT__389" text="y" x="91" y="1216" width="7" height="12"/>
+    <text name="TXT__390" text="T;" x="105" y="1216" width="14" height="12"/>
+    <text name="TXT__391" text="padre," x="126" y="1216" width="42" height="12"/>
+    <text name="TXT__392" text="madre" x="175" y="1216" width="35" height="12"/>
+    <text name="TXT__393" text="o" x="217" y="1216" width="7" height="12"/>
+    <text name="TXT__394" text="menor" x="231" y="1216" width="35" height="12"/>
+    <text name="TXT__395" text="en" x="273" y="1216" width="14" height="12"/>
+    <text name="TXT__396" text="categoria" x="294" y="1216" width="63" height="12"/>
+    <text name="TXT__397" text="C" x="364" y="1216" width="7" height="12"/>
+    <text name="TXT__398" text="*" x="21" y="1248" width="7" height="12"/>
+    <text name="TXT__399" text="Col" x="35" y="1248" width="21" height="12"/>
+    <text name="TXT__400" text="B" x="63" y="1248" width="7" height="12"/>
+    <text name="TXT__401" text="-" x="77" y="1248" width="7" height="12"/>
+    <text name="TXT__402" text="Se" x="91" y="1248" width="14" height="12"/>
+    <text name="TXT__403" text="utilizará" x="112" y="1248" width="63" height="12"/>
+    <text name="TXT__404" text="para" x="182" y="1248" width="28" height="12"/>
+    <text name="TXT__405" text="ingresos" x="217" y="1248" width="56" height="12"/>
+    <text name="TXT__406" text="de" x="280" y="1248" width="14" height="12"/>
+    <text name="TXT__407" text="cónyuges" x="301" y="1248" width="56" height="12"/>
+    <text name="TXT__408" text="solicitantes" x="364" y="1248" width="84" height="12"/>
+    <text name="TXT__409" text="o" x="455" y="1248" width="7" height="12"/>
+    <text name="TXT__410" text="participantes" x="35" y="1264" width="91" height="12"/>
+    <text name="TXT__411" text="en" x="133" y="1264" width="14" height="12"/>
+    <text name="TXT__412" text="Cat" x="154" y="1264" width="21" height="12"/>
+    <text name="TXT__413" text="C" x="182" y="1264" width="7" height="12"/>
+    <text name="TXT__414" text="y" x="196" y="1264" width="7" height="12"/>
+    <text name="TXT__415" text="cónyuges" x="210" y="1264" width="56" height="12"/>
+    <text name="TXT__416" text="no" x="273" y="1264" width="14" height="12"/>
+    <text name="TXT__417" text="categóricos" x="294" y="1264" width="77" height="12"/>
+    <text name="TXT__418" text="de" x="378" y="1264" width="14" height="12"/>
+    <text name="TXT__419" text="solicitantes" x="399" y="1264" width="84" height="12"/>
+    <text name="TXT__420" text="o" x="490" y="1264" width="7" height="12"/>
+    <text name="TXT__421" text="participantes" x="35" y="1280" width="91" height="12"/>
+    <text name="TXT__422" text="en" x="133" y="1280" width="14" height="12"/>
+    <text name="TXT__423" text="Cat" x="154" y="1280" width="21" height="12"/>
+    <text name="TXT__424" text="A,B,D" x="182" y="1280" width="35" height="12"/>
+    <text name="TXT__425" text="y" x="224" y="1280" width="7" height="12"/>
+    <text name="TXT__426" text="G" x="238" y="1280" width="7" height="12"/>
+    <text name="TXT__427" text="*" x="21" y="1312" width="7" height="12"/>
+    <text name="TXT__428" text="En" x="35" y="1312" width="14" height="12"/>
+    <text name="TXT__429" text="solicitudes" x="56" y="1312" width="77" height="12"/>
+    <text name="TXT__430" text="no" x="140" y="1312" width="14" height="12"/>
+    <text name="TXT__431" text="aplique" x="161" y="1312" width="49" height="12"/>
+    <text name="TXT__432" text="la" x="217" y="1312" width="14" height="12"/>
+    <text name="TXT__433" text="exención" x="238" y="1312" width="56" height="12"/>
+    <text name="TXT__434" text="#5" x="301" y="1312" width="14" height="12"/>
+    <text name="TXT__435" text="hasta" x="322" y="1312" width="35" height="12"/>
+    <text name="TXT__436" text="que" x="364" y="1312" width="21" height="12"/>
+    <text name="TXT__437" text="determine" x="392" y="1312" width="63" height="12"/>
+    <text name="TXT__438" text="que" x="462" y="1312" width="21" height="12"/>
+    <text name="TXT__439" text="el" x="490" y="1312" width="14" height="12"/>
+    <text name="TXT__440" text="ingreso" x="35" y="1328" width="49" height="12"/>
+    <text name="TXT__441" text="(luego" x="91" y="1328" width="42" height="12"/>
+    <text name="TXT__442" text="de" x="140" y="1328" width="14" height="12"/>
+    <text name="TXT__443" text="descontar" x="161" y="1328" width="63" height="12"/>
+    <text name="TXT__444" text="gastos" x="231" y="1328" width="42" height="12"/>
+    <text name="TXT__445" text="de" x="280" y="1328" width="14" height="12"/>
+    <text name="TXT__446" text="producción" x="301" y="1328" width="70" height="12"/>
+    <text name="TXT__447" text="y" x="378" y="1328" width="7" height="12"/>
+    <text name="TXT__448" text="cuido" x="392" y="1328" width="35" height="12"/>
+    <text name="TXT__449" text="de" x="434" y="1328" width="14" height="12"/>
+    <text name="TXT__450" text="menores)" x="455" y="1328" width="56" height="12"/>
+    <text name="TXT__451" text="no" x="518" y="1328" width="14" height="12"/>
+    <text name="TXT__452" text="excede" x="35" y="1344" width="42" height="12"/>
+    <text name="TXT__453" text="el" x="84" y="1344" width="14" height="12"/>
+    <text name="TXT__454" text="total" x="105" y="1344" width="35" height="12"/>
+    <text name="TXT__455" text="de" x="147" y="1344" width="14" height="12"/>
+    <text name="TXT__456" text="necesidades" x="168" y="1344" width="77" height="12"/>
+    <text name="TXT__457" text="ajustadas." x="252" y="1344" width="70" height="12"/>
+    <text name="TXT__458" text="*" x="21" y="1376" width="7" height="12"/>
+    <text name="TXT__459" text="La" x="35" y="1376" width="14" height="12"/>
+    <text name="TXT__460" text="exención" x="56" y="1376" width="56" height="12"/>
+    <text name="TXT__461" text="30" x="119" y="1376" width="14" height="12"/>
+    <text name="TXT__462" text="y" x="140" y="1376" width="7" height="12"/>
+    <text name="TXT__463" text="1/3" x="154" y="1376" width="21" height="12"/>
+    <text name="TXT__464" text="se" x="182" y="1376" width="14" height="12"/>
+    <text name="TXT__465" text="obtiene" x="203" y="1376" width="49" height="12"/>
+    <text name="TXT__466" text="del" x="259" y="1376" width="21" height="12"/>
+    <text name="TXT__467" text="balance" x="287" y="1376" width="49" height="12"/>
+    <text name="TXT__468" text="después" x="343" y="1376" width="49" height="12"/>
+    <text name="TXT__469" text="de" x="399" y="1376" width="14" height="12"/>
+    <text name="TXT__470" text="haber" x="420" y="1376" width="35" height="12"/>
+    <text name="TXT__471" text="descontado" x="462" y="1376" width="70" height="12"/>
+    <text name="TXT__472" text="gastos" x="35" y="1392" width="42" height="12"/>
+    <text name="TXT__473" text="de" x="84" y="1392" width="14" height="12"/>
+    <text name="TXT__474" text="producción" x="105" y="1392" width="70" height="12"/>
+    <text name="TXT__475" text="en" x="182" y="1392" width="14" height="12"/>
+    <text name="TXT__476" text="el" x="203" y="1392" width="14" height="12"/>
+    <text name="TXT__477" text="renglon" x="224" y="1392" width="49" height="12"/>
+    <text name="TXT__478" text="#4." x="280" y="1392" width="21" height="12"/>
+    <text name="TXT__479" text="(" x="35" y="1424" width="7" height="12"/>
+    <text name="TXT__480" text=")" x="56" y="1424" width="7" height="12"/>
+    <text name="TXT__481" text="Inelegible" x="70" y="1424" width="70" height="12"/>
+    <text name="TXT__482" text="Razón:" x="56" y="1440" width="42" height="12"/>
+    <text name="TXT__483" text="Razón:" x="168" y="1440" width="42" height="12"/>
+    <text name="TXT__484" text="(" x="35" y="1472" width="7" height="12"/>
+    <text name="TXT__485" text=")" x="56" y="1472" width="7" height="12"/>
+    <text name="TXT__486" text="Elegible" x="70" y="1472" width="56" height="12"/>
+    <text name="TXT__487" text="Firma" x="42" y="1536" width="35" height="12"/>
+    <text name="TXT__488" text="del" x="84" y="1536" width="21" height="12"/>
+    <text name="TXT__489" text="TASF" x="112" y="1536" width="28" height="12"/>
+    <text name="TXT__490" text="Fecha" x="427" y="1536" width="35" height="12"/>
+    <text name="TXT__491" text="S.S." x="0" y="1616" width="28" height="12"/>
+    <text name="TXT__492" text="Jefe" x="42" y="1616" width="28" height="12"/>
+    <text name="TXT__493" text="Fam" x="77" y="1616" width="21" height="12"/>
+    <text name="TXT__494" text="S.S." x="112" y="1616" width="28" height="12"/>
+    <text name="TXT__495" text="Caso" x="147" y="1616" width="28" height="12"/>
+    <text name="TXT__496" text="A." x="182" y="1616" width="14" height="12"/>
+    <text name="TXT__497" text="T." x="203" y="1616" width="14" height="12"/>
+    <text name="TXT__498" text="Categoria" x="231" y="1616" width="63" height="12"/>
+    <text name="TXT__499" text="Nombre" x="308" y="1616" width="42" height="12"/>
+    <text name="TXT__500" text="Encargado" x="357" y="1616" width="63" height="12"/>
+    <text name="TXT__501" text="de" x="427" y="1616" width="14" height="12"/>
+    <text name="TXT__502" text="A." x="448" y="1616" width="14" height="12"/>
+    <text name="TXT__503" text="E." x="469" y="1616" width="14" height="12"/>
+    <text name="TXT__504" text="" x="539" y="1616" width="0" height="12"/>
+    <text name="TXT__505" text="" x="539" y="1632" width="0" height="12"/>
+    <text name="TXT__506" text="" x="539" y="1648" width="0" height="12"/>
+    <text name="TXT__507" text="ADSEF-TANF-23" x="7" y="16" width="91" height="12"/>
+    <line name="LINE_TXT_0" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="6" x1="553" y1="6" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_1" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="14" y="150" x1="546" y1="150" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_2" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="198" x1="546" y1="198" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_3" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="230" x1="546" y1="230" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_4" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="262" x1="546" y1="262" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_5" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="294" x1="546" y1="294" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_6" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="342" x1="546" y1="342" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_7" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="390" x1="546" y1="390" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_8" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="422" x1="546" y1="422" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_9" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="502" x1="546" y1="502" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_10" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="534" x1="546" y1="534" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_11" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="582" x1="546" y1="582" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_12" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="614" x1="546" y1="614" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_13" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="662" x1="546" y1="662" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_14" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="694" x1="553" y1="694" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_15" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="774" x1="553" y1="774" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_16" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="806" x1="553" y1="806" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_17" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="854" x1="553" y1="854" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_18" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="886" x1="553" y1="886" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_19" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="918" x1="553" y1="918" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_20" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="950" x1="553" y1="950" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_21" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="982" x1="553" y1="982" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_22" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="1014" x1="553" y1="1014" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_23" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="1046" x1="553" y1="1046" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_24" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="1094" x1="553" y1="1094" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_25" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="1190" x1="553" y1="1190" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_26" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="1606" x1="546" y1="1606" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_27" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="1670" x1="546" y1="1670" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_28" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="150" x1="427" y1="198" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_29" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="546" y="150" x1="546" y1="694" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_30" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="14" y="150" x1="14" y1="1190" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_31" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="487" y="150" x1="487" y1="694" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_32" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="6" x1="7" y1="150" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_33" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="150" x1="7" y1="566" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_34" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="550" x1="7" y1="614" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_35" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="598" x1="7" y1="646" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_36" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="630" x1="7" y1="694" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_37" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="678" x1="7" y1="726" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_38" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="710" x1="7" y1="806" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_39" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="790" x1="7" y1="838" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_40" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="822" x1="7" y1="886" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_41" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="870" x1="7" y1="918" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_42" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="902" x1="7" y1="950" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_43" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="934" x1="7" y1="982" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_44" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="966" x1="7" y1="1014" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_45" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="998" x1="7" y1="1046" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_46" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="1030" x1="7" y1="1078" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_47" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="1062" x1="7" y1="1126" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_48" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="1110" x1="7" y1="1190" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_49" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="198" x1="427" y1="230" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_50" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="230" x1="427" y1="278" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_51" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="262" x1="427" y1="310" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_52" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="294" x1="427" y1="358" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_53" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="342" x1="427" y1="406" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_54" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="390" x1="427" y1="438" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_55" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="422" x1="427" y1="518" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_56" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="502" x1="427" y1="550" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_57" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="534" x1="427" y1="598" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_58" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="582" x1="427" y1="630" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_59" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="614" x1="427" y1="678" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_60" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="662" x1="427" y1="710" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_61" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="694" x1="427" y1="790" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_62" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="774" x1="427" y1="822" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_63" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="806" x1="427" y1="870" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_64" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="854" x1="427" y1="902" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_65" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="886" x1="427" y1="934" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_66" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="918" x1="427" y1="966" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_67" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="950" x1="427" y1="998" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_68" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="982" x1="427" y1="1030" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_69" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="1014" x1="427" y1="1062" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_70" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="1046" x1="427" y1="1110" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_71" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="427" y="1094" x1="427" y1="1190" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_72" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="1606" x1="0" y1="1670" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_73" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="553" y="6" x1="553" y1="1190" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_74" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="546" y="1606" x1="546" y1="1670" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  </textgroup>
+  <field name="A1" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="B1" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="435" y="176" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A2" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="B2" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="435" y="208" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A3" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="B3" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="435" y="240" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A4" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="B4" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="435" y="272" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A5" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="B5" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="435" y="320" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A6" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="B6" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="435" y="368" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A7" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="B7" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="435" y="400" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A8" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="B8" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="435" y="480" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A9" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="B9" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="435" y="512" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A10" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="B10" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="435" y="560" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A11" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="B11" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="435" y="592" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A12" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="B12" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="435" y="640" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A13" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="B13" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="435" y="672" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A14" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A15" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="463" y="752" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A15" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A16" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="463" y="784" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A16" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A17" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="463" y="832" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A17" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A18" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="463" y="864" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A18" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A19" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="463" y="896" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A19" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A20" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="463" y="928" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A20" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A21" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="463" y="960" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A21" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A22" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="463" y="992" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A22" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A23" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="463" y="1024" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A23" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A25" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="463" y="1056" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A24" tag="" visible="false" enabled="true" container="DETERMINACION_AEA" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="463" y="1088" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A25" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="INELE" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="463" y="1152" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B1" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A2" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="491" y="176" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B2" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A3" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="491" y="208" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B3" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A4" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="491" y="240" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B4" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A5" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="491" y="272" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B5" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A6" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="491" y="320" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B6" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A7" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="491" y="368" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B7" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A8" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="491" y="400" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B8" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A9" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="491" y="480" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B9" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A10" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="491" y="512" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B10" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A11" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="491" y="560" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B11" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A12" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="491" y="592" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B12" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A13" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="491" y="640" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B13" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="A14" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="491" y="672" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B14" tag="" visible="false" enabled="true" container="DETERMINACION_AEA" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="491" y="752" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B15" tag="" visible="false" enabled="true" container="DETERMINACION_AEA" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="491" y="784" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B16" tag="" visible="false" enabled="true" container="DETERMINACION_AEA" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="491" y="832" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B17" tag="" visible="false" enabled="true" container="DETERMINACION_AEA" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="491" y="864" width="48" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="SEGSOC" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="22" y="96" width="90" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CASO" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="127" y="96" width="97" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CAS02" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="" objectType="field" copyFieldName="CASO" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="113" y="1632" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="SEGS" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="" objectType="field" copyFieldName="SEGSOC" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="8" y="1632" width="90" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CAT" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="260" y="96" width="27" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CAT2" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="" objectType="field" copyFieldName="CAT" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="246" y="1632" width="27" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NOMBRE_JEFE" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="323" y="96" width="174" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NOMBRE_JEFE2" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="" objectType="field" copyFieldName="NOMBRE_JEFE" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="309" y="1632" width="216" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="ELEG" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="FCH_FORMULARIO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="43" y="1472" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="INELE" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="ELEG" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="43" y="1424" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="RAZON" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="99" y="1440" width="454" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="ADULTO" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="316" y="928" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NINOS" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="393" y="928" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FCH_FORMULARIO" tag="" visible="true" enabled="true" container="DETERMINACION_AEA" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="dd-MMM-yyyy" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="407" y="1520" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="dd-MMM-yyyy" isDialog="false" inputlimit="0"/>
+  </field>
+</model>

@@ -1,0 +1,85 @@
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://serviciosenlinea.asume.gobierno.pr/WebServiceADSEF/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://serviciosenlinea.asume.gobierno.pr/WebServiceADSEF/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<wsdl:types>
+<s:schema elementFormDefault="qualified" targetNamespace="http://serviciosenlinea.asume.gobierno.pr/WebServiceADSEF/">
+<s:element name="verificar_caso">
+<s:complexType>
+<s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="request" type="tns:Adsefrequest" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+<s:complexType name="Adsefrequest">
+<s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="segurosocial" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+<s:element name="verificar_casoResponse">
+<s:complexType>
+<s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="verificar_casoResult" type="tns:Adsefresponse" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+<s:complexType name="Adsefresponse">
+<s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="Estatus" type="s:int" /> 
+<s:element minOccurs="0" maxOccurs="1" name="PagosEfectuados">
+<s:complexType>
+<s:sequence>
+  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+  <s:element minOccurs="1" maxOccurs="1" name="ViolenceIndicator" type="s:boolean" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="Commentarios" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="Mensaje" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:schema>
+  </wsdl:types>
+<wsdl:message name="verificar_casoSoapIn">
+  <wsdl:part name="parameters" element="tns:verificar_caso" /> 
+  </wsdl:message>
+<wsdl:message name="verificar_casoSoapOut">
+  <wsdl:part name="parameters" element="tns:verificar_casoResponse" /> 
+  </wsdl:message>
+<wsdl:portType name="ADSEFSoap">
+<wsdl:operation name="verificar_caso">
+  <wsdl:input message="tns:verificar_casoSoapIn" /> 
+  <wsdl:output message="tns:verificar_casoSoapOut" /> 
+  </wsdl:operation>
+  </wsdl:portType>
+<wsdl:binding name="ADSEFSoap" type="tns:ADSEFSoap">
+  <soap:binding transport="http://schemas.xmlsoap.org/soap/http" /> 
+<wsdl:operation name="verificar_caso">
+  <soap:operation soapAction="http://serviciosenlinea.asume.gobierno.pr/WebServiceADSEF/verificar_caso" style="document" /> 
+<wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+<wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+  </wsdl:binding>
+<wsdl:binding name="ADSEFSoap12" type="tns:ADSEFSoap">
+  <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" /> 
+<wsdl:operation name="verificar_caso">
+  <soap12:operation soapAction="http://serviciosenlinea.asume.gobierno.pr/WebServiceADSEF/verificar_caso" style="document" /> 
+<wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+<wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+  </wsdl:binding>
+<wsdl:service name="ADSEF">
+<wsdl:port name="ADSEFSoap" binding="tns:ADSEFSoap">
+  <soap:address location="http://serviciosenlinea.asume.gobierno.pr/WebServiceADSEF/ADSEF.asmx" /> 
+  </wsdl:port>
+<wsdl:port name="ADSEFSoap12" binding="tns:ADSEFSoap12">
+  <soap12:address location="http://serviciosenlinea.asume.gobierno.pr/WebServiceADSEF/ADSEF.asmx" /> 
+  </wsdl:port>
+  </wsdl:service>
+  </wsdl:definitions>

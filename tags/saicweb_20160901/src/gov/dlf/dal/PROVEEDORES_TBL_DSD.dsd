@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="PROVEEDORES_TBL_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="true" insertAllowed="true" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="true" updateFields="DIR_1,DIR_2,DIR_POSTAL_1,DIR_POSTAL_2,NOM_TITULAR,ID_PROVEEDOR,NOM_CONTACTO_PROVEEDOR,NOM_PROVEEDOR,STS_PROVEEDOR,TELEFONO,CELULAR,UNIDADES_DISPONIBLES,UNIDADES_USADAS,ZIP_CODE,ZIP_CODE_4,ZIP_CODE_4_POSTAL,ZIP_CODE_POSTAL,NUM_EBT,NUM_CUENTA_BANCO,RUTA_BANCO,TIPO_CUENTA_BANCO,TIPO_PROVEEDOR,COMENTARIOS,EMAIL,VERIFICACION_SEGUROSOCIAL,VERIFICACION_IDENTIDAD,VERIFICACION_CIUDADANIA,VERIFICACION_RESIDENCIA, NUM_VER_SS,NUM_VER_ID,NUM_VER_CIU,NUM_VER_RES,CERT_COND_FLG,CERT_SALU_FLG,LIC_DPT_FAM_FLG,PROV_DPT_FAM_FLG,EVI_BANK_FLG,DESDE_COND,DESDE_SALU,DESDE_LIC,DESDE_PROV,DESDE_EVI,HASTA_COND,HASTA_SALU,HASTA_LIC,HASTA_PROV,HASTA_EVI" updateKey="ID_PROVEEDOR" updateSourceName="PROVEEDORES_TBL" useTransactions="false" definition="select  PROVEEDORES_TBL.DIR_1,  PROVEEDORES_TBL.DIR_2,  PROVEEDORES_TBL.DIR_POSTAL_1,  PROVEEDORES_TBL.DIR_POSTAL_2,  PROVEEDORES_TBL.NOM_TITULAR,  PROVEEDORES_TBL.ID_PROVEEDOR,  PROVEEDORES_TBL.NOM_CONTACTO_PROVEEDOR,  PROVEEDORES_TBL.NOM_PROVEEDOR,  PROVEEDORES_TBL.STS_PROVEEDOR,  PROVEEDORES_TBL.TELEFONO,  PROVEEDORES_TBL.UNIDADES_DISPONIBLES,  PROVEEDORES_TBL.UNIDADES_USADAS,  PROVEEDORES_TBL.ZIP_CODE,  PROVEEDORES_TBL.ZIP_CODE_4,  PROVEEDORES_TBL.ZIP_CODE_4_POSTAL,  PROVEEDORES_TBL.ZIP_CODE_POSTAL, PROVEEDORES_TBL.NUM_EBT, PROVEEDORES_TBL.NUM_CUENTA_BANCO, PROVEEDORES_TBL.RUTA_BANCO,PROVEEDORES_TBL.TIPO_CUENTA_BANCO, PROVEEDORES_TBL.TIPO_PROVEEDOR, PROVEEDORES_TBL.COMENTARIOS, PROVEEDORES_TBL.EMAIL,PROVEEDORES_TBL.CELULAR ( PROVEEDORES_TBL.VERIFICACION_SEGUROSOCIAL ) as VERIFICACION_SEGUROSOCIAL,   ( PROVEEDORES_TBL.VERIFICACION_IDENTIDAD ) as VERIFICACION_IDENTIDAD,   ( PROVEEDORES_TBL.VERIFICACION_CIUDADANIA ) as VERIFICACION_CIUDADANIA,   ( PROVEEDORES_TBL.VERIFICACION_RESIDENCIA ) as VERIFICACION_RESIDENCIA, (PROVEEDORES_TBL.COD_RZ_NSS_SUST) as COD_RZ_NSS_SUST, (PROVEEDORES_TBL.TELEFONO_CELULAR) AS TELEFONO_CELULAR, (PROVEEDORES_TBL.EMAIL) AS EMAIL,(PROVEEDORES_TBL.NUM_VER_SS) AS NUM_VER_SS,(PROVEEDORES_TBL.NUM_VER_ID) AS NUM_VER_ID,(PROVEEDORES_TBL.NUM_VER_CIU) AS NUM_VER_CIU,(PROVEEDORES_TBL.NUM_VER_RES) AS NUM_VER_RES, PROVEEDORES_TBL.CERT_COND_FLG,PROVEEDORES_TBL.CERT_SALU_FLG,PROVEEDORES_TBL.LIC_DPT_FAM_FLG,PROVEEDORES_TBL.PROV_DPT_FAM_FLG,PROVEEDORES_TBL.EVI_BANK_FLG,PROVEEDORES_TBL.DESDE_COND,PROVEEDORES_TBL.DESDE_SALU,PROVEEDORES_TBL.DESDE_LIC,PROVEEDORES_TBL.DESDE_PROV,PROVEEDORES_TBL.DESDE_EVI,PROVEEDORES_TBL.HASTA_COND,PROVEEDORES_TBL.HASTA_SALU,PROVEEDORES_TBL.HASTA_LIC,PROVEEDORES_TBL.HASTA_PROV, PROVEEDORES_TBL.HASTA_EVI from PROVEEDORES_TBL PROVEEDORES_TBL" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">SHARED WRITE</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="DIR_1" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="25" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DIR_1" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DIR_2" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="25" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DIR_2" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DIR_POSTAL_1" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="25" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DIR_POSTAL_1" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DIR_POSTAL_2" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="25" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DIR_POSTAL_2" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="CERT_COND_FLG" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="CERT_COND_FLG" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="CERT_SALU_FLG" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="CERT_SALU_FLG" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="LIC_DPT_FAM_FLG" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="LIC_DPT_FAM_FLG" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="PROV_DPT_FAM_FLG" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="PROV_DPT_FAM_FLG" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="EVI_BANK_FLG" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="EVI_BANK_FLG" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DESDE_COND" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="Date" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DESDE_COND" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DESDE_SALU" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="Date" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DESDE_SALU" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DESDE_LIC" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="Date" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DESDE_LIC" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DESDE_PROV" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="Date" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DESDE_PROV" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DESDE_EVI" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="Date" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DESDE_EVI" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="HASTA_COND" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="Date" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="HASTA_COND" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="HASTA_SALU" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="Date" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="HASTA_SALU" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="HASTA_LIC" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="Date" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="HASTA_LIC" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="HASTA_PROV" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="Date" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="HASTA_PROV" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="HASTA_EVI" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="Date" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="HASTA_EVI" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="NOM_TITULAR" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="NOM_TITULAR" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="ID_PROVEEDOR" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="ID_PROVEEDOR" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="NOM_CONTACTO_PROVEEDOR" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="35" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="NOM_CONTACTO_PROVEEDOR" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="NOM_PROVEEDOR" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="30" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="NOM_PROVEEDOR" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="STS_PROVEEDOR" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="2" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="STS_PROVEEDOR" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="TELEFONO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="TELEFONO" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="CELULAR" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="CELULAR" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="UNIDADES_DISPONIBLES" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="UNIDADES_DISPONIBLES" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="UNIDADES_USADAS" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="UNIDADES_USADAS" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="ZIP_CODE" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="ZIP_CODE" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="ZIP_CODE_4" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="2" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="ZIP_CODE_4" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="ZIP_CODE_4_POSTAL" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="2" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="ZIP_CODE_4_POSTAL" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="ZIP_CODE_POSTAL" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="ZIP_CODE_POSTAL" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="NUM_EBT" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="9" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="NUM_EBT" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="NUM_CUENTA_BANCO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="17" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="NUM_CUENTA_BANCO" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="RUTA_BANCO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="9" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="RUTA_BANCO" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="TIPO_CUENTA_BANCO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="1" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="TIPO_CUENTA_BANCO" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="TIPO_PROVEEDOR" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="20" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="TIPO_PROVEEDOR" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="COMENTARIOS" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="20" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COMENTARIOS" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="EMAIL" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="20" sourceAlias="PROVEEDORES_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="EMAIL" sourceLocation="" sourceName="PROVEEDORES_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field 
+    name="VERIFICACION_SEGUROSOCIAL" 
+    autoIncrement="false" 
+    autoIncrementSeed="0" 
+    autoIncrementStep="0" 
+    comment="" 
+    dataType="String" 
+    distinct="false" 
+    expression="" 
+    key="false" 
+    label="" 
+    nullable="false" 
+    offset="0" 
+    ordinal="0" 
+    readOnly="false" 
+    scale="0" 
+    searchable="false" 
+    size="1" 
+    sourceAlias="PROVEEDORES_TBL" 
+    sourceCatalog="" 
+    sourceDataType="" 
+    sourceExpression="" 
+    sourceFieldName="VERIFICACION_SEGUROSOCIAL" 
+    sourceLocation="" 
+    sourceName="PROVEEDORES_TBL" 
+    sourceOwner="" 
+    unique="false" 
+    updateable="true" 
+  />
+  <field 
+    name="VERIFICACION_IDENTIDAD" 
+    autoIncrement="false" 
+    autoIncrementSeed="0" 
+    autoIncrementStep="0" 
+    comment="" 
+    dataType="String" 
+    distinct="false" 
+    expression="" 
+    key="false" 
+    label="" 
+    nullable="false" 
+    offset="0" 
+    ordinal="0" 
+    readOnly="false" 
+    scale="0" 
+    searchable="false" 
+    size="1" 
+    sourceAlias="PROVEEDORES_TBL" 
+    sourceCatalog="" 
+    sourceDataType="" 
+    sourceExpression="" 
+    sourceFieldName="VERIFICACION_IDENTIDAD" 
+    sourceLocation="" 
+    sourceName="PROVEEDORES_TBL" 
+    sourceOwner="" 
+    unique="false" 
+    updateable="true" 
+  />
+  <field 
+    name="VERIFICACION_CIUDADANIA" 
+    autoIncrement="false" 
+    autoIncrementSeed="0" 
+    autoIncrementStep="0" 
+    comment="" 
+    dataType="String" 
+    distinct="false" 
+    expression="" 
+    key="false" 
+    label="" 
+    nullable="false" 
+    offset="0" 
+    ordinal="0" 
+    readOnly="false" 
+    scale="0" 
+    searchable="false" 
+    size="1" 
+    sourceAlias="PROVEEDORES_TBL" 
+    sourceCatalog="" 
+    sourceDataType="" 
+    sourceExpression="" 
+    sourceFieldName="VERIFICACION_CIUDADANIA" 
+    sourceLocation="" 
+    sourceName="PROVEEDORES_TBL" 
+    sourceOwner="" 
+    unique="false" 
+    updateable="true" 
+  />
+  <field 
+    name="VERIFICACION_RESIDENCIA" 
+    autoIncrement="false" 
+    autoIncrementSeed="0" 
+    autoIncrementStep="0" 
+    comment="" 
+    dataType="String" 
+    distinct="false" 
+    expression="" 
+    key="false" 
+    label="" 
+    nullable="false" 
+    offset="0" 
+    ordinal="0" 
+    readOnly="false" 
+    scale="0" 
+    searchable="false" 
+    size="1" 
+    sourceAlias="PROVEEDORES_TBL" 
+    sourceCatalog="" 
+    sourceDataType="" 
+    sourceExpression="" 
+    sourceFieldName="VERIFICACION_RESIDENCIA" 
+    sourceLocation="" 
+    sourceName="PROVEEDORES_TBL" 
+    sourceOwner="" 
+    unique="false" 
+    updateable="true" 
+  />
+   <field 
+    name="NUM_VER_SS" 
+    autoIncrement="false" 
+    autoIncrementSeed="0" 
+    autoIncrementStep="0" 
+    comment="" 
+    dataType="String" 
+    distinct="false" 
+    expression="" 
+    key="false" 
+    label="" 
+    nullable="false" 
+    offset="0" 
+    ordinal="0" 
+    readOnly="false" 
+    scale="0" 
+    searchable="false" 
+    size="1" 
+    sourceAlias="PROVEEDORES_TBL" 
+    sourceCatalog="" 
+    sourceDataType="" 
+    sourceExpression="" 
+    sourceFieldName="NUM_VER_SS" 
+    sourceLocation="" 
+    sourceName="PROVEEDORES_TBL" 
+    sourceOwner="" 
+    unique="false" 
+    updateable="true" 
+  />
+   <field 
+    name="NUM_VER_ID" 
+    autoIncrement="false" 
+    autoIncrementSeed="0" 
+    autoIncrementStep="0" 
+    comment="" 
+    dataType="String" 
+    distinct="false" 
+    expression="" 
+    key="false" 
+    label="" 
+    nullable="false" 
+    offset="0" 
+    ordinal="0" 
+    readOnly="false" 
+    scale="0" 
+    searchable="false" 
+    size="1" 
+    sourceAlias="PROVEEDORES_TBL" 
+    sourceCatalog="" 
+    sourceDataType="" 
+    sourceExpression="" 
+    sourceFieldName="NUM_VER_ID" 
+    sourceLocation="" 
+    sourceName="PROVEEDORES_TBL" 
+    sourceOwner="" 
+    unique="false" 
+    updateable="true" 
+  />
+   <field 
+    name="NUM_VER_CIU" 
+    autoIncrement="false" 
+    autoIncrementSeed="0" 
+    autoIncrementStep="0" 
+    comment="" 
+    dataType="String" 
+    distinct="false" 
+    expression="" 
+    key="false" 
+    label="" 
+    nullable="false" 
+    offset="0" 
+    ordinal="0" 
+    readOnly="false" 
+    scale="0" 
+    searchable="false" 
+    size="1" 
+    sourceAlias="PROVEEDORES_TBL" 
+    sourceCatalog="" 
+    sourceDataType="" 
+    sourceExpression="" 
+    sourceFieldName="NUM_VER_CIU" 
+    sourceLocation="" 
+    sourceName="PROVEEDORES_TBL" 
+    sourceOwner="" 
+    unique="false" 
+    updateable="true" 
+  />
+   <field 
+    name="NUM_VER_RES" 
+    autoIncrement="false" 
+    autoIncrementSeed="0" 
+    autoIncrementStep="0" 
+    comment="" 
+    dataType="String" 
+    distinct="false" 
+    expression="" 
+    key="false" 
+    label="" 
+    nullable="false" 
+    offset="0" 
+    ordinal="0" 
+    readOnly="false" 
+    scale="0" 
+    searchable="false" 
+    size="1" 
+    sourceAlias="PROVEEDORES_TBL" 
+    sourceCatalog="" 
+    sourceDataType="" 
+    sourceExpression="" 
+    sourceFieldName="NUM_VER_RES" 
+    sourceLocation="" 
+    sourceName="PROVEEDORES_TBL" 
+    sourceOwner="" 
+    unique="false" 
+    updateable="true" 
+  />
+</datastore>

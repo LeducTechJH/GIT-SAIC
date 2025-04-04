@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="INFORME_EST_APEL_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="true" insertAllowed="true" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="true" updateFields="COD_SERVICIO,FCH_RADICADA" updateKey="COD_SERVICIO,FCH_RADICADA" updateSourceName="APELACIONES" useTransactions="false" definition="select  APELACIONES.COD_SERVICIO,  APELACIONES.FCH_RADICADA from APELACIONES APELACIONES where ( APELACIONES.RMO_OFICINA = RMO_PAR and APELACIONES.FCH_RADICADA >= FECHA_DESDE_GBL and APELACIONES.FCH_RADICADA <= FECHA_HASTA_GBL ) order by APELACIONES.COD_SERVICIO asc" adapter="1" recordLength="0">
+  <argument name="FECHA_DESDE_GBL"/>
+  <argument name="RMO_PAR"/>
+  <argument name="FECHA_HASTA_GBL"/>
+  <extended name="NonDeclaredArgument">FECHA_HASTA_GBL</extended>
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">SHARED WRITE</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="COD_SERVICIO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="SERVICE CODE" dataType="String" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="5" sourceAlias="APELACIONES" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_SERVICIO" sourceLocation="" sourceName="APELACIONES" sourceOwner="" unique="false" updateable="true"/>
+  <field name="FCH_RADICADA" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="DATE" dataType="Date" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="APELACIONES" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="FCH_RADICADA" sourceLocation="" sourceName="APELACIONES" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

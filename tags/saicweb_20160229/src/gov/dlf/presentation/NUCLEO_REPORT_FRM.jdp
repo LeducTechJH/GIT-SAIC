@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="NUCLEO_REPORT_FRM" tag="" visible="true" enabled="true" objectType="model" pagewidth="1392" pageheight="2880" backcolor="13421772" x="2" y="2" width="928" height="1920" groupstyle="0" highLightSelected="false" firstobject="SS_JEFE" indivisible="false" autosizewidth="false" autosizeheight="true" stretchx="0" stretchy="0" comment="">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="NUCLEO_REPORT_FRM" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="504" height="156" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="Rev." x="0" y="0" width="28" height="12"/>
+    <text name="TXT__1" text="02/16" x="35" y="0" width="42" height="12"/>
+    <text name="TXT__2" text="ESTADO" x="168" y="0" width="42" height="12"/>
+    <text name="TXT__3" text="LIBRE" x="217" y="0" width="35" height="12"/>
+    <text name="TXT__4" text="ASOCIADO" x="259" y="0" width="56" height="12"/>
+    <text name="TXT__5" text="DE" x="322" y="0" width="14" height="12"/>
+    <text name="TXT__6" text="PUERTO" x="343" y="0" width="42" height="12"/>
+    <text name="TXT__7" text="RICO" x="392" y="0" width="28" height="12"/>
+    <text name="TXT__8" text="ADMINISTRACION" x="84" y="16" width="98" height="12"/>
+    <text name="TXT__9" text="DE" x="189" y="16" width="14" height="12"/>
+    <text name="TXT__10" text="DESARROLLO" x="210" y="16" width="70" height="12"/>
+    <text name="TXT__11" text="SOCIOECONOMICO" x="287" y="16" width="98" height="12"/>
+    <text name="TXT__12" text="DE" x="392" y="16" width="14" height="12"/>
+    <text name="TXT__13" text="LA" x="413" y="16" width="14" height="12"/>
+    <text name="TXT__14" text="FAMILIA" x="434" y="16" width="49" height="12"/>
+    <text name="TXT__15" text="DEPARTAMENTO" x="189" y="32" width="84" height="12"/>
+    <text name="TXT__16" text="DE" x="280" y="32" width="14" height="12"/>
+    <text name="TXT__17" text="LA" x="301" y="32" width="14" height="12"/>
+    <text name="TXT__18" text="FAMILIA" x="322" y="32" width="49" height="12"/>
+    <text name="TXT__19" text="CERTIFICACION" x="189" y="64" width="91" height="12"/>
+    <text name="TXT__20" text="DEL" x="287" y="64" width="21" height="12"/>
+    <text name="TXT__21" text="SERVICIO" x="315" y="64" width="56" height="12"/>
+    <text name="TXT__22" text="Jefe" x="7" y="96" width="28" height="12"/>
+    <text name="TXT__23" text="Fam." x="42" y="96" width="28" height="12"/>
+    <text name="TXT__24" text=":" x="77" y="96" width="7" height="12"/>
+    <text name="TXT__25" text="Nombre:" x="210" y="96" width="49" height="12"/>
+    <text name="TXT__26" text="Enc." x="7" y="112" width="28" height="12"/>
+    <text name="TXT__27" text="Serv.:" x="42" y="112" width="42" height="12"/>
+    <text name="TXT__28" text="Nombre:" x="210" y="112" width="49" height="12"/>
+    <text name="TXT__29" text="Servicio" x="7" y="128" width="56" height="12"/>
+    <text name="TXT__30" text=":" x="77" y="128" width="7" height="12"/>
+    <text name="TXT__31" text="Centro:" x="280" y="128" width="49" height="12"/>
+    <text name="TXT__32" text="Técnico:" x="448" y="128" width="56" height="12"/>
+    <text name="TXT__33" text="MIEMBROS" x="7" y="144" width="56" height="12"/>
+    <text name="TXT__34" text="DEL" x="70" y="144" width="21" height="12"/>
+    <text name="TXT__35" text="NUCLEO:" x="98" y="144" width="49" height="12"/>
+  </textgroup>
+  <field name="SS_JEFE" tag="" visible="true" enabled="true" container="NUCLEO_REPORT_FRM" nextobject="SS_SERV" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="92" y="96" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="JEFE_NOMBRE" tag="" visible="true" enabled="true" container="NUCLEO_REPORT_FRM" nextobject="SERV_NOMBRE" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="267" y="96" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="SS_SERV" tag="" visible="true" enabled="true" container="NUCLEO_REPORT_FRM" nextobject="DSC_SERV" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="92" y="112" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="SERV_NOMBRE" tag="" visible="true" enabled="true" container="NUCLEO_REPORT_FRM" nextobject="TECNICO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="267" y="112" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="DSC_SERV" tag="" visible="true" enabled="true" container="NUCLEO_REPORT_FRM" nextobject="OFICINA" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="92" y="128" width="174" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="OFICINA" tag="" visible="true" enabled="true" container="NUCLEO_REPORT_FRM" nextobject="JEFE_NOMBRE" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="337" y="128" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="TECNICO" tag="" visible="true" enabled="true" container="NUCLEO_REPORT_FRM" nextobject="DESGLOSE" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="512" y="128" width="27" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <textgroup name="DESGLOSE_TXT" tag="" visible="true" enabled="true" container="NUCLEO_REPORT_FRM" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="192" width="539" height="12" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="DESGLOSE" anchorTypeHorizontal="3" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="DESGLOSE_TXT__0" text="Ss" x="6" y="-16" width="14" height="12"/>
+    <text name="DESGLOSE_TXT__1" text="Cliente" x="27" y="-16" width="49" height="12"/>
+    <text name="DESGLOSE_TXT__2" text="NOMBRE" x="125" y="-16" width="42" height="12"/>
+    <text name="DESGLOSE_TXT__3" text="FCH" x="321" y="-16" width="21" height="12"/>
+    <text name="DESGLOSE_TXT__4" text="NAC." x="349" y="-16" width="28" height="12"/>
+    <text name="DESGLOSE_TXT__5" text="ANCI." x="405" y="-16" width="35" height="12"/>
+    <text name="DESGLOSE_TXT__6" text="INCA." x="454" y="-16" width="35" height="12"/>
+    <text name="DESGLOSE_TXT__7" text="ESTU." x="503" y="-16" width="35" height="12"/>
+  </textgroup>
+  <group name="DESGLOSE" tag="" visible="true" enabled="true" container="NUCLEO_REPORT_FRM" nextobject="DESG_CONT" objectType="group" pageStart="-1" pageType="0" x="-2" y="220" width="924" height="732" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="1" highLightSelected="true" datastore="DESGLOSE_READ_MIEMBROS" discardChildless="false" updatetotop="false" firstobject="SS_CLIENTE1" indivisible="false" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="128" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="true" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <breakField name="SS_CLIENTE"/>
+    <textgroup name="DESGLOSE_TXT1" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="22" width="540" height="164" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="DESGLOSE_TXT1__0" text="RECURSOS" x="114" y="79" width="56" height="12"/>
+      <text name="DESGLOSE_TXT1__1" text="INGRESOS" x="247" y="79" width="56" height="12"/>
+      <text name="DESGLOSE_TXT1__2" text="GASTOS" x="380" y="79" width="42" height="12"/>
+      <text name="DESGLOSE_TXT1__3" text="CODIGO" x="86" y="95" width="42" height="12"/>
+      <text name="DESGLOSE_TXT1__4" text="CANTIDAD" x="135" y="95" width="56" height="12"/>
+      <text name="DESGLOSE_TXT1__5" text="CODIGO" x="219" y="95" width="42" height="12"/>
+      <text name="DESGLOSE_TXT1__6" text="CANTIDAD" x="275" y="95" width="56" height="12"/>
+      <text name="DESGLOSE_TXT1__7" text="CODIGO" x="352" y="95" width="42" height="12"/>
+      <text name="DESGLOSE_TXT1__8" text="CANTIDAD" x="408" y="95" width="56" height="12"/>
+      <text name="Text_0" text="DOCUMENTOS DE VERIFICACION" x="154" y="-27" width="190" height="12"/>
+      <text name="Text_1" text="IDENTIDAD" x="0" y="6" width="68" height="12"/>
+      <text name="Text_0" text="RESIDENCIA" x="0" y="22" width="73" height="12"/>
+      <text name="Text_1" text="NUM. SS." x="0" y="39" width="63" height="12"/>
+      <text name="Text_2" text="CIUDADANIA" x="0" y="56" width="72" height="12"/>
+      <text name="Text_3" text="CODIGO" x="190" y="-11" width="42" height="12"/>
+      <text name="Text_4" text="DOCUMENTO" x="7" y="-11" width="72" height="12"/>
+      <text name="Text_7" text="DESCRIPCION" x="299" y="-12" width="81" height="12"/>
+      <text name="Text_3" text="NUMERO REFERENCIA" x="429" y="-12" width="122" height="12"/>
+    </textgroup>
+    <field name="SS_CLIENTE1" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="DESG_CONT" objectType="field" copyFieldName="" datatypename="double" datafieldname="SS_CLIENTE" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="8" y="-26" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="NOMBRE_CLIENTE1" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="99" y="-26" width="202" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="FECHA_NACIMIENTO" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="FCH_NACIMIENTO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="316" y="-26" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="COD_ING" tag="" visible="false" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="COD_ING" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="113" y="-26" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="5"/>
+    </field>
+    <field name="VLR_ING" tag="" visible="false" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="VLR_ING" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="113" y="-26" width="62" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="9"/>
+    </field>
+    <field name="COD_REC" tag="" visible="false" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="COD_REC" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="113" y="-26" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="5"/>
+    </field>
+    <field name="VLR_REC" tag="" visible="false" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="VLR_REC" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="113" y="-26" width="62" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="9"/>
+    </field>
+    <field name="COD_GAS" tag="" visible="false" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="COD_GAS" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="113" y="-26" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="5"/>
+    </field>
+    <field name="VLR_GAS" tag="" visible="false" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="VLR_GAS" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="113" y="-26" width="62" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="9"/>
+    </field>
+    <field name="ANCIANO" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="ANCIANO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="414" y="-26" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="2"/>
+    </field>
+    <field name="INCA" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="INCA" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="456" y="-26" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="5"/>
+    </field>
+    <field name="ESTUDIANTE" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="ESTUDIANTE" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="505" y="-26" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="5"/>
+    </field>
+    <field name="VERIFICACION_SEGUROSOCIAL" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="" datafieldname="VERIFICACION_SEGUROSOCIAL" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="2" x="77" y="61" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="VERIFICACION_IDENTIDAD" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="" datafieldname="VERIFICACION_IDENTIDAD" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="2" x="77" y="27" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="VERIFICACION_CIUDADANIA" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="" datafieldname="VERIFICACION_CIUDADANIA" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="2" x="77" y="78" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="VERIFICACION_RESIDENCIA" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="" datafieldname="VERIFICACION_RESIDENCIA" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="2" x="77" y="44" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DESC_IDENTIDAD" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="" datafieldname="DESC_IDENTIDAD" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="2" x="117" y="27" width="302" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DESC_RESIDENCIA" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="" datafieldname="DESC_RESIDENCIA" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="2" x="117" y="44" width="302" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DESC_SEGUROSOCIAL" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="" datafieldname="DESC_SEGUROSOCIAL" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="2" x="117" y="61" width="302" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DESC_CIUDADANIA" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="" datafieldname="DESC_CIUDADANIA" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="2" x="117" y="78" width="302" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <textgroup name="DESG_CONT_TXT" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="64" width="434" height="-4" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="DESG_CONT" anchorTypeHorizontal="3" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <group name="DESG_CONT" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="CERTIFICACION" objectType="group" pageStart="-1" pageType="0" x="0" y="158" width="924" height="177" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="1" highLightSelected="true" datastore="DESGLOSE_READ_MIEMBROS" discardChildless="false" updatetotop="false" firstobject="COD_GAS1" indivisible="false" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="32" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="true" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+      <linklist>
+        <linkpair detail="SS_CLIENTE" master="SS_CLIENTE"/>
+      </linklist>
+      <textgroup name="DESG_CONT_TXT0" tag="" visible="true" enabled="true" container="DESG_CONT" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="2" y="20" width="917" height="28" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+      <field name="ESTUDIANTE1" tag="" visible="false" enabled="true" container="DESG_CONT" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="ESTUDIANTE" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="29" y="-26" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="5"/>
+      </field>
+      <field name="INCA1" tag="" visible="false" enabled="true" container="DESG_CONT" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="INCA" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="29" y="-26" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="5"/>
+      </field>
+      <field name="ANCIANO1" tag="" visible="false" enabled="true" container="DESG_CONT" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="ANCIANO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="120" y="-26" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="2"/>
+      </field>
+      <field name="VLR_GAS1" tag="" visible="true" enabled="true" container="DESG_CONT" nextobject="VLR_REC1" objectType="field" copyFieldName="" datatypename="double" datafieldname="VLR_GAS" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="410" y="-24" width="55" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+      </field>
+      <field name="COD_GAS1" tag="" visible="true" enabled="true" container="DESG_CONT" nextobject="COD_REC1" objectType="field" copyFieldName="" datatypename="String" datafieldname="COD_GAS" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="354" y="-24" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="5"/>
+      </field>
+      <field name="VLR_REC1" tag="" visible="true" enabled="true" container="DESG_CONT" nextobject="VLR_ING1" objectType="field" copyFieldName="" datatypename="double" datafieldname="VLR_REC" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="137" y="-24" width="55" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+      </field>
+      <field name="COD_REC1" tag="" visible="true" enabled="true" container="DESG_CONT" nextobject="COD_ING1" objectType="field" copyFieldName="" datatypename="String" datafieldname="COD_REC" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="88" y="-24" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="5"/>
+      </field>
+      <field name="VLR_ING1" tag="" visible="true" enabled="true" container="DESG_CONT" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="VLR_ING" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="277" y="-24" width="55" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+      </field>
+      <field name="COD_ING1" tag="" visible="true" enabled="true" container="DESG_CONT" nextobject="VLR_GAS1" objectType="field" copyFieldName="" datatypename="String" datafieldname="COD_ING" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="221" y="-24" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="5"/>
+      </field>
+      <field name="SS_CLIENTE" tag="" visible="false" enabled="true" container="DESG_CONT" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="SS_CLIENTE" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="708" y="-26" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="10"/>
+      </field>
+    </group>
+    <field name="NUM_VER_ID" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="" datafieldname="NUM_VER_ID" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="2" x="482" y="27" width="70" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="NUM_VER_RES" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="" datafieldname="NUM_VER_RES" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="2" x="482" y="44" width="70" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="NUM_VER_SS" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="" datafieldname="NUM_VER_SS" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="2" x="482" y="61" width="70" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="NUM_VER_CIU" tag="" visible="true" enabled="true" container="DESGLOSE" nextobject="" objectType="field" copyFieldName="" datatypename="" datafieldname="NUM_VER_CIU" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="2" x="482" y="78" width="70" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+  </group>
+  <group name="CERTIFICACION" tag="" visible="true" enabled="true" container="NUCLEO_REPORT_FRM" nextobject="" objectType="group" pageStart="-1" pageType="2" x="-2" y="-36" width="700" height="1611" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="2" highLightSelected="true" datastore="" discardChildless="false" updatetotop="false" firstobject="" indivisible="false" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="768" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="DESGLOSE" anchorTypeVertical="4" autosizeheight="true" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <textgroup name="CERTI" tag="" visible="true" enabled="true" container="CERTIFICACION" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="557" height="812" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="CERTI__2" text="Certifico" x="0" y="-15" width="63" height="12"/>
+      <text name="CERTI__3" text="que:" x="70" y="-15" width="28" height="12"/>
+      <text name="CERTI__4" text="la" x="105" y="-15" width="14" height="12"/>
+      <text name="CERTI__5" text="información" x="126" y="-15" width="77" height="12"/>
+      <text name="CERTI__6" text="por" x="210" y="-15" width="21" height="12"/>
+      <text name="CERTI__7" text="mi" x="238" y="-15" width="14" height="12"/>
+      <text name="CERTI__8" text="ofrecida" x="259" y="-15" width="56" height="12"/>
+      <text name="CERTI__9" text="es" x="322" y="-15" width="14" height="12"/>
+      <text name="CERTI__10" text="verdadera," x="343" y="-15" width="70" height="12"/>
+      <text name="CERTI__11" text="completa" x="420" y="-15" width="56" height="12"/>
+      <text name="CERTI__12" text="y" x="483" y="-15" width="7" height="12"/>
+      <text name="CERTI__13" text="no" x="497" y="-15" width="14" height="12"/>
+      <text name="CERTI__14" text="he" x="518" y="-15" width="14" height="12"/>
+      <text name="CERTI__15" text="ocultado" x="0" y="1" width="56" height="12"/>
+      <text name="CERTI__16" text="o" x="63" y="1" width="7" height="12"/>
+      <text name="CERTI__17" text="dejado" x="77" y="1" width="42" height="12"/>
+      <text name="CERTI__18" text="de" x="126" y="1" width="14" height="12"/>
+      <text name="CERTI__19" text="informar" x="147" y="1" width="56" height="12"/>
+      <text name="CERTI__20" text="datos" x="210" y="1" width="35" height="12"/>
+      <text name="CERTI__21" text="relacionados" x="252" y="1" width="84" height="12"/>
+      <text name="CERTI__22" text="con" x="343" y="1" width="21" height="12"/>
+      <text name="CERTI__23" text="mi" x="371" y="1" width="14" height="12"/>
+      <text name="CERTI__24" text="situación." x="392" y="1" width="70" height="12"/>
+      <text name="CERTI__25" text="Estoy" x="469" y="1" width="35" height="12"/>
+      <text name="CERTI__26" text="consciente" x="0" y="17" width="70" height="12"/>
+      <text name="CERTI__27" text="que" x="77" y="17" width="21" height="12"/>
+      <text name="CERTI__28" text="si" x="105" y="17" width="14" height="12"/>
+      <text name="CERTI__29" text="he" x="126" y="17" width="14" height="12"/>
+      <text name="CERTI__30" text="ofrecido" x="147" y="17" width="56" height="12"/>
+      <text name="CERTI__31" text="información" x="210" y="17" width="77" height="12"/>
+      <text name="CERTI__32" text="falsa" x="294" y="17" width="35" height="12"/>
+      <text name="CERTI__33" text="puedo" x="336" y="17" width="35" height="12"/>
+      <text name="CERTI__34" text="ser" x="378" y="17" width="21" height="12"/>
+      <text name="CERTI__35" text="llevado(a)" x="406" y="17" width="70" height="12"/>
+      <text name="CERTI__36" text="ante" x="483" y="17" width="28" height="12"/>
+      <text name="CERTI__37" text="los" x="518" y="17" width="21" height="12"/>
+      <text name="CERTI__38" text="tribunales" x="0" y="33" width="70" height="12"/>
+      <text name="CERTI__39" text="de" x="77" y="33" width="14" height="12"/>
+      <text name="CERTI__40" text="acuerdo" x="98" y="33" width="49" height="12"/>
+      <text name="CERTI__41" text="con" x="154" y="33" width="21" height="12"/>
+      <text name="CERTI__42" text="las" x="182" y="33" width="21" height="12"/>
+      <text name="CERTI__43" text="leyes" x="210" y="33" width="35" height="12"/>
+      <text name="CERTI__44" text="y" x="252" y="33" width="7" height="12"/>
+      <text name="CERTI__45" text="reglamentos" x="266" y="33" width="77" height="12"/>
+      <text name="CERTI__46" text="de" x="350" y="33" width="14" height="12"/>
+      <text name="CERTI__47" text="cada" x="371" y="33" width="28" height="12"/>
+      <text name="CERTI__48" text="programa." x="406" y="33" width="63" height="12"/>
+      <text name="CERTI__49" text="Acepto" x="476" y="33" width="42" height="12"/>
+      <text name="CERTI__50" text="que" x="0" y="49" width="21" height="12"/>
+      <text name="CERTI__51" text="el" x="28" y="49" width="14" height="12"/>
+      <text name="CERTI__52" text="Departamento" x="49" y="49" width="84" height="12"/>
+      <text name="CERTI__53" text="de" x="140" y="49" width="14" height="12"/>
+      <text name="CERTI__54" text="la" x="161" y="49" width="14" height="12"/>
+      <text name="CERTI__55" text="Familia," x="182" y="49" width="56" height="12"/>
+      <text name="CERTI__56" text="investigue" x="245" y="49" width="70" height="12"/>
+      <text name="CERTI__57" text="la" x="322" y="49" width="14" height="12"/>
+      <text name="CERTI__58" text="información" x="343" y="49" width="77" height="12"/>
+      <text name="CERTI__59" text="ofrecida," x="427" y="49" width="63" height="12"/>
+      <text name="CERTI__60" text="de" x="497" y="49" width="14" height="12"/>
+      <text name="CERTI__61" text="estimarlo" x="0" y="65" width="63" height="12"/>
+      <text name="CERTI__62" text="conveniente." x="70" y="65" width="84" height="12"/>
+      <text name="CERTI__161" text="Se" x="0" y="192" width="14" height="12"/>
+      <text name="CERTI__162" text="me" x="21" y="192" width="14" height="12"/>
+      <text name="CERTI__163" text="han" x="42" y="192" width="21" height="12"/>
+      <text name="CERTI__164" text="leído" x="70" y="192" width="35" height="12"/>
+      <text name="CERTI__165" text="e" x="112" y="192" width="7" height="12"/>
+      <text name="CERTI__166" text="interpretado" x="126" y="192" width="84" height="12"/>
+      <text name="CERTI__167" text="mis" x="217" y="192" width="21" height="12"/>
+      <text name="CERTI__168" text="derechos" x="245" y="192" width="56" height="12"/>
+      <text name="CERTI__169" text="y" x="308" y="192" width="7" height="12"/>
+      <text name="CERTI__170" text="responsabilidades" x="322" y="192" width="119" height="12"/>
+      <text name="CERTI__171" text="y" x="448" y="192" width="7" height="12"/>
+      <text name="CERTI__172" text="he" x="462" y="192" width="14" height="12"/>
+      <text name="CERTI__173" text="recibido" x="483" y="192" width="56" height="12"/>
+      <text name="CERTI__174" text="copia" x="0" y="208" width="35" height="12"/>
+      <text name="CERTI__175" text="de" x="42" y="208" width="14" height="12"/>
+      <text name="CERTI__176" text="los" x="63" y="208" width="21" height="12"/>
+      <text name="CERTI__177" text="mismos." x="91" y="208" width="49" height="12"/>
+      <text name="CERTI__178" text="Solicitare" x="147" y="208" width="70" height="12"/>
+      <text name="CERTI__179" text="y" x="224" y="208" width="7" height="12"/>
+      <text name="CERTI__180" text="retendré" x="238" y="208" width="56" height="12"/>
+      <text name="CERTI__181" text="el" x="301" y="208" width="14" height="12"/>
+      <text name="CERTI__182" text="comprobante" x="322" y="208" width="77" height="12"/>
+      <text name="CERTI__183" text="de" x="406" y="208" width="14" height="12"/>
+      <text name="CERTI__184" text="pago." x="427" y="208" width="35" height="12"/>
+      <text name="CERTI__185" text="Firma" x="0" y="256" width="35" height="12"/>
+      <text name="CERTI__186" text="o" x="42" y="256" width="7" height="12"/>
+      <text name="CERTI__187" text="marca" x="56" y="256" width="35" height="12"/>
+      <text name="CERTI__188" text="del" x="98" y="256" width="21" height="12"/>
+      <text name="CERTI__189" text="Repr." x="126" y="256" width="35" height="12"/>
+      <text name="CERTI__190" text="de" x="168" y="256" width="14" height="12"/>
+      <text name="CERTI__191" text="Serv." x="189" y="256" width="35" height="12"/>
+      <text name="CERTI__192" text="Testigo" x="273" y="256" width="49" height="12"/>
+      <text name="CERTI__193" text="de" x="329" y="256" width="14" height="12"/>
+      <text name="CERTI__194" text="la" x="350" y="256" width="14" height="12"/>
+      <text name="CERTI__195" text="marca" x="371" y="256" width="35" height="12"/>
+      <text name="CERTI__196" text="Fecha" x="469" y="256" width="35" height="12"/>
+      <text name="CERTI__197" text="*" x="0" y="288" width="7" height="12"/>
+      <text name="CERTI__198" text="Aplica" x="14" y="288" width="42" height="12"/>
+      <text name="CERTI__199" text="a" x="63" y="288" width="7" height="12"/>
+      <text name="CERTI__200" text="Emergencias" x="77" y="288" width="77" height="12"/>
+      <text name="CERTI__201" text="y" x="161" y="288" width="7" height="12"/>
+      <text name="CERTI__202" text="otros" x="175" y="288" width="35" height="12"/>
+      <text name="CERTI__203" text="Subprogramas." x="217" y="288" width="91" height="12"/>
+      <text name="CERTI__204" text="El Departamento de la Familia garantiza igualdad de oportunidades. Si" x="0" y="320" width="556" height="12"/>
+      <text name="CERTI__215" text="considera que se ha discriminado contra usted por razón de raza, color," x="0" y="336" width="556" height="12"/>
+      <text name="CERTI__228" text="origen nacional, sexo, edad o impedimento, escriba a USDA, Director, Office of " x="0" y="352" width="556" height="12"/>
+      <text name="CERTI__238" text="of Civil Rights Room 326-W, Whitten Building, 1400 Independence Avenue," x="0" y="368" width="556" height="12"/>
+      <text name="CERTI__249" text="SW, Washington, DC 20250-9410 o llamar al (202) 720-5964 (Voz y TDD). Puede" x="0" y="384" width="556" height="12"/>
+      <text name="CERTI__261" text="llamar las Personas sordas, con dificultad para oir o tiene impedimento para" x="0" y="400" width="556" height="12"/>
+      <text name="CERTI__273" text="hablar pueden comunicar al 'Federal Relay Service' al 1-(800)-845-6136" x="0" y="416" width="556" height="12"/>
+      <text name="CERTI__274" text="He sido orientado sobre el uso del 75% y 25% de los beneficios de la Tarjeta" x="0" y="89" width="556" height="12"/>
+      <text name="CERTI__275" text="de la Familia. El 75% debe ser utilizado para la compra de alimentos en" x="0" y="105" width="556" height="12"/>
+      <text name="CERTI__276" text="comercios certificados por el Departamento de la Familia. El 25% solo se" x="0" y="121" width="556" height="12"/>
+      <text name="CERTI__277" text="utilizará para la compra de alimentos elegibles en comercios certificados" x="0" y="137" width="556" height="12"/>
+      <text name="CERTI__278" text="y no certificados. El mismo se puede accesar a través de un cajero automático." x="0" y="153" width="556" height="12"/>
+      <text name="CERTI__278" text="El 100% de los beneficios son para comprar alimentos elegibles." x="0" y="169" width="556" height="12"/>
+      <text name="Text_0" text="(Español),  para información del programa puede llamar al 1-800-981-8056," x="0" y="432" width="555" height="11"/>
+      <text name="Text_1" text="1-800-981-5822 (libre de cargos)." x="0" y="447" width="557" height="11"/>
+      <text name="Text_0" text="_____________________________" x="8" y="240" width="207" height="12"/>
+      <text name="Text_1" text="___________________" x="271" y="240" width="137" height="12"/>
+      <text name="Text_2" text="_____________" x="441" y="240" width="95" height="12"/>
+    </textgroup>
+  </group>
+</model>

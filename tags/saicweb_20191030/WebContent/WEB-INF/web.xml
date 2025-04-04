@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp">
+  <display-name>SAICWEB</display-name>
+
+  <servlet>
+    <servlet-name>TestServlet</servlet-name>
+    <display-name>TestServlet</display-name>
+    <servlet-class>net.maintrend.servlettest.TestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AppManagerServlet</servlet-name>
+    <display-name>AppManagerServlet</display-name>
+    <servlet-class>net.maintrend.thin.AppManagerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MessageServlet</servlet-name>
+    <display-name>MessageServlet</display-name>
+    <servlet-class>net.maintrend.thin.MessageServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <display-name>LoginServlet</display-name>
+    <servlet-class>net.maintrend.thin.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  <servlet-name>GetPDF</servlet-name>
+  <display-name>GetPDF</display-name>
+  <servlet-class>gov.dlf.webservice.certpan.endpoint.GetPDF</servlet-class>
+</servlet>
+  
+  <servlet-mapping>
+    <servlet-name>TestServlet</servlet-name>
+    <url-pattern>*.process</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AppManagerServlet</servlet-name>
+    <url-pattern>*.app</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageServlet</servlet-name>
+    <url-pattern>*.mes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>*.log</url-pattern>
+  </servlet-mapping>
+ <servlet-mapping>
+    <servlet-name>GetPDF</servlet-name>
+    <url-pattern>/GetPDF</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>poc.jsp</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+</web-app>

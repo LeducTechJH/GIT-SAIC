@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="REPORT_3_1_FR_SUP_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="" updateKey="" updateSourceName="" useTransactions="false" definition="select SERVICIOS_SUPERVISOR.ID_SUPERVISOR from SERVICIOS_SUPERVISOR where ( SERVICIOS_SUPERVISOR.RMO_OFICINA = RMO_PAR and SERVICIOS_SUPERVISOR.COD_STATUS_SERVICIO not like 'CERR%' and SERVICIOS_SUPERVISOR.COD_STATUS_SERVICIO not like 'RECH%' ) group by SERVICIOS_SUPERVISOR.ID_SUPERVISOR order by SERVICIOS_SUPERVISOR.ID_SUPERVISOR desc" adapter="1" recordLength="0">
+  <argument name="RMO_PAR"/>
+  <extended name="NonDeclaredArgument">RMO_PAR</extended>
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="ID_SUPERVISOR" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="SUPERVISOR IDENTIFICATION" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="2" sourceAlias="SERVICIOS_SUPERVISOR" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="ID_SUPERVISOR" sourceLocation="" sourceName="SERVICIOS_SUPERVISOR" sourceOwner="" unique="false" updateable="false"/>
+</datastore>

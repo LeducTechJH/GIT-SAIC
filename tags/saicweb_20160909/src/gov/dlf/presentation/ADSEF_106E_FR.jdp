@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="ADSEF_106E_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="1155" pageheight="1512" backcolor="13421772" x="2" y="2" width="564" height="1008" groupstyle="0" highLightSelected="false" firstobject="HEADER_GP" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="ADSEF_106E_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="538" height="60" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="-106E" x="42" y="0" width="37" height="12"/>
+    <text name="TXT__1" text="DEPARTAMENTO" x="196" y="0" width="84" height="12"/>
+    <text name="TXT__2" text="DE" x="287" y="0" width="14" height="12"/>
+    <text name="TXT__3" text="LA" x="308" y="0" width="14" height="12"/>
+    <text name="TXT__4" text="FAMILIA" x="329" y="0" width="49" height="12"/>
+    <text name="TXT__5" text="Rev." x="7" y="16" width="28" height="12"/>
+    <text name="TXT__6" text="3/16" x="42" y="16" width="28" height="12"/>
+    <text name="TXT__7" text="ADMINISTRACION" x="91" y="16" width="98" height="12"/>
+    <text name="TXT__8" text="DE" x="196" y="16" width="14" height="12"/>
+    <text name="TXT__9" text="DESARROLLO" x="217" y="16" width="70" height="12"/>
+    <text name="TXT__10" text="SOCIOECONOMICO" x="294" y="16" width="98" height="12"/>
+    <text name="TXT__11" text="DE" x="399" y="16" width="14" height="12"/>
+    <text name="TXT__12" text="LA" x="420" y="16" width="14" height="12"/>
+    <text name="TXT__13" text="FAMILIA" x="441" y="16" width="49" height="12"/>
+    <text name="TXT__14" text="ACCIONDERECHOS, RESPONSABILIDADES Y ADVERTENCIAS DE LOS PROGRAMAS" x="65" y="32" width="460" height="12"/>
+    <text name="TXT__15" text="DE ASISTENCIA NUTRICIONAL (PAN) Y AYUDA TEMPORAL PARA FAMILIAS" x="75" y="48" width="438" height="12"/>
+    <text name="TXT__16" text="NECESITADAS (TANF)" x="224" y="64" width="128" height="12"/>
+    <text name="TXT__17" text="DERECHOS DE SOLICITANTES O PARTICIPANTES:" x="0" y="85" width="289" height="12"/>
+    <text name="TXT__18" text="ADSEF" x="7" y="0" width="35" height="12"/>
+  </textgroup>
+  <group name="HEADER_GP" tag="" visible="true" enabled="true" container="ADSEF_106E_FR" nextobject="" objectType="group" pageStart="-1" pageType="0" x="0" y="81" width="539" height="1433" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="0" highLightSelected="false" datastore="" discardChildless="false" updatetotop="false" firstobject=" " indivisible="false" repeatdeltax="0" repeatdeltay="0" repeatsizex="0" repeatsizey="0" repeatorder="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <textgroup name="HEADER_GP_TXT0" tag="" visible="true" enabled="true" container="HEADER_GP" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="-5" y="18" width="532" height="1448" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="1" text="1) Solicitar personalmente en la oficina local o centro de servicios " x="5" y="18" width="479" height="12"/>
+      <text name="2" text="integrados que sirven a la zona de su residencia, a través de la Línea de" x="24" y="35" width="515" height="12"/>
+      <text name="3" text="Orientación 3-1-1 o página oficial de la ADSEF " x="24" y="51" width="326" height="12"/>
+      <text name="4" text="https://servicios.adsef.pr.gov." x="24" y="67" width="221" height="12"/>
+      <text name="5" text="2) Recibir orientación sobre los programas y los servicios: Asistencia " x="5" y="83" width="492" height="12"/>
+      <text name="6" text="Nutricional (PAN), Ayuda Temporal para Familias Necesitadas (TANF)," x="24" y="99" width="473" height="12"/>
+      <text name="7" text="Administración de Familias y Niños (ADFAN), Administración de Sustento de " x="24" y="115" width="514" height="12"/>
+      <text name="8" text="Menores (ASUME), y otros." x="24" y="131" width="179" height="12"/>
+      <text name="10" text="3) Ser atendido(a) el mismo dia que acuda a radicar solicitud en la Oficina " x="5" y="147" width="533" height="12"/>
+      <text name="12" text="4) Que se tome acción con si solicitud de PAN dentro del término de 30 dias " x="5" y="179" width="530" height="12"/>
+      <text name="11" text="Local o Centro de Servicios Integrados." x="24" y="163" width="277" height="12"/>
+      <text name="13" text="calendario contados a partir de radicada la solicitud. En el programa " x="24" y="195" width="494" height="12"/>
+      <text name="14" text="TANF tomar acción en o antes de 45 o 60 dias calendario segun aplique." x="24" y="211" width="499" height="12"/>
+      <text name="HEADER_GP_TXT0__31" text="5) Que se le oriente a obtener documentos para probar elegibilidad." x="5" y="227" width="469" height="12"/>
+      <text name="HEADER_GP_TXT0__32" text="6) De existir la necesidad, a ser atendido(a) por personal con dominio del " x="5" y="243" width="525" height="12"/>
+      <text name="HEADER_GP_TXT0__33" text="idioma inglés o la disponibilidad de personal para servir como intérprete " x="24" y="259" width="514" height="12"/>
+      <text name="HEADER_GP_TXT0__34" text="del lenguaje de señas." x="24" y="275" width="157" height="12"/>
+      <text name="HEADER_GP_TXT0__35" text="8) Solicitar una vista de apelación si no está de acuerdo con cualquier " x="5" y="339" width="499" height="12"/>
+      <text name="HEADER_GP_TXT0__36" text="acción que haya tomado la oficina local o del Centro de Servicios " x="24" y="355" width="472" height="12"/>
+      <text name="HEADER_GP_TXT0__37" text="7) Si es participante del TANF, a recibir notificación con 10 dias de " x="5" y="291" width="489" height="12"/>
+      <text name="HEADER_GP_TXT0__38" text="anticipación, se la acción a tomar es cierre, reducción o suspensión de " x="24" y="307" width="505" height="12"/>
+      <text name="HEADER_GP_TXT0__39" text="servicios." x="24" y="323" width="73" height="12"/>
+      <text name="HEADER_GP_TXT0__40" text="Integrados. A comparecer a la vista de apelación con representación legal." x="24" y="371" width="519" height="12"/>
+      <text name="HEADER_GP_TXT0__41" text="pensión alimentaria a través de la ASUME. " x="24" y="403" width="289" height="12"/>
+      <text name="HEADER_GP_TXT0__42" text="10) En PAN recibir beneficios en el mismo mes que se determine elegibilidad. " x="5" y="419" width="534" height="12"/>
+      <text name="HEADER_GP_TXT0__47" text="Los beneficios del PAN pueden variar de acuerdo a los fondos disponibles." x="24" y="435" width="518" height="12"/>
+      <text name="HEADER_GP_TXT0__48" text="siguientes situaciones: (1) por la deduccióno pérdida súbita del ingreso " x="24" y="467" width="517" height="12"/>
+      <text name="HEADER_GP_TXT0__49" text="necesidades básicas de la familia; (2) por no tener los medios económicos " x="24" y="499" width="518" height="12"/>
+      <text name="HEADER_GP_TXT0__50" text="12) Recibir beneficios retroactivos, si el núcleo de servicio pierde " x="5" y="547" width="482" height="12"/>
+      <text name="HEADER_GP_TXT0__51" text="beneficios por error de la Agencia." x="24" y="563" width="253" height="12"/>
+      <text name="HEADER_GP_TXT0__53" text="11) En PAN recibir beneficios prorrateados debido a una o ambas de las " x="5" y="451" width="504" height="12"/>
+      <text name="HEADER_GP_TXT0__54" text="de la persona proveedora y no tener los medios para satisfacer las " x="24" y="483" width="472" height="12"/>
+      <text name="HEADER_GP_TXT0__55" text="13) Autorizar a un(a) representante para que realice cualquier gestión en la " x="5" y="579" width="536" height="12"/>
+      <text name="HEADER_GP_TXT0__56" text="Oficina Local o Centro de Servicios Integrados." x="24" y="595" width="335" height="12"/>
+      <text name="HEADER_GP_TXT0__57" text="9) Reclamar Justa Causa para rehusar cooperar con el establecimiento de una " x="5" y="387" width="529" height="12"/>
+      <text name="HEADER_GP_TXT0__62" text="para costear necesidades especiales de la familia o de algún miembro de " x="24" y="515" width="509" height="12"/>
+      <text name="HEADER_GP_TXT0__79" text="14) Si el (la) participante considera que ha sido objeto de discriminación " x="5" y="611" width="520" height="12"/>
+      <text name="HEADER_GP_TXT0__80" text="podrá presentar una querella por escrito o por teléfono, dentro de 180 " x="24" y="627" width="500" height="12"/>
+      <text name="HEADER_GP_TXT0__93" text="ésta." x="24" y="531" width="39" height="12"/>
+      <text name="HEADER_GP_TXT0__233" text="subsiguientes tienen un costo de cuarenta (.40) dentavos cada una." x="24" y="834" width="465" height="12"/>
+      <text name="HEADER_GP_TXT0__234" text="18) Tener acceso adecuado y razonable a lugares en donde pueda retirar sus " x="5" y="770" width="528" height="12"/>
+      <text name="HEADER_GP_TXT0__235" text="17) Ser notificado(a) sobre cualquier acción relacionada con la " x="5" y="723" width="453" height="12"/>
+      <text name="HEADER_GP_TXT0__236" text="participación en los Programas, con las excepciones establecidas en el " x="24" y="738" width="497" height="12"/>
+      <text name="HEADER_GP_TXT0__237" text="Reglamento." x="24" y="754" width="83" height="12"/>
+      <text name="HEADER_GP_TXT0__238" text="beneficios en puntos de ventas (máquinas de ATM) y utilizar sus " x="24" y="786" width="508" height="12"/>
+      <text name="HEADER_GP_TXT0__239" text="cargos. La primera transacción de cajeros automaticos es gratis y las " x="24" y="818" width="493" height="12"/>
+      <text name="HEADER_GP_TXT0__240" text="beneficios. Los retiros y transacciones en los puntos de ventas conllevan " x="24" y="802" width="517" height="12"/>
+      <text name="TXT__704" text="dias calendario a partir de la fecha en la ocurrió la acción." x="24" y="643" width="428" height="12"/>
+      <text name="TXT__715" text="15) Participar en actividades educativas, adiestramientos o empleos que " x="5" y="659" width="506" height="12"/>
+      <text name="TXT__728" text="ofrezcan los Programas." x="24" y="675" width="164" height="12"/>
+      <text name="TXT__738" text="16) El Departamento de la Familia limitará el uso o la divulgación de la " x="5" y="691" width="508" height="12"/>
+      <text name="TXT__749" text="información ofrecida por el(la) solicitante o participante." x="24" y="707" width="418" height="12"/>
+      <text name="TXT__761" text="RESPONSABILIDADES DE SOLICITANTES O PARTICIPANTES:" x="5" y="858" width="359" height="12"/>
+    </textgroup>
+  </group>
+</model>

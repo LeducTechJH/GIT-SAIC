@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="BAJAS_EMPLEO_RP" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="1232" height="864" groupstyle="0" highLightSelected="false" firstobject="REGION" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Thu Jul 03 06:38:07 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="BAJAS_EMPLEO_RP" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="1232" height="844" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="DEPARTAMENTO" x="378" y="0" width="84" height="12"/>
+    <text name="TXT__1" text="DE" x="469" y="0" width="14" height="12"/>
+    <text name="TXT__2" text="LA" x="490" y="0" width="14" height="12"/>
+    <text name="TXT__3" text="FAMILIA" x="511" y="0" width="49" height="12"/>
+    <text name="TXT__4" text="ADMINISTRACION" x="833" y="0" width="98" height="12"/>
+    <text name="TXT__5" text="DE" x="938" y="0" width="14" height="12"/>
+    <text name="TXT__6" text="DESARROLLO" x="959" y="0" width="70" height="12"/>
+    <text name="TXT__7" text="SOCIOECONOMICO" x="1036" y="0" width="98" height="12"/>
+    <text name="TXT__8" text="DE" x="1141" y="0" width="14" height="12"/>
+    <text name="TXT__9" text="LA" x="1162" y="0" width="14" height="12"/>
+    <text name="TXT__10" text="FAMILIA" x="1183" y="0" width="49" height="12"/>
+    <text name="TXT__11" text="PROGRAMA" x="392" y="16" width="56" height="12"/>
+    <text name="TXT__12" text="PAN" x="455" y="16" width="21" height="12"/>
+    <text name="TXT__13" text="Y" x="483" y="16" width="7" height="12"/>
+    <text name="TXT__14" text="TRABAJO" x="497" y="16" width="49" height="12"/>
+    <text name="TXT__15" text="REGION" x="0" y="48" width="42" height="12"/>
+    <text name="TXT__16" text=":" x="49" y="48" width="7" height="12"/>
+    <text name="TXT__17" text="MUNICIPIO:" x="707" y="48" width="70" height="12"/>
+    <text name="TXT__18" text="OFICINA:" x="0" y="64" width="56" height="12"/>
+    <text name="TXT__19" text="LISTAS" x="350" y="64" width="42" height="12"/>
+    <text name="TXT__20" text="DE" x="399" y="64" width="14" height="12"/>
+    <text name="TXT__21" text="BAJAS" x="420" y="64" width="35" height="12"/>
+    <text name="TXT__22" text="EN" x="462" y="64" width="14" height="12"/>
+    <text name="TXT__23" text="EMPLEO" x="483" y="64" width="42" height="12"/>
+    <text name="TXT__24" text="POR" x="532" y="64" width="21" height="12"/>
+    <text name="TXT__25" text="RMO" x="560" y="64" width="21" height="12"/>
+    <text name="TXT__26" text="FECHA:" x="336" y="80" width="42" height="12"/>
+    <text name="TXT__27" text="-" x="469" y="80" width="7" height="12"/>
+    <text name="TXT__28" text="FECHA" x="322" y="112" width="35" height="12"/>
+    <text name="TXT__29" text="MESES" x="791" y="112" width="35" height="12"/>
+    <text name="TXT__30" text="SEGURO" x="0" y="128" width="42" height="12"/>
+    <text name="TXT__31" text="SEG" x="84" y="128" width="21" height="12"/>
+    <text name="TXT__32" text="SOC" x="112" y="128" width="21" height="12"/>
+    <text name="TXT__33" text="TERMINO" x="315" y="128" width="49" height="12"/>
+    <text name="TXT__34" text="EN" x="805" y="128" width="14" height="12"/>
+    <text name="TXT__35" text="AGENCIA" x="840" y="128" width="49" height="12"/>
+    <text name="TXT__36" text="SOCIAL" x="0" y="144" width="42" height="12"/>
+    <text name="TXT__37" text="JUF" x="49" y="144" width="21" height="12"/>
+    <text name="TXT__38" text="EMP" x="84" y="144" width="21" height="12"/>
+    <text name="TXT__39" text="P/T" x="112" y="144" width="21" height="12"/>
+    <text name="TXT__40" text="NOMBRE" x="168" y="144" width="42" height="12"/>
+    <text name="TXT__41" text="EMPLEADO" x="217" y="144" width="56" height="12"/>
+    <text name="TXT__42" text="EMPLEO" x="322" y="144" width="42" height="12"/>
+    <text name="TXT__43" text="RAZON" x="406" y="144" width="35" height="12"/>
+    <text name="TXT__44" text="EMPRESA" x="518" y="144" width="49" height="12"/>
+    <text name="TXT__45" text="MUNICIPIO" x="672" y="144" width="63" height="12"/>
+    <text name="TXT__46" text="EMPLEO" x="742" y="144" width="42" height="12"/>
+    <text name="TXT__47" text="EMPLEO" x="791" y="144" width="42" height="12"/>
+    <text name="TXT__48" text="DELEGADA" x="840" y="144" width="56" height="12"/>
+    <text name="TXT__49" text="TOTAL" x="0" y="832" width="35" height="12"/>
+    <text name="TXT__50" text="DE" x="42" y="832" width="14" height="12"/>
+    <text name="TXT__51" text="BAJAS" x="63" y="832" width="35" height="12"/>
+    <text name="TXT__52" text="EN" x="105" y="832" width="14" height="12"/>
+    <text name="TXT__53" text="EMPLEO:" x="126" y="832" width="49" height="12"/>
+  </textgroup>
+  <field name="OFICINA" tag="" visible="true" enabled="true" container="BAJAS_EMPLEO_RP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="64" y="80" width="139" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="REGION" tag="" visible="true" enabled="true" container="BAJAS_EMPLEO_RP" nextobject="MUNICIPIO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="64" y="64" width="139" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="MUNICIPIO" tag="" visible="true" enabled="true" container="BAJAS_EMPLEO_RP" nextobject="REGISTRO_GP" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="785" y="64" width="111" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FCH_DESDE" tag="" visible="true" enabled="true" container="BAJAS_EMPLEO_RP" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="386" y="96" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FCH_HASTA" tag="" visible="true" enabled="true" container="BAJAS_EMPLEO_RP" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="484" y="96" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="TOTAL_BAJAS" tag="" visible="true" enabled="false" container="BAJAS_EMPLEO_RP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="183" y="848" width="20" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="SEG_SOCIAL_CLIENTE" aggregateReset="" aggregateStyle="0" aggregateType="2" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <group name="REGISTRO_GP" tag="" visible="true" enabled="true" container="BAJAS_EMPLEO_RP" nextobject="" objectType="group" pageStart="-1" pageType="0" x="0" y="192" width="924" height="636" allowInsert="true" allowUpdate="true" allowDelete="false" groupstyle="1" highLightSelected="true" datastore="BAJAS_EMPLEO_DSD" discardChildless="false" updatetotop="false" firstobject="SEG_SOCIAL_JEFE_FAM" indivisible="false" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="32" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <parameter name="PFCH_HASTA"/>
+    <parameter name="RMO_PAR"/>
+    <parameter name="PFCH_DESDE"/>
+    <textgroup name="EMPLEOS_GP_TXT" tag="" visible="true" enabled="true" container="REGISTRO_GP" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="854" height="12" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="EMPLEOS_GP_TXT__0" text="-" x="434" y="0" width="7" height="12"/>
+      <text name="EMPLEOS_GP_TXT__1" text="-" x="847" y="0" width="7" height="12"/>
+    </textgroup>
+    <field name="SEG_SOCIAL_CLIENTE" tag="" visible="true" enabled="true" container="REGISTRO_GP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="CLIENTES_SEGURO_SOCIAL_CLIENTE" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="85" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="SEG_SOCIAL_JEFE_FAM" tag="" visible="true" enabled="true" container="REGISTRO_GP" nextobject="AGENCIA" objectType="field" copyFieldName="" datatypename="double" datafieldname="CLIENTES_SEGURO_SOCIAL_JEFE_FAMILIA" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="1" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="NOMBRE_COMPLETO" tag="" visible="true" enabled="true" container="REGISTRO_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="169" y="0" width="139" height="28" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextArea" editTypeName="JTextArea" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="AGENCIA_PT" tag="" visible="true" enabled="true" container="REGISTRO_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="EMPLEO_PTRA_AGENCIA_DELEGADA" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="841" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+        <EditModel formName="GEN_ADEL_LOV_FR" groupName="" valueField="COD_ID">
+          <Item targetField="" sourceField=""/>
+        </EditModel>
+      </editcontrol>
+    </field>
+    <field name="AGENCIA" tag="" visible="true" enabled="true" container="REGISTRO_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="855" y="0" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+        <EditModel formName="GEN_ADEL_LOV_FR" groupName="" valueField="DSC_CORTA">
+          <Item targetField="" sourceField=""/>
+        </EditModel>
+      </editcontrol>
+    </field>
+    <field name="DSC_EMPRESA" tag="" visible="true" enabled="true" container="REGISTRO_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="519" y="0" width="146" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+        <EditModel formName="GEN_PATRONO_LOV_FR" groupName="" valueField="DSC_LARGA">
+          <Item targetField="" sourceField=""/>
+        </EditModel>
+      </editcontrol>
+    </field>
+    <field name="MUNICODE_EMPRESA" tag="" visible="false" enabled="true" container="REGISTRO_GP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="1" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+        <EditModel formName="GEN_PATRONO_LOV_FR" groupName="" valueField="MUNICODE">
+          <Item targetField="" sourceField=""/>
+        </EditModel>
+      </editcontrol>
+    </field>
+    <field name="COD_MUNCIPIO" tag="" visible="false" enabled="true" container="REGISTRO_GP" nextobject="" objectType="field" copyFieldName="MUNICODE_EMPRESA" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="1" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+        <EditModel formName="GEN_MUNI_LOV_FR" groupName="" valueField="COD_MUNICIPIO">
+          <Item targetField="" sourceField=""/>
+        </EditModel>
+      </editcontrol>
+    </field>
+    <field name="MUNICIPIO_EMPLEO" tag="" visible="true" enabled="true" container="REGISTRO_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="673" y="0" width="111" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+        <EditModel formName="GEN_MUNI_LOV_FR" groupName="" valueField="CIUDAD">
+          <Item targetField="" sourceField=""/>
+        </EditModel>
+      </editcontrol>
+    </field>
+    <field name="FCH_INICIA_EMPLEO" tag="" visible="false" enabled="true" container="REGISTRO_GP" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="EMPLEO_PTRA_FECHA_INICIO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="715" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="FCH_TERMINA_EMPLEO" tag="" visible="true" enabled="true" container="REGISTRO_GP" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="EMPLEO_PTRA_FECHA_TERMINA_EMPLEO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="316" y="0" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="RAZON" tag="" visible="true" enabled="true" container="REGISTRO_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="EMPLEO_PTRA_RAZON" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="407" y="0" width="27" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+        <EditModel formName="GEN_RAZON_BAJA_LOV_FR" groupName="" valueField="COD_ID">
+          <Item targetField="" sourceField=""/>
+        </EditModel>
+      </editcontrol>
+    </field>
+    <field name="DSC_RAZON" tag="" visible="true" enabled="true" container="REGISTRO_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="442" y="0" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+        <EditModel formName="GEN_RAZON_BAJA_LOV_FR" groupName="" valueField="DSC_CORTA">
+          <Item targetField="" sourceField=""/>
+        </EditModel>
+      </editcontrol>
+    </field>
+    <field name="MESES" tag="" visible="true" enabled="true" container="REGISTRO_GP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="806" y="0" width="20" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+  </group>
+</model>

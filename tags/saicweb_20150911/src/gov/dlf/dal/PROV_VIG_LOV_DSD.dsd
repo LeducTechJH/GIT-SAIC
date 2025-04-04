@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="PROV_VIG_LOV_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="" updateKey="COD_GENERAL" updateSourceName="VIGENCIAS_DOCS" useTransactions="false" definition="select  VIGENCIAS_DOCS.ID_DOC, VIGENCIAS_DOCS.DESCRIPCION from VIGENCIAS_DOCS VIGENCIAS_DOCS order by 1" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="ID_DOC" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="9" sourceAlias="VIGENCIAS_DOCS" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="ID_DOC" sourceLocation="" sourceName="VIGENCIAS_DOCS" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DESCRIPCION" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="25" sourceAlias="VIGENCIAS_DOCS" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DESCRIPCION" sourceLocation="" sourceName="VIGENCIAS_DOCS" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

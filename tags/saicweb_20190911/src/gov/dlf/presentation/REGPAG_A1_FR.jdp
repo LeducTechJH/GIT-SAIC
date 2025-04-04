@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="REGPAG_A1_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="1155" pageheight="792" backcolor="13421772" x="2" y="2" width="648" height="528" groupstyle="0" highLightSelected="false" firstobject="SSJF" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <textgroup name="TITLE_TXT" tag="" visible="true" enabled="true" container="REGPAG_A1_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="560" height="156" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TITLE_TXT__0" text="Departamento" x="182" y="16" width="84" height="12"/>
+    <text name="TITLE_TXT__1" text="de" x="273" y="16" width="14" height="12"/>
+    <text name="TITLE_TXT__2" text="la" x="294" y="16" width="14" height="12"/>
+    <text name="TITLE_TXT__3" text="Familia" x="315" y="16" width="49" height="12"/>
+    <text name="TITLE_TXT__4" text="Sistema" x="119" y="32" width="49" height="12"/>
+    <text name="TITLE_TXT__5" text="de" x="175" y="32" width="14" height="12"/>
+    <text name="TITLE_TXT__6" text="Administración" x="196" y="32" width="98" height="12"/>
+    <text name="TITLE_TXT__7" text="e" x="301" y="32" width="7" height="12"/>
+    <text name="TITLE_TXT__8" text="Información" x="315" y="32" width="77" height="12"/>
+    <text name="TITLE_TXT__9" text="de" x="399" y="32" width="14" height="12"/>
+    <text name="TITLE_TXT__10" text="Casos" x="420" y="32" width="35" height="12"/>
+    <text name="TITLE_TXT__11" text="Registro" x="210" y="48" width="56" height="12"/>
+    <text name="TITLE_TXT__12" text="de" x="273" y="48" width="14" height="12"/>
+    <text name="TITLE_TXT__13" text="Pagos" x="294" y="48" width="35" height="12"/>
+    <text name="TITLE_TXT__14" text="Jefe" x="0" y="80" width="28" height="12"/>
+    <text name="TITLE_TXT__15" text="Familia:" x="35" y="80" width="56" height="12"/>
+    <text name="TITLE_TXT__16" text="Jefe" x="168" y="80" width="28" height="12"/>
+    <text name="TITLE_TXT__17" text="Servicio:" x="203" y="80" width="63" height="12"/>
+    <text name="TITLE_TXT__18" text="" x="343" y="80" width="63" height="12"/>
+    <text name="TITLE_TXT__19" text="" x="448" y="80" width="49" height="12"/>
+    <text name="TITLE_TXT__20" text="Nombre:" x="0" y="96" width="49" height="12"/>
+    <text name="TITLE_TXT__21" text="Seg." x="7" y="128" width="28" height="12"/>
+    <text name="TITLE_TXT__22" text="Social" x="42" y="128" width="42" height="12"/>
+    <text name="TITLE_TXT__23" text="Seg." x="91" y="128" width="28" height="12"/>
+    <text name="TITLE_TXT__24" text="Social" x="126" y="128" width="42" height="12"/>
+    <text name="TITLE_TXT__25" text="Seg." x="175" y="128" width="28" height="12"/>
+    <text name="TITLE_TXT__26" text="Social" x="210" y="128" width="42" height="12"/>
+    <text name="TITLE_TXT__27" text="Fecha" x="280" y="128" width="35" height="12"/>
+    <text name="TITLE_TXT__28" text="Códig" x="343" y="128" width="35" height="12"/>
+    <text name="TITLE_TXT__29" text="Cantidad" x="392" y="128" width="56" height="12"/>
+    <text name="TITLE_TXT__30" text="Status" x="476" y="128" width="42" height="12"/>
+    <text name="TITLE_TXT__31" text="Aut." x="532" y="128" width="28" height="12"/>
+    <text name="TITLE_TXT__32" text="Jefe" x="7" y="144" width="28" height="12"/>
+    <text name="TITLE_TXT__33" text="Famili" x="42" y="144" width="42" height="12"/>
+    <text name="TITLE_TXT__34" text="Jefe" x="91" y="144" width="28" height="12"/>
+    <text name="TITLE_TXT__35" text="Servic" x="126" y="144" width="42" height="12"/>
+    <text name="TITLE_TXT__36" text="Jefe" x="175" y="144" width="28" height="12"/>
+    <text name="TITLE_TXT__37" text="Recla." x="210" y="144" width="42" height="12"/>
+    <text name="TITLE_TXT__38" text="Identificad" x="259" y="144" width="77" height="12"/>
+    <text name="TITLE_TXT__39" text="Servi" x="343" y="144" width="35" height="12"/>
+    <text name="TITLE_TXT__40" text="Reclamar" x="392" y="144" width="56" height="12"/>
+    <line name="LINE_TITLE_TXT_0" tag="" visible="true" enabled="true" container="TITLE_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="6" x1="560" y1="6" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TITLE_TXT_1" tag="" visible="true" enabled="true" container="TITLE_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="70" x1="560" y1="70" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TITLE_TXT_2" tag="" visible="true" enabled="true" container="TITLE_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="118" x1="560" y1="118" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TITLE_TXT_3" tag="" visible="true" enabled="true" container="TITLE_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="6" x1="0" y1="70" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TITLE_TXT_4" tag="" visible="true" enabled="true" container="TITLE_TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="560" y="6" x1="560" y1="70" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  </textgroup>
+  <field name="SSJF" tag="" visible="true" enabled="true" container="REGPAG_A1_FR" nextobject="SSJS" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="92" y="80" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="999999999" minimalValue="1" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="true">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="SSJS" tag="" visible="true" enabled="true" container="REGPAG_A1_FR" nextobject="CSRV" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="267" y="80" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="999999999" minimalValue="1" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="true">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CSRV" tag="" visible="false" enabled="true" container="REGPAG_A1_FR" nextobject="STAT" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="407" y="80" width="41" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="true">
+    <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+      <EditModel formName="LOV_COD_SERV_FR" groupName="" valueField="COD_SERVICIO" cleanDependents="false" manualEntry="true" validateValues="true">
+        <Item targetField="" sourceField=""/>
+      </EditModel>
+    </editcontrol>
+  </field>
+  <field name="STAT" tag="" visible="false" enabled="true" container="REGPAG_A1_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="498" y="80" width="62" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="7015" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NOMB" tag="" visible="true" enabled="true" container="REGPAG_A1_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="50" y="96" width="314" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+</model>

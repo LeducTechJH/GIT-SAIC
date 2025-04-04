@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="RUTAS_BANCO_LOV_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="NUM_RUTA,NOMBRE_BANCO" updateKey="NUM_RUTA" updateSourceName="RUTAS_BANCO" useTransactions="false" definition="select  RUTAS_BANCO.NUM_RUTA, RUTAS_BANCO.NOMBRE_BANCO from RUTAS_BANCO RUTAS_BANCO order by 1" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="NUM_RUTA" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="9" sourceAlias="RUTAS_BANCO" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="NUM_RUTA" sourceLocation="" sourceName="RUTAS_BANCO" sourceOwner="" unique="false" updateable="true"/>
+  <field name="NOMBRE_BANCO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="25" sourceAlias="RUTAS_BANCO" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="NOMBRE_BANCO" sourceLocation="" sourceName="RUTAS_BANCO" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

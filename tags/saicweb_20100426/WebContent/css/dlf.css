@@ -1,0 +1,294 @@
+A 
+{
+  FONT-SIZE: 10px; TEXT-DECORATION: none
+}
+
+A:visited 
+{
+  COLOR: #0000ff; TEXT-DECORATION: none
+}
+
+A:active 
+{
+  FONT-WEIGHT: bold
+}
+
+A:hover 
+{
+  TEXT-DECORATION: underline
+}
+
+BODY 
+{
+  FONT-FAMILY: Verdana,Helvetica,Arial; BACKGROUND-COLOR: #ffffff
+}
+
+TABLE 
+{
+  
+}
+
+H1 
+{
+  FONT-FAMILY: Verdana,Helvetica,Arial
+}
+
+H2 
+{
+  FONT-FAMILY: Verdana,Helvetica,Arial
+}
+
+H3 
+{
+  FONT-FAMILY: Verdana,Helvetica,Arial
+}
+
+H4 
+{
+  FONT-FAMILY: Verdana,Helvetica,Arial
+}
+
+H5 
+{
+  FONT-FAMILY: Verdana,Helvetica,Arial
+}
+
+H6 
+{
+  FONT-FAMILY: Verdana,Helvetica,Arial
+}
+
+.table_main_frame 
+{
+  BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000
+}
+
+LEGEND 
+{
+  COLOR: navy
+}
+
+.MainWindow 
+{
+  BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0px; BORDER-TOP: black 1pt solid; PADDING-LEFT: 0px; LEFT: 8px; PADDING-BOTTOM: 0px; BORDER-LEFT: black 1pt solid; PADDING-TOP: 0px; BORDER-BOTTOM: black 1pt solid; POSITION: absolute; TOP: 0px; BACKGROUND-COLOR: #ffffcc
+}
+
+.GridHeader 
+{
+  BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0px; BORDER-TOP: black 1pt solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: black 1pt solid; COLOR: white; PADDING-TOP: 0px; BORDER-BOTTOM: black 1pt solid; BACKGROUND-COLOR: orange
+}
+
+.GridItem 
+{
+  FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Verdana,Helvetica,Arial; BACKGROUND-COLOR: #fffff0
+}
+
+.GridItemAlternate 
+{
+  FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Verdana,Helvetica,Arial; BACKGROUND-COLOR: #ffffcc
+}
+
+.GridHeaderPrint 
+{
+  BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0px; BORDER-TOP: black 1pt solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: black 1pt solid; COLOR: white; PADDING-TOP: 0px; BORDER-BOTTOM: black 1pt solid; BACKGROUND-COLOR: black
+}
+
+.GridItemPrint 
+{
+  FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Verdana,Helvetica,Arial; BACKGROUND-COLOR: #ffffff
+}
+
+.GridItemAlternatePrint 
+{
+  FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Verdana,Helvetica,Arial; BACKGROUND-COLOR: #f2f2f2
+}
+
+.GridHeaderReport 
+{
+  BORDER-RIGHT: black 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: black 3px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: black 0px solid; COLOR: white; PADDING-TOP: 0px; BORDER-BOTTOM: black 3px solid; BACKGROUND-COLOR: orange
+}
+
+.GridHeaderReport2 
+{
+  BORDER-RIGHT: black 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: black 3px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: black 0px solid; COLOR: white; PADDING-TOP: 0px; BORDER-BOTTOM: black 3px solid; BACKGROUND-COLOR: #ff8000
+}
+
+.GridItemReport 
+{
+  FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Verdana,Helvetica,Arial; BACKGROUND-COLOR: #ffffff
+}
+
+.GridItemAlternateReport 
+{
+  FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Verdana,Helvetica,Arial; BACKGROUND-COLOR: #ffffff
+}
+
+.FloatingMainWindowHidden 
+{
+  BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0px; BORDER-TOP: black 1pt solid; PADDING-LEFT: 0px; Z-INDEX: 102; FILTER: alpha(opacity=0); LEFT: 8px; PADDING-BOTTOM: 0px; BORDER-LEFT: black 1pt solid; PADDING-TOP: 0px; BORDER-BOTTOM: black 1pt solid; POSITION: absolute; TOP: 0px; BACKGROUND-COLOR: #ffffcc
+}
+
+.FloatingMainWindowVisible 
+{
+  BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0px; BORDER-TOP: black 1pt solid; PADDING-LEFT: 0px; Z-INDEX: 102; FILTER: alpha(opacity=100); LEFT: 8px; PADDING-BOTTOM: 0px; BORDER-LEFT: black 1pt solid; PADDING-TOP: 0px; BORDER-BOTTOM: black 1pt solid; POSITION: absolute; TOP: 0px; BACKGROUND-COLOR: #ffffcc
+}
+
+.FloatingMainWindowHiddenTransp 
+{
+  BORDER-RIGHT: black 0pt solid; PADDING-RIGHT: 0px; BORDER-TOP: black 0pt solid; PADDING-LEFT: 0px; LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: black 0pt solid; PADDING-TOP: 0px; BORDER-BOTTOM: black 0pt solid; POSITION: absolute; TOP: 0px
+}
+
+.MainWindow1a 
+{
+  BORDER-RIGHT: black 0pt solid; PADDING-RIGHT: 0px; BORDER-TOP: black 0pt solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: black 0pt solid; PADDING-TOP: 0px; BORDER-BOTTOM: black 0pt solid; BACKGROUND-COLOR: #ffffcc
+}
+
+.MainWindowB 
+{
+  BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0px; BORDER-TOP: black 1pt solid; PADDING-LEFT: 0px; Z-INDEX: 3; LEFT: 8px; PADDING-BOTTOM: 0px; BORDER-LEFT: black 1pt solid; PADDING-TOP: 0px; BORDER-BOTTOM: black 1pt solid; POSITION: absolute; TOP: 68px; BACKGROUND-COLOR: #ffffcc
+}
+
+.MainHeaderCell 
+{
+  PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px; BACKGROUND-COLOR: orange
+}
+
+.FloatingMainHeaderCellMove 
+{
+  PADDING-BOTTOM: 0px; CURSOR: move; COLOR: #ffffff; PADDING-TOP: 0px; BACKGROUND-COLOR: orange
+}
+
+.FloatingMainHeaderCellClose 
+{
+  PADDING-BOTTOM: 0px; CURSOR: hand; COLOR: #ffffff; PADDING-TOP: 0px; BACKGROUND-COLOR: orange
+}
+
+.FloatingMainHeaderCellMoveTransp 
+{
+  PADDING-BOTTOM: 0px; CURSOR: move; COLOR: #ffffff; PADDING-TOP: 0px
+}
+
+.FloatingMainHeaderCellTransp 
+{
+  PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px
+}
+
+.MainFooterCell 
+{
+  PADDING-BOTTOM: 0px; WIDTH: 16.6%; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-ALIGN: center; BORDER-BOTTOM-STYLE: none
+}
+
+.selected 
+{
+  FONT-SIZE: 10px; COLOR: white; BACKGROUND-COLOR: #6975b1
+}
+
+.table_data 
+{
+  BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}
+
+.fieldset 
+{
+  PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-TOP: 3px
+}
+
+.cat_selection 
+{
+  BACKGROUND-COLOR: #dadada
+}
+
+.px10 
+{
+  FONT-SIZE: 10px
+}
+
+.px12 
+{
+  FONT-SIZE: 12px
+}
+
+.title 
+{
+  FONT-WEIGHT: bold; FONT-SIZE: 12px
+}
+
+.trx 
+{
+  FONT-SIZE: 9px; COLOR: black; FONT-FAMILY: Verdana,Helvetica,Arial
+}
+
+.trx_bold 
+{
+  FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: black; FONT-FAMILY: Verdana,Helvetica,Arial
+}
+
+.data 
+{
+  FONT-SIZE: 10px; FONT-FAMILY: Verdana,Helvetica,Arial
+}
+
+.error 
+{
+  FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: rgb(255,0,0)
+}
+
+.help 
+{
+  FONT-SIZE: 10px; COLOR: blue
+}
+
+.button 
+{
+  FONT-SIZE: 10px; WIDTH: 64px; FONT-FAMILY: Verdana,Helvetica,Arial
+}
+
+.data_bold 
+{
+  FONT-WEIGHT: bold; FONT-SIZE: 10px
+}
+
+.content_panel 
+{
+  BACKGROUND-COLOR: #ffffcc
+}
+
+.grids 
+{
+  DISPLAY: block; FONT-SIZE: 10px; WIDTH: 100%; FONT-FAMILY: Verdana,Helvetica,Arial
+}
+
+.grids:hover 
+{
+  COLOR: gray; BACKGROUND-COLOR: silver
+}
+
+.data_centered 
+{
+  FONT-SIZE: 10px; FONT-FAMILY: Verdana,Helvetica,Arial; TEXT-ALIGN: center
+}
+
+#EditableGrid1 
+{
+  PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+
+#DisMan 
+{
+  PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/DisMan.png) #ffffff no-repeat left top; PADDING-BOTTOM: 0px; PADDING-TOP: 18px
+}
+
+#cal1 
+{
+  VISIBILITY: hidden
+}
+
+.FancyHeader 
+{
+  FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(../images/HeaderArch3.png); COLOR: navy; FONT-FAMILY: Verdana,Helvetica,Arial; BACKGROUND-COLOR: yellow; TEXT-ALIGN: right
+}
+
+.invisSSNCSS 
+{
+  DISPLAY: none
+}

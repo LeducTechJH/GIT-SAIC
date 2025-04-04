@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore 
+  bufferlimit="0" 
+  clearOnRetrieve="true" 
+  comment="" 
+  commitOnRecordChange="true" 
+  deleteAllowed="true" 
+  insertAllowed="true" 
+  retrieveLimit="0" 
+  trimEndOnRetrieve="true" 
+  updateAllowed="true" 
+  updateFields="" 
+  updateKey="" 
+  updateSourceName="" 
+  useTransactions="true" 
+  adapter="1" 
+  recordLength="0" 
+  expertMode="false" 
+/>

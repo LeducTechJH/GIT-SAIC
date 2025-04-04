@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="REPORT_9_9_1_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="1155" pageheight="1488" backcolor="13421772" x="2" y="2" width="564" height="992" groupstyle="0" highLightSelected="false" firstobject="HEADER_GP" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="REPORT_9_9_1_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="629" height="1000" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__1" text="DEPARTAMENTO" x="219" y="33" width="84" height="12"/>
+    <text name="TXT__2" text="DE" x="310" y="33" width="14" height="12"/>
+    <text name="TXT__3" text="LA" x="331" y="33" width="14" height="12"/>
+    <text name="TXT__4" text="FAMILIA" x="352" y="33" width="49" height="12"/>
+    <text name="TXT__5" text="Rev. 2/2016" x="7" y="32" width="78" height="12"/>
+    <text name="TXT__7" text="ADMINISTRACION" x="139" y="17" width="98" height="12"/>
+    <text name="TXT__8" text="DE" x="244" y="17" width="14" height="12"/>
+    <text name="TXT__9" text="DESARROLLO" x="265" y="17" width="70" height="12"/>
+    <text name="TXT__10" text="SOCIOECONOMICO" x="342" y="17" width="98" height="12"/>
+    <text name="TXT__11" text="DE" x="447" y="17" width="14" height="12"/>
+    <text name="TXT__12" text="LA" x="468" y="17" width="14" height="12"/>
+    <text name="TXT__13" text="FAMILIA" x="489" y="17" width="49" height="12"/>
+    <text name="TXT__14" text="PROGRAMA DE ASISTENCIA NUTRICIONAL" x="195" y="49" width="240" height="12"/>
+    <text name="TXT__15" text="CERTIFICACION DE CONDICION MEDICA" x="195" y="78" width="235" height="12"/>
+    <text name="TXT__23" text="ADSEF-PAN-164" x="7" y="16" width="98" height="12"/>
+  </textgroup>
+  <field name="COD_REVISION" tag="" visible="false" enabled="true" container="REPORT_9_9_1_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="49" y="932" width="27" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="N009" initialValue="N009" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <group name="HEADER_GP" tag="" visible="true" enabled="true" container="REPORT_9_9_1_FR" nextobject="" objectType="group" pageStart="3" pageType="0" x="7" y="96" width="624" height="904" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="1" highLightSelected="false" datastore="HEADER_NOTIFICACION_DSD" discardChildless="false" updatetotop="false" firstobject="SERVICIOS_SEGURO_SOCIAL_JEFE_FAM" indivisible="false" repeatdeltax="0" repeatdeltay="0" repeatsizex="0" repeatsizey="0" repeatorder="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <parameter name="COD_SERVICIO_GBL"/>
+    <parameter name="SS_JEFE_FAMILIA_GBL"/>
+    <parameter name="SS_JEFE_SERVICIO_GBL"/>
+    <parameter name="RMO_PAR"/>
+    <textgroup name="HEADER_GP_TXT0" tag="" visible="true" enabled="true" container="HEADER_GP" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="626" height="899" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="HEADER_GP_TXT0__0" text="Oficina Regional:" x="398" y="56" width="120" height="12"/>
+      <text name="HEADER_GP_TXT0__2" text="Oficina Local:" x="398" y="72" width="103" height="12"/>
+      <text name="HEADER_GP_TXT0__6" text="Núm. Seguro Social Jefe de la Composición Familiar" x="22" y="56" width="356" height="12"/>
+      <text name="HEADER_GP_TXT0__7" text="Núm. Seguro Social del Encargado del Núcleo de Servicio" x="21" y="99" width="385" height="12"/>
+      <text name="HEADER_GP_TXT0__16" text="Nombre de/la paciente" x="20" y="131" width="154" height="12"/>
+      <text name="HEADER_GP_TXT0__17" text="Núm. Seguro Social de/la Paciente" x="377" y="131" width="233" height="12"/>
+      <text name="HEADER_GP_TXT0__18" text="II.  El/la paciente en referencia:" x="0" y="168" width="263" height="12"/>
+      <text name="HEADER_GP_TXT0__19" text="I.  Identificación del caso:" x="1" y="21" width="219" height="12"/>
+      <text name="HEADER_GP_TXT0__20" text="2.___ Está totalmente incapacitado/a para realizar trabajo que produzca ingresos o" x="21" y="215" width="579" height="12"/>
+      <text name="HEADER_GP_TXT0__21" text="tareas propias de su edad, capacidad y preparación. La incapacidad total es:" x="63" y="233" width="539" height="12"/>
+      <text name="HEADER_GP_TXT0__22" text="___ permanente ___ temporera hasta ______ " x="63" y="250" width="304" height="12"/>
+      <text name="HEADER_GP_TXT0__23" text="3.___ No está totalmente incapacitado/a, ___ no trabaja, ___ trabaja, ___ estudia, " x="21" y="295" width="579" height="12"/>
+      <text name="HEADER_GP_TXT0__24" text="1.___ Tiene 60 años o más y recibe tratamiento médico continuo." x="20" y="188" width="462" height="12"/>
+      <text name="HEADER_GP_TXT0__25" text="(d-m-a)" x="308" y="264" width="52" height="12"/>
+      <text name="HEADER_GP_TXT0__26" text="  ___ no estudia y padece de una o más de las siguientes enfermedades crónicas o " x="47" y="311" width="562" height="12"/>
+      <text name="HEADER_GP_TXT0__27" text="terminales:" x="88" y="327" width="80" height="12"/>
+      <text name="HEADER_GP_TXT0__28" text="Condiciones Cardiovasculares:" x="22" y="377" width="219" height="12"/>
+      <text name="HEADER_GP_TXT0__29" text="___ Fallo Cardiaco Congestivo Pulomonar" x="22" y="410" width="285" height="12"/>
+      <text name="HEADER_GP_TXT0__30" text="___ Enfermedad Pulmonar Obstructiva " x="23" y="464" width="252" height="12"/>
+      <text name="HEADER_GP_TXT0__31" text="Condiciones Neurológicas/Neuromusculares: " x="23" y="533" width="291" height="12"/>
+      <text name="HEADER_GP_TXT0__32" text="Condiciones Inmunológicas: " x="343" y="453" width="185" height="12"/>
+      <text name="HEADER_GP_TXT0__33" text="Condiciones Mentales: " x="343" y="520" width="163" height="12"/>
+      <text name="HEADER_GP_TXT0__37" text="___ Cáncer  ___ Diabetes Mellitus I" x="61" y="343" width="249" height="12"/>
+      <text name="HEADER_GP_TXT0__38" text="___ Esclerosis Múltiple  " x="23" y="581" width="164" height="12"/>
+      <text name="HEADER_GP_TXT0__39" text="Condiciones Hepáticas y Renales: " x="343" y="377" width="230" height="12"/>
+      <text name="HEADER_GP_TXT0__40" text="del Gobierno ___ Otro(s) Indique:__________________________________" x="36" y="725" width="480" height="12"/>
+      <text name="HEADER_GP_TXT0__41" text="del paciente." x="36" y="777" width="105" height="12"/>
+      <text name="HEADER_GP_TXT0__43" text="___ Sindrome de Down " x="343" y="585" width="149" height="12"/>
+      <text name="HEADER_GP_TXT0__44" text="_____________ " x="20" y="812" width="100" height="12"/>
+      <text name="HEADER_GP_TXT0__49" text="___ Enfermedad Renal" x="343" y="426" width="143" height="12"/>
+      <text name="HEADER_GP_TXT0__71" text="Otra(s) Enfermedades crónicas o terminales  Indique:___________________________" x="24" y="642" width="569" height="12"/>
+      <text name="HEADER_GP_TXT0__98" text="Recibe tratamiento médico continuo: ___ Si  ___ No" x="24" y="677" width="354" height="12"/>
+      <text name="HEADER_GP_TXT0__99" text="III. El costo y las medicinas son cubiertos por: ___ Paciente ___ El Sistema de Salud " x="0" y="708" width="609" height="12"/>
+      <text name="HEADER_GP_TXT0__100" text="IV.  Certifico que la información indicada es correcta y se basa en el expediente clínico" x="0" y="761" width="623" height="12"/>
+      <text name="HEADER_GP_TXT0__115" text="Fecha (día-mes-año)" x="5" y="829" width="143" height="12"/>
+      <text name="HEADER_GP_TXT0__116" text="Firma del Médico" x="248" y="829" width="117" height="12"/>
+      <text name="HEADER_GP_TXT0__117" text="Número de Licencia" x="482" y="829" width="132" height="12"/>
+      <text name="Text_0" text="_____________________________________" x="182" y="812" width="260" height="12"/>
+      <text name="Text_1" text="________________" x="489" y="812" width="116" height="12"/>
+      <text name="Text_0" text="Condiciones Respiratorias:" x="23" y="432" width="190" height="12"/>
+      <text name="Text_0" text="___ Enfermedad Coronaria (CAD)" x="22" y="394" width="219" height="12"/>
+      <text name="Text_1" text="___ Tuberculosis Activa (TB)" x="23" y="448" width="216" height="12"/>
+      <text name="Text_2" text="___ Fibrosis Quística" x="23" y="497" width="158" height="12"/>
+      <text name="Text_3" text="Crónica (COPD)" x="52" y="480" width="101" height="12"/>
+      <text name="Text_4" text="___ Distrofia Muscular" x="23" y="565" width="158" height="12"/>
+      <text name="Text_5" text="___ Mal de Parkinson " x="23" y="549" width="147" height="12"/>
+      <text name="Text_6" text="___ Alzheimer" x="23" y="597" width="96" height="12"/>
+      <text name="Text_7" text="___ Lupus" x="343" y="486" width="70" height="12"/>
+      <text name="Text_8" text="___ Cirrosis Hepática " x="343" y="394" width="161" height="12"/>
+      <text name="Text_9" text="___ SIDA/AIDS " x="343" y="470" width="103" height="12"/>
+      <text name="Text_10" text="___ Hepatitis B y C " x="343" y="410" width="145" height="12"/>
+      <text name="Text_11" text="___ Esquizofrenia " x="343" y="537" width="126" height="12"/>
+      <text name="Text_12" text="___ Retardo Mental" x="343" y="569" width="136" height="12"/>
+      <text name="Text_13" text="___ Autismo" x="343" y="601" width="83" height="12"/>
+      <text name="Text_14" text="___ Psicosis " x="343" y="553" width="90" height="12"/>
+    </textgroup>
+    <field name="FECHA" tag="" visible="false" enabled="true" container="HEADER_GP" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="634" y="129" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="OFICINA_REGIONAL" tag="" visible="true" enabled="true" container="HEADER_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="525" y="56" width="97" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="OFICINA_LOCAL" tag="" visible="true" enabled="true" container="HEADER_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="507" y="72" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="SERVICIOS_SEGURO_SOCIAL_JEFE_FAM" tag="" visible="true" enabled="true" container="HEADER_GP" nextobject="DIRECCIONES_DSC_DIRECCION_1" objectType="field" copyFieldName="" datatypename="double" datafieldname="SERVICIOS_SEGURO_SOCIAL_JEFE_FAM" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="45" y="40" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="SERVICIOS_SEGURO_SOCIAL_JEFE_SERV" tag="" visible="true" enabled="true" container="HEADER_GP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="SERVICIOS_SEGURO_SOCIAL_JEFE_SERV" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="45" y="72" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="SERVICIOS_COD_SERVICIO" tag="" visible="false" enabled="true" container="HEADER_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="SERVICIOS_COD_SERVICIO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="155" y="128" width="41" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="6"/>
+    </field>
+    <field name="SERVICIOS_VLR_BENEFICIOS" tag="" visible="false" enabled="true" container="HEADER_GP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="SERVICIOS_VLR_BENEFICIOS" emptyisnull="true" format="****,000***" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="78" y="173" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="****,000***" isDialog="false" inputlimit="10"/>
+    </field>
+    <field name="SERVICIOS_FCH_COMIENZO" tag="" visible="false" enabled="true" container="HEADER_GP" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="SERVICIOS_FCH_COMIENZO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="113" y="189" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="SERVICIOS_FCH_TERMINACION" tag="" visible="false" enabled="true" container="HEADER_GP" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="SERVICIOS_FCH_TERMINACION" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="344" y="189" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="NOMBRE_JEFE_SERVICIO" tag="" visible="true" enabled="true" container="HEADER_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="33" y="115" width="244" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DIRECCIONES_COD_MUNICIPIO" tag="" visible="false" enabled="true" container="HEADER_GP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="DIRECCIONES_COD_MUNICIPIO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="30" y="264" width="41" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="6"/>
+    </field>
+    <field name="VALOR_SERVICIO" tag="" visible="false" enabled="true" container="HEADER_GP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="VALOR_SERVICIO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="338" y="472" width="62" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="9"/>
+    </field>
+    <field name="SS_PACIENTE" tag="" visible="true" enabled="true" container="HEADER_GP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="SERVICIOS_SEGURO_SOCIAL_JEFE_SERV" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="394" y="115" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+  </group>
+</model>

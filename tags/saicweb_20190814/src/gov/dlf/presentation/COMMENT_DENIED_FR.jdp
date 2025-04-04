@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="COMMENT_DENIED_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="897" pageheight="1560" backcolor="13421772" x="2" y="2" width="564" height="1040" groupstyle="0" highLightSelected="false" firstobject="COMMENT_GP" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <group name="COMMENT_GP" tag="" visible="true" enabled="true" container="COMMENT_DENIED_FR" nextobject=" " objectType="group" pageStart="-1" pageType="0" x="0" y="101" width="739" height="140" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="1" highLightSelected="true" datastore="CONTRATO_PROYECCION_DENIED_DSD" discardChildless="false" updatetotop="false" firstobject="RAZON" indivisible="true" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="16" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <parameter name="SSN_PAR"/>
+    <parameter name="PROVEEDORID"/>
+    <parameter name="DESDE_P"/>
+    <parameter name="HASTA_P"/>
+    <parameter name="MESPROYECTADO_P"/>
+    <field name="RAZON" tag="" visible="true" enabled="true" container="COMMENT_GP" nextobject=" " objectType="field" copyFieldName="" datatypename="String" datafieldname="RAZON" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="2" x="86" y="4" width="649" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="60"/>
+    </field>
+  </group>
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="COMMENT_DENIED_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="-2" y="0" width="739" height="431" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__1" text="ESTADO LIBRE ASOCIADO" x="250" y="11" width="148" height="12"/>
+    <text name="TXT__2" text="DE" x="407" y="11" width="14" height="12"/>
+    <text name="TXT__3" text="PUERTO" x="428" y="11" width="42" height="12"/>
+    <text name="TXT__4" text="RICO" x="476" y="11" width="28" height="12"/>
+    <text name="TXT__6" text="ADMINISTRACIÓN" x="185" y="43" width="98" height="12"/>
+    <text name="TXT__7" text="DE" x="290" y="43" width="14" height="12"/>
+    <text name="TXT__8" text="DESARROLLO" x="311" y="43" width="70" height="12"/>
+    <text name="TXT__9" text="SOCIOECONÓMICO" x="391" y="43" width="98" height="12"/>
+    <text name="TXT__10" text="DE" x="496" y="43" width="14" height="12"/>
+    <text name="TXT__11" text="LA" x="517" y="43" width="14" height="12"/>
+    <text name="TXT__12" text="FAMILIA" x="538" y="43" width="49" height="12"/>
+    <text name="TXT__14" text="DEPARTAMENTO" x="287" y="27" width="84" height="12"/>
+    <text name="TXT__15" text="DE" x="378" y="27" width="14" height="12"/>
+    <text name="TXT__16" text="LA" x="401" y="27" width="14" height="12"/>
+    <text name="TXT__17" text="FAMILIA" x="422" y="27" width="49" height="12"/>
+    <text name="TXT__18" text="Razon Denegada" x="294" y="77" width="105" height="12"/>
+    <text name="Text_1" text="Razon:" x="4" y="105" width="78" height="12"/>
+  </textgroup>
+</model>

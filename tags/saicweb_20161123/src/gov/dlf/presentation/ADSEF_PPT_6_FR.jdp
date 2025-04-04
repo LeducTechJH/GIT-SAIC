@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="ADSEF_PPT_6_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="1709" pageheight="1560" backcolor="13421772" x="2" y="2" width="564" height="1040" groupstyle="0" highLightSelected="false" firstobject="FECHA" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="ADSEF_PPT_6_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="560" height="1036" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="DEPARTAMENTO" x="196" y="16" width="84" height="12"/>
+    <text name="TXT__1" text="DE" x="287" y="16" width="14" height="12"/>
+    <text name="TXT__2" text="LA" x="308" y="16" width="14" height="12"/>
+    <text name="TXT__3" text="FAMILIA" x="329" y="16" width="49" height="12"/>
+    <text name="TXT__4" text="3/07" x="42" y="32" width="28" height="12"/>
+    <text name="TXT__5" text="ADMINISTRACION" x="91" y="32" width="98" height="12"/>
+    <text name="TXT__6" text="DE" x="196" y="32" width="14" height="12"/>
+    <text name="TXT__7" text="DESARROLLO" x="217" y="32" width="70" height="12"/>
+    <text name="TXT__8" text="SOCIOECONOMICO" x="294" y="32" width="98" height="12"/>
+    <text name="TXT__9" text="DE" x="399" y="32" width="14" height="12"/>
+    <text name="TXT__10" text="LA" x="420" y="32" width="14" height="12"/>
+    <text name="TXT__11" text="FAMILIA" x="441" y="32" width="49" height="12"/>
+    <text name="TXT__12" text="CITA" x="147" y="48" width="28" height="12"/>
+    <text name="TXT__13" text="PARA" x="182" y="48" width="28" height="12"/>
+    <text name="TXT__14" text="ENTREVISTA" x="217" y="48" width="70" height="12"/>
+    <text name="TXT__15" text="PROGRAMA" x="294" y="48" width="56" height="12"/>
+    <text name="TXT__16" text="PAN" x="357" y="48" width="21" height="12"/>
+    <text name="TXT__17" text="Y" x="385" y="48" width="7" height="12"/>
+    <text name="TXT__18" text="TRABAJO" x="399" y="48" width="49" height="12"/>
+    <text name="TXT__19" text="(FECHA)" x="413" y="96" width="49" height="12"/>
+    <text name="TXT__20" text="(NUM." x="350" y="144" width="35" height="12"/>
+    <text name="TXT__21" text="SEGURO" x="392" y="144" width="42" height="12"/>
+    <text name="TXT__22" text="SOCIAL" x="441" y="144" width="42" height="12"/>
+    <text name="TXT__23" text="J.U.F.)" x="490" y="144" width="49" height="12"/>
+    <text name="TXT__24" text="(NUM." x="350" y="192" width="35" height="12"/>
+    <text name="TXT__25" text="SEGURO" x="392" y="192" width="42" height="12"/>
+    <text name="TXT__26" text="SOCIAL" x="441" y="192" width="42" height="12"/>
+    <text name="TXT__27" text="M.U.F.)" x="490" y="192" width="49" height="12"/>
+    <text name="TXT__28" text="SR(A)." x="14" y="208" width="42" height="12"/>
+    <text name="TXT__29" text="ESTIMADO" x="14" y="288" width="56" height="12"/>
+    <text name="TXT__30" text="(A)" x="77" y="288" width="21" height="12"/>
+    <text name="TXT__31" text="SEÑOR" x="105" y="288" width="35" height="12"/>
+    <text name="TXT__32" text="(A)" x="147" y="288" width="21" height="12"/>
+    <text name="TXT__33" text="EL" x="14" y="320" width="14" height="12"/>
+    <text name="TXT__34" text="DEPARTAMENTO" x="35" y="320" width="84" height="12"/>
+    <text name="TXT__35" text="DE" x="126" y="320" width="14" height="12"/>
+    <text name="TXT__36" text="LA" x="147" y="320" width="14" height="12"/>
+    <text name="TXT__37" text="FAMILIA" x="168" y="320" width="49" height="12"/>
+    <text name="TXT__38" text="A" x="224" y="320" width="7" height="12"/>
+    <text name="TXT__39" text="TRAVES" x="238" y="320" width="42" height="12"/>
+    <text name="TXT__40" text="DE" x="287" y="320" width="14" height="12"/>
+    <text name="TXT__41" text="PAN" x="308" y="320" width="21" height="12"/>
+    <text name="TXT__42" text="Y" x="336" y="320" width="7" height="12"/>
+    <text name="TXT__43" text="TRABAJO," x="350" y="320" width="56" height="12"/>
+    <text name="TXT__44" text="LE" x="413" y="320" width="14" height="12"/>
+    <text name="TXT__45" text="OFRECE" x="434" y="320" width="42" height="12"/>
+    <text name="TXT__46" text="UNA" x="483" y="320" width="21" height="12"/>
+    <text name="TXT__47" text="OPORTUNIDAD" x="14" y="336" width="77" height="12"/>
+    <text name="TXT__48" text="REAL" x="98" y="336" width="28" height="12"/>
+    <text name="TXT__49" text="DE" x="133" y="336" width="14" height="12"/>
+    <text name="TXT__50" text="EMPLEO," x="154" y="336" width="49" height="12"/>
+    <text name="TXT__51" text="YA" x="210" y="336" width="14" height="12"/>
+    <text name="TXT__52" text="SEA" x="231" y="336" width="21" height="12"/>
+    <text name="TXT__53" text="USTED" x="259" y="336" width="35" height="12"/>
+    <text name="TXT__54" text="EL" x="301" y="336" width="14" height="12"/>
+    <text name="TXT__55" text="JEFE" x="322" y="336" width="28" height="12"/>
+    <text name="TXT__56" text="O" x="357" y="336" width="7" height="12"/>
+    <text name="TXT__57" text="UN" x="371" y="336" width="14" height="12"/>
+    <text name="TXT__58" text="MIEMBRO" x="392" y="336" width="49" height="12"/>
+    <text name="TXT__59" text="DE" x="448" y="336" width="14" height="12"/>
+    <text name="TXT__60" text="LA" x="469" y="336" width="14" height="12"/>
+    <text name="TXT__61" text="UNIDAD" x="490" y="336" width="42" height="12"/>
+    <text name="TXT__62" text="FAMILIAR" x="14" y="352" width="56" height="12"/>
+    <text name="TXT__63" text="EN" x="77" y="352" width="14" height="12"/>
+    <text name="TXT__64" text="EL" x="98" y="352" width="14" height="12"/>
+    <text name="TXT__65" text="PROGRAMA" x="119" y="352" width="56" height="12"/>
+    <text name="TXT__66" text="DE" x="182" y="352" width="14" height="12"/>
+    <text name="TXT__67" text="ASISTENCIA" x="203" y="352" width="70" height="12"/>
+    <text name="TXT__68" text="NUTRICIONAL" x="280" y="352" width="77" height="12"/>
+    <text name="TXT__69" text="(PAN)." x="364" y="352" width="42" height="12"/>
+    <text name="TXT__70" text="LE" x="14" y="384" width="14" height="12"/>
+    <text name="TXT__71" text="CITAMOS" x="35" y="384" width="49" height="12"/>
+    <text name="TXT__72" text="PARA" x="91" y="384" width="28" height="12"/>
+    <text name="TXT__73" text="A" x="217" y="384" width="7" height="12"/>
+    <text name="TXT__74" text="LAS" x="231" y="384" width="21" height="12"/>
+    <text name="TXT__75" text="EN" x="322" y="384" width="14" height="12"/>
+    <text name="TXT__76" text="-YYYY)" x="168" y="400" width="42" height="12"/>
+    <text name="TXT__77" text="(HORA)" x="266" y="400" width="42" height="12"/>
+    <text name="TXT__78" text="(DIRECCION" x="343" y="400" width="70" height="12"/>
+    <text name="TXT__79" text="LUGAR)" x="420" y="400" width="42" height="12"/>
+    <text name="TXT__80" text="POR" x="14" y="432" width="21" height="12"/>
+    <text name="TXT__81" text="QUE," x="42" y="432" width="28" height="12"/>
+    <text name="TXT__82" text="[" x="14" y="464" width="7" height="12"/>
+    <text name="TXT__83" text="]" x="28" y="464" width="7" height="12"/>
+    <text name="TXT__84" text="SU" x="42" y="464" width="14" height="12"/>
+    <text name="TXT__85" text="NOMBRE" x="63" y="464" width="42" height="12"/>
+    <text name="TXT__86" text="NOS" x="112" y="464" width="21" height="12"/>
+    <text name="TXT__87" text="HA" x="140" y="464" width="14" height="12"/>
+    <text name="TXT__88" text="SIDO" x="161" y="464" width="28" height="12"/>
+    <text name="TXT__89" text="REFERIDO" x="196" y="464" width="56" height="12"/>
+    <text name="TXT__90" text="COMO" x="259" y="464" width="28" height="12"/>
+    <text name="TXT__91" text="PARTICIPANTE" x="294" y="464" width="84" height="12"/>
+    <text name="TXT__92" text="DEL" x="385" y="464" width="21" height="12"/>
+    <text name="TXT__93" text="PAN" x="413" y="464" width="21" height="12"/>
+    <text name="TXT__94" text="EN" x="441" y="464" width="14" height="12"/>
+    <text name="TXT__95" text="LA" x="462" y="464" width="14" height="12"/>
+    <text name="TXT__96" text="OFICINA" x="483" y="464" width="49" height="12"/>
+    <text name="TXT__97" text="LOCAL" x="14" y="480" width="35" height="12"/>
+    <text name="TXT__98" text="DE" x="56" y="480" width="14" height="12"/>
+    <text name="TXT__99" text="." x="224" y="480" width="7" height="12"/>
+    <text name="TXT__100" text="ESTAMOS" x="238" y="480" width="49" height="12"/>
+    <text name="TXT__101" text="INTERESADOS" x="294" y="480" width="77" height="12"/>
+    <text name="TXT__102" text="EN" x="378" y="480" width="14" height="12"/>
+    <text name="TXT__103" text="PROVEERLE" x="399" y="480" width="63" height="12"/>
+    <text name="TXT__104" text="UNA" x="469" y="480" width="21" height="12"/>
+    <text name="TXT__105" text="FUENTE" x="497" y="480" width="42" height="12"/>
+    <text name="TXT__106" text="DE" x="14" y="496" width="14" height="12"/>
+    <text name="TXT__107" text="EMPLEO" x="35" y="496" width="42" height="12"/>
+    <text name="TXT__108" text="ESTABLE," x="84" y="496" width="56" height="12"/>
+    <text name="TXT__109" text="QUE" x="147" y="496" width="21" height="12"/>
+    <text name="TXT__110" text="LO" x="175" y="496" width="14" height="12"/>
+    <text name="TXT__111" text="AYUDE" x="196" y="496" width="35" height="12"/>
+    <text name="TXT__112" text="A" x="238" y="496" width="7" height="12"/>
+    <text name="TXT__113" text="MEJORAR" x="252" y="496" width="49" height="12"/>
+    <text name="TXT__114" text="SU" x="308" y="496" width="14" height="12"/>
+    <text name="TXT__115" text="SITUACION" x="329" y="496" width="63" height="12"/>
+    <text name="TXT__116" text="SOCIO" x="399" y="496" width="35" height="12"/>
+    <text name="TXT__117" text="ECONOMICA" x="441" y="496" width="63" height="12"/>
+    <text name="TXT__118" text="DE" x="511" y="496" width="14" height="12"/>
+    <text name="TXT__119" text="SU" x="532" y="496" width="14" height="12"/>
+    <text name="TXT__120" text="FAMILIA." x="14" y="512" width="56" height="12"/>
+    <text name="TXT__121" text="EN" x="77" y="512" width="14" height="12"/>
+    <text name="TXT__122" text="LA" x="98" y="512" width="14" height="12"/>
+    <text name="TXT__123" text="ENTREVISTA" x="119" y="512" width="70" height="12"/>
+    <text name="TXT__124" text="LE" x="196" y="512" width="14" height="12"/>
+    <text name="TXT__125" text="ORIENTAREMOS" x="217" y="512" width="84" height="12"/>
+    <text name="TXT__126" text="SOBRE" x="308" y="512" width="35" height="12"/>
+    <text name="TXT__127" text="EL" x="350" y="512" width="14" height="12"/>
+    <text name="TXT__128" text="PROGRAMA" x="371" y="512" width="56" height="12"/>
+    <text name="TXT__129" text="PAN" x="434" y="512" width="21" height="12"/>
+    <text name="TXT__130" text="Y" x="462" y="512" width="7" height="12"/>
+    <text name="TXT__131" text="TRABAJO." x="476" y="512" width="56" height="12"/>
+    <text name="TXT__132" text="DEBERA" x="14" y="544" width="42" height="12"/>
+    <text name="TXT__133" text="TRAER" x="63" y="544" width="35" height="12"/>
+    <text name="TXT__134" text="LOS" x="105" y="544" width="21" height="12"/>
+    <text name="TXT__135" text="SIGUIENTES" x="133" y="544" width="70" height="12"/>
+    <text name="TXT__136" text="DOCUMENTOS:" x="210" y="544" width="77" height="12"/>
+    <text name="TXT__137" text="[" x="49" y="560" width="7" height="12"/>
+    <text name="TXT__138" text="]" x="70" y="560" width="7" height="12"/>
+    <text name="TXT__139" text="CERTIFICADO" x="84" y="560" width="77" height="12"/>
+    <text name="TXT__140" text="DE" x="168" y="560" width="14" height="12"/>
+    <text name="TXT__141" text="NACIMIENTO" x="189" y="560" width="70" height="12"/>
+    <text name="TXT__142" text="O" x="266" y="560" width="7" height="12"/>
+    <text name="TXT__143" text="BAUTISMO" x="280" y="560" width="56" height="12"/>
+    <text name="TXT__144" text="[" x="49" y="576" width="7" height="12"/>
+    <text name="TXT__145" text="]" x="70" y="576" width="7" height="12"/>
+    <text name="TXT__146" text="TARJETA" x="84" y="576" width="49" height="12"/>
+    <text name="TXT__147" text="DE" x="140" y="576" width="14" height="12"/>
+    <text name="TXT__148" text="SEGURO" x="161" y="576" width="42" height="12"/>
+    <text name="TXT__149" text="SOCIAL" x="210" y="576" width="42" height="12"/>
+    <text name="TXT__150" text="ORIGINAL" x="259" y="576" width="56" height="12"/>
+    <text name="TXT__151" text="[" x="49" y="592" width="7" height="12"/>
+    <text name="TXT__152" text="]" x="70" y="592" width="7" height="12"/>
+    <text name="TXT__153" text="CERTIFICADO" x="84" y="592" width="77" height="12"/>
+    <text name="TXT__154" text="ESCOLAR" x="168" y="592" width="49" height="12"/>
+    <text name="TXT__155" text="O" x="224" y="592" width="7" height="12"/>
+    <text name="TXT__156" text="DIPLOMA" x="238" y="592" width="49" height="12"/>
+    <text name="TXT__157" text="[" x="49" y="608" width="7" height="12"/>
+    <text name="TXT__158" text="]" x="70" y="608" width="7" height="12"/>
+    <text name="TXT__159" text="LICENCIA" x="84" y="608" width="56" height="12"/>
+    <text name="TXT__160" text="DE" x="147" y="608" width="14" height="12"/>
+    <text name="TXT__161" text="CONDUCIR" x="168" y="608" width="56" height="12"/>
+    <text name="TXT__162" text="O" x="231" y="608" width="7" height="12"/>
+    <text name="TXT__163" text="TARJETA" x="245" y="608" width="49" height="12"/>
+    <text name="TXT__164" text="DE" x="301" y="608" width="14" height="12"/>
+    <text name="TXT__165" text="IDENTIFICACION" x="322" y="608" width="98" height="12"/>
+    <text name="TXT__166" text="CON" x="427" y="608" width="21" height="12"/>
+    <text name="TXT__167" text="RETRATO" x="455" y="608" width="49" height="12"/>
+    <text name="TXT__168" text="SI" x="14" y="640" width="14" height="12"/>
+    <text name="TXT__169" text="USTED" x="35" y="640" width="35" height="12"/>
+    <text name="TXT__170" text="ES" x="77" y="640" width="14" height="12"/>
+    <text name="TXT__171" text="SELECCIONADO" x="98" y="640" width="84" height="12"/>
+    <text name="TXT__172" text="PARA" x="189" y="640" width="28" height="12"/>
+    <text name="TXT__173" text="TRABAJAR," x="224" y="640" width="63" height="12"/>
+    <text name="TXT__174" text="EL" x="294" y="640" width="14" height="12"/>
+    <text name="TXT__175" text="SALARIO" x="315" y="640" width="49" height="12"/>
+    <text name="TXT__176" text="QUE" x="371" y="640" width="21" height="12"/>
+    <text name="TXT__177" text="RECIBA" x="399" y="640" width="42" height="12"/>
+    <text name="TXT__178" text="NO" x="448" y="640" width="14" height="12"/>
+    <text name="TXT__179" text="SE" x="469" y="640" width="14" height="12"/>
+    <text name="TXT__180" text="CONSIDERA" x="490" y="640" width="63" height="12"/>
+    <text name="TXT__181" text="EN" x="14" y="656" width="14" height="12"/>
+    <text name="TXT__182" text="PAN," x="35" y="656" width="28" height="12"/>
+    <text name="TXT__183" text="DURANTE" x="70" y="656" width="49" height="12"/>
+    <text name="TXT__184" text="MESES." x="147" y="656" width="42" height="12"/>
+    <text name="TXT__185" text="POSTERIORMENTE," x="196" y="656" width="105" height="12"/>
+    <text name="TXT__186" text="LOS" x="308" y="656" width="21" height="12"/>
+    <text name="TXT__187" text="BENEFICIOS" x="336" y="656" width="70" height="12"/>
+    <text name="TXT__188" text="DEL" x="413" y="656" width="21" height="12"/>
+    <text name="TXT__189" text="PAN" x="441" y="656" width="21" height="12"/>
+    <text name="TXT__190" text="SERAN" x="469" y="656" width="35" height="12"/>
+    <text name="TXT__191" text="AJUSTADOS" x="14" y="672" width="63" height="12"/>
+    <text name="TXT__192" text="DE" x="84" y="672" width="14" height="12"/>
+    <text name="TXT__193" text="ACUERDO" x="105" y="672" width="49" height="12"/>
+    <text name="TXT__194" text="A" x="161" y="672" width="7" height="12"/>
+    <text name="TXT__195" text="LA" x="175" y="672" width="14" height="12"/>
+    <text name="TXT__196" text="SITUACION" x="196" y="672" width="63" height="12"/>
+    <text name="TXT__197" text="PARTICULAR" x="266" y="672" width="70" height="12"/>
+    <text name="TXT__198" text="DE" x="343" y="672" width="14" height="12"/>
+    <text name="TXT__199" text="LA" x="364" y="672" width="14" height="12"/>
+    <text name="TXT__200" text="UNIDAD" x="385" y="672" width="42" height="12"/>
+    <text name="TXT__201" text="FAMILIAR." x="434" y="672" width="63" height="12"/>
+    <text name="TXT__202" text="RECUERDE" x="14" y="704" width="56" height="12"/>
+    <text name="TXT__203" text="ES" x="77" y="704" width="14" height="12"/>
+    <text name="TXT__204" text="RESPONSABILIDAD" x="98" y="704" width="105" height="12"/>
+    <text name="TXT__205" text="DE" x="210" y="704" width="14" height="12"/>
+    <text name="TXT__206" text="LA" x="231" y="704" width="14" height="12"/>
+    <text name="TXT__207" text="UNIDAD" x="252" y="704" width="42" height="12"/>
+    <text name="TXT__208" text="FAMILIAR" x="301" y="704" width="56" height="12"/>
+    <text name="TXT__209" text="NOTIFICAR" x="364" y="704" width="63" height="12"/>
+    <text name="TXT__210" text="A" x="434" y="704" width="7" height="12"/>
+    <text name="TXT__211" text="LA" x="448" y="704" width="14" height="12"/>
+    <text name="TXT__212" text="OFICINA" x="469" y="704" width="49" height="12"/>
+    <text name="TXT__213" text="LOCAL" x="14" y="720" width="35" height="12"/>
+    <text name="TXT__214" text="SI" x="56" y="720" width="14" height="12"/>
+    <text name="TXT__215" text="COMIENZA" x="77" y="720" width="56" height="12"/>
+    <text name="TXT__216" text="A" x="140" y="720" width="7" height="12"/>
+    <text name="TXT__217" text="TRABAJAR" x="154" y="720" width="56" height="12"/>
+    <text name="TXT__218" text="DENTRO" x="217" y="720" width="42" height="12"/>
+    <text name="TXT__219" text="DEL" x="266" y="720" width="21" height="12"/>
+    <text name="TXT__220" text="TIEMPO" x="294" y="720" width="42" height="12"/>
+    <text name="TXT__221" text="REGLAMENTARIO" x="343" y="720" width="91" height="12"/>
+    <text name="TXT__222" text="DE" x="441" y="720" width="14" height="12"/>
+    <text name="TXT__223" text="DIEZ" x="462" y="720" width="28" height="12"/>
+    <text name="TXT__224" text="DIAS." x="497" y="720" width="35" height="12"/>
+    <text name="TXT__225" text="[" x="14" y="752" width="7" height="12"/>
+    <text name="TXT__226" text="]" x="28" y="752" width="7" height="12"/>
+    <text name="TXT__227" text="INTERESAMOS" x="42" y="752" width="77" height="12"/>
+    <text name="TXT__228" text="DISCUTIR" x="126" y="752" width="56" height="12"/>
+    <text name="TXT__229" text="CON" x="189" y="752" width="21" height="12"/>
+    <text name="TXT__230" text="USTED" x="217" y="752" width="35" height="12"/>
+    <text name="TXT__231" text="LO" x="259" y="752" width="14" height="12"/>
+    <text name="TXT__232" text="SIGUIENTE:" x="280" y="752" width="70" height="12"/>
+    <text name="TXT__233" text="ESPERAMOS" x="14" y="784" width="63" height="12"/>
+    <text name="TXT__234" text="QUE" x="84" y="784" width="21" height="12"/>
+    <text name="TXT__235" text="ASISTA" x="112" y="784" width="42" height="12"/>
+    <text name="TXT__236" text="A" x="161" y="784" width="7" height="12"/>
+    <text name="TXT__237" text="ESTA" x="175" y="784" width="28" height="12"/>
+    <text name="TXT__238" text="ENTREVISTA." x="210" y="784" width="77" height="12"/>
+    <text name="TXT__239" text="CORDIALMENTE," x="14" y="816" width="91" height="12"/>
+    <text name="TXT__240" text="FIRMA" x="14" y="864" width="35" height="12"/>
+    <text name="TXT__241" text="EMPLEADO" x="56" y="864" width="56" height="12"/>
+    <text name="TXT__242" text="TELEFONO" x="462" y="864" width="56" height="12"/>
+    <text name="TXT__704" text="El Departamento de la Familia garantiza igualdad de oportunidades. Si" x="13" y="901" width="556" height="12"/>
+    <text name="TXT__715" text="considera que se ha discriminado contra usted por razón de raza, color," x="13" y="917" width="556" height="12"/>
+    <text name="TXT__728" text="origen nacional, sexo, edad o impedimento, escriba a Director, Civil Rights," x="13" y="933" width="556" height="12"/>
+    <text name="TXT__738" text="USDA, Food and Nutrition Service, 300 Corporate Blvd, Robbinsville," x="13" y="949" width="556" height="12"/>
+    <text name="TXT__749" text="NJ 08691-1598. Personas sordas, con dificultad para oír o tiene impedimentos" x="13" y="965" width="556" height="12"/>
+    <text name="TXT__761" text="para hablar pueden comunicar al 'Federal Relay Service' 1-(800)-877-8339 o al " x="13" y="981" width="556" height="12"/>
+    <text name="TXT__773" text="1-(800)-845-6136 (Español), (787) 289-7632, Isla 1-800-981-8056," x="13" y="997" width="556" height="12"/>
+    <text name="TXT__774" text="1-800-981-7641 (libre de cargos)." x="13" y="1013" width="556" height="12"/>
+    <line name="LINE_TXT_0" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="6" x1="560" y1="6" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_1" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="14" y="854" x1="196" y1="854" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_2" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="455" y="854" x1="532" y1="854" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_3" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="1030" x1="560" y1="1030" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_4" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="6" x1="0" y1="1030" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_5" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="560" y="6" x1="560" y1="1030" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  </textgroup>
+  <field name="FECHA" tag="" visible="true" enabled="true" container="ADSEF_PPT_6_FR" nextobject="SSJF" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="dd-MMM-yyyy" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="400" y="80" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="dd-MMM-yyyy" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="SSJF" tag="" visible="true" enabled="true" container="ADSEF_PPT_6_FR" nextobject="SSMF" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="407" y="128" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="SSMF" tag="" visible="true" enabled="true" container="ADSEF_PPT_6_FR" nextobject="NOMBRE" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="407" y="176" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NOMBRE" tag="" visible="true" enabled="true" container="ADSEF_PPT_6_FR" nextobject="DIR1" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="64" y="208" width="265" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="DIR1" tag="" visible="true" enabled="true" container="ADSEF_PPT_6_FR" nextobject="DIR2" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="15" y="224" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="DIR2" tag="" visible="true" enabled="true" container="ADSEF_PPT_6_FR" nextobject="PATERNO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="15" y="240" width="314" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="PATERNO" tag="" visible="true" enabled="true" container="ADSEF_PPT_6_FR" nextobject="FCITA" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="176" y="288" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FCITA" tag="" visible="true" enabled="true" container="ADSEF_PPT_6_FR" nextobject="MESES" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="dd-MMM-yyyy" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="127" y="384" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="dd-MMM-yyyy" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="HCITA" tag="" visible="true" enabled="true" container="ADSEF_PPT_6_FR" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="h:mma" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="260" y="384" width="55" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="h:mma" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="LCITA" tag="" visible="true" enabled="true" container="ADSEF_PPT_6_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="344" y="384" width="188" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="OCITA" tag="" visible="true" enabled="true" container="ADSEF_PPT_6_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="78" y="480" width="146" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="MESES" tag="" visible="true" enabled="true" container="ADSEF_PPT_6_FR" nextobject="PARK" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="127" y="656" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="PARK" tag="" visible="true" enabled="true" container="ADSEF_PPT_6_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="545" y="1012" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+</model>

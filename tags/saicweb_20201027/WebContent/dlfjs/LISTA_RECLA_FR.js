@@ -1,0 +1,7 @@
+/**
+ * Overrides the empty function in jdp.js
+ */
+function afterInit ( )
+{
+  setArrowField ( "PARKING_FIELD_RECLA", "->" );
+}

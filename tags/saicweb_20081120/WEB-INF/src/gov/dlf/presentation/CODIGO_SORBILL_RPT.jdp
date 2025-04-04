@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="CODIGO_SORBILL_RPT" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="928" height="960" groupstyle="0" highLightSelected="false" firstobject="SORTEOGP" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Thu Jul 03 06:38:09 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="CODIGO_SORBILL_RPT" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="616" height="108" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="DEPARTAMENTO" x="252" y="16" width="84" height="12"/>
+    <text name="TXT__1" text="DE" x="343" y="16" width="14" height="12"/>
+    <text name="TXT__2" text="SERVICIOS" x="364" y="16" width="63" height="12"/>
+    <text name="TXT__3" text="SOCIALES" x="434" y="16" width="56" height="12"/>
+    <text name="TXT__4" text="SISTEMA" x="217" y="32" width="49" height="12"/>
+    <text name="TXT__5" text="DE" x="273" y="32" width="14" height="12"/>
+    <text name="TXT__6" text="ADMINISTRACION" x="294" y="32" width="98" height="12"/>
+    <text name="TXT__7" text="E" x="399" y="32" width="7" height="12"/>
+    <text name="TXT__8" text="INFORMACION" x="413" y="32" width="77" height="12"/>
+    <text name="TXT__9" text="DE" x="497" y="32" width="14" height="12"/>
+    <text name="TXT__10" text="CASOS" x="518" y="32" width="35" height="12"/>
+    <text name="TXT__11" text="TABLA" x="287" y="48" width="35" height="12"/>
+    <text name="TXT__12" text="DE" x="329" y="48" width="14" height="12"/>
+    <text name="TXT__13" text="SORTEOS" x="350" y="48" width="49" height="12"/>
+    <text name="TXT__14" text="ANUALES" x="406" y="48" width="49" height="12"/>
+    <text name="TXT__15" text="FECHA" x="217" y="80" width="35" height="12"/>
+    <text name="TXT__16" text="DE" x="259" y="80" width="14" height="12"/>
+    <text name="TXT__17" text="NUMERO" x="315" y="80" width="42" height="12"/>
+    <text name="TXT__18" text="DE" x="364" y="80" width="14" height="12"/>
+    <text name="TXT__19" text="NUMERO" x="455" y="80" width="42" height="12"/>
+    <text name="TXT__20" text="DE" x="504" y="80" width="14" height="12"/>
+    <text name="TXT__21" text="EFECTIVIDAD" x="217" y="96" width="77" height="12"/>
+    <text name="TXT__22" text="SORTEOS" x="315" y="96" width="49" height="12"/>
+    <text name="TXT__23" text="ORDINARIO" x="371" y="96" width="63" height="12"/>
+    <text name="TXT__24" text="SORTEOS" x="455" y="96" width="49" height="12"/>
+    <text name="TXT__25" text="EXTRAORDIONARIO" x="511" y="96" width="105" height="12"/>
+  </textgroup>
+  <field name="USUARIO" tag="" visible="true" enabled="true" container="CODIGO_SORBILL_RPT" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="1" y="32" width="139" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="OFICINA" tag="" visible="true" enabled="true" container="CODIGO_SORBILL_RPT" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="1" y="48" width="111" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FECHA" tag="" visible="true" enabled="true" container="CODIGO_SORBILL_RPT" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="dd/MM/yy" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="680" y="32" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="dd/MM/yy" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="PAGINA" tag="" visible="true" enabled="false" container="CODIGO_SORBILL_RPT" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="680" y="48" width="27" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="enter value here" aggregateStyle="1" aggregateType="9" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <group name="SORTEOGP" tag="" visible="true" enabled="true" container="CODIGO_SORBILL_RPT" nextobject="" objectType="group" pageStart="-1" pageType="0" x="0" y="112" width="924" height="844" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="1" highLightSelected="true" datastore="SORBIL_ROR_DSD" discardChildless="false" updatetotop="false" firstobject="FECHA_EFECTIVIDAD0" indivisible="false" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="16" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <textgroup name="SORTEOGP_TXT0" tag="" visible="true" enabled="true" container="SORTEOGP" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="448" height="12" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <field name="FECHA_EFECTIVIDAD0" tag="" visible="true" enabled="true" container="SORTEOGP" nextobject="NUM_SOR_ORD0" objectType="field" copyFieldName="" datatypename="Date" datafieldname="FECHA_EFECTIVIDAD" emptyisnull="true" format="dd/MM/yy" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="218" y="0" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="dd/MM/yy" isDialog="false" inputlimit="12"/>
+    </field>
+    <field name="NUM_SOR_ORD0" tag="" visible="true" enabled="true" container="SORTEOGP" nextobject="NUM_SOR_EXT0" objectType="field" copyFieldName="" datatypename="double" datafieldname="NUM_SOR_ORD" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="316" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="NUM_SOR_EXT0" tag="" visible="true" enabled="true" container="SORTEOGP" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="NUM_SOR_EXT" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="456" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="11"/>
+    </field>
+  </group>
+</model>

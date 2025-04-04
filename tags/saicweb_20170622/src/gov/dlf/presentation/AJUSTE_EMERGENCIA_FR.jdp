@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="AJUSTE_EMERGENCIA_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="564" height="96" groupstyle="0" highLightSelected="false" firstobject="AJUSTE" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Thu Jul 03 06:38:07 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="AJUSTE_EMERGENCIA_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="553" height="60" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="ENTRE" x="147" y="16" width="35" height="12"/>
+    <text name="TXT__1" text="AJUSTE" x="189" y="16" width="42" height="12"/>
+    <text name="TXT__2" text="PORCENTUAL," x="238" y="16" width="77" height="12"/>
+    <text name="TXT__3" text="SI" x="322" y="16" width="14" height="12"/>
+    <text name="TXT__4" text="APLICA" x="343" y="16" width="42" height="12"/>
+    <text name="TXT__5" text="(" x="147" y="32" width="7" height="12"/>
+    <text name="TXT__6" text="SI" x="161" y="32" width="14" height="12"/>
+    <text name="TXT__7" text="NO" x="182" y="32" width="14" height="12"/>
+    <text name="TXT__8" text="APLICA" x="203" y="32" width="42" height="12"/>
+    <text name="TXT__9" text="ENTRE" x="252" y="32" width="35" height="12"/>
+    <text name="TXT__10" text="CERO" x="294" y="32" width="28" height="12"/>
+    <text name="TXT__11" text="(0)" x="329" y="32" width="21" height="12"/>
+    <text name="TXT__12" text=")" x="357" y="32" width="7" height="12"/>
+    <text name="TXT__13" text=":" x="371" y="32" width="7" height="12"/>
+    <line name="LINE_TXT_0" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="6" x1="553" y1="6" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_1" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="54" x1="553" y1="54" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_2" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="6" x1="0" y1="54" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_3" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="553" y="6" x1="553" y1="54" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  </textgroup>
+  <field name="AJUSTE" tag="" visible="true" enabled="true" container="AJUSTE_EMERGENCIA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="386" y="32" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <event name="JDataPanelListener.BEFORELEAVE"/>
+    <event name="JDataPanelListener.AFTERVALUECHANGE"/>
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+</model>

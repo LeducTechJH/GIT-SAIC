@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="SERVICIO_INGRESO_MAIN_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="" updateKey="" updateSourceName="" useTransactions="false" definition="select  SERVICIOS_TBL.DSC_NOMBRE_SERVICIO,  SERVICIO_INGRESOS.COD_PROGRAMA,  SERVICIO_INGRESOS.COD_TIPO_INGRESO from SERVICIO_INGRESOS SERVICIO_INGRESOS, SERVICIOS_TBL SERVICIOS_TBL where ( SERVICIOS_TBL.COD_PROGRAMA = SERVICIO_INGRESOS.COD_PROGRAMA ) order by SERVICIO_INGRESOS.COD_PROGRAMA asc, SERVICIO_INGRESOS.COD_TIPO_INGRESO asc" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="SERVICIOS_TBL_DSC_NOMBRE_SERVICIO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="SERVICE NAME DESCRIPTION" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="25" sourceAlias="SERVICIOS_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DSC_NOMBRE_SERVICIO" sourceLocation="" sourceName="SERVICIOS_TBL" sourceOwner="" unique="false" updateable="false"/>
+  <field name="SERVICIO_INGRESOS_COD_PROGRAMA" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="GENERAL CODE" dataType="String" distinct="true" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="SERVICIO_INGRESOS" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_PROGRAMA" sourceLocation="" sourceName="SERVICIO_INGRESOS" sourceOwner="" unique="false" updateable="false"/>
+  <field name="SERVICIO_INGRESOS_COD_TIPO_INGRESO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="FINANCE TYPE CODE" dataType="String" distinct="true" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="SERVICIO_INGRESOS" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_TIPO_INGRESO" sourceLocation="" sourceName="SERVICIO_INGRESOS" sourceOwner="" unique="false" updateable="false"/>
+</datastore>

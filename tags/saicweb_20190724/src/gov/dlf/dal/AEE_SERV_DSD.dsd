@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="AEE_SERV_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="DIRECCION_SERV,CANTIDAD_AUTO" updateKey="ID_TECNICO" updateSourceName="TECNICO" useTransactions="false" definition="select  SERVICIOS_EMERGENCIA.DIRECCION_SERV, SERVICIOS_EMERGENCIA.CANTIDAD_AUTO from SERVICIOS_EMERGENCIA SERVICIOS_EMERGENCIA" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="DIRECCION" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="15" sourceAlias="SERVICIOS_EMERGENCIA" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DIRECCION_SERV" sourceLocation="" sourceName="SERVICIOS_EMERGENCIA" sourceOwner="" unique="false" updateable="true"/>
+  <field name="CANTIDAD" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="2" sourceAlias="SERVICIOS_EMERGENCIA" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="CANTIDAD_AUTO" sourceLocation="" sourceName="SERVICIOS_EMERGENCIA" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

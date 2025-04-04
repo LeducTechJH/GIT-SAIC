@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="PREP_PADRASTRO_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="564" height="880" groupstyle="0" highLightSelected="false" firstobject="" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Thu Jul 03 06:38:17 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="PREP_PADRASTRO_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="553" height="764" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="GOBIERNO" x="196" y="64" width="56" height="12"/>
+    <text name="TXT__1" text="DE" x="259" y="64" width="14" height="12"/>
+    <text name="TXT__2" text="PUERTO" x="280" y="64" width="42" height="12"/>
+    <text name="TXT__3" text="RICO" x="329" y="64" width="28" height="12"/>
+    <text name="TXT__4" text="ADMINISTRACION" x="77" y="80" width="98" height="12"/>
+    <text name="TXT__5" text="DE" x="182" y="80" width="14" height="12"/>
+    <text name="TXT__6" text="DESARROLO" x="203" y="80" width="63" height="12"/>
+    <text name="TXT__7" text="SOCIOECONOMICO" x="273" y="80" width="98" height="12"/>
+    <text name="TXT__8" text="DE" x="378" y="80" width="14" height="12"/>
+    <text name="TXT__9" text="LA" x="399" y="80" width="14" height="12"/>
+    <text name="TXT__10" text="FAMILIA" x="420" y="80" width="49" height="12"/>
+    <text name="TXT__11" text="DEPARTAMENTO" x="182" y="96" width="84" height="12"/>
+    <text name="TXT__12" text="DE" x="273" y="96" width="14" height="12"/>
+    <text name="TXT__13" text="LA" x="294" y="96" width="14" height="12"/>
+    <text name="TXT__14" text="FAMILIA" x="315" y="96" width="49" height="12"/>
+    <text name="TXT__15" text="I." x="21" y="128" width="14" height="12"/>
+    <text name="TXT__16" text="Presupuesto" x="42" y="128" width="77" height="12"/>
+    <text name="TXT__17" text="para" x="126" y="128" width="28" height="12"/>
+    <text name="TXT__18" text="Padrastro," x="161" y="128" width="70" height="12"/>
+    <text name="TXT__19" text="'Minor" x="238" y="128" width="42" height="12"/>
+    <text name="TXT__20" text="Parents'," x="287" y="128" width="63" height="12"/>
+    <text name="TXT__21" text="Patrocinador" x="357" y="128" width="84" height="12"/>
+    <text name="TXT__22" text="de" x="448" y="128" width="14" height="12"/>
+    <text name="TXT__23" text="Extranjero" x="469" y="128" width="70" height="12"/>
+    <text name="TXT__24" text="S.S." x="42" y="160" width="28" height="12"/>
+    <text name="TXT__25" text="Jefe" x="77" y="160" width="28" height="12"/>
+    <text name="TXT__26" text="Fam" x="112" y="160" width="21" height="12"/>
+    <text name="TXT__27" text="S.S." x="168" y="160" width="28" height="12"/>
+    <text name="TXT__28" text="Caso" x="203" y="160" width="28" height="12"/>
+    <text name="TXT__29" text="A.E." x="238" y="160" width="28" height="12"/>
+    <text name="TXT__30" text="Categoría" x="280" y="160" width="63" height="12"/>
+    <text name="TXT__31" text="Nombre" x="357" y="160" width="42" height="12"/>
+    <text name="TXT__32" text="A." x="21" y="208" width="14" height="12"/>
+    <text name="TXT__33" text="Ingresos" x="42" y="208" width="56" height="12"/>
+    <text name="TXT__34" text="Mensuales" x="105" y="208" width="63" height="12"/>
+    <text name="TXT__35" text="1." x="21" y="240" width="14" height="12"/>
+    <text name="TXT__36" text="Por" x="42" y="240" width="21" height="12"/>
+    <text name="TXT__37" text="Trabajo" x="70" y="240" width="49" height="12"/>
+    <text name="TXT__38" text="2." x="21" y="272" width="14" height="12"/>
+    <text name="TXT__39" text="Otros" x="42" y="272" width="35" height="12"/>
+    <text name="TXT__40" text="Ingresos" x="84" y="272" width="56" height="12"/>
+    <text name="TXT__41" text="3." x="21" y="304" width="14" height="12"/>
+    <text name="TXT__42" text="Total" x="42" y="304" width="35" height="12"/>
+    <text name="TXT__43" text="Ingresos" x="84" y="304" width="56" height="12"/>
+    <text name="TXT__44" text="B." x="21" y="368" width="14" height="12"/>
+    <text name="TXT__45" text="Deducciones" x="42" y="368" width="77" height="12"/>
+    <text name="TXT__46" text="*" x="133" y="368" width="7" height="12"/>
+    <text name="TXT__47" text="1." x="21" y="400" width="14" height="12"/>
+    <text name="TXT__48" text="Gastos" x="42" y="400" width="42" height="12"/>
+    <text name="TXT__49" text="Inherentes" x="91" y="400" width="70" height="12"/>
+    <text name="TXT__50" text="2." x="21" y="432" width="14" height="12"/>
+    <text name="TXT__51" text="Gastos" x="42" y="432" width="42" height="12"/>
+    <text name="TXT__52" text="Producción" x="91" y="432" width="70" height="12"/>
+    <text name="TXT__53" text="3." x="21" y="464" width="14" height="12"/>
+    <text name="TXT__54" text="Necesidades" x="42" y="464" width="77" height="12"/>
+    <text name="TXT__55" text="sin" x="126" y="464" width="21" height="12"/>
+    <text name="TXT__56" text="ajustar" x="154" y="464" width="49" height="12"/>
+    <text name="TXT__57" text="al" x="210" y="464" width="14" height="12"/>
+    <text name="TXT__58" text="100%" x="42" y="480" width="28" height="12"/>
+    <text name="TXT__59" text="(Personas)" x="77" y="480" width="70" height="12"/>
+    <text name="TXT__60" text="4." x="21" y="512" width="14" height="12"/>
+    <text name="TXT__61" text="Albergue" x="42" y="512" width="56" height="12"/>
+    <text name="TXT__62" text="Sin" x="105" y="512" width="21" height="12"/>
+    <text name="TXT__63" text="Ajusta" x="133" y="512" width="42" height="12"/>
+    <text name="TXT__64" text="(Máximo" x="42" y="528" width="49" height="12"/>
+    <text name="TXT__65" text="$200.00)" x="98" y="528" width="56" height="12"/>
+    <text name="TXT__66" text="5." x="21" y="560" width="14" height="12"/>
+    <text name="TXT__67" text="Ayuda" x="42" y="560" width="35" height="12"/>
+    <text name="TXT__68" text="regular" x="84" y="560" width="49" height="12"/>
+    <text name="TXT__69" text="que" x="140" y="560" width="21" height="12"/>
+    <text name="TXT__70" text="provee" x="168" y="560" width="42" height="12"/>
+    <text name="TXT__71" text="a" x="217" y="560" width="7" height="12"/>
+    <text name="TXT__72" text="cada" x="231" y="560" width="28" height="12"/>
+    <text name="TXT__73" text="familiar" x="266" y="560" width="56" height="12"/>
+    <text name="TXT__74" text="con" x="42" y="576" width="21" height="12"/>
+    <text name="TXT__75" text="responsabilidad" x="70" y="576" width="105" height="12"/>
+    <text name="TXT__76" text="legal" x="182" y="576" width="35" height="12"/>
+    <text name="TXT__77" text="que" x="224" y="576" width="21" height="12"/>
+    <text name="TXT__78" text="viva" x="252" y="576" width="28" height="12"/>
+    <text name="TXT__79" text="fuera" x="287" y="576" width="35" height="12"/>
+    <text name="TXT__80" text="del" x="42" y="592" width="21" height="12"/>
+    <text name="TXT__81" text="hogar" x="70" y="592" width="35" height="12"/>
+    <text name="TXT__82" text="(100%" x="112" y="592" width="35" height="12"/>
+    <text name="TXT__83" text="según" x="154" y="592" width="35" height="12"/>
+    <text name="TXT__84" text="tabla" x="196" y="592" width="35" height="12"/>
+    <text name="TXT__85" text="necesidades)" x="238" y="592" width="84" height="12"/>
+    <text name="TXT__86" text="6." x="21" y="624" width="14" height="12"/>
+    <text name="TXT__87" text="Total" x="42" y="624" width="35" height="12"/>
+    <text name="TXT__88" text="Deducciones" x="84" y="624" width="77" height="12"/>
+    <text name="TXT__89" text="(suma" x="168" y="624" width="35" height="12"/>
+    <text name="TXT__90" text="1," x="210" y="624" width="14" height="12"/>
+    <text name="TXT__91" text="2," x="231" y="624" width="14" height="12"/>
+    <text name="TXT__92" text="3," x="252" y="624" width="14" height="12"/>
+    <text name="TXT__93" text="4" x="273" y="624" width="7" height="12"/>
+    <text name="TXT__94" text="y" x="287" y="624" width="7" height="12"/>
+    <text name="TXT__95" text="5)" x="301" y="624" width="14" height="12"/>
+    <text name="TXT__96" text="C." x="21" y="672" width="14" height="12"/>
+    <text name="TXT__97" text="Ingreso" x="42" y="672" width="49" height="12"/>
+    <text name="TXT__98" text="en" x="98" y="672" width="14" height="12"/>
+    <text name="TXT__99" text="Exceso" x="119" y="672" width="42" height="12"/>
+    <text name="TXT__100" text="(A.3" x="168" y="672" width="28" height="12"/>
+    <text name="TXT__101" text="-" x="203" y="672" width="7" height="12"/>
+    <text name="TXT__102" text="B.6)" x="217" y="672" width="28" height="12"/>
+    <text name="TXT__103" text="*" x="21" y="720" width="7" height="12"/>
+    <text name="TXT__104" text="El" x="35" y="720" width="14" height="12"/>
+    <text name="TXT__105" text="resultado" x="56" y="720" width="63" height="12"/>
+    <text name="TXT__106" text="obtenido" x="126" y="720" width="56" height="12"/>
+    <text name="TXT__107" text="se" x="189" y="720" width="14" height="12"/>
+    <text name="TXT__108" text="llevará" x="210" y="720" width="49" height="12"/>
+    <text name="TXT__109" text="a" x="266" y="720" width="7" height="12"/>
+    <text name="TXT__110" text="la" x="280" y="720" width="14" height="12"/>
+    <text name="TXT__111" text="columna" x="301" y="720" width="49" height="12"/>
+    <text name="TXT__112" text="#8" x="357" y="720" width="14" height="12"/>
+    <text name="TXT__113" text="del" x="378" y="720" width="21" height="12"/>
+    <text name="TXT__114" text="-106B" x="476" y="720" width="35" height="12"/>
+    <text name="TXT__115" text="ADSEF" x="406" y="720" width="35" height="12"/>
+    <text name="TXT__116" text="-TANF" x="441" y="720" width="35" height="12"/>
+    <line name="LINE_TXT_0" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="54" x1="553" y1="54" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_1" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="758" x1="553" y1="758" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_2" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="54" x1="7" y1="758" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_3" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="553" y="54" x1="553" y1="758" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  </textgroup>
+  <field name="A1" tag="" visible="true" enabled="true" container="PREP_PADRASTRO_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$###,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="351" y="240" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$###,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A2" tag="" visible="true" enabled="true" container="PREP_PADRASTRO_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$###,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="351" y="272" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$###,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="A3" tag="" visible="true" enabled="true" container="PREP_PADRASTRO_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$###,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="400" y="304" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$###,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B1" tag="" visible="true" enabled="true" container="PREP_PADRASTRO_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$###,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="351" y="400" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$###,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B2" tag="" visible="true" enabled="true" container="PREP_PADRASTRO_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$###,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="351" y="432" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$###,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B3" tag="" visible="true" enabled="true" container="PREP_PADRASTRO_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$###,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="351" y="464" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$###,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B4" tag="" visible="true" enabled="true" container="PREP_PADRASTRO_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$###,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="351" y="512" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$###,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B5" tag="" visible="true" enabled="true" container="PREP_PADRASTRO_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$###,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="351" y="592" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$###,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="B6" tag="" visible="true" enabled="true" container="PREP_PADRASTRO_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$###,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="400" y="624" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$###,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="C" tag="" visible="true" enabled="true" container="PREP_PADRASTRO_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$####.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="400" y="672" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$####.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="SEGSOC" tag="" visible="true" enabled="true" container="PREP_PADRASTRO_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="50" y="176" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CASO" tag="" visible="true" enabled="true" container="PREP_PADRASTRO_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="176" y="176" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CAT" tag="" visible="true" enabled="true" container="PREP_PADRASTRO_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="295" y="176" width="27" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NOMBRE" tag="" visible="true" enabled="true" container="PREP_PADRASTRO_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="358" y="176" width="188" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+</model>

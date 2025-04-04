@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="SC1072_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="543" height="960" groupstyle="0" highLightSelected="false" firstobject="DAT1" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Thu Jul 03 06:38:21 IDT 2008">
+  <group name="DAT1" tag="" visible="true" enabled="true" container="SC1072_FR" nextobject="" objectType="group" pageStart="-1" pageType="0" x="0" y="16" width="539" height="940" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="1" highLightSelected="true" datastore="SC1072_DSD" discardChildless="false" updatetotop="false" firstobject="FECHA_IMPRESION" indivisible="false" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="832" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <parameter name="ACCION_GBL"/>
+    <parameter name="COD_SERVICIO_GBL"/>
+    <parameter name="FACTURA_GBL"/>
+    <parameter name="FCH_FINAL_GBL"/>
+    <parameter name="SS_JEFE_FAMILIA_GBL"/>
+    <parameter name="SS_JEFE_SERVICIO_GBL"/>
+    <parameter name="RMO_PAR"/>
+    <textgroup name="DAT1_TXT" tag="" visible="true" enabled="true" container="DAT1" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="525" height="828" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="DAT1_TXT__0" text="MODELO" x="0" y="0" width="42" height="12"/>
+      <text name="DAT1_TXT__1" text="SC" x="49" y="0" width="14" height="12"/>
+      <text name="DAT1_TXT__2" text="1072" x="70" y="0" width="28" height="12"/>
+      <text name="DAT1_TXT__3" text="GOBIERNO" x="224" y="0" width="56" height="12"/>
+      <text name="DAT1_TXT__4" text="DE" x="287" y="0" width="14" height="12"/>
+      <text name="DAT1_TXT__5" text="PUERTO" x="308" y="0" width="42" height="12"/>
+      <text name="DAT1_TXT__6" text="RICO" x="357" y="0" width="28" height="12"/>
+      <text name="DAT1_TXT__7" text="ANEJO" x="448" y="0" width="35" height="12"/>
+      <text name="DAT1_TXT__8" text="III" x="490" y="0" width="21" height="12"/>
+      <text name="DAT1_TXT__9" text="8" x="0" y="16" width="7" height="12"/>
+      <text name="DAT1_TXT__10" text="ago" x="14" y="16" width="21" height="12"/>
+      <text name="DAT1_TXT__11" text="97" x="42" y="16" width="14" height="12"/>
+      <text name="DAT1_TXT__12" text="DEPARTAMENTO" x="210" y="16" width="84" height="12"/>
+      <text name="DAT1_TXT__13" text="DE" x="301" y="16" width="14" height="12"/>
+      <text name="DAT1_TXT__14" text="LA" x="322" y="16" width="14" height="12"/>
+      <text name="DAT1_TXT__15" text="FAMILIA" x="343" y="16" width="49" height="12"/>
+      <text name="DAT1_TXT__16" text="Regl." x="0" y="32" width="35" height="12"/>
+      <text name="DAT1_TXT__17" text="44" x="42" y="32" width="14" height="12"/>
+      <text name="DAT1_TXT__18" text="(8" x="63" y="32" width="14" height="12"/>
+      <text name="DAT1_TXT__19" text="ago" x="84" y="32" width="21" height="12"/>
+      <text name="DAT1_TXT__20" text="97)" x="112" y="32" width="21" height="12"/>
+      <text name="DAT1_TXT__21" text="AGENCIA" x="280" y="32" width="49" height="12"/>
+      <text name="DAT1_TXT__22" text="DIRECCION" x="273" y="96" width="63" height="12"/>
+      <text name="DAT1_TXT__23" text="Asunto:" x="308" y="240" width="49" height="12"/>
+      <text name="DAT1_TXT__24" text="Factura" x="364" y="240" width="49" height="12"/>
+      <text name="DAT1_TXT__25" text="Núm." x="420" y="240" width="28" height="12"/>
+      <text name="DAT1_TXT__26" text="Importe:" x="392" y="256" width="56" height="12"/>
+      <text name="DAT1_TXT__27" text="Concepto:" x="392" y="272" width="63" height="12"/>
+      <text name="DAT1_TXT__28" text="Intereses:" x="392" y="288" width="70" height="12"/>
+      <text name="DAT1_TXT__29" text="Recargos:" x="392" y="304" width="63" height="12"/>
+      <text name="DAT1_TXT__30" text="En" x="0" y="336" width="14" height="12"/>
+      <text name="DAT1_TXT__31" text="de" x="42" y="336" width="14" height="12"/>
+      <text name="DAT1_TXT__32" text="de" x="140" y="336" width="14" height="12"/>
+      <text name="DAT1_TXT__33" text="le" x="196" y="336" width="14" height="12"/>
+      <text name="DAT1_TXT__34" text="enviamos" x="217" y="336" width="56" height="12"/>
+      <text name="DAT1_TXT__35" text="la" x="280" y="336" width="14" height="12"/>
+      <text name="DAT1_TXT__36" text="factura" x="301" y="336" width="49" height="12"/>
+      <text name="DAT1_TXT__37" text="mencionada" x="357" y="336" width="70" height="12"/>
+      <text name="DAT1_TXT__38" text="en" x="434" y="336" width="14" height="12"/>
+      <text name="DAT1_TXT__39" text="el" x="455" y="336" width="14" height="12"/>
+      <text name="DAT1_TXT__40" text="asunto," x="0" y="352" width="49" height="12"/>
+      <text name="DAT1_TXT__41" text="sin" x="56" y="352" width="21" height="12"/>
+      <text name="DAT1_TXT__42" text="embargo," x="84" y="352" width="56" height="12"/>
+      <text name="DAT1_TXT__43" text="aún" x="147" y="352" width="21" height="12"/>
+      <text name="DAT1_TXT__44" text="no" x="175" y="352" width="14" height="12"/>
+      <text name="DAT1_TXT__45" text="hemos" x="196" y="352" width="35" height="12"/>
+      <text name="DAT1_TXT__46" text="recibido" x="238" y="352" width="56" height="12"/>
+      <text name="DAT1_TXT__47" text="el" x="301" y="352" width="14" height="12"/>
+      <text name="DAT1_TXT__48" text="pago." x="322" y="352" width="35" height="12"/>
+      <text name="DAT1_TXT__49" text="Le" x="0" y="384" width="14" height="12"/>
+      <text name="DAT1_TXT__50" text="exhortamos" x="21" y="384" width="70" height="12"/>
+      <text name="DAT1_TXT__51" text="a" x="98" y="384" width="7" height="12"/>
+      <text name="DAT1_TXT__52" text="que" x="112" y="384" width="21" height="12"/>
+      <text name="DAT1_TXT__53" text="envíe" x="140" y="384" width="35" height="12"/>
+      <text name="DAT1_TXT__54" text="su" x="182" y="384" width="14" height="12"/>
+      <text name="DAT1_TXT__55" text="pago" x="203" y="384" width="28" height="12"/>
+      <text name="DAT1_TXT__56" text="dentro" x="238" y="384" width="42" height="12"/>
+      <text name="DAT1_TXT__57" text="de" x="287" y="384" width="14" height="12"/>
+      <text name="DAT1_TXT__58" text="los" x="308" y="384" width="21" height="12"/>
+      <text name="DAT1_TXT__59" text="próximos" x="336" y="384" width="56" height="12"/>
+      <text name="DAT1_TXT__60" text="30" x="399" y="384" width="14" height="12"/>
+      <text name="DAT1_TXT__61" text="días" x="420" y="384" width="28" height="12"/>
+      <text name="DAT1_TXT__62" text="a" x="455" y="384" width="7" height="12"/>
+      <text name="DAT1_TXT__63" text="partir" x="469" y="384" width="42" height="12"/>
+      <text name="DAT1_TXT__64" text="de" x="0" y="400" width="14" height="12"/>
+      <text name="DAT1_TXT__65" text="la" x="21" y="400" width="14" height="12"/>
+      <text name="DAT1_TXT__66" text="fecha" x="42" y="400" width="35" height="12"/>
+      <text name="DAT1_TXT__67" text="de" x="84" y="400" width="14" height="12"/>
+      <text name="DAT1_TXT__68" text="esta" x="105" y="400" width="28" height="12"/>
+      <text name="DAT1_TXT__69" text="comunicación." x="140" y="400" width="91" height="12"/>
+      <text name="DAT1_TXT__70" text="Debe" x="238" y="400" width="28" height="12"/>
+      <text name="DAT1_TXT__71" text="efectuar" x="273" y="400" width="56" height="12"/>
+      <text name="DAT1_TXT__72" text="el" x="336" y="400" width="14" height="12"/>
+      <text name="DAT1_TXT__73" text="mismo" x="357" y="400" width="35" height="12"/>
+      <text name="DAT1_TXT__74" text="con" x="399" y="400" width="21" height="12"/>
+      <text name="DAT1_TXT__75" text="un" x="427" y="400" width="14" height="12"/>
+      <text name="DAT1_TXT__76" text="cheque" x="448" y="400" width="42" height="12"/>
+      <text name="DAT1_TXT__77" text="certificado" x="0" y="416" width="77" height="12"/>
+      <text name="DAT1_TXT__78" text="o" x="84" y="416" width="7" height="12"/>
+      <text name="DAT1_TXT__79" text="giro" x="98" y="416" width="28" height="12"/>
+      <text name="DAT1_TXT__80" text="postal" x="133" y="416" width="42" height="12"/>
+      <text name="DAT1_TXT__81" text="expedido" x="182" y="416" width="56" height="12"/>
+      <text name="DAT1_TXT__82" text="a" x="245" y="416" width="7" height="12"/>
+      <text name="DAT1_TXT__83" text="nombre" x="259" y="416" width="42" height="12"/>
+      <text name="DAT1_TXT__84" text="del" x="308" y="416" width="21" height="12"/>
+      <text name="DAT1_TXT__85" text="Secretario" x="336" y="416" width="70" height="12"/>
+      <text name="DAT1_TXT__86" text="de" x="413" y="416" width="14" height="12"/>
+      <text name="DAT1_TXT__87" text="Hacienda." x="434" y="416" width="63" height="12"/>
+      <text name="DAT1_TXT__88" text="Tan" x="0" y="432" width="21" height="12"/>
+      <text name="DAT1_TXT__89" text="pronto" x="28" y="432" width="42" height="12"/>
+      <text name="DAT1_TXT__90" text="recibamos" x="77" y="432" width="63" height="12"/>
+      <text name="DAT1_TXT__91" text="su" x="147" y="432" width="14" height="12"/>
+      <text name="DAT1_TXT__92" text="pago," x="168" y="432" width="35" height="12"/>
+      <text name="DAT1_TXT__93" text="dejaremos" x="210" y="432" width="63" height="12"/>
+      <text name="DAT1_TXT__94" text="sin" x="280" y="432" width="21" height="12"/>
+      <text name="DAT1_TXT__95" text="efecto" x="308" y="432" width="42" height="12"/>
+      <text name="DAT1_TXT__96" text="cualquier" x="357" y="432" width="63" height="12"/>
+      <text name="DAT1_TXT__97" text="otra" x="427" y="432" width="28" height="12"/>
+      <text name="DAT1_TXT__98" text="gestión" x="462" y="432" width="49" height="12"/>
+      <text name="DAT1_TXT__99" text="de" x="0" y="448" width="14" height="12"/>
+      <text name="DAT1_TXT__100" text="cobro" x="21" y="448" width="35" height="12"/>
+      <text name="DAT1_TXT__101" text="que" x="63" y="448" width="21" height="12"/>
+      <text name="DAT1_TXT__102" text="haya" x="91" y="448" width="28" height="12"/>
+      <text name="DAT1_TXT__103" text="sido" x="126" y="448" width="28" height="12"/>
+      <text name="DAT1_TXT__104" text="iniciada." x="161" y="448" width="63" height="12"/>
+      <text name="DAT1_TXT__105" text="De" x="0" y="480" width="14" height="12"/>
+      <text name="DAT1_TXT__106" text="no" x="21" y="480" width="14" height="12"/>
+      <text name="DAT1_TXT__107" text="objetar" x="42" y="480" width="49" height="12"/>
+      <text name="DAT1_TXT__108" text="la" x="98" y="480" width="14" height="12"/>
+      <text name="DAT1_TXT__109" text="deuda" x="119" y="480" width="35" height="12"/>
+      <text name="DAT1_TXT__110" text="dentro" x="161" y="480" width="42" height="12"/>
+      <text name="DAT1_TXT__111" text="de" x="210" y="480" width="14" height="12"/>
+      <text name="DAT1_TXT__112" text="los" x="231" y="480" width="21" height="12"/>
+      <text name="DAT1_TXT__113" text="próximos" x="259" y="480" width="56" height="12"/>
+      <text name="DAT1_TXT__114" text="10" x="322" y="480" width="14" height="12"/>
+      <text name="DAT1_TXT__115" text="días" x="343" y="480" width="28" height="12"/>
+      <text name="DAT1_TXT__116" text="laborables" x="378" y="480" width="70" height="12"/>
+      <text name="DAT1_TXT__117" text="o" x="455" y="480" width="7" height="12"/>
+      <text name="DAT1_TXT__118" text="de" x="469" y="480" width="14" height="12"/>
+      <text name="DAT1_TXT__119" text="no" x="490" y="480" width="14" height="12"/>
+      <text name="DAT1_TXT__120" text="recibir" x="0" y="496" width="49" height="12"/>
+      <text name="DAT1_TXT__121" text="su" x="56" y="496" width="14" height="12"/>
+      <text name="DAT1_TXT__122" text="pago" x="77" y="496" width="28" height="12"/>
+      <text name="DAT1_TXT__123" text="dentro" x="112" y="496" width="42" height="12"/>
+      <text name="DAT1_TXT__124" text="del" x="161" y="496" width="21" height="12"/>
+      <text name="DAT1_TXT__125" text="término" x="189" y="496" width="49" height="12"/>
+      <text name="DAT1_TXT__126" text="antes" x="245" y="496" width="35" height="12"/>
+      <text name="DAT1_TXT__127" text="indicado," x="287" y="496" width="63" height="12"/>
+      <text name="DAT1_TXT__128" text="enviaremos" x="357" y="496" width="70" height="12"/>
+      <text name="DAT1_TXT__129" text="el" x="434" y="496" width="14" height="12"/>
+      <text name="DAT1_TXT__130" text="caso" x="455" y="496" width="28" height="12"/>
+      <text name="DAT1_TXT__131" text="al" x="490" y="496" width="14" height="12"/>
+      <text name="DAT1_TXT__132" text="Secretario" x="0" y="512" width="70" height="12"/>
+      <text name="DAT1_TXT__133" text="de" x="77" y="512" width="14" height="12"/>
+      <text name="DAT1_TXT__134" text="Justicia" x="98" y="512" width="56" height="12"/>
+      <text name="DAT1_TXT__135" text="para" x="161" y="512" width="28" height="12"/>
+      <text name="DAT1_TXT__136" text="que" x="196" y="512" width="21" height="12"/>
+      <text name="DAT1_TXT__137" text="proceda" x="224" y="512" width="49" height="12"/>
+      <text name="DAT1_TXT__138" text="judicialmente" x="280" y="512" width="91" height="12"/>
+      <text name="DAT1_TXT__139" text="al" x="378" y="512" width="14" height="12"/>
+      <text name="DAT1_TXT__140" text="cobro" x="399" y="512" width="35" height="12"/>
+      <text name="DAT1_TXT__141" text="de" x="441" y="512" width="14" height="12"/>
+      <text name="DAT1_TXT__142" text="la" x="462" y="512" width="14" height="12"/>
+      <text name="DAT1_TXT__143" text="misma." x="483" y="512" width="42" height="12"/>
+      <text name="DAT1_TXT__144" text="También," x="0" y="528" width="56" height="12"/>
+      <text name="DAT1_TXT__145" text="notificaremos" x="63" y="528" width="91" height="12"/>
+      <text name="DAT1_TXT__146" text="al" x="161" y="528" width="14" height="12"/>
+      <text name="DAT1_TXT__147" text="Secretario" x="182" y="528" width="70" height="12"/>
+      <text name="DAT1_TXT__148" text="de" x="259" y="528" width="14" height="12"/>
+      <text name="DAT1_TXT__149" text="Hacienda" x="280" y="528" width="56" height="12"/>
+      <text name="DAT1_TXT__150" text="para" x="343" y="528" width="28" height="12"/>
+      <text name="DAT1_TXT__151" text="que" x="378" y="528" width="21" height="12"/>
+      <text name="DAT1_TXT__152" text="descuente" x="406" y="528" width="63" height="12"/>
+      <text name="DAT1_TXT__153" text="el" x="0" y="544" width="14" height="12"/>
+      <text name="DAT1_TXT__154" text="importe" x="21" y="544" width="49" height="12"/>
+      <text name="DAT1_TXT__155" text="adeudado" x="77" y="544" width="56" height="12"/>
+      <text name="DAT1_TXT__156" text="de" x="140" y="544" width="14" height="12"/>
+      <text name="DAT1_TXT__157" text="cualesquiera" x="161" y="544" width="84" height="12"/>
+      <text name="DAT1_TXT__158" text="pagos" x="252" y="544" width="35" height="12"/>
+      <text name="DAT1_TXT__159" text="que" x="294" y="544" width="21" height="12"/>
+      <text name="DAT1_TXT__160" text="tramite" x="322" y="544" width="49" height="12"/>
+      <text name="DAT1_TXT__161" text="el" x="378" y="544" width="14" height="12"/>
+      <text name="DAT1_TXT__162" text="Gobierno" x="399" y="544" width="56" height="12"/>
+      <text name="DAT1_TXT__163" text="a" x="462" y="544" width="7" height="12"/>
+      <text name="DAT1_TXT__164" text="su" x="476" y="544" width="14" height="12"/>
+      <text name="DAT1_TXT__165" text="favor." x="0" y="560" width="42" height="12"/>
+      <text name="DAT1_TXT__166" text="Si" x="0" y="592" width="14" height="12"/>
+      <text name="DAT1_TXT__167" text="pagó" x="21" y="592" width="28" height="12"/>
+      <text name="DAT1_TXT__168" text="la" x="56" y="592" width="14" height="12"/>
+      <text name="DAT1_TXT__169" text="deuda," x="77" y="592" width="42" height="12"/>
+      <text name="DAT1_TXT__170" text="favor" x="126" y="592" width="35" height="12"/>
+      <text name="DAT1_TXT__171" text="de" x="168" y="592" width="14" height="12"/>
+      <text name="DAT1_TXT__172" text="enviarnos" x="189" y="592" width="63" height="12"/>
+      <text name="DAT1_TXT__173" text="la" x="259" y="592" width="14" height="12"/>
+      <text name="DAT1_TXT__174" text="evidencia" x="280" y="592" width="63" height="12"/>
+      <text name="DAT1_TXT__175" text="de" x="350" y="592" width="14" height="12"/>
+      <text name="DAT1_TXT__176" text="pago." x="371" y="592" width="35" height="12"/>
+      <text name="DAT1_TXT__177" text="Cordialmente," x="0" y="656" width="91" height="12"/>
+      <text name="DAT1_TXT__178" text="Jefe" x="0" y="720" width="28" height="12"/>
+      <text name="DAT1_TXT__179" text="de" x="35" y="720" width="14" height="12"/>
+      <text name="DAT1_TXT__180" text="la" x="56" y="720" width="14" height="12"/>
+      <text name="DAT1_TXT__181" text="Agencia" x="77" y="720" width="49" height="12"/>
+      <text name="DAT1_TXT__182" text="o" x="133" y="720" width="7" height="12"/>
+      <text name="DAT1_TXT__183" text="su" x="147" y="720" width="14" height="12"/>
+      <text name="DAT1_TXT__184" text="Representante" x="0" y="736" width="91" height="12"/>
+      <text name="DAT1_TXT__185" text="Autorizado" x="98" y="736" width="70" height="12"/>
+      <text name="DAT1_TXT__186" text="Conservación:" x="0" y="784" width="91" height="12"/>
+      <text name="DAT1_TXT__187" text="Seis" x="98" y="784" width="28" height="12"/>
+      <text name="DAT1_TXT__188" text="años" x="133" y="784" width="28" height="12"/>
+      <text name="DAT1_TXT__189" text="después" x="168" y="784" width="49" height="12"/>
+      <text name="DAT1_TXT__190" text="de" x="224" y="784" width="14" height="12"/>
+      <text name="DAT1_TXT__191" text="recibido" x="245" y="784" width="56" height="12"/>
+      <text name="DAT1_TXT__192" text="el" x="308" y="784" width="14" height="12"/>
+      <text name="DAT1_TXT__193" text="pago" x="329" y="784" width="28" height="12"/>
+      <text name="DAT1_TXT__194" text="o" x="364" y="784" width="7" height="12"/>
+      <text name="DAT1_TXT__195" text="declarada" x="378" y="784" width="63" height="12"/>
+      <text name="DAT1_TXT__196" text="la" x="448" y="784" width="14" height="12"/>
+      <text name="DAT1_TXT__197" text="deuda" x="469" y="784" width="35" height="12"/>
+      <text name="DAT1_TXT__198" text="incobrable" x="98" y="800" width="70" height="12"/>
+      <text name="DAT1_TXT__199" text="o" x="175" y="800" width="7" height="12"/>
+      <text name="DAT1_TXT__200" text="una" x="189" y="800" width="21" height="12"/>
+      <text name="DAT1_TXT__201" text="intervención" x="217" y="800" width="84" height="12"/>
+      <text name="DAT1_TXT__202" text="del" x="308" y="800" width="21" height="12"/>
+      <text name="DAT1_TXT__203" text="Contralor," x="336" y="800" width="70" height="12"/>
+      <text name="DAT1_TXT__204" text="lo" x="413" y="800" width="14" height="12"/>
+      <text name="DAT1_TXT__205" text="que" x="434" y="800" width="21" height="12"/>
+      <text name="DAT1_TXT__206" text="ocurra" x="462" y="800" width="42" height="12"/>
+      <text name="DAT1_TXT__207" text="primero." x="98" y="816" width="56" height="12"/>
+    </textgroup>
+    <field name="RMO_OFICINA" tag="" visible="false" enabled="true" container="DAT1" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="RMO_OFICINA" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="120" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="SEGURO_SOCIAL_JEFE_FAM" tag="" visible="false" enabled="true" container="DAT1" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="SEGURO_SOCIAL_JEFE_FAM" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="204" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="SEGURO_SOCIAL_JEFE_SERV" tag="" visible="false" enabled="true" container="DAT1" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="SEGURO_SOCIAL_JEFE_SERV" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="204" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="COD_SERVICIO" tag="" visible="false" enabled="true" container="DAT1" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="COD_SERVICIO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="407" y="0" width="41" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="6"/>
+    </field>
+    <field name="FECHA_IDENTIFICADO" tag="" visible="false" enabled="true" container="DAT1" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="FECHA_IDENTIFICADO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="169" y="0" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="12"/>
+    </field>
+    <field name="STATUS" tag="" visible="false" enabled="true" container="DAT1" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="STATUS" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="85" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="FECHA_STATUS" tag="" visible="false" enabled="true" container="DAT1" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="FECHA_STATUS" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="288" y="0" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="12"/>
+    </field>
+    <field name="CANTIDAD_RECLA_RETRO" tag="" visible="false" enabled="true" container="DAT1" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="CANTIDAD_RECLA_RETRO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="183" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="VLR_REMANENTE" tag="" visible="false" enabled="true" container="DAT1" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="VLR_REMANENTE" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="393" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="NUMERO_FACTURA" tag="" visible="true" enabled="true" container="DAT1" nextobject="VLR_BALANCE" objectType="field" copyFieldName="" datatypename="double" datafieldname="NUMERO_FACTURA" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="456" y="240" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="10"/>
+    </field>
+    <field name="VLR_BALANCE" tag="" visible="true" enabled="true" container="DAT1" nextobject="NOMBRE_COMPLETO" objectType="field" copyFieldName="" datatypename="double" datafieldname="VLR_BALANCE" emptyisnull="true" format="$##,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="456" y="256" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="$##,##0.00" isDialog="false" inputlimit="10"/>
+    </field>
+    <field name="CANTIDAD_RECLAMACION_EXCESO" tag="" visible="false" enabled="true" container="DAT1" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="CANTIDAD_RECLAMACION_EXCESO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="232" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="FECHA_IMPRESION" tag="" visible="true" enabled="true" container="DAT1" nextobject="NUMERO_FACTURA" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="365" y="160" width="139" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="NOMBRE_COMPLETO" tag="" visible="true" enabled="true" container="DAT1" nextobject="DD_NOTIF" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="36" y="192" width="174" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DD_NOTIF" tag="" visible="true" enabled="true" container="DAT1" nextobject="MM_NOTIF" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="22" y="336" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="MM_NOTIF" tag="" visible="true" enabled="true" container="DAT1" nextobject="YY_NOTIF" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="64" y="336" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="YY_NOTIF" tag="" visible="true" enabled="true" container="DAT1" nextobject="DIAS" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="162" y="336" width="27" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DIAS" tag="" visible="true" enabled="true" container="DAT1" nextobject="DIRECCION_1" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="29" y="304" width="20" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DIRECCION_1" tag="" visible="true" enabled="true" container="DAT1" nextobject="DIRECCION_2" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="36" y="224" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DIRECCION_2" tag="" visible="true" enabled="true" container="DAT1" nextobject="ZIP_CODE" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="36" y="240" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="ZIP_CODE" tag="" visible="true" enabled="true" container="DAT1" nextobject="PUEBLO" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="00000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="148" y="256" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="00000" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="PUEBLO" tag="" visible="true" enabled="true" container="DAT1" nextobject="DIR_LOCAL_1" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="36" y="256" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DIR_LOCAL_1" tag="" visible="true" enabled="true" container="DAT1" nextobject="DIR_LOCAL_2" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="211" y="48" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="DIR_LOCAL_2" tag="" visible="true" enabled="true" container="DAT1" nextobject="PUEBLO_LOCAL" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="211" y="64" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="PUEBLO_LOCAL" tag="" visible="true" enabled="true" container="DAT1" nextobject="ZIP_CODE_LOCAL" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="211" y="80" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="ZIP_CODE_LOCAL" tag="" visible="true" enabled="true" container="DAT1" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="358" y="80" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+  </group>
+</model>

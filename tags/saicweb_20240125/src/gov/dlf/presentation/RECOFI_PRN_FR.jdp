@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="RECOFI_PRN_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="564" height="400" groupstyle="0" highLightSelected="false" firstobject="SO_NO" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Thu Jul 03 06:38:18 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="RECOFI_PRN_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="560" height="316" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="Modelo" x="0" y="16" width="42" height="12"/>
+    <text name="TXT__1" text="Sc" x="56" y="16" width="14" height="12"/>
+    <text name="TXT__2" text="765.2" x="77" y="16" width="35" height="12"/>
+    <text name="TXT__3" text="ESTADO" x="147" y="16" width="42" height="12"/>
+    <text name="TXT__4" text="LIBRE" x="196" y="16" width="35" height="12"/>
+    <text name="TXT__5" text="ASOCIADO" x="238" y="16" width="56" height="12"/>
+    <text name="TXT__6" text="DE" x="301" y="16" width="14" height="12"/>
+    <text name="TXT__7" text="PUERTO" x="322" y="16" width="42" height="12"/>
+    <text name="TXT__8" text="RICO" x="371" y="16" width="28" height="12"/>
+    <text name="TXT__9" text="" x="553" y="16" width="0" height="12"/>
+    <text name="TXT__10" text="12" x="0" y="32" width="14" height="12"/>
+    <text name="TXT__11" text="mar." x="28" y="32" width="28" height="12"/>
+    <text name="TXT__12" text="87" x="63" y="32" width="14" height="12"/>
+    <text name="TXT__13" text="" x="553" y="32" width="0" height="12"/>
+    <text name="TXT__14" text="Regl." x="0" y="48" width="35" height="12"/>
+    <text name="TXT__15" text="Núm." x="49" y="48" width="28" height="12"/>
+    <text name="TXT__16" text="25(14" x="84" y="48" width="35" height="12"/>
+    <text name="TXT__17" text="feb." x="126" y="48" width="28" height="12"/>
+    <text name="TXT__18" text="61)" x="161" y="48" width="21" height="12"/>
+    <text name="TXT__19" text="RECIBO" x="224" y="48" width="42" height="12"/>
+    <text name="TXT__20" text="OFICIAL" x="273" y="48" width="49" height="12"/>
+    <text name="TXT__21" text="" x="553" y="48" width="0" height="12"/>
+    <text name="TXT__22" text="" x="553" y="64" width="0" height="12"/>
+    <text name="TXT__23" text="No." x="378" y="80" width="21" height="12"/>
+    <text name="TXT__24" text="" x="553" y="80" width="0" height="12"/>
+    <text name="TXT__25" text="(Año" x="14" y="96" width="28" height="12"/>
+    <text name="TXT__26" text="Económico)" x="49" y="96" width="70" height="12"/>
+    <text name="TXT__27" text="" x="553" y="96" width="0" height="12"/>
+    <text name="TXT__28" text="" x="553" y="112" width="0" height="12"/>
+    <text name="TXT__29" text=",P.R.," x="392" y="128" width="42" height="12"/>
+    <text name="TXT__30" text="" x="553" y="128" width="0" height="12"/>
+    <text name="TXT__31" text="RECIBI" x="154" y="144" width="42" height="12"/>
+    <text name="TXT__32" text="DE" x="203" y="144" width="14" height="12"/>
+    <text name="TXT__33" text="" x="553" y="144" width="0" height="12"/>
+    <text name="TXT__34" text="la" x="84" y="160" width="14" height="12"/>
+    <text name="TXT__35" text="cantidad" x="105" y="160" width="56" height="12"/>
+    <text name="TXT__36" text="de" x="168" y="160" width="14" height="12"/>
+    <text name="TXT__37" text="dolares" x="483" y="160" width="49" height="12"/>
+    <text name="TXT__38" text="" x="553" y="160" width="0" height="12"/>
+    <text name="TXT__39" text="por" x="84" y="176" width="21" height="12"/>
+    <text name="TXT__40" text="concepto" x="112" y="176" width="56" height="12"/>
+    <text name="TXT__41" text="de" x="175" y="176" width="14" height="12"/>
+    <text name="TXT__42" text="" x="553" y="176" width="0" height="12"/>
+    <text name="TXT__43" text="" x="553" y="192" width="0" height="12"/>
+    <text name="TXT__44" text="VALOR" x="14" y="208" width="35" height="12"/>
+    <text name="TXT__45" text="RECIBIDO" x="56" y="208" width="56" height="12"/>
+    <text name="TXT__46" text="EN:" x="119" y="208" width="21" height="12"/>
+    <text name="TXT__47" text="" x="553" y="208" width="0" height="12"/>
+    <text name="TXT__48" text="Cheque" x="56" y="224" width="42" height="12"/>
+    <text name="TXT__49" text="(Oficial" x="315" y="224" width="56" height="12"/>
+    <text name="TXT__50" text="o" x="378" y="224" width="7" height="12"/>
+    <text name="TXT__51" text="Recaudador" x="392" y="224" width="70" height="12"/>
+    <text name="TXT__52" text="Auxiliar)" x="469" y="224" width="63" height="12"/>
+    <text name="TXT__53" text="" x="553" y="224" width="0" height="12"/>
+    <text name="TXT__54" text="Giro" x="56" y="240" width="28" height="12"/>
+    <text name="TXT__55" text="Postal" x="91" y="240" width="42" height="12"/>
+    <text name="TXT__56" text="" x="553" y="240" width="0" height="12"/>
+    <text name="TXT__57" text="Efectivo" x="56" y="256" width="56" height="12"/>
+    <text name="TXT__58" text="" x="553" y="256" width="0" height="12"/>
+    <text name="TXT__59" text="(Departamento" x="322" y="272" width="91" height="12"/>
+    <text name="TXT__60" text="o" x="420" y="272" width="7" height="12"/>
+    <text name="TXT__61" text="Dependencia)" x="434" y="272" width="84" height="12"/>
+    <text name="TXT__62" text="" x="553" y="272" width="0" height="12"/>
+    <text name="TXT__63" text="" x="553" y="288" width="0" height="12"/>
+    <line name="LINE_TXT_0" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="6" x1="560" y1="6" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_1" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="238" y="44" x1="294" y1="44" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_2" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="294" y="220" x1="539" y1="220" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_3" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="294" y="268" x1="539" y1="268" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_4" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="310" x1="560" y1="310" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_5" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="6" x1="0" y1="310" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_6" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="560" y="6" x1="560" y1="310" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  </textgroup>
+  <field name="A_ECON" tag="" visible="true" enabled="true" container="RECOFI_PRN_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="29" y="80" width="69" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="D_DATE" tag="" visible="false" enabled="true" container="RECOFI_PRN_FR" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="22" y="64" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="SO_NO" tag="" visible="true" enabled="true" container="RECOFI_PRN_FR" nextobject="R_VALUE" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="400" y="80" width="139" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="R_VALUE" tag="" visible="true" enabled="true" container="RECOFI_PRN_FR" nextobject="RECIBI_DE" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="$##,##0.00" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="29" y="112" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="$##,##0.00" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="OFIC" tag="" visible="true" enabled="true" container="RECOFI_PRN_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="281" y="128" width="111" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="E_DATE" tag="" visible="true" enabled="true" container="RECOFI_PRN_FR" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="449" y="128" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="RECIBI_DE" tag="" visible="true" enabled="true" container="RECOFI_PRN_FR" nextobject="RECI_2" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="225" y="144" width="314" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="RECI_2" tag="" visible="true" enabled="true" container="RECOFI_PRN_FR" nextobject="RECI_3" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="190" y="160" width="279" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="RECI_3" tag="" visible="true" enabled="true" container="RECOFI_PRN_FR" nextobject="CH_2" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="197" y="176" width="342" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CH_2" tag="" visible="true" enabled="true" container="RECOFI_PRN_FR" nextobject="CH_3" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="36" y="224" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CH_3" tag="" visible="true" enabled="true" container="RECOFI_PRN_FR" nextobject="CH_4" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="36" y="240" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CH_4" tag="" visible="true" enabled="true" container="RECOFI_PRN_FR" nextobject="A_ECON" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="36" y="256" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+</model>

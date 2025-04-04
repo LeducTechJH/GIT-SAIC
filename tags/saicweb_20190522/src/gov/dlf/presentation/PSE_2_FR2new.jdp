@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="PSE_2_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="1705" pageheight="1560" backcolor="13421772" x="2" y="2" width="564" height="1040" groupstyle="0" highLightSelected="false" firstobject="" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="PSE_2_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="1" y="0" width="602" height="1036" fontfamily="Courier New" fontsize="10" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="-2" x="40" y="12" width="14" height="12"/>
+    <text name="TXT__1" text="ESTADO LIBRE ASOCIADO" x="152" y="11" width="148" height="12"/>
+    <text name="TXT__2" text="DE" x="309" y="11" width="14" height="12"/>
+    <text name="TXT__3" text="PUERTO" x="330" y="11" width="42" height="12"/>
+    <text name="TXT__4" text="RICO" x="378" y="11" width="28" height="12"/>
+    <text name="TXT__5" text="REV." x="19" y="28" width="28" height="12"/>
+    <text name="TXT__6" text="ADMINISTRACIÓN" x="87" y="43" width="98" height="12"/>
+    <text name="TXT__7" text="DE" x="192" y="43" width="14" height="12"/>
+    <text name="TXT__8" text="DESARROLLO" x="213" y="43" width="70" height="12"/>
+    <text name="TXT__9" text="SOCIOECONÓMICO" x="293" y="43" width="98" height="12"/>
+    <text name="TXT__10" text="DE" x="398" y="43" width="14" height="12"/>
+    <text name="TXT__11" text="LA" x="419" y="43" width="14" height="12"/>
+    <text name="TXT__12" text="FAMILIA (ADSEF)" x="440" y="43" width="150" height="12"/>
+    <text name="TXT__13" text="/2019" x="26" y="44" width="36" height="12"/>
+    <text name="TXT__14" text="DEPARTAMENTO" x="189" y="27" width="84" height="12"/>
+    <text name="TXT__15" text="DE" x="280" y="27" width="14" height="12"/>
+    <text name="TXT__16" text="LA" x="303" y="27" width="14" height="12"/>
+    <text name="TXT__17" text="FAMILIA" x="324" y="27" width="49" height="12"/>
+    <text name="TXT__19" text="de" x="117" y="98" width="14" height="-26"/>
+    <text name="TXT__21" text=")" x="40" y="210" width="14" height="12"/>
+    <text name="TXT__23" text="(" x="20" y="210" width="7" height="12"/>
+    <text name="TXT__24" text="LIHEAP" x="256" y="58" width="47" height="12"/>
+    <text name="TXT__29" text="NOTIFICACIÓN" x="180" y="76" width="84" height="12"/>
+    <text name="TXT__30" text="DE" x="271" y="76" width="14" height="12"/>
+    <text name="TXT__31" text="ACCIÓN" x="294" y="76" width="42" height="12"/>
+    <text name="TXT__32" text="TOMADA" x="343" y="76" width="42" height="12"/>
+    <text name="TXT__33" text="Nombre" x="19" y="108" width="42" height="12"/>
+    <text name="TXT__34" text="del" x="68" y="108" width="21" height="12"/>
+    <text name="TXT__35" text="jefe" x="96" y="108" width="28" height="12"/>
+    <text name="TXT__36" text="de" x="131" y="108" width="14" height="12"/>
+    <text name="TXT__37" text="la" x="152" y="108" width="14" height="12"/>
+    <text name="TXT__38" text="unidad" x="173" y="108" width="42" height="12"/>
+    <text name="TXT__39" text="familiar" x="222" y="108" width="56" height="12"/>
+    <text name="TXT__40" text="Seguro" x="19" y="126" width="42" height="12"/>
+    <text name="TXT__41" text="Social:" x="68" y="126" width="50" height="12"/>
+    <text name="TXT__42" text="Oficina" x="345" y="126" width="49" height="12"/>
+    <text name="TXT__43" text="Local:" x="400" y="126" width="50" height="12"/>
+    <text name="TXT__44" text="Dirección:" x="19" y="144" width="70" height="12"/>
+    <text name="TXT__45" text="Numero" x="373" y="144" width="42" height="12"/>
+    <text name="TXT__46" text="de" x="422" y="144" width="14" height="12"/>
+    <text name="TXT__47" text="Solicitud" x="443" y="144" width="63" height="12"/>
+    <text name="TXT__49" text="Señor" x="20" y="174" width="35" height="12"/>
+    <text name="TXT__50" text="(a):" x="62" y="174" width="28" height="12"/>
+    <text name="TXT__51" text="Su" x="20" y="193" width="14" height="12"/>
+    <text name="TXT__52" text="solicitud" x="41" y="193" width="63" height="12"/>
+    <text name="TXT__53" text="para" x="111" y="193" width="28" height="12"/>
+    <text name="TXT__54" text="el" x="146" y="193" width="14" height="12"/>
+    <text name="TXT__55" text="Programa" x="167" y="193" width="56" height="12"/>
+    <text name="TXT__56" text="(" x="230" y="193" width="7" height="12"/>
+    <text name="TXT__57" text=")" x="244" y="193" width="7" height="12"/>
+    <text name="TXT__58" text="Subsidio" x="258" y="193" width="56" height="12"/>
+    <text name="TXT__59" text="de" x="321" y="193" width="14" height="12"/>
+    <text name="TXT__60" text="Energía" x="342" y="193" width="49" height="12"/>
+    <text name="TXT__61" text="(" x="398" y="193" width="7" height="12"/>
+    <text name="TXT__62" text=")" x="412" y="193" width="7" height="12"/>
+    <text name="TXT__65" text="Climatización ha sido recibida por el personal de la Oficina Local del Departamento de la" x="51" y="210" width="540" height="12"/>
+    <text name="TXT__80" text="Familia." x="20" y="226" width="200" height="12"/>
+    <text name="TXT__81" text="De" x="20" y="247" width="14" height="12"/>
+    <text name="TXT__82" text="acuerdo" x="41" y="247" width="49" height="12"/>
+    <text name="TXT__83" text="a" x="97" y="247" width="7" height="12"/>
+    <text name="TXT__84" text="su" x="111" y="247" width="14" height="12"/>
+    <text name="TXT__85" text="solicitud," x="132" y="247" width="70" height="12"/>
+    <text name="TXT__86" text="las" x="209" y="247" width="21" height="12"/>
+    <text name="TXT__87" text="verificaciones" x="237" y="247" width="98" height="12"/>
+    <text name="TXT__88" text="efectuadas" x="342" y="247" width="70" height="12"/>
+    <text name="TXT__89" text="y" x="419" y="247" width="7" height="12"/>
+    <text name="TXT__90" text="las" x="433" y="247" width="21" height="12"/>
+    <text name="TXT__91" text="normas" x="461" y="247" width="42" height="12"/>
+    <text name="TXT__92" text="vigentes" x="511" y="247" width="56" height="12"/>
+    <text name="TXT__93" text="por virtud del LIHEAP (Ley Pública 97-35, según enmendada), se ha determinado  que usted: que usted:" x="20" y="264" width="540" height="12"/>
+    <text name="TXT__113" text="(" x="22" y="283" width="7" height="12"/>
+    <text name="TXT__114" text=")" x="37" y="282" width="7" height="12"/>
+    <text name="TXT__115" text="Es" x="51" y="282" width="14" height="12"/>
+    <text name="TXT__116" text="elegible" x="72" y="282" width="56" height="12"/>
+    <text name="TXT__117" text="para" x="135" y="282" width="28" height="12"/>
+    <text name="TXT__118" text="recibir" x="170" y="282" width="49" height="12"/>
+    <text name="TXT__119" text="asistencia," x="226" y="282" width="77" height="12"/>
+    <text name="TXT__120" text="con" x="310" y="282" width="21" height="12"/>
+    <text name="TXT__121" text="el" x="338" y="282" width="14" height="12"/>
+    <text name="TXT__122" text="fin" x="359" y="282" width="21" height="12"/>
+    <text name="TXT__123" text="de" x="387" y="282" width="14" height="12"/>
+    <text name="TXT__124" text="cubrir" x="408" y="282" width="42" height="12"/>
+    <text name="TXT__125" text="las" x="457" y="282" width="21" height="12"/>
+    <text name="TXT__128" text="por" x="51" y="298" width="21" height="12"/>
+    <text name="TXT__129" text="gastos" x="79" y="298" width="42" height="12"/>
+    <text name="TXT__130" text="de" x="128" y="298" width="14" height="12"/>
+    <text name="TXT__131" text="energía" x="149" y="298" width="49" height="12"/>
+    <text name="TXT__132" text="del" x="205" y="298" width="21" height="12"/>
+    <text name="TXT__133" text="hogar." x="233" y="298" width="42" height="12"/>
+    <text name="TXT__134" text="Usted se compromete a utilizar el dinero" x="282" y="298" width="296" height="12"/>
+    <text name="TXT__141" text="que se le asigne para fines del (de los) servicio(s) autorizado(s)." x="51" y="314" width="500" height="12"/>
+    <text name="TXT__152" text="(" x="51" y="335" width="7" height="12"/>
+    <text name="TXT__153" text=")" x="65" y="335" width="7" height="12"/>
+    <text name="TXT__154" text="Subsidio" x="79" y="335" width="56" height="12"/>
+    <text name="TXT__155" text="de" x="142" y="335" width="14" height="12"/>
+    <text name="TXT__156" text="Energía: Solicitudes de casos de comunidad deben presentar factura mas" x="162" y="335" width="425" height="12"/>
+    <text name="TXT__157" text="reciente de la A.E.E." x="79" y="351" width="400" height="12"/>
+    <text name="TXT__159" text="(" x="51" y="446" width="7" height="12"/>
+    <text name="TXT__174" text="(" x="51" y="370" width="7" height="12"/>
+    <text name="TXT__175" text=")" x="65" y="370" width="7" height="12"/>
+    <text name="TXT__178" text="Crisis de Energía (LICE1): Entregar recibo o evidencia de la utilización del dinero de " x="79" y="370" width="520" height="12"/>
+    <text name="TXT__204" text="(" x="27" y="496" width="7" height="12"/>
+    <text name="TXT__205" text=")" x="41" y="496" width="7" height="12"/>
+    <text name="TXT__206" text="No" x="55" y="496" width="14" height="12"/>
+    <text name="TXT__207" text="es" x="76" y="496" width="14" height="12"/>
+    <text name="TXT__208" text="elegible" x="97" y="496" width="56" height="12"/>
+    <text name="TXT__209" text="para" x="160" y="496" width="28" height="12"/>
+    <text name="TXT__210" text="los" x="195" y="496" width="21" height="12"/>
+    <text name="TXT__211" text="beneficios" x="223" y="496" width="70" height="12"/>
+    <text name="TXT__212" text="por" x="300" y="496" width="21" height="12"/>
+    <text name="TXT__213" text="la(s)" x="328" y="496" width="35" height="12"/>
+    <text name="TXT__214" text="siguiente(s)" x="370" y="496" width="84" height="12"/>
+    <text name="TXT__215" text="razón(es):" x="461" y="496" width="70" height="12"/>
+    <text name="TXT__216" text="Se le interpretó al/a la solicitante su derecho de apelar si no está de acuerdo con la" x="19" y="547" width="580" height="12"/>
+    <text name="TXT__281" text="Técnico Encargado" x="21" y="892" width="129" height="12"/>
+    <text name="TXT__286" text="Fecha" x="393" y="892" width="35" height="12"/>
+    <text name="TXT__287" text="de" x="435" y="892" width="14" height="12"/>
+    <text name="TXT__288" text="Notificación" x="456" y="892" width="84" height="12"/>
+    <text name="TXT__289" text="la acción tomada. (2) Crisis de Energía y Climatización - hasta 10 días calendario después de " x="19" y="702" width="580" height="12"/>
+    <text name="TXT__299" text="haber radicado solicitud, si no se le ha notificado la acción tomada. Hasta 30 días calendario " x="19" y="718" width="580" height="12"/>
+    <text name="TXT__307" text="después de la notificación de la denegación del servicio. Aplica a los tres componentes que" x="19" y="734" width="580" height="12"/>
+    <text name="TXT__318" text="tendrá hasta 15 días calendario en solicitudes aprobadas si no está de acuerdo con la cantidad " x="19" y="750" width="580" height="12"/>
+    <text name="TXT__336" text="La ley que rige LIHEAP, establece que ha ninguna persona se le puede negar el derecho a participar por motivo de raza, color, origen nacional, edad, discapacidad, religión o sexo. Si usted considera que ha sido discriminado (a) por alguna de estas razones, debe comunicarse con la Division of Energy Assistance, Office of Community Services, Administration for Children and Families, U.S. Department of Health and Human Services, 370 L’Enfant Promenade SW, Washington, DC 20447; o llamar al 202.401.4710, o vía correo electrónico: Josephine.Ragoadia@acf.hhs.gov" x="19" y="787" width="580" height="72"/>
+    <text name="TXT__358" text="PSE" x="19" y="12" width="21" height="12"/>
+    <text name="TXT__359" text="7" x="19" y="44" width="7" height="12"/>
+    <text name="TXT__361" text="necesidades" x="485" y="282" width="78" height="12"/>
+    <line name="LINE_TXT_1" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="56" y="530" x1="532" y1="530" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_4" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="25" y="879" x1="280" y1="875" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_5" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="393" y="879" x1="539" y1="875" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <text name="Text_1" text="la A.E.E. Beneficio Autorizado:" x="79" y="386" width="250" height="11"/>
+    <hline name="Line_1" tag="" visible="true" container="TXT" objectType="hline" pageStart="-1" pageType="0" forecolor="6684672" x="407" y="315" x1="487" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <text name="Text_2" text=")" x="65" y="446" width="8" height="11"/>
+    <text name="Text_3" text="$" x="332" y="386" width="9" height="11"/>
+    <line name="LINE_TXT_6" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="24" y="928" x1="280" y1="924" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_7" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="392" y="928" x1="539" y1="924" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <text name="Text_4" text="Firma Solicitante o JUF" x="21" y="935" width="168" height="11"/>
+    <text name="Text_5" text="Fecha" x="392" y="933" width="38" height="11"/>
+    <text name="Text_0" text="Crisis de Energía y/o " x="424" y="193" width="130" height="11"/>
+    <text name="Text_5" text="denegación, o si entiende que su solicitud no fue atendida en el tiempo reglamentario. Además," x="19" y="564" width="576" height="11"/>
+    <text name="Text_6" text="que la otorgación de los beneficios estará sujeta a la disponibilidad de fondos. Garantiza a " x="19" y="580" width="577" height="11"/>
+    <text name="Text_7" text="todo solicitante el derecho de radicar apelación cuando no está de acuerdo con la acción tomada " x="19" y="595" width="578" height="11"/>
+    <text name="Text_8" text="en su solicitud. Tendrá derecho a radicar apelación en las siguientes circunstancias: (1) cuando se rechaza " x="19" y="610" width="576" height="11"/>
+    <text name="Text_9" text="se rechaza la solicitud, (2) la oficina local no toma acción o (3) no notifica la acción tomada" x="19" y="625" width="582" height="11"/>
+    <text name="Text_10" text="en el tiempo reglamentario.  Podrá apelar ante la Junta Adjudicativa del Departamento de la Familia u Oficina Local." x="19" y="640" width="590" height="11"/>
+    <text name="Text_11" text="Oficina Local." x="19" y="655" width="579" height="11"/>
+    <text name="Text_12" text="Términos de Radicación: (1) Subsidio de Energía – 30 días calendario a partir de la denegación" x="19" y="670" width="578" height="11"/>
+    <text name="Text_13" text="del servicio o 30 días calendario después de haber radicado. solicitud si no se le ha notificado" x="19" y="685" width="580" height="11"/>
+    <text name="Text_0" text="de beneficios aprobados." x="19" y="766" width="580" height="11"/>
+    <text name="Text_0" text="Climatización: Entregar recibo o evidencia de la utilización del dinero a la Oficina" x="79" y="446" width="516" height="11"/>
+    <text name="Text_1" text="local en un término no mayor de cinco (5) días calendario." x="79" y="462" width="500" height="11"/>
+    <text name="Text_2" text="Beneficio Estimado: " x="79" y="478" width="150" height="11"/>
+    <text name="Text_3" text="$" x="241" y="478" width="10" height="11"/>
+    <text name="Text_0" text="Proceso de Apelación:" x="20" y="531" width="200" height="12"/>
+    <text name="Text_2" text="Crisis de Energía (LICE2 - LICE4): Entregar recibo o evidencia de la utilización del dinero" x="79" y="401" width="520" height="11"/>
+    <text name="Text_3" text="dinero a la Oficina local en un término no mayor de cinco (5) días calendario." x="79" y="416" width="520" height="11"/>
+    <text name="Text_4" text="Beneficio Estimado:   $" x="79" y="431" width="350" height="11"/>
+  </textgroup>
+  <field name="SEGSOC" tag="" visible="true" enabled="true" container="PSE_2_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="120" y="126" width="90" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="0" initialValue="0" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="PSE_SS" tag="" visible="true" enabled="true" container="PSE_2_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="511" y="144" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NOMBRE" tag="" visible="true" enabled="true" container="PSE_2_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="286" y="108" width="258" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="OFICINA" tag="" visible="true" enabled="true" container="PSE_2_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="442" y="126" width="153" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="DIRECCION" tag="" visible="true" enabled="true" container="PSE_2_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="89" y="144" width="275" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="SUB" tag="" visible="true" enabled="true" container="PSE_2_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="238" y="193" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CRI" tag="" visible="true" enabled="true" container="PSE_2_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="406" y="193" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CLI" tag="" visible="true" enabled="true" container="PSE_2_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="31" y="210" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="SUB2" tag="" visible="true" enabled="true" container="PSE_2_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="59" y="335" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CRI2" tag="" visible="true" enabled="true" container="PSE_2_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="59" y="370" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CLI2" tag="" visible="true" enabled="true" container="PSE_2_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="59" y="446" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="INELEG" tag="" visible="true" enabled="true" container="PSE_2_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="35" y="496" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="ELEG" tag="" visible="true" enabled="true" container="PSE_2_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="31" y="282" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="RAZON1" tag="" visible="true" enabled="true" container="PSE_2_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="54" y="514" width="482" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="TECNICO_CASO" tag="" visible="true" enabled="true" container="PSE_2_FR" nextobject="" objectType="field" copyFieldName="" datatypename="string" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="4" x="25" y="873" width="255" height="11" fontfamily="Arial" fontsize="11" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FCH_NOTIFICACION" tag="" visible="true" enabled="true" container="PSE_2_FR" nextobject="" objectType="field" copyFieldName="" datatypename="date" datafieldname="" emptyisnull="true" format="DD-MMM-YYYY" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="4" x="431" y="873" width="69" height="11" fontfamily="Arial" fontsize="11" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="VLR_BENEFICIO" tag="" visible="true" enabled="true" container="PSE_2_FR" nextobject=" " objectType="field" copyFieldName="" datatypename="" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="4" x="348" y="386" width="80" height="12" fontfamily="Arial" fontsize="11" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+</model>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="COMMENT_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="945" pageheight="1560" backcolor="13421772" x="2" y="2" width="564" height="1040" groupstyle="0" highLightSelected="false" firstobject="COMMENT" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <group name="COMMENT_GP" tag="" visible="true" enabled="true" container="COMMENT_FR" nextobject=" " objectType="group" pageStart="-1" pageType="0" x="0" y="138" width="739" height="140" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="1" highLightSelected="true" datastore="FECHAS_SERVICIO_DSD" discardChildless="false" updatetotop="false" firstobject="COMMENT" indivisible="true" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="16" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <parameter name="COD_SERV"/>
+    <parameter name="SSN_JEFE_FAM"/>
+    <parameter name="SSN_JEFE_SERV"/>
+    <parameter name="RMO_PAR"/>
+    <field name="COMMENT" tag="" visible="true" enabled="true" container="COMMENT_GP" nextobject=" " objectType="field" copyFieldName="" datatypename="String" datafieldname="COMENTARIO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="2" x="86" y="4" width="649" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="60"/>
+    </field>
+    <field name="COD_SERVICIO" tag="" visible="true" enabled="true" container="COMMENT_GP" nextobject="" objectType="field" copyFieldName="" datatypename="" datafieldname="COD_SERVICIO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="2" x="214" y="-37" width="70" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="SEGURO_SOCIAL_JEFE_SERV" tag="" visible="true" enabled="true" container="COMMENT_GP" nextobject="" objectType="field" copyFieldName="" datatypename="" datafieldname="SEGURO_SOCIAL_JEFE_SERV" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777184" border="2" x="556" y="-37" width="70" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+  </group>
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="COMMENT_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="-1" y="0" width="739" height="431" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__1" text="ESTADO LIBRE ASOCIADO" x="250" y="11" width="148" height="12"/>
+    <text name="TXT__2" text="DE" x="407" y="11" width="14" height="12"/>
+    <text name="TXT__3" text="PUERTO" x="428" y="11" width="42" height="12"/>
+    <text name="TXT__4" text="RICO" x="476" y="11" width="28" height="12"/>
+    <text name="TXT__6" text="ADMINISTRACIÓN" x="185" y="43" width="98" height="12"/>
+    <text name="TXT__7" text="DE" x="290" y="43" width="14" height="12"/>
+    <text name="TXT__8" text="DESARROLLO" x="311" y="43" width="70" height="12"/>
+    <text name="TXT__9" text="SOCIOECONÓMICO" x="391" y="43" width="98" height="12"/>
+    <text name="TXT__10" text="DE" x="496" y="43" width="14" height="12"/>
+    <text name="TXT__11" text="LA" x="517" y="43" width="14" height="12"/>
+    <text name="TXT__12" text="FAMILIA" x="538" y="43" width="49" height="12"/>
+    <text name="TXT__14" text="DEPARTAMENTO" x="287" y="27" width="84" height="12"/>
+    <text name="TXT__15" text="DE" x="378" y="27" width="14" height="12"/>
+    <text name="TXT__16" text="LA" x="401" y="27" width="14" height="12"/>
+    <text name="TXT__17" text="FAMILIA" x="422" y="27" width="49" height="12"/>
+    <text name="TXT__18" text="Hoja de Comentarios" x="294" y="77" width="136" height="12"/>
+    <text name="Text_1" text="Comentario:" x="4" y="142" width="78" height="12"/>
+    <text name="Text_0" text="Cod. Servicio:" x="111" y="101" width="99" height="12"/>
+    <text name="Text_1" text="Seg. Soc. Jefe Serv:" x="411" y="101" width="140" height="12"/>
+  </textgroup>
+</model>

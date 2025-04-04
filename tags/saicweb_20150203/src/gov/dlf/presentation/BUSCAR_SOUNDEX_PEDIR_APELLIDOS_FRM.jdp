@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="BUSCAR_SOUNDEX_PEDIR_APELLIDOS_FRM" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="564" height="384" groupstyle="0" highLightSelected="false" firstobject="DSC_APELLIDO_PATERNO" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Wed Jul 09 08:10:30 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="BUSCAR_SOUNDEX_PEDIR_APELLIDOS_FRM" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="560" height="124" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="DEPARTAMENTO" x="189" y="16" width="84" height="12"/>
+    <text name="TXT__1" text="DE" x="280" y="16" width="14" height="12"/>
+    <text name="TXT__2" text="LA" x="301" y="16" width="14" height="12"/>
+    <text name="TXT__3" text="FAMILIA" x="322" y="16" width="49" height="12"/>
+    <text name="TXT__4" text="SISTEMA" x="112" y="32" width="49" height="12"/>
+    <text name="TXT__5" text="DE" x="168" y="32" width="14" height="12"/>
+    <text name="TXT__6" text="ADMINISTRACION" x="189" y="32" width="98" height="12"/>
+    <text name="TXT__7" text="E" x="294" y="32" width="7" height="12"/>
+    <text name="TXT__8" text="INFORMACION" x="308" y="32" width="77" height="12"/>
+    <text name="TXT__9" text="DE" x="392" y="32" width="14" height="12"/>
+    <text name="TXT__10" text="CASOS" x="413" y="32" width="35" height="12"/>
+    <text name="TXT__11" text="BUSQUEDA" x="224" y="48" width="56" height="12"/>
+    <text name="TXT__12" text="POR" x="287" y="48" width="21" height="12"/>
+    <text name="TXT__13" text="SOUNDEX" x="315" y="48" width="49" height="12"/>
+    <text name="TXT__14" text="( Seleccione icono de ayuda para funciones disponibles )" x="91" y="80" width="351" height="12"/>
+    <text name="TXT__19" text="Apellido" x="147" y="112" width="56" height="12"/>
+    <text name="TXT__20" text="Paterno" x="210" y="112" width="49" height="12"/>
+    <text name="TXT__21" text="Apellido" x="308" y="112" width="56" height="12"/>
+    <text name="TXT__22" text="Materno" x="371" y="112" width="49" height="12"/>
+    <line name="LINE_TXT_0" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="6" x1="560" y1="6" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_1" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="70" x1="560" y1="70" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_2" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="6" x1="0" y1="70" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_3" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="560" y="6" x1="560" y1="70" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  </textgroup>
+  <field name="DSC_APELLIDO_PATERNO" tag="" visible="true" enabled="true" container="BUSCAR_SOUNDEX_PEDIR_APELLIDOS_FRM" nextobject="DSC_APELLIDO_MATERNO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="148" y="144" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <event name="JDataPanelListener.BEFORELEAVE"/>
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="DSC_APELLIDO_MATERNO" tag="" visible="true" enabled="true" container="BUSCAR_SOUNDEX_PEDIR_APELLIDOS_FRM" nextobject="PARK" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="309" y="144" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <event name="JDataPanelListener.BEFORELEAVE"/>
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="PARK" tag="" visible="true" enabled="false" container="BUSCAR_SOUNDEX_PEDIR_APELLIDOS_FRM" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="484" y="144" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="5010" mustfill="false" required="false">
+    <event name="JDataPanelListener.BEFORELEAVE"/>
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+</model>

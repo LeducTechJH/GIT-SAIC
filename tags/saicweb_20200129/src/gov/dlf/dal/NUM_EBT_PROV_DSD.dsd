@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="NUM_EBT_PROV_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="" updateKey="" updateSourceName="NUM_EBT_PROV" useTransactions="false" definition="select  NUM_EBT_PROV.ID_PROVEEDOR,  NUM_EBT_PROV.NUM_CUENTA_BANCO,  NUM_EBT_PROV.NUM_EBT from NUM_EBT_PROV NUM_EBT_PROV" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="ID_PROVEEDOR" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="NUM_EBT_PROV" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="ID_PROVEEDOR" sourceLocation="" sourceName="NUM_EBT_PROV" sourceOwner="" unique="false" updateable="true"/>
+  <field name="NUM_CUENTA_BANCO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="10" sourceAlias="NUM_EBT_PROV" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="NUM_CUENTA_BANCO" sourceLocation="" sourceName="NUM_EBT_PROV" sourceOwner="" unique="false" updateable="true"/>
+  <field name="NUM_EBT" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="40" sourceAlias="NUM_EBT_PROV" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="NUM_EBT" sourceLocation="" sourceName="NUM_EBT_PROV" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

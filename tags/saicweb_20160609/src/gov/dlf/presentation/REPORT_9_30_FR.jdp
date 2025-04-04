@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="REPORT_9_30_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="846" pageheight="1728" backcolor="13421772" x="2" y="2" width="564" height="1152" groupstyle="0" highLightSelected="false" firstobject="" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="REPORT_9_30_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="49" y="0" width="427" height="124" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="-16.1" x="14" y="32" width="35" height="12"/>
+    <text name="TXT__1" text="Rev.7/95" x="0" y="48" width="56" height="12"/>
+    <text name="TXT__2" text="DEPARTAMENTO" x="133" y="80" width="84" height="12"/>
+    <text name="TXT__3" text="DE" x="224" y="80" width="14" height="12"/>
+    <text name="TXT__4" text="LA" x="245" y="80" width="14" height="12"/>
+    <text name="TXT__5" text="FAMILIA" x="266" y="80" width="49" height="12"/>
+    <text name="TXT__6" text="ADMINISTRACION" x="28" y="96" width="98" height="12"/>
+    <text name="TXT__7" text="DE" x="133" y="96" width="14" height="12"/>
+    <text name="TXT__8" text="DESARROLLO" x="154" y="96" width="70" height="12"/>
+    <text name="TXT__9" text="SOCIOECONOMICO" x="231" y="96" width="98" height="12"/>
+    <text name="TXT__10" text="DE" x="336" y="96" width="14" height="12"/>
+    <text name="TXT__11" text="LA" x="357" y="96" width="14" height="12"/>
+    <text name="TXT__12" text="FAMILIA" x="378" y="96" width="49" height="12"/>
+    <text name="TXT__13" text="ACEPTACION" x="84" y="112" width="70" height="12"/>
+    <text name="TXT__14" text="DE" x="161" y="112" width="14" height="12"/>
+    <text name="TXT__15" text="ACCION" x="182" y="112" width="42" height="12"/>
+    <text name="TXT__16" text="A" x="231" y="112" width="7" height="12"/>
+    <text name="TXT__17" text="SER" x="245" y="112" width="21" height="12"/>
+    <text name="TXT__18" text="TOMADA" x="273" y="112" width="42" height="12"/>
+    <text name="TXT__19" text="EN" x="322" y="112" width="14" height="12"/>
+    <text name="TXT__20" text="EL" x="343" y="112" width="14" height="12"/>
+    <text name="TXT__21" text="CASO" x="364" y="112" width="28" height="12"/>
+    <text name="TXT__22" text="AE" x="0" y="32" width="14" height="12"/>
+  </textgroup>
+  <textgroup name="TXT1" tag="" visible="true" enabled="true" container="REPORT_9_30_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="49" y="177" width="462" height="780" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT1__0" text="Yo" x="21" y="32" width="14" height="12"/>
+    <text name="TXT1__1" text="," x="259" y="32" width="7" height="12"/>
+    <text name="TXT1__2" text="mayor" x="273" y="32" width="35" height="12"/>
+    <text name="TXT1__3" text="de" x="315" y="32" width="14" height="12"/>
+    <text name="TXT1__4" text="edad," x="336" y="32" width="35" height="12"/>
+    <text name="TXT1__5" text="residente" x="378" y="32" width="63" height="12"/>
+    <text name="TXT1__6" text="en" x="448" y="32" width="14" height="12"/>
+    <text name="TXT1__7" text="participante" x="0" y="96" width="84" height="12"/>
+    <text name="TXT1__8" text="del" x="91" y="96" width="21" height="12"/>
+    <text name="TXT1__9" text="Programa" x="119" y="96" width="56" height="12"/>
+    <text name="TXT1__10" text="de" x="182" y="96" width="14" height="12"/>
+    <text name="TXT1__11" text="Asistencia" x="203" y="96" width="70" height="12"/>
+    <text name="TXT1__12" text="Económica" x="280" y="96" width="63" height="12"/>
+    <text name="TXT1__13" text="del" x="350" y="96" width="21" height="12"/>
+    <text name="TXT1__14" text="Departamento" x="378" y="96" width="84" height="12"/>
+    <text name="TXT1__15" text="de" x="0" y="112" width="14" height="12"/>
+    <text name="TXT1__16" text="la" x="21" y="112" width="14" height="12"/>
+    <text name="TXT1__17" text="Familia" x="42" y="112" width="49" height="12"/>
+    <text name="TXT1__18" text="hago" x="98" y="112" width="28" height="12"/>
+    <text name="TXT1__19" text="constar" x="133" y="112" width="49" height="12"/>
+    <text name="TXT1__20" text="que:" x="189" y="112" width="28" height="12"/>
+    <text name="TXT1__21" text="Hoy" x="0" y="144" width="21" height="12"/>
+    <text name="TXT1__22" text="," x="210" y="144" width="7" height="12"/>
+    <text name="TXT1__23" text="he" x="224" y="144" width="14" height="12"/>
+    <text name="TXT1__24" text="sido" x="245" y="144" width="28" height="12"/>
+    <text name="TXT1__25" text="informado" x="280" y="144" width="63" height="12"/>
+    <text name="TXT1__26" text="que" x="350" y="144" width="21" height="12"/>
+    <text name="TXT1__27" text="se" x="378" y="144" width="14" height="12"/>
+    <text name="TXT1__28" text="tomará" x="399" y="144" width="42" height="12"/>
+    <text name="TXT1__29" text="la" x="448" y="144" width="14" height="12"/>
+    <text name="TXT1__30" text="siguiente" x="0" y="160" width="63" height="12"/>
+    <text name="TXT1__31" text="acción" x="70" y="160" width="42" height="12"/>
+    <text name="TXT1__32" text="en" x="119" y="160" width="14" height="12"/>
+    <text name="TXT1__33" text="mi" x="140" y="160" width="14" height="12"/>
+    <text name="TXT1__34" text="caso:" x="161" y="160" width="35" height="12"/>
+    <text name="TXT1__35" text="Que" x="0" y="448" width="21" height="12"/>
+    <text name="TXT1__36" text="voluntariamente," x="35" y="448" width="112" height="12"/>
+    <text name="TXT1__37" text="por" x="161" y="448" width="21" height="12"/>
+    <text name="TXT1__38" text="iniciativa" x="196" y="448" width="70" height="12"/>
+    <text name="TXT1__39" text="propia," x="280" y="448" width="49" height="12"/>
+    <text name="TXT1__40" text="consciente" x="336" y="448" width="70" height="12"/>
+    <text name="TXT1__41" text="de" x="420" y="448" width="14" height="12"/>
+    <text name="TXT1__42" text="los" x="441" y="448" width="21" height="12"/>
+    <text name="TXT1__43" text="derechos" x="0" y="464" width="56" height="12"/>
+    <text name="TXT1__44" text="que" x="70" y="464" width="21" height="12"/>
+    <text name="TXT1__45" text="me" x="112" y="464" width="14" height="12"/>
+    <text name="TXT1__46" text="asisten" x="140" y="464" width="49" height="12"/>
+    <text name="TXT1__47" text="y" x="196" y="464" width="7" height="12"/>
+    <text name="TXT1__48" text="que" x="210" y="464" width="21" height="12"/>
+    <text name="TXT1__49" text="se" x="238" y="464" width="14" height="12"/>
+    <text name="TXT1__50" text="han" x="266" y="464" width="21" height="12"/>
+    <text name="TXT1__51" text="interpretado," x="301" y="464" width="91" height="12"/>
+    <text name="TXT1__52" text="acepto" x="399" y="464" width="42" height="12"/>
+    <text name="TXT1__53" text="la" x="448" y="464" width="14" height="12"/>
+    <text name="TXT1__54" text="decisión" x="0" y="480" width="56" height="12"/>
+    <text name="TXT1__55" text="de" x="63" y="480" width="14" height="12"/>
+    <text name="TXT1__56" text="el" x="84" y="480" width="14" height="12"/>
+    <text name="TXT1__57" text="Centro" x="105" y="480" width="42" height="12"/>
+    <text name="TXT1__58" text="de" x="154" y="480" width="14" height="12"/>
+    <text name="TXT1__59" text="Servicios" x="175" y="480" width="63" height="12"/>
+    <text name="TXT1__60" text="Integrales." x="245" y="480" width="77" height="12"/>
+    <text name="TXT1__61" text="En" x="0" y="528" width="14" height="12"/>
+    <text name="TXT1__62" text=",Puerto" x="224" y="528" width="49" height="12"/>
+    <text name="TXT1__63" text="Rico," x="280" y="528" width="35" height="12"/>
+    <text name="TXT1__64" text="a" x="322" y="528" width="7" height="12"/>
+    <text name="TXT1__65" text="de" x="0" y="560" width="14" height="12"/>
+    <text name="TXT1__66" text="." x="161" y="560" width="7" height="12"/>
+    <text name="TXT1__67" text="Firma" x="0" y="624" width="35" height="12"/>
+    <text name="TXT1__68" text="o" x="42" y="624" width="7" height="12"/>
+    <text name="TXT1__69" text="Marca" x="56" y="624" width="35" height="12"/>
+    <text name="TXT1__70" text="del" x="98" y="624" width="21" height="12"/>
+    <text name="TXT1__71" text="Participante" x="126" y="624" width="84" height="12"/>
+    <text name="TXT1__72" text="Testigo" x="301" y="624" width="49" height="12"/>
+    <text name="TXT1__73" text="de" x="357" y="624" width="14" height="12"/>
+    <text name="TXT1__74" text="la" x="378" y="624" width="14" height="12"/>
+    <text name="TXT1__75" text="Marca" x="399" y="624" width="35" height="12"/>
+    <text name="TXT1__76" text="Firma" x="7" y="704" width="35" height="12"/>
+    <text name="TXT1__77" text="del" x="49" y="704" width="21" height="12"/>
+    <text name="TXT1__78" text="Técnico" x="77" y="704" width="49" height="12"/>
+    <text name="TXT1__79" text="del" x="133" y="704" width="21" height="12"/>
+    <text name="TXT1__80" text="Depto." x="161" y="704" width="42" height="12"/>
+    <text name="TXT1__81" text="de" x="210" y="704" width="14" height="12"/>
+    <text name="TXT1__82" text="la" x="231" y="704" width="14" height="12"/>
+    <text name="TXT1__83" text="Familia" x="252" y="704" width="49" height="12"/>
+    <text name="TXT1__84" text="Núm" x="336" y="704" width="21" height="12"/>
+    <text name="TXT1__85" text="del" x="364" y="704" width="21" height="12"/>
+    <text name="TXT1__86" text="TSS" x="392" y="704" width="21" height="12"/>
+    <text name="TXT1__87" text="Original:" x="0" y="736" width="63" height="12"/>
+    <text name="TXT1__88" text="Enviar" x="70" y="736" width="42" height="12"/>
+    <text name="TXT1__89" text="a" x="119" y="736" width="7" height="12"/>
+    <text name="TXT1__90" text="cliente" x="133" y="736" width="49" height="12"/>
+    <text name="TXT1__91" text="por" x="189" y="736" width="21" height="12"/>
+    <text name="TXT1__92" text="correo" x="217" y="736" width="42" height="12"/>
+    <text name="TXT1__93" text="Copias:" x="0" y="752" width="49" height="12"/>
+    <text name="TXT1__94" text="Entregar" x="70" y="752" width="56" height="12"/>
+    <text name="TXT1__95" text="personal" x="133" y="752" width="56" height="12"/>
+    <text name="TXT1__96" text="Expediente" x="70" y="768" width="70" height="12"/>
+    <hline name="Line_0" tag="" visible="true" enabled="true" container="TXT1" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="0" y="72" x1="463" width="463" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <hline name="Line_12" tag="" visible="true" enabled="true" container="TXT1" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="16" y="539" x1="221" width="205" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <hline name="Line_13" tag="" visible="true" enabled="true" container="TXT1" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="16" y="570" x1="159" width="143" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <hline name="Line_14" tag="" visible="true" enabled="true" container="TXT1" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="0" y="620" x1="209" width="209" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <hline name="Line_15" tag="" visible="true" enabled="true" container="TXT1" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="299" y="620" x1="434" width="135" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <hline name="Line_16" tag="" visible="true" enabled="true" container="TXT1" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="6" y="699" x1="302" width="296" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  </textgroup>
+  <field name="TSS_NO" tag="" visible="true" enabled="true" container="REPORT_9_30_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="414" y="864" width="27" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="SEGURO_SOCIAL" tag="" visible="false" enabled="true" container="REPORT_9_30_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="0" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NOMBRE_COMPLETO" tag="" visible="true" enabled="true" container="REPORT_9_30_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="99" y="208" width="202" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FECHA" tag="" visible="true" enabled="true" container="REPORT_9_30_FR" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="99" y="320" width="132" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FECHA_2" tag="" visible="true" enabled="true" container="REPORT_9_30_FR" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="393" y="704" width="118" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <hline name="Line_1" tag="" visible="true" enabled="true" container="REPORT_9_30_FR" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="48" y="376" x1="511" width="464" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  <hline name="Line_2" tag="" visible="true" enabled="true" container="REPORT_9_30_FR" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="48" y="408" x1="511" width="463" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  <hline name="Line_3" tag="" visible="true" enabled="true" container="REPORT_9_30_FR" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="48" y="440" x1="511" width="463" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  <hline name="Line_4" tag="" visible="true" enabled="true" container="REPORT_9_30_FR" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="48" y="472" x1="511" width="456" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  <hline name="Line_6" tag="" visible="true" enabled="true" container="REPORT_9_30_FR" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="48" y="504" x1="511" width="462" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  <hline name="Line_9" tag="" visible="true" enabled="true" container="REPORT_9_30_FR" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="48" y="536" x1="511" width="473" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  <hline name="Line_10" tag="" visible="true" enabled="true" container="REPORT_9_30_FR" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="48" y="568" x1="511" width="454" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  <hline name="Line_11" tag="" visible="true" enabled="true" container="REPORT_9_30_FR" nextobject="" objectType="hline" pageStart="-1" pageType="0" forecolor="0" backcolor="-1" border="0" x="48" y="600" x1="511" width="447" height="1" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+</model>

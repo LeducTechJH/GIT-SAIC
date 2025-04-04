@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="DSS108_A1_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="1709" pageheight="1440" backcolor="13421772" x="2" y="2" width="564" height="960" groupstyle="0" highLightSelected="false" firstobject="NOMB" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="532" height="812" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="-108" x="35" y="0" width="28" height="12"/>
+    <text name="TXT__1" text="Rev. 7/2009" x="0" y="16" width="81" height="12"/>
+    <text name="TXT__2" text="DEPARTAMENTO" x="168" y="16" width="84" height="12"/>
+    <text name="TXT__3" text="DE" x="259" y="16" width="14" height="12"/>
+    <text name="TXT__4" text="LA" x="280" y="16" width="14" height="12"/>
+    <text name="TXT__5" text="FAMILIA" x="301" y="16" width="49" height="12"/>
+    <text name="TXT__6" text="ADMINISTRACION" x="84" y="32" width="98" height="12"/>
+    <text name="TXT__7" text="DE" x="189" y="32" width="14" height="12"/>
+    <text name="TXT__8" text="DESARROLLO" x="210" y="32" width="70" height="12"/>
+    <text name="TXT__9" text="SOCIOECONOMICO" x="287" y="32" width="98" height="12"/>
+    <text name="TXT__10" text="DE" x="392" y="32" width="14" height="12"/>
+    <text name="TXT__11" text="LA" x="413" y="32" width="14" height="12"/>
+    <text name="TXT__12" text="FAMILIA" x="434" y="32" width="49" height="12"/>
+    <text name="TXT__13" text="NOTIFICACION" x="160" y="48" width="84" height="12"/>
+    <text name="TXT__14" text="PARA" x="252" y="48" width="28" height="12"/>
+    <text name="TXT__15" text="ENTREVISTA" x="288" y="48" width="70" height="12"/>
+    <text name="TXT__16" text="Sr.(a)" x="0" y="80" width="45" height="12"/>
+    <text name="TXT__1611" text="Oficina" x="329" y="80" width="49" height="12"/>
+    <text name="TXT__17" text="Regional:" x="385" y="80" width="63" height="12"/>
+    <text name="TXT__18" text="Centro" x="287" y="96" width="42" height="12"/>
+    <text name="TXT__19" text="Serv.Integrados:" x="336" y="96" width="112" height="12"/>
+    <text name="TXT__20" text="Número" x="0" y="160" width="42" height="12"/>
+    <text name="TXT__21" text="de" x="49" y="160" width="14" height="12"/>
+    <text name="TXT__22" text="Jefe" x="70" y="160" width="28" height="12"/>
+    <text name="TXT__23" text="Familia" x="105" y="160" width="49" height="12"/>
+    <text name="TXT__24" text=":" x="168" y="160" width="7" height="12"/>
+    <text name="TXT__25" text="Número" x="0" y="176" width="42" height="12"/>
+    <text name="TXT__26" text="de" x="49" y="176" width="14" height="12"/>
+    <text name="TXT__27" text="Encargado" x="70" y="176" width="63" height="12"/>
+    <text name="TXT__28" text="Serv:" x="140" y="176" width="35" height="12"/>
+    <text name="TXT__29" text="Fecha" x="259" y="176" width="35" height="12"/>
+    <text name="TXT__30" text="de" x="301" y="176" width="14" height="12"/>
+    <text name="TXT__31" text="Solicitud:" x="322" y="176" width="70" height="12"/>
+    <text name="TXT__32" text="Programa/Servicio:" x="0" y="192" width="126" height="12"/>
+    <text name="TXT__33" text="Beneficio:" x="0" y="208" width="70" height="12"/>
+    <text name="TXT__34" text="Fecha" x="0" y="224" width="35" height="12"/>
+    <text name="TXT__35" text="comienza:" x="42" y="224" width="63" height="12"/>
+    <text name="TXT__36" text="Fecha" x="259" y="224" width="35" height="12"/>
+    <text name="TXT__37" text="Vence:" x="301" y="224" width="42" height="12"/>
+    <text name="TXT__38" text="Le" x="0" y="256" width="14" height="12"/>
+    <text name="TXT__39" text="citamos" x="21" y="256" width="49" height="12"/>
+    <text name="TXT__40" text="para" x="77" y="256" width="28" height="12"/>
+    <text name="TXT__41" text="el" x="112" y="256" width="14" height="12"/>
+    <text name="TXT__42" text="día" x="133" y="256" width="21" height="12"/>
+    <text name="TXT__43" text="en" x="301" y="256" width="14" height="12"/>
+    <text name="TXT__44" text="el" x="322" y="256" width="14" height="12"/>
+    <text name="TXT__45" text="Centro" x="343" y="256" width="42" height="12"/>
+    <text name="TXT__46" text="de" x="392" y="256" width="14" height="12"/>
+    <text name="TXT__47" text="Servicios" x="413" y="256" width="63" height="12"/>
+    <text name="TXT__48" text="Integrados" x="0" y="272" width="70" height="12"/>
+    <text name="TXT__49" text="ubicada" x="77" y="272" width="49" height="12"/>
+    <text name="TXT__50" text="en" x="133" y="272" width="14" height="12"/>
+    <text name="TXT__51" text="Si" x="0" y="288" width="14" height="12"/>
+    <text name="TXT__52" text="usted," x="21" y="288" width="42" height="12"/>
+    <text name="TXT__53" text="su" x="70" y="288" width="14" height="12"/>
+    <text name="TXT__54" text="cónyuge" x="91" y="288" width="49" height="12"/>
+    <text name="TXT__55" text="ó" x="147" y="288" width="7" height="12"/>
+    <text name="TXT__56" text="representante" x="161" y="288" width="91" height="12"/>
+    <text name="TXT__57" text="autorizado" x="259" y="288" width="70" height="12"/>
+    <text name="TXT__58" text="no" x="336" y="288" width="14" height="12"/>
+    <text name="TXT__59" text="puede" x="357" y="288" width="35" height="12"/>
+    <text name="TXT__60" text="acudir" x="399" y="288" width="42" height="12"/>
+    <text name="TXT__61" text="a" x="448" y="288" width="7" height="12"/>
+    <text name="TXT__62" text="esta" x="462" y="288" width="28" height="12"/>
+    <text name="TXT__63" text="cita," x="497" y="288" width="35" height="12"/>
+    <text name="TXT__64" text="deberá" x="0" y="304" width="42" height="12"/>
+    <text name="TXT__65" text="notificarlo" x="49" y="304" width="77" height="12"/>
+    <text name="TXT__66" text="de" x="133" y="304" width="14" height="12"/>
+    <text name="TXT__67" text="inmediato" x="154" y="304" width="63" height="12"/>
+    <text name="TXT__68" text="a" x="224" y="304" width="7" height="12"/>
+    <text name="TXT__69" text="esta" x="238" y="304" width="28" height="12"/>
+    <text name="TXT__70" text="oficina" x="273" y="304" width="49" height="12"/>
+    <text name="TXT__71" text="para" x="329" y="304" width="28" height="12"/>
+    <text name="TXT__72" text="nueva" x="364" y="304" width="35" height="12"/>
+    <text name="TXT__73" text="cita." x="406" y="304" width="35" height="12"/>
+    <text name="TXT__74" text="Lo" x="455" y="304" width="14" height="12"/>
+    <text name="TXT__75" text="puede" x="476" y="304" width="35" height="12"/>
+    <text name="TXT__76" text="hacer" x="0" y="320" width="35" height="12"/>
+    <text name="TXT__77" text="por" x="42" y="320" width="21" height="12"/>
+    <text name="TXT__78" text="carta," x="70" y="320" width="42" height="12"/>
+    <text name="TXT__79" text="personalmente" x="119" y="320" width="91" height="12"/>
+    <text name="TXT__80" text="o" x="217" y="320" width="7" height="12"/>
+    <text name="TXT__81" text="mediante" x="231" y="320" width="56" height="12"/>
+    <text name="TXT__82" text="llamada" x="294" y="320" width="49" height="12"/>
+    <text name="TXT__83" text="al" x="350" y="320" width="14" height="12"/>
+    <text name="TXT__84" text="-" x="0" y="368" width="7" height="12"/>
+    <text name="TXT__85" text="Su" x="14" y="368" width="14" height="12"/>
+    <text name="TXT__86" text="período" x="35" y="368" width="49" height="12"/>
+    <text name="TXT__87" text="de" x="91" y="368" width="14" height="12"/>
+    <text name="TXT__88" text="certificación" x="112" y="368" width="91" height="12"/>
+    <text name="TXT__89" text="previamente" x="210" y="368" width="77" height="12"/>
+    <text name="TXT__90" text="asignado," x="294" y="368" width="63" height="12"/>
+    <text name="TXT__91" text="puede" x="364" y="368" width="35" height="12"/>
+    <text name="TXT__92" text="variar." x="406" y="368" width="49" height="12"/>
+    <text name="TXT__93" text="La" x="469" y="368" width="14" height="12"/>
+    <text name="TXT__94" text="oficina" x="14" y="384" width="49" height="12"/>
+    <text name="TXT__95" text="local" x="70" y="384" width="35" height="12"/>
+    <text name="TXT__96" text="podrá" x="112" y="384" width="35" height="12"/>
+    <text name="TXT__97" text="citarlo" x="154" y="384" width="49" height="12"/>
+    <text name="TXT__98" text="en" x="210" y="384" width="14" height="12"/>
+    <text name="TXT__99" text="cualquir" x="231" y="384" width="56" height="12"/>
+    <text name="TXT__100" text="momento" x="294" y="384" width="49" height="12"/>
+    <text name="TXT__101" text="para" x="350" y="384" width="28" height="12"/>
+    <text name="TXT__102" text="revisar" x="385" y="384" width="49" height="12"/>
+    <text name="TXT__103" text="su" x="441" y="384" width="14" height="12"/>
+    <text name="TXT__104" text="caso." x="462" y="384" width="35" height="12"/>
+    <text name="TXT__105" text="-" x="0" y="400" width="7" height="12"/>
+    <text name="TXT__106" text="De" x="14" y="400" width="14" height="12"/>
+    <text name="TXT__107" text="usted" x="35" y="400" width="35" height="12"/>
+    <text name="TXT__108" text="no" x="77" y="400" width="14" height="12"/>
+    <text name="TXT__109" text="acudir" x="98" y="400" width="42" height="12"/>
+    <text name="TXT__110" text="o" x="147" y="400" width="7" height="12"/>
+    <text name="TXT__111" text="pedir" x="161" y="400" width="35" height="12"/>
+    <text name="TXT__112" text="una" x="203" y="400" width="21" height="12"/>
+    <text name="TXT__113" text="segunda" x="231" y="400" width="49" height="12"/>
+    <text name="TXT__114" text="cita," x="287" y="400" width="35" height="12"/>
+    <text name="TXT__115" text="su" x="329" y="400" width="14" height="12"/>
+    <text name="TXT__116" text="caso" x="350" y="400" width="28" height="12"/>
+    <text name="TXT__117" text="será" x="385" y="400" width="28" height="12"/>
+    <text name="TXT__118" text="cerrado" x="420" y="400" width="49" height="12"/>
+    <text name="TXT__119" text="al" x="476" y="400" width="14" height="12"/>
+    <text name="TXT__120" text="próximo" x="14" y="416" width="49" height="12"/>
+    <text name="TXT__121" text="mes" x="70" y="416" width="21" height="12"/>
+    <text name="TXT__122" text="de" x="98" y="416" width="14" height="12"/>
+    <text name="TXT__123" text="vencido" x="119" y="416" width="49" height="12"/>
+    <text name="TXT__124" text="su" x="175" y="416" width="14" height="12"/>
+    <text name="TXT__125" text="período" x="196" y="416" width="49" height="12"/>
+    <text name="TXT__126" text="de" x="252" y="416" width="14" height="12"/>
+    <text name="TXT__127" text="certificación." x="273" y="416" width="98" height="12"/>
+    <text name="TXT__128" text="-" x="0" y="432" width="7" height="12"/>
+    <text name="TXT__129" text="Su" x="14" y="432" width="14" height="12"/>
+    <text name="TXT__130" text="unidad" x="35" y="432" width="42" height="12"/>
+    <text name="TXT__131" text="familiar" x="84" y="432" width="56" height="12"/>
+    <text name="TXT__132" text="recibirá" x="147" y="432" width="56" height="12"/>
+    <text name="TXT__133" text="el" x="210" y="432" width="14" height="12"/>
+    <text name="TXT__134" text="ultimó" x="231" y="432" width="42" height="12"/>
+    <text name="TXT__135" text="cheque" x="280" y="432" width="42" height="12"/>
+    <text name="TXT__136" text="de" x="329" y="432" width="14" height="12"/>
+    <text name="TXT__137" text="beneficios" x="350" y="432" width="70" height="12"/>
+    <text name="TXT__138" text="en" x="427" y="432" width="14" height="12"/>
+    <text name="TXT__139" text="-" x="0" y="448" width="7" height="12"/>
+    <text name="TXT__140" text="La" x="14" y="448" width="14" height="12"/>
+    <text name="TXT__141" text="solicitud" x="35" y="448" width="63" height="12"/>
+    <text name="TXT__142" text="radicada" x="105" y="448" width="56" height="12"/>
+    <text name="TXT__143" text="puede" x="168" y="448" width="35" height="12"/>
+    <text name="TXT__144" text="ser" x="210" y="448" width="21" height="12"/>
+    <text name="TXT__145" text="rechazada" x="238" y="448" width="63" height="12"/>
+    <text name="TXT__146" text="si" x="308" y="448" width="14" height="12"/>
+    <text name="TXT__147" text="usted" x="329" y="448" width="35" height="12"/>
+    <text name="TXT__148" text="no" x="371" y="448" width="14" height="12"/>
+    <text name="TXT__149" text="completa" x="392" y="448" width="56" height="12"/>
+    <text name="TXT__150" text="el" x="455" y="448" width="14" height="12"/>
+    <text name="TXT__151" text="proceso" x="476" y="448" width="49" height="12"/>
+    <text name="TXT__152" text="dentro" x="14" y="464" width="42" height="12"/>
+    <text name="TXT__153" text="de" x="63" y="464" width="14" height="12"/>
+    <text name="TXT__154" text="los" x="84" y="464" width="21" height="12"/>
+    <text name="TXT__155" text="30" x="112" y="464" width="14" height="12"/>
+    <text name="TXT__156" text="días" x="133" y="464" width="28" height="12"/>
+    <text name="TXT__157" text="que" x="168" y="464" width="21" height="12"/>
+    <text name="TXT__158" text="tiene" x="196" y="464" width="35" height="12"/>
+    <text name="TXT__159" text="la" x="238" y="464" width="14" height="12"/>
+    <text name="TXT__160" text="agencia" x="259" y="464" width="49" height="12"/>
+    <text name="TXT__161" text="para" x="315" y="464" width="28" height="12"/>
+    <text name="TXT__162" text="determinar" x="350" y="464" width="70" height="12"/>
+    <text name="TXT__163" text="elegibilidad" x="427" y="464" width="84" height="12"/>
+    <text name="TXT__164" text="el" x="14" y="480" width="14" height="12"/>
+    <text name="TXT__165" text="cuál" x="35" y="480" width="28" height="12"/>
+    <text name="TXT__166" text="vence" x="70" y="480" width="35" height="12"/>
+    <text name="TXT__167" text="el" x="112" y="480" width="14" height="12"/>
+    <text name="TXT__168" text="de" x="175" y="480" width="14" height="12"/>
+    <text name="TXT__169" text="de" x="315" y="480" width="14" height="12"/>
+    <text name="TXT__170" text="." x="378" y="480" width="7" height="12"/>
+    <text name="TXT__171" text="Nombre" x="42" y="528" width="42" height="12"/>
+    <text name="TXT__172" text="y" x="91" y="528" width="7" height="12"/>
+    <text name="TXT__173" text="Firma" x="105" y="528" width="35" height="12"/>
+    <text name="TXT__174" text="del" x="147" y="528" width="21" height="12"/>
+    <text name="TXT__175" text="Adm." x="175" y="528" width="28" height="12"/>
+    <text name="TXT__176" text="Num." x="357" y="528" width="28" height="12"/>
+    <text name="TXT__177" text="del" x="392" y="528" width="21" height="12"/>
+    <text name="TXT__178" text="Adm." x="420" y="528" width="28" height="12"/>
+    <text name="TXT__179" text="Fecha" x="42" y="576" width="35" height="12"/>
+    <text name="TXT__180" text="Razón:" x="0" y="608" width="42" height="12"/>
+    <text name="TXT__181" text="ENTREVISTA" x="49" y="608" width="70" height="12"/>
+    <text name="TXT__182" text="DE" x="126" y="608" width="14" height="12"/>
+    <text name="TXT__183" text="CAMBIO" x="147" y="608" width="42" height="12"/>
+    <text name="TXT__184" text="-" x="196" y="608" width="7" height="12"/>
+    <text name="TXT__185" text="CAMBIAR" x="210" y="608" width="49" height="12"/>
+    <text name="TXT__186" text="INFORMACION" x="266" y="608" width="77" height="12"/>
+    <text name="TXT__187" text="CA" x="350" y="608" width="14" height="12"/>
+    <text name="TXT__188" text="Favor" x="0" y="624" width="35" height="12"/>
+    <text name="TXT__189" text="de" x="42" y="624" width="14" height="12"/>
+    <text name="TXT__190" text="traer" x="63" y="624" width="35" height="12"/>
+    <text name="TXT__191" text="esta" x="105" y="624" width="28" height="12"/>
+    <text name="TXT__192" text="carta" x="140" y="624" width="35" height="12"/>
+    <text name="TXT__193" text="cuando" x="182" y="624" width="42" height="12"/>
+    <text name="TXT__194" text="nos" x="231" y="624" width="21" height="12"/>
+    <text name="TXT__195" text="visite" x="259" y="624" width="42" height="12"/>
+    <text name="TXT__196" text="y" x="308" y="624" width="7" height="12"/>
+    <text name="TXT__197" text="los" x="322" y="624" width="21" height="12"/>
+    <text name="TXT__198" text="documentos" x="350" y="624" width="70" height="12"/>
+    <text name="TXT__199" text="solicitados," x="427" y="624" width="84" height="12"/>
+    <text name="TXT__200" text="los" x="0" y="640" width="21" height="12"/>
+    <text name="TXT__201" text="cuales" x="28" y="640" width="42" height="12"/>
+    <text name="TXT__202" text="son" x="77" y="640" width="21" height="12"/>
+    <text name="TXT__203" text="necesarios" x="105" y="640" width="70" height="12"/>
+    <text name="TXT__204" text="para" x="182" y="640" width="28" height="12"/>
+    <text name="TXT__205" text="decidir" x="217" y="640" width="49" height="12"/>
+    <text name="TXT__206" text="su" x="273" y="640" width="14" height="12"/>
+    <text name="TXT__207" text="elegibilidad" x="294" y="640" width="84" height="12"/>
+    <text name="TXT__208" text="en" x="385" y="640" width="14" height="12"/>
+    <text name="TXT__209" text="el" x="406" y="640" width="14" height="12"/>
+    <text name="TXT__210" text="Programa" x="427" y="640" width="56" height="12"/>
+    <text name="TXT__211" text="ó" x="490" y="640" width="7" height="12"/>
+    <text name="TXT__212" text="continuar" x="0" y="656" width="63" height="12"/>
+    <text name="TXT__213" text="la" x="70" y="656" width="14" height="12"/>
+    <text name="TXT__214" text="participación" x="91" y="656" width="91" height="12"/>
+    <text name="TXT__215" text="en" x="189" y="656" width="14" height="12"/>
+    <text name="TXT__216" text="el" x="210" y="656" width="14" height="12"/>
+    <text name="TXT__217" text="mismo." x="231" y="656" width="42" height="12"/>
+    <text name="TXT__704" text="El Departamento de la Familia garantiza igualdad de oportunidades. Si" x="6" y="679" width="556" height="12"/>
+    <text name="TXT__715" text="considera que se ha discriminado contra usted por razón de raza, color," x="6" y="695" width="556" height="12"/>
+    <text name="TXT__728" text="origen nacional, sexo, edad o impedimento, escriba a Director, Civil Rights," x="6" y="711" width="556" height="12"/>
+    <text name="TXT__738" text="USDA, Food and Nutrition Service, 300 Corporate Blvd, Robbinsville," x="6" y="727" width="556" height="12"/>
+    <text name="TXT__749" text="NJ 08691-1598. Personas sordas, con dificultad para oír o tiene impedimentos" x="6" y="743" width="556" height="12"/>
+    <text name="TXT__761" text="para hablar pueden comunicar al 'Federal Relay Service' 1-(800)-877-8339 o al " x="6" y="759" width="556" height="12"/>
+    <text name="TXT__773" text="1-(800)-845-6136 (Español), (787) 289-7632, Isla 1-800-981-8056," x="6" y="775" width="556" height="12"/>
+    <text name="TXT__774" text="1-800-981-7641 (libre de cargos)." x="6" y="791" width="556" height="12"/>
+  </textgroup>
+  <field name="NOMB" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="DIR1" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="47" y="80" width="266" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="DIR1" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="DIR2" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="96" width="181" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="DIR2" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="CUID" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="112" width="181" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CUID" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="ESTD" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="1" y="128" width="111" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="ESTD" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="ZIPC" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="120" y="128" width="20" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="ZIPC" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="SSJF" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="148" y="128" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="OREG" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="456" y="80" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CTRS" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="456" y="96" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="SSJF" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="SSJS" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="176" y="160" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="SSJS" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="FCHS" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="176" y="176" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FCHS" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="CSRV" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="393" y="176" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="CSRV" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="DSRV" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="127" y="192" width="41" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+      <EditModel formName="LOV_COD_SERV_FR" groupName="" valueField="COD_SERVICIO" cleanDependents="false" manualEntry="true" validateValues="true">
+        <Item targetField="" sourceField=""/>
+      </EditModel>
+    </editcontrol>
+  </field>
+  <field name="DSRV" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="FCCO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="176" y="192" width="174" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+      <EditModel formName="LOV_COD_SERV_FR" groupName="" valueField="DSC_NOMBRE_SERVICIO" cleanDependents="false" manualEntry="true" validateValues="true">
+        <Item targetField="" sourceField=""/>
+      </EditModel>
+    </editcontrol>
+  </field>
+  <field name="FCCO" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="FCVE" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="113" y="224" width="62" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FCVE" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="SDTE" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="351" y="224" width="62" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="DR1G" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="DR2G" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="155" y="272" width="174" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="DR2G" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="337" y="272" width="181" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FCDD" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="FCMM" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="141" y="480" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FCMM" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="FCYY" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="197" y="480" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FCYY" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="TNOM" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="337" y="480" width="27" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="TNOM" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="TNUM" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="29" y="512" width="286" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+      <EditModel formName="TECNICO_RETRO_LOV_FR" groupName="" valueField="N1" cleanDependents="false" manualEntry="true" validateValues="true">
+        <Item targetField="" sourceField=""/>
+      </EditModel>
+    </editcontrol>
+  </field>
+  <field name="TNUM" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="DR1G" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="379" y="512" width="41" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+      <EditModel formName="TECNICO_RETRO_LOV_FR" groupName="" valueField="ID_TECNICO" cleanDependents="false" manualEntry="true" validateValues="true">
+        <Item targetField="" sourceField=""/>
+      </EditModel>
+    </editcontrol>
+  </field>
+  <field name="SDTE" tag="" visible="true" enabled="true" container="DSS108_A1_FR" nextobject="FCDD" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="29" y="560" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+</model>

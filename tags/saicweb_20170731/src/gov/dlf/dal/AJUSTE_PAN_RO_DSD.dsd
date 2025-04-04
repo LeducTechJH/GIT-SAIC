@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="AJUSTE_PAN_RO_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="AUMENTO_DISMINUCION,MES_PORCIENTO,PORCIENTO" updateKey="MES_PORCIENTO" updateSourceName="AJUSTE_PAN" useTransactions="false" definition="select  AJUSTE_PAN.AUMENTO_DISMINUCION,  AJUSTE_PAN.MES_PORCIENTO,  AJUSTE_PAN.PORCIENTO from AJUSTE_PAN AJUSTE_PAN order by AJUSTE_PAN.MES_PORCIENTO asc" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="AUMENTO_DISMINUCION" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="1" sourceAlias="AJUSTE_PAN" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="AUMENTO_DISMINUCION" sourceLocation="" sourceName="AJUSTE_PAN" sourceOwner="" unique="false" updateable="true"/>
+  <field name="MES_PORCIENTO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="DATE" dataType="Date" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="8" sourceAlias="AJUSTE_PAN" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="MES_PORCIENTO" sourceLocation="" sourceName="AJUSTE_PAN" sourceOwner="" unique="false" updateable="true"/>
+  <field name="PORCIENTO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="252" searchable="false" size="4" sourceAlias="AJUSTE_PAN" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="PORCIENTO" sourceLocation="" sourceName="AJUSTE_PAN" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

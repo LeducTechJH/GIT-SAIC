@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="TRANSFER_ENVIADAS_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="846" pageheight="1488" backcolor="13421772" x="2" y="2" width="564" height="992" groupstyle="0" highLightSelected="false" firstobject="ENVIADAS_GP" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="TRANSFER_ENVIADAS_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="560" height="124" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="GOBIERNO" x="161" y="0" width="56" height="12"/>
+    <text name="TXT__1" text="DE" x="224" y="0" width="14" height="12"/>
+    <text name="TXT__2" text="PUERTO" x="245" y="0" width="42" height="12"/>
+    <text name="TXT__3" text="RICO" x="294" y="0" width="28" height="12"/>
+    <text name="TXT__4" text="SISTEMA" x="77" y="16" width="49" height="12"/>
+    <text name="TXT__5" text="DE" x="133" y="16" width="14" height="12"/>
+    <text name="TXT__6" text="ADMINISTRACION" x="154" y="16" width="98" height="12"/>
+    <text name="TXT__7" text="E" x="259" y="16" width="7" height="12"/>
+    <text name="TXT__8" text="INFORMACION" x="273" y="16" width="77" height="12"/>
+    <text name="TXT__9" text="DE" x="357" y="16" width="14" height="12"/>
+    <text name="TXT__10" text="CASOS" x="378" y="16" width="35" height="12"/>
+    <text name="TXT__11" text="PAG:" x="441" y="16" width="28" height="12"/>
+    <text name="TXT__12" text="INFORME" x="133" y="32" width="49" height="12"/>
+    <text name="TXT__13" text="TRANSFERENCIAS" x="188" y="32" width="98" height="12"/>
+    <text name="TXT__14" text="ENVIADAS" x="292" y="32" width="58" height="12"/>
+    <text name="TXT__15" text="FECHA:" x="427" y="32" width="42" height="12"/>
+    <text name="TXT__16" text="Seguro" x="7" y="80" width="42" height="12"/>
+    <text name="TXT__17" text="Soc." x="56" y="80" width="29" height="12"/>
+    <text name="TXT__18" text="Codigo" x="94" y="81" width="42" height="12"/>
+    <text name="TXT__19" text="" x="110" y="55" width="42" height="12"/>
+    <text name="TXT__20" text="Estatus" x="303" y="96" width="56" height="12"/>
+    <text name="TXT__21" text="" x="308" y="51" width="35" height="12"/>
+    <text name="TXT__22" text="Fecha" x="388" y="80" width="35" height="12"/>
+    <text name="TXT__23" text="Transfer A" x="465" y="95" width="99" height="12"/>
+    <text name="TXT__24" text="" x="487" y="47" width="48" height="12"/>
+    <text name="TXT__25" text="Jefe" x="7" y="96" width="31" height="12"/>
+    <text name="TXT__26" text="Serv." x="45" y="96" width="38" height="12"/>
+    <text name="TXT__27" text="" x="160" y="55" width="28" height="12"/>
+    <text name="TXT__28" text="Serv." x="94" y="96" width="43" height="12"/>
+    <text name="TXT__29" text="Descripcion" x="146" y="96" width="81" height="12"/>
+    <text name="TXT__30" text="" x="352" y="55" width="63" height="12"/>
+    <text name="TXT__31" text="Transfer" x="378" y="96" width="61" height="12"/>
+    <text name="TXT__32" text="" x="470" y="65" width="82" height="13"/>
+    <text name="TXT__33" text="" x="429" y="55" width="35" height="12"/>
+    <line name="LINE_TXT_0" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="118" x1="560" y1="118" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  </textgroup>
+  <field name="OFICINA" tag="" visible="true" enabled="true" container="TRANSFER_ENVIADAS_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="197" y="48" width="97" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="PAGINA" tag="" visible="true" enabled="false" container="TRANSFER_ENVIADAS_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="470" y="16" width="27" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="enter value here" aggregateStyle="1" aggregateType="9" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FECHA" tag="" visible="true" enabled="true" container="TRANSFER_ENVIADAS_FR" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="470" y="32" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <group name="ENVIADAS_GP" tag="" visible="true" enabled="true" container="TRANSFER_ENVIADAS_FR" nextobject="" objectType="group" pageStart="-1" pageType="0" x="-3" y="128" width="563" height="796" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="1" highLightSelected="true" datastore="TRANSFER_ENVIADAS_DSD" discardChildless="false" updatetotop="false" firstobject="SEGURO_SOCIAL_JEFE_SERV" indivisible="false" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="16" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <parameter name="FECHA_PAR"/>
+    <parameter name="RMO_PAR"/>
+    <parameter name="FECHA_PAR2"/>
+    <field name="SEGURO_SOCIAL_JEFE_SERV" tag="" visible="true" enabled="true" container="ENVIADAS_GP" nextobject="COD_SERVICIO" objectType="field" copyFieldName="" datatypename="double" datafieldname="SEGURO_SOCIAL_JEFE_SERV" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="8" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="COD_SERVICIO" tag="" visible="true" enabled="true" container="ENVIADAS_GP" nextobject="DSC_NOMBRE_SERVICIO" objectType="field" copyFieldName="" datatypename="string" datafieldname="COD_SERVICIO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="94" y="0" width="41" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="6"/>
+    </field>
+    <field name="DSC_NOMBRE_SERVICIO" tag="" visible="true" enabled="true" container="ENVIADAS_GP" nextobject="COD_STATUS_SERVICIO" objectType="field" copyFieldName="" datatypename="string" datafieldname="DSC_NOMBRE_SERVICIO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="146" y="0" width="147" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="6"/>
+    </field>
+    <field name="COD_STATUS_SERVICIO" tag="" visible="true" enabled="true" container="ENVIADAS_GP" nextobject="HORA_ACTUAL" objectType="field" copyFieldName="" datatypename="string" datafieldname="COD_STATUS_SERVICIO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="303" y="0" width="66" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="6"/>
+    </field>
+    <field name="HORA_ACTUAL" tag="" visible="true" enabled="true" container="ENVIADAS_GP" nextobject="DSC_OFICINA" objectType="field" copyFieldName="" datatypename="Date" datafieldname="HORA_ACTUAL" emptyisnull="true" format="DD-MMM-yyyy" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="378" y="0" width="77" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDateField" editTypeName="JDateField" format="DD-MMM-yyyy" isDialog="false" inputlimit="12"/>
+    </field>
+    <field name="DSC_OFICINA" tag="" visible="true" enabled="true" container="ENVIADAS_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="DSC_OFICINA" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="-16777216" backcolor="16777200" border="2" x="465" y="0" width="97" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+  </group>
+</model>

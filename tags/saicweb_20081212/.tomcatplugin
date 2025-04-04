@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcatProjectProperties>
+    <rootDir>/</rootDir>
+    <exportSource>false</exportSource>
+    <reloadable>true</reloadable>
+    <redirectLogger>true</redirectLogger>
+    <updateXml>true</updateXml>
+    <warLocation>G:\Temp3\SAICWEB.war</warLocation>
+    <extraInfo></extraInfo>
+    <webPath>/SAICWeb</webPath>
+    <webClassPathEntries>
+        <webClassPathEntry>/SAICWeb/WEB-INF/classes</webClassPathEntry>
+        <webClassPathEntry>/SAICWeb/WEB-INF/lib</webClassPathEntry>
+        <webClassPathEntry>/SAICWeb/WEB-INF/lib/net.jar</webClassPathEntry>
+        <webClassPathEntry>/SAICWeb/work</webClassPathEntry>
+        <webClassPathEntry>C:/JavaWork/JDBC/ojdbc14.jar</webClassPathEntry>
+    </webClassPathEntries>
+</tomcatProjectProperties>

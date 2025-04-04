@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="ADSEF_TANF_10_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="564" height="1040" groupstyle="0" highLightSelected="false" firstobject="" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Thu Jul 03 06:38:06 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="553" height="876" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="GOBIERNO" x="196" y="32" width="56" height="12"/>
+    <text name="TXT__1" text="DE" x="259" y="32" width="14" height="12"/>
+    <text name="TXT__2" text="PUERTO" x="280" y="32" width="42" height="12"/>
+    <text name="TXT__3" text="RICO" x="329" y="32" width="28" height="12"/>
+    <text name="TXT__4" text="ADMINISTRACION" x="126" y="48" width="98" height="12"/>
+    <text name="TXT__5" text="DE" x="231" y="48" width="14" height="12"/>
+    <text name="TXT__6" text="DESARROLLO" x="252" y="48" width="70" height="12"/>
+    <text name="TXT__7" text="SOCIOECONOMICO" x="329" y="48" width="98" height="12"/>
+    <text name="TXT__8" text="11/97" x="7" y="64" width="35" height="12"/>
+    <text name="TXT__9" text="DEPARTAMENTO" x="182" y="64" width="84" height="12"/>
+    <text name="TXT__10" text="DE" x="273" y="64" width="14" height="12"/>
+    <text name="TXT__11" text="LA" x="294" y="64" width="14" height="12"/>
+    <text name="TXT__12" text="FAMILIA" x="315" y="64" width="49" height="12"/>
+    <text name="TXT__13" text="PROGRAMA" x="98" y="80" width="56" height="12"/>
+    <text name="TXT__14" text="DE" x="161" y="80" width="14" height="12"/>
+    <text name="TXT__15" text="AYUDA" x="182" y="80" width="35" height="12"/>
+    <text name="TXT__16" text="TEMPORAL" x="224" y="80" width="56" height="12"/>
+    <text name="TXT__17" text="PARA" x="287" y="80" width="28" height="12"/>
+    <text name="TXT__18" text="FAMILIAS" x="322" y="80" width="56" height="12"/>
+    <text name="TXT__19" text="NECESITADAS" x="385" y="80" width="77" height="12"/>
+    <text name="TXT__20" text="CERTIFICACION" x="77" y="112" width="91" height="12"/>
+    <text name="TXT__21" text="DE" x="175" y="112" width="14" height="12"/>
+    <text name="TXT__22" text="NO" x="196" y="112" width="14" height="12"/>
+    <text name="TXT__23" text="HABER" x="217" y="112" width="35" height="12"/>
+    <text name="TXT__24" text="SIDO" x="259" y="112" width="28" height="12"/>
+    <text name="TXT__25" text="CONVICTO" x="294" y="112" width="56" height="12"/>
+    <text name="TXT__26" text="POR" x="357" y="112" width="21" height="12"/>
+    <text name="TXT__27" text="VIOLACION" x="385" y="112" width="63" height="12"/>
+    <text name="TXT__28" text="A" x="455" y="112" width="7" height="12"/>
+    <text name="TXT__29" text="LA" x="469" y="112" width="14" height="12"/>
+    <text name="TXT__30" text="LEY" x="175" y="128" width="21" height="12"/>
+    <text name="TXT__31" text="DE" x="203" y="128" width="14" height="12"/>
+    <text name="TXT__32" text="SUSTANCIAS" x="224" y="128" width="70" height="12"/>
+    <text name="TXT__33" text="CONTROLADAS" x="301" y="128" width="77" height="12"/>
+    <text name="TXT__34" text="La" x="21" y="160" width="14" height="12"/>
+    <text name="TXT__35" text="ley" x="42" y="160" width="21" height="12"/>
+    <text name="TXT__36" text="de" x="70" y="160" width="14" height="12"/>
+    <text name="TXT__37" text="'Personal" x="91" y="160" width="63" height="12"/>
+    <text name="TXT__38" text="Responsability" x="161" y="160" width="98" height="12"/>
+    <text name="TXT__39" text="and" x="266" y="160" width="21" height="12"/>
+    <text name="TXT__40" text="Work" x="294" y="160" width="28" height="12"/>
+    <text name="TXT__41" text="Opportunity" x="329" y="160" width="77" height="12"/>
+    <text name="TXT__42" text="Reconciliation" x="413" y="160" width="98" height="12"/>
+    <text name="TXT__43" text="ACT'" x="518" y="160" width="28" height="12"/>
+    <text name="TXT__44" text="deniega" x="21" y="176" width="49" height="12"/>
+    <text name="TXT__45" text="la" x="77" y="176" width="14" height="12"/>
+    <text name="TXT__46" text="ayuda" x="98" y="176" width="35" height="12"/>
+    <text name="TXT__47" text="y" x="140" y="176" width="7" height="12"/>
+    <text name="TXT__48" text="beneficios" x="154" y="176" width="70" height="12"/>
+    <text name="TXT__49" text="del" x="231" y="176" width="21" height="12"/>
+    <text name="TXT__50" text="Programa" x="259" y="176" width="56" height="12"/>
+    <text name="TXT__51" text="TANF" x="322" y="176" width="28" height="12"/>
+    <text name="TXT__52" text="a" x="357" y="176" width="7" height="12"/>
+    <text name="TXT__53" text="convictos" x="371" y="176" width="63" height="12"/>
+    <text name="TXT__54" text="de" x="441" y="176" width="14" height="12"/>
+    <text name="TXT__55" text="delitos" x="462" y="176" width="49" height="12"/>
+    <text name="TXT__56" text="relacionados" x="21" y="192" width="84" height="12"/>
+    <text name="TXT__57" text="con" x="112" y="192" width="21" height="12"/>
+    <text name="TXT__58" text="posesión," x="140" y="192" width="63" height="12"/>
+    <text name="TXT__59" text="uso" x="210" y="192" width="21" height="12"/>
+    <text name="TXT__60" text="o" x="238" y="192" width="7" height="12"/>
+    <text name="TXT__61" text="distribución" x="252" y="192" width="84" height="12"/>
+    <text name="TXT__62" text="de" x="343" y="192" width="14" height="12"/>
+    <text name="TXT__63" text="sustancias" x="364" y="192" width="70" height="12"/>
+    <text name="TXT__64" text="controladas," x="441" y="192" width="84" height="12"/>
+    <text name="TXT__65" text="posterior" x="21" y="208" width="63" height="12"/>
+    <text name="TXT__66" text="al" x="91" y="208" width="14" height="12"/>
+    <text name="TXT__67" text="22" x="112" y="208" width="14" height="12"/>
+    <text name="TXT__68" text="de" x="133" y="208" width="14" height="12"/>
+    <text name="TXT__69" text="agosto" x="154" y="208" width="42" height="12"/>
+    <text name="TXT__70" text="de" x="203" y="208" width="14" height="12"/>
+    <text name="TXT__71" text="1996," x="224" y="208" width="35" height="12"/>
+    <text name="TXT__72" text="fecha" x="266" y="208" width="35" height="12"/>
+    <text name="TXT__73" text="en" x="308" y="208" width="14" height="12"/>
+    <text name="TXT__74" text="que" x="329" y="208" width="21" height="12"/>
+    <text name="TXT__75" text="se" x="357" y="208" width="14" height="12"/>
+    <text name="TXT__76" text="firmó" x="378" y="208" width="35" height="12"/>
+    <text name="TXT__77" text="la" x="420" y="208" width="14" height="12"/>
+    <text name="TXT__78" text="Ley" x="441" y="208" width="21" height="12"/>
+    <text name="TXT__79" text="'Personal" x="469" y="208" width="63" height="12"/>
+    <text name="TXT__80" text="Responsability" x="21" y="224" width="98" height="12"/>
+    <text name="TXT__81" text="and" x="126" y="224" width="21" height="12"/>
+    <text name="TXT__82" text="Work" x="154" y="224" width="28" height="12"/>
+    <text name="TXT__83" text="Opportunity" x="189" y="224" width="77" height="12"/>
+    <text name="TXT__84" text="Reconciliation" x="273" y="224" width="98" height="12"/>
+    <text name="TXT__85" text="ACT" x="378" y="224" width="21" height="12"/>
+    <text name="TXT__86" text="of" x="406" y="224" width="14" height="12"/>
+    <text name="TXT__87" text="1996." x="427" y="224" width="35" height="12"/>
+    <text name="TXT__88" text="(P.L." x="21" y="240" width="35" height="12"/>
+    <text name="TXT__89" text="-193)." x="84" y="240" width="42" height="12"/>
+    <text name="TXT__90" text="Yo," x="21" y="272" width="21" height="12"/>
+    <text name="TXT__91" text="," x="273" y="272" width="7" height="12"/>
+    <text name="TXT__92" text="Núm." x="287" y="272" width="28" height="12"/>
+    <text name="TXT__93" text="S.S." x="322" y="272" width="28" height="12"/>
+    <text name="TXT__94" text="," x="448" y="272" width="7" height="12"/>
+    <text name="TXT__95" text="jefe" x="462" y="272" width="28" height="12"/>
+    <text name="TXT__96" text="de" x="497" y="272" width="14" height="12"/>
+    <text name="TXT__97" text="la" x="518" y="272" width="14" height="12"/>
+    <text name="TXT__98" text="unidad" x="21" y="288" width="42" height="12"/>
+    <text name="TXT__99" text="familiar," x="70" y="288" width="63" height="12"/>
+    <text name="TXT__100" text="certifico" x="140" y="288" width="63" height="12"/>
+    <text name="TXT__101" text="que" x="210" y="288" width="21" height="12"/>
+    <text name="TXT__102" text="no" x="238" y="288" width="14" height="12"/>
+    <text name="TXT__103" text="he" x="259" y="288" width="14" height="12"/>
+    <text name="TXT__104" text="sido" x="280" y="288" width="28" height="12"/>
+    <text name="TXT__105" text="convicto" x="315" y="288" width="56" height="12"/>
+    <text name="TXT__106" text="por" x="378" y="288" width="21" height="12"/>
+    <text name="TXT__107" text="delitos" x="406" y="288" width="49" height="12"/>
+    <text name="TXT__108" text="de" x="462" y="288" width="14" height="12"/>
+    <text name="TXT__109" text="posesión," x="483" y="288" width="63" height="12"/>
+    <text name="TXT__110" text="uso" x="21" y="304" width="21" height="12"/>
+    <text name="TXT__111" text="o" x="49" y="304" width="7" height="12"/>
+    <text name="TXT__112" text="distribución" x="63" y="304" width="84" height="12"/>
+    <text name="TXT__113" text="de" x="154" y="304" width="14" height="12"/>
+    <text name="TXT__114" text="sustancias" x="175" y="304" width="70" height="12"/>
+    <text name="TXT__115" text="controladas," x="252" y="304" width="84" height="12"/>
+    <text name="TXT__116" text="dentro" x="343" y="304" width="42" height="12"/>
+    <text name="TXT__117" text="de" x="392" y="304" width="14" height="12"/>
+    <text name="TXT__118" text="la" x="413" y="304" width="14" height="12"/>
+    <text name="TXT__119" text="Jurisdicción" x="434" y="304" width="84" height="12"/>
+    <text name="TXT__120" text="Federal" x="21" y="320" width="49" height="12"/>
+    <text name="TXT__121" text="y" x="77" y="320" width="7" height="12"/>
+    <text name="TXT__122" text="Estatal," x="91" y="320" width="56" height="12"/>
+    <text name="TXT__123" text="ni" x="154" y="320" width="14" height="12"/>
+    <text name="TXT__124" text="ningún" x="175" y="320" width="42" height="12"/>
+    <text name="TXT__125" text="miembro" x="224" y="320" width="49" height="12"/>
+    <text name="TXT__126" text="de" x="280" y="320" width="14" height="12"/>
+    <text name="TXT__127" text="mi" x="301" y="320" width="14" height="12"/>
+    <text name="TXT__128" text="unidad" x="322" y="320" width="42" height="12"/>
+    <text name="TXT__129" text="familiar," x="371" y="320" width="63" height="12"/>
+    <text name="TXT__130" text="según" x="441" y="320" width="35" height="12"/>
+    <text name="TXT__131" text="definido" x="483" y="320" width="56" height="12"/>
+    <text name="TXT__132" text="en" x="21" y="336" width="14" height="12"/>
+    <text name="TXT__133" text="la" x="42" y="336" width="14" height="12"/>
+    <text name="TXT__134" text="Ley" x="63" y="336" width="21" height="12"/>
+    <text name="TXT__135" text="de" x="91" y="336" width="14" height="12"/>
+    <text name="TXT__136" text="Sustancias" x="112" y="336" width="70" height="12"/>
+    <text name="TXT__137" text="Controladas" x="189" y="336" width="77" height="12"/>
+    <text name="TXT__138" text="(21" x="273" y="336" width="21" height="12"/>
+    <text name="TXT__139" text="U.S.C." x="301" y="336" width="42" height="12"/>
+    <text name="TXT__140" text="802(6))." x="350" y="336" width="56" height="12"/>
+    <text name="TXT__141" text="MIEMBROS" x="21" y="384" width="56" height="12"/>
+    <text name="TXT__142" text="DE" x="84" y="384" width="14" height="12"/>
+    <text name="TXT__143" text="LA" x="105" y="384" width="14" height="12"/>
+    <text name="TXT__144" text="UNIDAD" x="126" y="384" width="42" height="12"/>
+    <text name="TXT__145" text="FAMILIAR:" x="175" y="384" width="63" height="12"/>
+    <text name="TXT__146" text="NOMBRE" x="21" y="416" width="42" height="12"/>
+    <text name="TXT__147" text="EDAD" x="350" y="416" width="28" height="12"/>
+    <text name="TXT__148" text="SEGURO" x="406" y="416" width="42" height="12"/>
+    <text name="TXT__149" text="SOCIAL" x="455" y="416" width="42" height="12"/>
+    <text name="TXT__150" text="Esta" x="21" y="592" width="28" height="12"/>
+    <text name="TXT__151" text="información" x="56" y="592" width="77" height="12"/>
+    <text name="TXT__152" text="es" x="140" y="592" width="14" height="12"/>
+    <text name="TXT__153" text="requerida" x="161" y="592" width="63" height="12"/>
+    <text name="TXT__154" text="por" x="231" y="592" width="21" height="12"/>
+    <text name="TXT__155" text="la" x="259" y="592" width="14" height="12"/>
+    <text name="TXT__156" text="Sección" x="280" y="592" width="49" height="12"/>
+    <text name="TXT__157" text="115" x="336" y="592" width="21" height="12"/>
+    <text name="TXT__158" text="(c)" x="364" y="592" width="21" height="12"/>
+    <text name="TXT__159" text="del" x="392" y="592" width="21" height="12"/>
+    <text name="TXT__160" text="P.L." x="420" y="592" width="28" height="12"/>
+    <text name="TXT__161" text="-193." x="476" y="592" width="35" height="12"/>
+    <text name="TXT__162" text="Certifico:" x="21" y="624" width="70" height="12"/>
+    <text name="TXT__163" text="Que" x="98" y="624" width="21" height="12"/>
+    <text name="TXT__164" text="la" x="126" y="624" width="14" height="12"/>
+    <text name="TXT__165" text="información" x="147" y="624" width="77" height="12"/>
+    <text name="TXT__166" text="ofrecida" x="231" y="624" width="56" height="12"/>
+    <text name="TXT__167" text="por" x="294" y="624" width="21" height="12"/>
+    <text name="TXT__168" text="mí" x="322" y="624" width="14" height="12"/>
+    <text name="TXT__169" text="es" x="343" y="624" width="14" height="12"/>
+    <text name="TXT__170" text="completa" x="364" y="624" width="56" height="12"/>
+    <text name="TXT__171" text="y" x="427" y="624" width="7" height="12"/>
+    <text name="TXT__172" text="verdadera," x="441" y="624" width="70" height="12"/>
+    <text name="TXT__173" text="que" x="518" y="624" width="21" height="12"/>
+    <text name="TXT__174" text="no" x="21" y="640" width="14" height="12"/>
+    <text name="TXT__175" text="he" x="42" y="640" width="14" height="12"/>
+    <text name="TXT__176" text="ocultado" x="63" y="640" width="56" height="12"/>
+    <text name="TXT__177" text="o" x="126" y="640" width="7" height="12"/>
+    <text name="TXT__178" text="dejado" x="140" y="640" width="42" height="12"/>
+    <text name="TXT__179" text="de" x="189" y="640" width="14" height="12"/>
+    <text name="TXT__180" text="informar" x="210" y="640" width="56" height="12"/>
+    <text name="TXT__181" text="datos" x="273" y="640" width="35" height="12"/>
+    <text name="TXT__182" text="que" x="315" y="640" width="21" height="12"/>
+    <text name="TXT__183" text="impidan" x="343" y="640" width="49" height="12"/>
+    <text name="TXT__184" text="al" x="399" y="640" width="14" height="12"/>
+    <text name="TXT__185" text="Programa" x="420" y="640" width="56" height="12"/>
+    <text name="TXT__186" text="de" x="483" y="640" width="14" height="12"/>
+    <text name="TXT__187" text="Ayuda" x="504" y="640" width="35" height="12"/>
+    <text name="TXT__188" text="Temporal" x="21" y="656" width="56" height="12"/>
+    <text name="TXT__189" text="para" x="84" y="656" width="28" height="12"/>
+    <text name="TXT__190" text="Familias" x="119" y="656" width="56" height="12"/>
+    <text name="TXT__191" text="Necesitadas" x="182" y="656" width="77" height="12"/>
+    <text name="TXT__192" text="(TANF)," x="266" y="656" width="49" height="12"/>
+    <text name="TXT__193" text="determinar" x="322" y="656" width="70" height="12"/>
+    <text name="TXT__194" text="elegibilidad" x="399" y="656" width="84" height="12"/>
+    <text name="TXT__195" text="en" x="490" y="656" width="14" height="12"/>
+    <text name="TXT__196" text="mi" x="511" y="656" width="14" height="12"/>
+    <text name="TXT__197" text="situación." x="21" y="672" width="70" height="12"/>
+    <text name="TXT__198" text="Estoy" x="21" y="704" width="35" height="12"/>
+    <text name="TXT__199" text="consciente" x="63" y="704" width="70" height="12"/>
+    <text name="TXT__200" text="de" x="140" y="704" width="14" height="12"/>
+    <text name="TXT__201" text="que" x="161" y="704" width="21" height="12"/>
+    <text name="TXT__202" text="si" x="189" y="704" width="14" height="12"/>
+    <text name="TXT__203" text="he" x="210" y="704" width="14" height="12"/>
+    <text name="TXT__204" text="ofrecido" x="231" y="704" width="56" height="12"/>
+    <text name="TXT__205" text="información" x="294" y="704" width="77" height="12"/>
+    <text name="TXT__206" text="falsa" x="378" y="704" width="35" height="12"/>
+    <text name="TXT__207" text="puedo" x="420" y="704" width="35" height="12"/>
+    <text name="TXT__208" text="ser" x="462" y="704" width="21" height="12"/>
+    <text name="TXT__209" text="llevado(a)" x="21" y="720" width="70" height="12"/>
+    <text name="TXT__210" text="ante" x="98" y="720" width="28" height="12"/>
+    <text name="TXT__211" text="los" x="133" y="720" width="21" height="12"/>
+    <text name="TXT__212" text="Tribunales" x="161" y="720" width="70" height="12"/>
+    <text name="TXT__213" text="de" x="238" y="720" width="14" height="12"/>
+    <text name="TXT__214" text="acuerdo" x="259" y="720" width="49" height="12"/>
+    <text name="TXT__215" text="con" x="315" y="720" width="21" height="12"/>
+    <text name="TXT__216" text="las" x="343" y="720" width="21" height="12"/>
+    <text name="TXT__217" text="leyes" x="371" y="720" width="35" height="12"/>
+    <text name="TXT__218" text="y" x="413" y="720" width="7" height="12"/>
+    <text name="TXT__219" text="reglamentos" x="427" y="720" width="77" height="12"/>
+    <text name="TXT__220" text="de" x="511" y="720" width="14" height="12"/>
+    <text name="TXT__221" text="este" x="21" y="736" width="28" height="12"/>
+    <text name="TXT__222" text="Programa," x="56" y="736" width="63" height="12"/>
+    <text name="TXT__223" text="además" x="126" y="736" width="42" height="12"/>
+    <text name="TXT__224" text="de" x="175" y="736" width="14" height="12"/>
+    <text name="TXT__225" text="ser" x="196" y="736" width="21" height="12"/>
+    <text name="TXT__226" text="descalificado" x="224" y="736" width="91" height="12"/>
+    <text name="TXT__227" text="del" x="322" y="736" width="21" height="12"/>
+    <text name="TXT__228" text="mismo." x="350" y="736" width="42" height="12"/>
+    <text name="TXT__229" text="Acepto" x="399" y="736" width="42" height="12"/>
+    <text name="TXT__230" text="se" x="448" y="736" width="14" height="12"/>
+    <text name="TXT__231" text="investigue" x="469" y="736" width="70" height="12"/>
+    <text name="TXT__232" text="lo" x="21" y="752" width="14" height="12"/>
+    <text name="TXT__233" text="aqui" x="42" y="752" width="28" height="12"/>
+    <text name="TXT__234" text="informado." x="77" y="752" width="70" height="12"/>
+    <text name="TXT__235" text="Firma" x="21" y="832" width="35" height="12"/>
+    <text name="TXT__236" text="o" x="63" y="832" width="7" height="12"/>
+    <text name="TXT__237" text="marca" x="77" y="832" width="35" height="12"/>
+    <text name="TXT__238" text="del" x="119" y="832" width="21" height="12"/>
+    <text name="TXT__239" text="Jefe" x="147" y="832" width="28" height="12"/>
+    <text name="TXT__240" text="de" x="182" y="832" width="14" height="12"/>
+    <text name="TXT__241" text="la" x="203" y="832" width="14" height="12"/>
+    <text name="TXT__242" text="Testigo" x="252" y="832" width="49" height="12"/>
+    <text name="TXT__243" text="de" x="308" y="832" width="14" height="12"/>
+    <text name="TXT__244" text="la" x="329" y="832" width="14" height="12"/>
+    <text name="TXT__245" text="marca" x="350" y="832" width="35" height="12"/>
+    <text name="TXT__246" text="Fecha" x="476" y="832" width="35" height="12"/>
+    <text name="TXT__247" text="Unidad" x="21" y="848" width="42" height="12"/>
+    <text name="TXT__248" text="fam." x="70" y="848" width="28" height="12"/>
+    <text name="TXT__249" text="o" x="105" y="848" width="7" height="12"/>
+    <text name="TXT__250" text="Repte." x="119" y="848" width="42" height="12"/>
+    <text name="TXT__251" text="aut." x="168" y="848" width="28" height="12"/>
+    <text name="TXT__252" text="-yyyy)" x="497" y="848" width="42" height="12"/>
+    <text name="TXT__253" text="ADSEF-TANF-10" x="7" y="32" width="91" height="12"/>
+    <text name="TXT__254" text="REV" x="7" y="48" width="21" height="12"/>
+    <text name="TXT__255" text="104" x="63" y="240" width="21" height="12"/>
+    <text name="TXT__256" text="104" x="455" y="592" width="21" height="12"/>
+    <text name="TXT__257" text="(dd" x="448" y="848" width="21" height="12"/>
+    <text name="TXT__258" text="-mmm" x="469" y="848" width="28" height="12"/>
+    <line name="LINE_TXT_0" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="22" x1="553" y1="22" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_1" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="21" y="438" x1="532" y1="438" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_2" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="21" y="566" x1="532" y1="566" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_3" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="21" y="822" x1="210" y1="822" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_4" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="238" y="822" x1="434" y1="822" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_5" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="455" y="822" x1="532" y1="822" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_6" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="870" x1="553" y1="870" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_7" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="7" y="22" x1="7" y1="870" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_8" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="553" y="22" x1="553" y1="870" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  </textgroup>
+  <field name="NUMFAM" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="358" y="272" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="NOMBREFAM" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="50" y="272" width="223" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="N1" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="22" y="448" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="E1" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="358" y="448" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="S1" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="414" y="448" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="N2" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="22" y="464" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="E2" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="358" y="464" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="S2" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="414" y="464" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="N3" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="22" y="480" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="E3" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="358" y="480" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="S3" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="414" y="480" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="N4" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="22" y="496" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="E4" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="358" y="496" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="S4" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="414" y="496" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="N5" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="22" y="512" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="E5" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="358" y="512" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="S5" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="414" y="512" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="N6" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="22" y="528" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="E6" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="358" y="528" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="S6" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="414" y="528" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="N7" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="22" y="544" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="E7" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="358" y="544" width="13" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="S7" tag="" visible="true" enabled="true" container="ADSEF_TANF_10_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="414" y="544" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+  </field>
+</model>

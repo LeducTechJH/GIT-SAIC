@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="RECURSOS_TBL_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="true" insertAllowed="true" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="true" updateFields="COD_TIPO_RECURSO,DSC_RECURSO" updateKey="COD_TIPO_RECURSO" updateSourceName="RECURSOS_TBL" useTransactions="false" definition="select  RECURSOS_TBL.COD_TIPO_RECURSO,  RECURSOS_TBL.DSC_RECURSO from RECURSOS_TBL RECURSOS_TBL order by RECURSOS_TBL.COD_TIPO_RECURSO asc" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">SHARED WRITE</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="COD_TIPO_RECURSO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="RECURSOS_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_TIPO_RECURSO" sourceLocation="" sourceName="RECURSOS_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DSC_RECURSO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="40" sourceAlias="RECURSOS_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DSC_RECURSO" sourceLocation="" sourceName="RECURSOS_TBL" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

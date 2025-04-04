@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="NUEVO_JEFE_FAM_FRM" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="284" height="144" groupstyle="0" highLightSelected="false" firstobject="SEGURO_SOCIAL_JEFE_FAMILIA" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Thu Jul 03 06:38:17 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="NUEVO_JEFE_FAM_FRM" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="280" height="140" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="Un" x="0" y="16" width="14" height="12"/>
+    <text name="TXT__1" text="servicio" x="28" y="16" width="56" height="12"/>
+    <text name="TXT__2" text="que" x="91" y="16" width="21" height="12"/>
+    <text name="TXT__3" text="no" x="119" y="16" width="14" height="12"/>
+    <text name="TXT__4" text="será" x="140" y="16" width="28" height="12"/>
+    <text name="TXT__5" text="transferido" x="175" y="16" width="77" height="12"/>
+    <text name="TXT__6" text="asociado" x="0" y="32" width="56" height="12"/>
+    <text name="TXT__7" text="a" x="70" y="32" width="7" height="12"/>
+    <text name="TXT__8" text="este" x="84" y="32" width="28" height="12"/>
+    <text name="TXT__9" text="Jefe" x="119" y="32" width="28" height="12"/>
+    <text name="TXT__10" text="de" x="154" y="32" width="14" height="12"/>
+    <text name="TXT__11" text="Familia" x="175" y="32" width="49" height="12"/>
+    <text name="TXT__12" text="requiere" x="0" y="48" width="56" height="12"/>
+    <text name="TXT__13" text="que" x="70" y="48" width="21" height="12"/>
+    <text name="TXT__14" text="se" x="98" y="48" width="14" height="12"/>
+    <text name="TXT__15" text="asigne" x="119" y="48" width="42" height="12"/>
+    <text name="TXT__16" text="un" x="168" y="48" width="14" height="12"/>
+    <text name="TXT__17" text="nuevo" x="189" y="48" width="35" height="12"/>
+    <text name="TXT__18" text="jefe." x="231" y="48" width="35" height="12"/>
+    <text name="TXT__19" text="Seleccione" x="0" y="64" width="70" height="12"/>
+    <text name="TXT__20" text="un" x="84" y="64" width="14" height="12"/>
+    <text name="TXT__21" text="Nuevo" x="105" y="64" width="35" height="12"/>
+    <text name="TXT__22" text="Jefe" x="147" y="64" width="28" height="12"/>
+    <text name="TXT__23" text="de" x="182" y="64" width="14" height="12"/>
+    <text name="TXT__24" text="Familia" x="203" y="64" width="49" height="12"/>
+    <text name="TXT__25" text="para" x="0" y="80" width="28" height="12"/>
+    <text name="TXT__26" text="los" x="42" y="80" width="21" height="12"/>
+    <text name="TXT__27" text="servicios" x="70" y="80" width="63" height="12"/>
+    <text name="TXT__28" text="que" x="140" y="80" width="21" height="12"/>
+    <text name="TXT__29" text="no" x="168" y="80" width="14" height="12"/>
+    <text name="TXT__30" text="serán" x="189" y="80" width="35" height="12"/>
+    <text name="TXT__31" text="transferidos." x="0" y="96" width="91" height="12"/>
+    <text name="TXT__32" text="Seguro" x="0" y="112" width="42" height="12"/>
+    <text name="TXT__33" text="Social" x="56" y="112" width="42" height="12"/>
+    <text name="TXT__34" text="Nuevo" x="105" y="112" width="35" height="12"/>
+    <text name="TXT__35" text="Jef:" x="147" y="112" width="28" height="12"/>
+    <text name="TXT__36" text="-" x="266" y="112" width="7" height="12"/>
+    <line name="LINE_TXT_0" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="6" x1="280" y1="6" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_1" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="182" y="118" x1="259" y1="118" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_2" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="134" x1="280" y1="134" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_3" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="6" x1="0" y1="134" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_4" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="280" y="6" x1="280" y1="134" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  </textgroup>
+  <field name="SEGURO_SOCIAL_JEFE_FAMILIA" tag="" visible="true" enabled="true" container="NUEVO_JEFE_FAM_FRM" nextobject="DUMMY" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="183" y="112" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="999999999" minimalValue="1" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="6001" mustfill="false" required="false">
+    <event name="JDataPanelListener.VALIDATION"/>
+    <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+      <EditModel formName="TRAN_FAM_LOV_FR" groupName="" valueField="SEGURO_SOCIAL_CLIENTE">
+        <Item targetField="" sourceField=""/>
+      </EditModel>
+    </editcontrol>
+  </field>
+  <field name="DUMMY" tag="" visible="true" enabled="true" container="NUEVO_JEFE_FAM_FRM" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="267" y="112" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="5700" mustfill="false" required="false">
+    <event name="JDataPanelListener.BEFORELEAVE"/>
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+</model>

@@ -1,0 +1,58 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<html>
+<head>
+<title>SAIC Print</title>
+
+<script language="JavaScript">
+<!--
+
+function init ( )
+{
+  var str = "<table>";
+  str += "<tr>";
+  str += "<td width=\"190\">&nbsp;</td>";
+  str += "<td>";
+  str += "<input type=\"button\" value=\"Imprimir\" style=\"width:100;\" onclick=\"printData ( )\"/>";
+  str += "</td>";
+  str += "<td width=\"20\">&nbsp;</td>";
+  str += "<td>";
+  str += "<input type=\"button\" value=\"Salir\" style=\"width:100;\" onclick=\"window.close ( );\"/>";
+  str += "</td>";
+  str += "<td width=\"190\">&nbsp;</td>";
+  str += "</tr>";
+  str += "</table><br><pre>";
+  document.body.innerHTML = str + opener.bodyText + "</pre>";
+
+}
+
+function printData ( )
+{
+  hideObjectsByType ( document.all.tags ( "input" ), "button" );
+  window.print ( );
+  id = setTimeout ( "pause ( id )", 5000 );
+  window.close ( );
+}
+
+function hideObjectsByType ( objects, type )
+{
+  for ( index = 0; index < objects.length; index++ ) 
+  {
+    if ( objects [ index ].type == type ) 
+    {
+      hide ( objects [ index ] );
+    }
+  }
+}
+
+function hide ( obj )
+{
+  obj.style.display = "none";
+}
+
+// -->
+</script>
+
+</head>
+<body onload="init ( );">
+</body>
+</html>

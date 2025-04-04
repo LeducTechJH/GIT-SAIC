@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>HiddenIFrame</title>
+
+<link href="css/jdp.css" rel="stylesheet" type="text/css">
+<script src="js/jdp.js" type="text/javascript"></script>
+<link href="css/DatePicker.css" rel="stylesheet" type="text/css">
+<link href="css/subModal.css" rel="stylesheet" type="text/css">
+<script src="js/common.js" type="text/javascript"></script>
+<script src="js/DateTimePicker.js" type="text/javascript"></script>
+<script src="js/keyEventHandler.js" type="text/javascript"></script>
+<script src="js/server.js" type="text/javascript"></script>
+<script src="js/submodal.js" type="text/javascript"></script>
+<link href="css/ConfirmMenu.css" rel="stylesheet" type="text/css">
+<script src="js/messages.js" type="text/javascript"></script>
+<script src="js/xml.js" type="text/javascript"></script>
+<script src="js/xml.js" type="text/javascript"></script>
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/jquery.meio.mask.js" type="text/javascript" charset="utf-8"></script>
+<script src="dlfjs/SEL_RMO_OFICINA_ALL_FR.js" type="text/javascript"></script>
+
+</head>
+<body topmargin="0" rightmargin="0" bottommargin="0" leftmargin="0" bgcolor="#ffffff" onload="init ( ); setField ( 'RMO_OFICNA.0' );">
+
+<form name="SEL_RMO_OFICINA_ALL_FR" id="SEL_RMO_OFICINA_ALL_FR">
+
+<input title="__systemPark" id="__systemPark" style="border: 0px currentColor; border-image: none; left: 564px; top: 384px; width: 1px;" value="">
+<div id="TXT__0" style="left: 184px; top: 18px; color: rgb(0, 0, 64);">DEPARTAMENTO</div>
+<div id="TXT__1" style="left: 275px; top: 18px; color: rgb(0, 0, 64);">DE</div>
+<div id="TXT__2" style="left: 296px; top: 18px; color: rgb(0, 0, 64);">LA</div>
+<div id="TXT__3" style="left: 317px; top: 18px; color: rgb(0, 0, 64);">FAMILIA</div>
+<div id="TXT__4" style="left: 107px; top: 34px; color: rgb(0, 0, 64);">SISTEMA</div>
+<div id="TXT__5" style="left: 163px; top: 34px; color: rgb(0, 0, 64);">DE</div>
+<div id="TXT__6" style="left: 184px; top: 34px; color: rgb(0, 0, 64);">ADMINISTRACION</div>
+<div id="TXT__7" style="left: 289px; top: 34px; color: rgb(0, 0, 64);">E</div>
+<div id="TXT__8" style="left: 303px; top: 34px; color: rgb(0, 0, 64);">INFORMACION</div>
+<div id="TXT__9" style="left: 387px; top: 34px; color: rgb(0, 0, 64);">DE</div>
+<div id="TXT__10" style="left: 408px; top: 34px; color: rgb(0, 0, 64);">CASOS</div>
+<div id="TXT__11" style="left: 212px; top: 50px; color: rgb(0, 0, 64);">SELECCION</div>
+<div id="TXT__12" style="left: 282px; top: 50px; color: rgb(0, 0, 64);">POR</div>
+<div id="TXT__13" style="left: 310px; top: 50px; color: rgb(0, 0, 64);">RMO</div>
+<div id="TXT__14" style="left: 212px; top: 162px; color: rgb(0, 0, 64);">RMO</div>
+<div id="TXT__15" style="left: 261px; top: 162px; color: rgb(0, 0, 64);">OFICINA</div>
+<div class="line" id="LINE_TXT_0" style="left: 1px; top: 8px; width: 560px; height: 1px;"></div>
+<div class="line" id="LINE_TXT_1" style="left: 1px; top: 72px; width: 560px; height: 1px;"></div>
+<div class="line" id="LINE_TXT_2" style="left: 197px; top: 152px; width: 154px; height: 1px;"></div>
+<div class="line" id="LINE_TXT_3" style="left: 197px; top: 216px; width: 154px; height: 1px;"></div>
+<div class="line" id="LINE_TXT_4" style="left: 1px; top: 8px; width: 1px; height: 64px;"></div>
+<div class="line" id="LINE_TXT_5" style="left: 561px; top: 8px; width: 1px; height: 64px;"></div>
+<div class="line" id="LINE_TXT_6" style="left: 197px; top: 152px; width: 1px; height: 64px;"></div>
+<div class="line" id="LINE_TXT_7" style="left: 351px; top: 152px; width: 1px; height: 64px;"></div>
+<input name="RMO_OFICNA" title="RMO_OFICNA" id="RMO_OFICNA" style="background: rgb(255, 255, 160); border-style: dotted; border-color: rgb(240, 0, 240); left: 212px; top: 193px; width: 52px;" value="T1">
+<input name="DSC_OFICINA" title="DSC_OFICINA" id="DSC_OFICINA" style="left: 261px; top: 193px; width: 73px;" readonly="true" value="T2">
+<input name="PARK" title="PARK" id="PARK" style="left: 359px; top: 193px; width: 17px;" value="">
+</form>
+<div id="subFormDiv" style="background: rgb(255, 255, 240); margin: 0px; padding: 0px; border: 1px solid orange; border-image: none; left: 0px; top: 0px; width: 1px; height: 1px; display: block; visibility: hidden; position: absolute; z-index: 5000;"></div>
+
+
+
+<div id="waitingMaskDiv" style="width: 100%; height: 100%; float: left; display: none; visibility: hidden; z-index: 20000; opacity: 0.2;"><br><br><br><br><br><br><br><center><font size="5">Procesando</font></center></div><div id="popupMask" style="width: 100%; height: 100%; float: left; display: none; opacity: 0.2;"><table width="100%" height="100%"><tbody><tr onclick="closeSubmodal ( );"><td>&nbsp;</td></tr></tbody></table></div><div id="popupContainer" style="left: 212px; top: 209px; width: 300px; height: 200px; display: none; z-index: 10001;"><div id="popupInner"><div id="popupTitleBar" style="padding: 0px; width: 297px; height: 17px;"><table width="100%" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td width="100%" align="right">&nbsp;</td><td valign="top"><img id="pListUp" style="top: 3px; visibility: hidden; position: relative;" onclick="pickListPrevPage ( );" src="images/PageUp.gif"></td><td valign="top"><img id="pListDn" style="top: 2px; visibility: hidden; position: relative;" onclick="pickListNextPage ( );" src="images/PageDown.gif"></td><td valign="top"><img style="left: -1px; top: 1px; position: relative;" onclick="closeSubmodal ( );" src="images/closeSubmodal.gif"></td></tr></tbody></table></div><div id="popupScrollable" style="border: 1px currentColor; border-image: none; width: 300px; height: 200px; display: block;"><form id="pickListForm">  <table width="100%" id="pickListTable" border="0" cellspacing="1" cellpadding="1" name="data">
+    <tbody>
+    
+  </tbody></table>
+<input id="pickListDummyInput" style="border: 1px currentColor; border-image: none; width: 1px; height: 1px;"></form></div></div></div></body>
+</html>

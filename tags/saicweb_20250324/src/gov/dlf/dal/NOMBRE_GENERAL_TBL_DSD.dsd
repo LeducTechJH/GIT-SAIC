@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="NOMBRE_GENERAL_TBL_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="true" insertAllowed="true" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="true" updateFields="COD_GENERAL,DSC_NOMBRE_TABLA" updateKey="COD_GENERAL" updateSourceName="NOMBRE_GENERAL_TBL" useTransactions="false" definition="select  NOMBRE_GENERAL_TBL.COD_GENERAL,  NOMBRE_GENERAL_TBL.DSC_NOMBRE_TABLA from NOMBRE_GENERAL_TBL NOMBRE_GENERAL_TBL order by NOMBRE_GENERAL_TBL.COD_GENERAL asc, NOMBRE_GENERAL_TBL.DSC_NOMBRE_TABLA asc" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">SHARED WRITE</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="COD_GENERAL" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="4" sourceAlias="NOMBRE_GENERAL_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_GENERAL" sourceLocation="" sourceName="NOMBRE_GENERAL_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DSC_NOMBRE_TABLA" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="40" sourceAlias="NOMBRE_GENERAL_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DSC_NOMBRE_TABLA" sourceLocation="" sourceName="NOMBRE_GENERAL_TBL" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

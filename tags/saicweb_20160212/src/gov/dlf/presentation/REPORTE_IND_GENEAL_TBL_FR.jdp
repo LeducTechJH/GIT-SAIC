@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="REPORTE_IND_GENEAL_TBL_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="564" height="384" groupstyle="0" highLightSelected="false" firstobject="CODIGO_GEN" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Thu Jul 03 06:38:19 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="REPORTE_IND_GENEAL_TBL_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="560" height="188" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="DEPARTAMENTO" x="189" y="16" width="84" height="12"/>
+    <text name="TXT__1" text="DE" x="280" y="16" width="14" height="12"/>
+    <text name="TXT__2" text="LA" x="301" y="16" width="14" height="12"/>
+    <text name="TXT__3" text="FAMILIA" x="322" y="16" width="49" height="12"/>
+    <text name="TXT__4" text="SISTEMA" x="112" y="32" width="49" height="12"/>
+    <text name="TXT__5" text="DE" x="168" y="32" width="14" height="12"/>
+    <text name="TXT__6" text="ADMINISTRACION" x="189" y="32" width="98" height="12"/>
+    <text name="TXT__7" text="E" x="294" y="32" width="7" height="12"/>
+    <text name="TXT__8" text="INFORMACION" x="308" y="32" width="77" height="12"/>
+    <text name="TXT__9" text="DE" x="392" y="32" width="14" height="12"/>
+    <text name="TXT__10" text="CASOS" x="413" y="32" width="35" height="12"/>
+    <text name="TXT__11" text="TABLA" x="203" y="48" width="35" height="12"/>
+    <text name="TXT__12" text="CODIGOS" x="245" y="48" width="49" height="12"/>
+    <text name="TXT__13" text="GENERALES" x="301" y="48" width="63" height="12"/>
+    <text name="TXT__14" text="ENTRE" x="91" y="144" width="35" height="12"/>
+    <text name="TXT__15" text="EL" x="133" y="144" width="14" height="12"/>
+    <text name="TXT__16" text="CODIGO" x="154" y="144" width="42" height="12"/>
+    <text name="TXT__17" text="DE" x="203" y="144" width="14" height="12"/>
+    <text name="TXT__18" text="LA" x="224" y="144" width="14" height="12"/>
+    <text name="TXT__19" text="TABLA" x="245" y="144" width="35" height="12"/>
+    <text name="TXT__20" text="GENERAL" x="287" y="144" width="49" height="12"/>
+    <text name="TXT__21" text="QUE" x="343" y="144" width="21" height="12"/>
+    <text name="TXT__22" text="DESEA" x="371" y="144" width="35" height="12"/>
+    <text name="TXT__23" text="IMPRIMIR" x="413" y="144" width="56" height="12"/>
+    <text name="TXT__24" text="CODIGO" x="217" y="176" width="42" height="12"/>
+    <text name="TXT__25" text=">" x="273" y="176" width="7" height="12"/>
+    <line name="LINE_TXT_0" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="6" x1="560" y1="6" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_1" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="70" x1="560" y1="70" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_2" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="6" x1="0" y1="70" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_3" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="560" y="6" x1="560" y1="70" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  </textgroup>
+  <field name="CODIGO_GEN" tag="" visible="true" enabled="true" container="REPORTE_IND_GENEAL_TBL_FR" nextobject="PARK" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="295" y="176" width="27" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+      <EditModel formName="NOMBRE_GENERAL_LOV_FR" groupName="" valueField="COD_GENERAL">
+        <Item targetField="" sourceField=""/>
+      </EditModel>
+    </editcontrol>
+  </field>
+  <field name="PARK" tag="" visible="true" enabled="true" container="REPORTE_IND_GENEAL_TBL_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="92" y="208" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="3002" mustfill="false" required="false">
+    <event name="JDataPanelListener.BEFOREENTER"/>
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+</model>

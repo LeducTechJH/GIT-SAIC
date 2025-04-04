@@ -1,0 +1,48 @@
+.tip
+{
+  font:10px/12px Arial,Helvetica,sans-serif; border:solid 1px #666666; width:250px;
+  padding:1px; position:absolute; z-index:100; visibility:hidden; color:#333333;
+  top:20px; left:90px; background-color:#FFFFCC;
+}
+
+img
+{
+  vertical-align:top; position:absolute;
+}
+
+img.toolbutton
+{
+  width:16px; height:15px; border:solid 1px; visibility:hidden;
+}
+
+div 
+{
+  position:absolute; background:#FFFFFF; color:#3538FF; font:11px Courier New;
+}
+
+.line
+{
+  position:absolute; font-size:0px; border:0px; background:#3538FF; 
+}
+
+td
+{
+  vertical-align:top; font:11px Arial,Helvetica,sans-serif; color:#000040; height:16px;
+}
+
+input 
+{
+  position:absolute; height:15px; background:#FFFFF0; color:#000000; font:10px Arial; border:1px solid #7DA5E0;
+}
+
+input.text
+{
+  font:11px Arial,Helvetica,sans-serif; border:solid 1px #2020A0; 
+  width:70px; height:17px; color:#000040; background-color:#FFFFF8;
+}
+
+input.button
+{
+  font:11px Arial,Helvetica,sans-serif; border:solid 1px #2020A0; 
+  width:50px; height:17px; color:#000040; background-color:#DDCCFF;
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="GET_DSS173_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="564" height="384" groupstyle="0" highLightSelected="false" firstobject="SSNO_JEFE" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Wed Jul 09 08:10:37 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="GET_DSS173_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="469" height="332" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="Departamento" x="203" y="16" width="84" height="12"/>
+    <text name="TXT__1" text="de" x="294" y="16" width="14" height="12"/>
+    <text name="TXT__2" text="la" x="315" y="16" width="14" height="12"/>
+    <text name="TXT__3" text="Familia" x="336" y="16" width="49" height="12"/>
+    <text name="TXT__4" text="Sistema" x="126" y="32" width="49" height="12"/>
+    <text name="TXT__5" text="de" x="182" y="32" width="14" height="12"/>
+    <text name="TXT__6" text="Administración" x="203" y="32" width="98" height="12"/>
+    <text name="TXT__7" text="e" x="308" y="32" width="7" height="12"/>
+    <text name="TXT__8" text="Información" x="322" y="32" width="77" height="12"/>
+    <text name="TXT__9" text="de" x="406" y="32" width="14" height="12"/>
+    <text name="TXT__10" text="Casos" x="427" y="32" width="35" height="12"/>
+    <text name="TXT__11" text="Menu" x="189" y="48" width="28" height="12"/>
+    <text name="TXT__12" text="Notificacion" x="224" y="48" width="84" height="12"/>
+    <text name="TXT__13" text="de" x="315" y="48" width="14" height="12"/>
+    <text name="TXT__14" text="Informes" x="336" y="48" width="56" height="12"/>
+    <text name="TXT__15" text="(Control" x="196" y="64" width="56" height="12"/>
+    <text name="TXT__16" text="Referidos" x="259" y="64" width="63" height="12"/>
+    <text name="TXT__17" text="Justica)" x="329" y="64" width="56" height="12"/>
+    <text name="TXT__18" text="Parametros" x="203" y="96" width="70" height="12"/>
+    <text name="TXT__19" text="de" x="280" y="96" width="14" height="12"/>
+    <text name="TXT__20" text="Selección" x="301" y="96" width="63" height="12"/>
+    <text name="TXT__21" text="NSS" x="140" y="144" width="21" height="12"/>
+    <text name="TXT__22" text="Jefe" x="175" y="144" width="28" height="12"/>
+    <text name="TXT__23" text="Familia" x="210" y="144" width="49" height="12"/>
+    <text name="TXT__24" text=":" x="294" y="144" width="7" height="12"/>
+    <text name="TXT__25" text="NSS" x="140" y="160" width="21" height="12"/>
+    <text name="TXT__26" text="Jefe" x="175" y="160" width="28" height="12"/>
+    <text name="TXT__27" text="Servicio" x="210" y="160" width="56" height="12"/>
+    <text name="TXT__28" text=":" x="294" y="160" width="7" height="12"/>
+    <text name="TXT__29" text="NSS" x="140" y="176" width="21" height="12"/>
+    <text name="TXT__30" text="Miembro" x="175" y="176" width="49" height="12"/>
+    <text name="TXT__31" text="Referido" x="231" y="176" width="56" height="12"/>
+    <text name="TXT__32" text=":" x="294" y="176" width="7" height="12"/>
+    <text name="TXT__33" text="Servicio" x="140" y="192" width="56" height="12"/>
+    <text name="TXT__34" text=":" x="294" y="192" width="7" height="12"/>
+    <text name="TXT__35" text="Fecha" x="140" y="208" width="35" height="12"/>
+    <text name="TXT__36" text="Referido" x="189" y="208" width="56" height="12"/>
+    <text name="TXT__37" text=":" x="294" y="208" width="7" height="12"/>
+    <text name="TXT__38" text="Seleccione icono para continuar o regresar." x="130" y="304" width="301" height="12"/>
+    <line name="LINE_TXT_0" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="140" y="118" x1="413" y1="118" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_1" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="140" y="230" x1="413" y1="230" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_2" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="91" y="294" x1="469" y1="294" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_3" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="91" y="326" x1="469" y1="326" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_4" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="140" y="118" x1="140" y1="230" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_5" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="413" y="118" x1="413" y1="230" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_6" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="91" y="294" x1="91" y1="326" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+    <line name="LINE_TXT_7" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="469" y="294" x1="469" y1="326" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  </textgroup>
+  <field name="SSNO_JEFE" tag="" visible="true" enabled="true" container="GET_DSS173_FR" nextobject="SSNO_SERVICIO" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="309" y="144" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="999999999" minimalValue="1" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="true">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="11"/>
+  </field>
+  <field name="SSNO_SERVICIO" tag="" visible="true" enabled="true" container="GET_DSS173_FR" nextobject="SSNO_MIEMBRO" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="309" y="160" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="999999999" minimalValue="1" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="true">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="11"/>
+  </field>
+  <field name="SSNO_MIEMBRO" tag="" visible="true" enabled="true" container="GET_DSS173_FR" nextobject="SERVICIO" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="309" y="176" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="999999999" minimalValue="1" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="true">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="11"/>
+  </field>
+  <field name="SERVICIO" tag="" visible="true" enabled="true" container="GET_DSS173_FR" nextobject="FECHA_REFERIDO" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="309" y="192" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="true">
+    <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="5" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+      <EditModel formName="LOV_COD_SERV_FR" groupName="" valueField="COD_SERVICIO">
+        <Item targetField="" sourceField=""/>
+      </EditModel>
+    </editcontrol>
+  </field>
+  <field name="FECHA_REFERIDO" tag="" visible="true" enabled="true" container="GET_DSS173_FR" nextobject="PARK" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="309" y="208" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="true">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="11"/>
+  </field>
+  <field name="PARK" tag="" visible="true" enabled="true" container="GET_DSS173_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="393" y="208" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <event name="JDataPanelListener.BEFOREENTER"/>
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+</model>

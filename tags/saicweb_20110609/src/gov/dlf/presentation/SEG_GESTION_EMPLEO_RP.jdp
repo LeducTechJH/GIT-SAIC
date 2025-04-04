@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="SEG_GESTION_EMPLEO_RP" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="676" height="448" groupstyle="0" highLightSelected="false" firstobject="CTR_BRK" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Thu Jul 03 06:38:21 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="SEG_GESTION_EMPLEO_RP" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="476" height="92" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="DEPARTAMENTO" x="189" y="16" width="84" height="12"/>
+    <text name="TXT__1" text="DE" x="280" y="16" width="14" height="12"/>
+    <text name="TXT__2" text="LA" x="301" y="16" width="14" height="12"/>
+    <text name="TXT__3" text="FAMILIA" x="322" y="16" width="49" height="12"/>
+    <text name="TXT__4" text="ADMINISTRACION" x="77" y="32" width="98" height="12"/>
+    <text name="TXT__5" text="DE" x="182" y="32" width="14" height="12"/>
+    <text name="TXT__6" text="DESARROLLO" x="203" y="32" width="70" height="12"/>
+    <text name="TXT__7" text="SOCIOECONOMICO" x="280" y="32" width="98" height="12"/>
+    <text name="TXT__8" text="DE" x="385" y="32" width="14" height="12"/>
+    <text name="TXT__9" text="LA" x="406" y="32" width="14" height="12"/>
+    <text name="TXT__10" text="FAMILIA" x="427" y="32" width="49" height="12"/>
+    <text name="TXT__11" text="PROGRAMA" x="203" y="48" width="56" height="12"/>
+    <text name="TXT__12" text="PAN" x="266" y="48" width="21" height="12"/>
+    <text name="TXT__13" text="Y" x="294" y="48" width="7" height="12"/>
+    <text name="TXT__14" text="TRABAJO" x="308" y="48" width="49" height="12"/>
+    <text name="TXT__15" text="SEGUIMIENTO" x="175" y="80" width="77" height="12"/>
+    <text name="TXT__16" text="GESTIONES" x="259" y="80" width="63" height="12"/>
+    <text name="TXT__17" text="DE" x="329" y="80" width="14" height="12"/>
+    <text name="TXT__18" text="EMPLEO" x="350" y="80" width="42" height="12"/>
+  </textgroup>
+  <group name="CTR_BRK" tag="" visible="true" enabled="true" container="SEG_GESTION_EMPLEO_RP" nextobject="EMPLEOS_GP" objectType="group" pageStart="-1" pageType="0" x="0" y="128" width="672" height="316" allowInsert="true" allowUpdate="true" allowDelete="true" groupstyle="1" highLightSelected="true" datastore="SEG_GESTION_EMP_DSD" discardChildless="false" updatetotop="false" firstobject="SEGURO_SOCIAL_CLIENTE" indivisible="false" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="320" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+    <breakField name="SEGURO_SOCIAL_CLIENTE"/>
+    <textgroup name="CTR_BRK_TXT" tag="" visible="true" enabled="true" container="CTR_BRK" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="413" height="316" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+      <text name="CTR_BRK_TXT__0" text="NSS" x="0" y="0" width="21" height="12"/>
+      <text name="CTR_BRK_TXT__1" text="REGISTRADO:" x="28" y="0" width="77" height="12"/>
+      <text name="CTR_BRK_TXT__2" text="NOMBRE:" x="238" y="0" width="49" height="12"/>
+      <text name="CTR_BRK_TXT__3" text="NSS" x="0" y="16" width="21" height="12"/>
+      <text name="CTR_BRK_TXT__4" text="JUF" x="28" y="16" width="21" height="12"/>
+      <text name="CTR_BRK_TXT__5" text=":" x="98" y="16" width="7" height="12"/>
+      <text name="CTR_BRK_TXT__6" text="OFICINA" x="238" y="16" width="49" height="12"/>
+      <text name="CTR_BRK_TXT__7" text="LOCAL:" x="294" y="16" width="42" height="12"/>
+      <text name="CTR_BRK_TXT__8" text="FECHA" x="0" y="48" width="35" height="12"/>
+      <text name="CTR_BRK_TXT__9" text="VISITA" x="42" y="48" width="42" height="12"/>
+      <text name="CTR_BRK_TXT__10" text="PROPOSITO" x="98" y="48" width="63" height="12"/>
+      <text name="CTR_BRK_TXT__11" text="VISITA" x="168" y="48" width="42" height="12"/>
+      <text name="CTR_BRK_TXT__12" text="ACCION" x="322" y="48" width="42" height="12"/>
+      <text name="CTR_BRK_TXT__13" text="TOMADA" x="371" y="48" width="42" height="12"/>
+      <text name="CTR_BRK_TXT__14" text="NOMBRE" x="0" y="240" width="42" height="12"/>
+      <text name="CTR_BRK_TXT__15" text="PATRONO:" x="49" y="240" width="56" height="12"/>
+      <text name="CTR_BRK_TXT__16" text="DIRECCIÓN:" x="0" y="256" width="70" height="12"/>
+      <text name="CTR_BRK_TXT__17" text="TELEFONO:" x="0" y="272" width="63" height="12"/>
+      <text name="CTR_BRK_TXT__18" text="RESULTADO:" x="0" y="288" width="70" height="12"/>
+      <text name="CTR_BRK_TXT__19" text="CLAVE" x="0" y="304" width="35" height="12"/>
+      <text name="CTR_BRK_TXT__20" text="ACCION:" x="42" y="304" width="49" height="12"/>
+      <text name="CTR_BRK_TXT__21" text="-" x="133" y="304" width="7" height="12"/>
+    </textgroup>
+    <field name="CLAVE_ACCION" tag="" visible="true" enabled="true" container="CTR_BRK" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="CLAVE_ACCION" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="99" y="304" width="34" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="5" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+        <EditModel formName="GEN_CLAVE_ACCION_FR" groupName="" valueField="COD_ID">
+          <Item targetField="" sourceField=""/>
+        </EditModel>
+      </editcontrol>
+    </field>
+    <field name="DSC_CLAVE_ACCION" tag="" visible="true" enabled="true" container="CTR_BRK" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="141" y="304" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JDataPanel" editTypeName="JDataPanel" format="" isDialog="true" inputlimit="0" allowEditing="true" dialogWidth="100" dialogHeight="100" showArrow="false">
+        <EditModel formName="GEN_CLAVE_ACCION_FR" groupName="" valueField="DSC_LARGA">
+          <Item targetField="" sourceField=""/>
+        </EditModel>
+      </editcontrol>
+    </field>
+    <field name="DSC_DIRECCION" tag="" visible="true" enabled="true" container="CTR_BRK" nextobject="TELEFONO_PATRONO" objectType="field" copyFieldName="" datatypename="String" datafieldname="DSC_DIRECCION" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="78" y="256" width="244" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="35"/>
+    </field>
+    <field name="DSC_NOMBRE_PATRONO" tag="" visible="true" enabled="true" container="CTR_BRK" nextobject="DSC_DIRECCION" objectType="field" copyFieldName="" datatypename="String" datafieldname="DSC_NOMBRE_PATRONO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="113" y="240" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="30"/>
+    </field>
+    <field name="NOMBRE_COMPLETO" tag="" visible="true" enabled="true" container="CTR_BRK" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="295" y="0" width="251" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="RESULTADO" tag="" visible="true" enabled="true" container="CTR_BRK" nextobject="CLAVE_ACCION" objectType="field" copyFieldName="" datatypename="String" datafieldname="RESULTADO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="78" y="288" width="216" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="31"/>
+    </field>
+    <field name="SEGURO_SOCIAL_CLIENTE" tag="" visible="true" enabled="true" container="CTR_BRK" nextobject="SEGURO_SOCIAL_JEFE_FAM" objectType="field" copyFieldName="" datatypename="double" datafieldname="SEGURO_SOCIAL_CLIENTE" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="113" y="0" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="11"/>
+    </field>
+    <field name="SEGURO_SOCIAL_JEFE_FAM" tag="" visible="true" enabled="true" container="CTR_BRK" nextobject="EMPLEOS_GP" objectType="field" copyFieldName="" datatypename="double" datafieldname="SEGURO_SOCIAL_JEFE_FAM" emptyisnull="true" format="000-00-0000" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="113" y="16" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JNumericField" editTypeName="JNumericField" format="000-00-0000" isDialog="false" inputlimit="0"/>
+    </field>
+    <field name="TELEFONO_PATRONO" tag="" visible="true" enabled="true" container="CTR_BRK" nextobject="RESULTADO" objectType="field" copyFieldName="" datatypename="String" datafieldname="TELEFONO_PATRONO" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="71" y="272" width="104" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="15"/>
+    </field>
+    <field name="OFICINA" tag="" visible="true" enabled="true" container="CTR_BRK" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="344" y="16" width="202" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+      <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+    </field>
+    <group name="EMPLEOS_GP" tag="" visible="true" enabled="true" container="CTR_BRK" nextobject="" objectType="group" pageStart="-1" pageType="0" x="0" y="80" width="560" height="156" allowInsert="false" allowUpdate="true" allowDelete="false" groupstyle="1" highLightSelected="true" datastore="SEG_GESTION_EMP_DSD" discardChildless="false" updatetotop="false" firstobject="FCH_VISITAS" indivisible="false" repeatdeltax="0" repeatdeltay="4" repeatsizex="0" repeatsizey="16" repeatorder="true" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" visibleOnFocus="false" comment="">
+      <linklist>
+        <linkpair detail="SEGURO_SOCIAL_CLIENTE" master="SEGURO_SOCIAL_CLIENTE"/>
+      </linklist>
+      <field name="FCH_VISITAS" tag="" visible="true" enabled="true" container="EMPLEOS_GP" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="FCH_VISITAS" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="1" y="0" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="12"/>
+      </field>
+      <field name="PROPOSITO_VISITA" tag="" visible="true" enabled="true" container="EMPLEOS_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="PROPOSITO_VISITA" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="99" y="0" width="209" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="30"/>
+      </field>
+      <field name="ACCION_TOMADA" tag="" visible="true" enabled="true" container="EMPLEOS_GP" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="ACCION_TOMADA" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="323" y="0" width="216" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+        <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="31"/>
+      </field>
+    </group>
+  </group>
+</model>

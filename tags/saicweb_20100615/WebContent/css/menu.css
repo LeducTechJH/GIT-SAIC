@@ -1,0 +1,19 @@
+td 
+{ 
+  background-image: url(../images/OrangeVerticalGradient.gif);
+  background-repeat: repeat;
+  color: #FFFFFF;
+  font: 14px Arial;
+  font-weight: bold;
+  border: 2px solid orange;
+}
+
+#menuHeader 
+{
+  background-image: url(../images/OrangeVerticalGradient.gif);
+  background-repeat: repeat;
+  color: #FFFFFF;
+  font: 14px Arial;
+  font-weight: bold;
+  border: 2px solid orange;
+}

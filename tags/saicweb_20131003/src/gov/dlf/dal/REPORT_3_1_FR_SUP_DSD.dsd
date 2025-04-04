@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="REPORT_3_1_FR_SUP_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="" updateKey="" updateSourceName="" useTransactions="false" definition="SELECT SUPERVISOR_SERVICIOS.ID_SUPERVISOR, SUPERVISOR_SERVICIOS.SUP_NOMBRE FROM SUPERVISOR_SERVICIOS WHERE SUPERVISOR_SERVICIOS.RMO_OFICINA = RMO_PAR GROUP BY SUPERVISOR_SERVICIOS.ID_SUPERVISOR,SUPERVISOR_SERVICIOS.SUP_nombre ORDER BY SUPERVISOR_SERVICIOS.id_supervisor DESC" adapter="1" recordLength="0">
+  <argument name="RMO_PAR"/>
+  <extended name="NonDeclaredArgument">RMO_PAR</extended>
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="ID_SUPERVISOR" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="SUPERVISOR IDENTIFICATION" dataType="double" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="2" sourceAlias="SUPERVISOR_SERVICIOS" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="ID_SUPERVISOR" sourceLocation="" sourceName="SUPERVISOR_SERVICIOS" sourceOwner="" unique="false" updateable="false"/>
+  <field name="SUP_NOMBRE" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="NAME DESCRIPTION" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="15" sourceAlias="SUPERVISOR_SERVICIOS" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="SUP_NOMBRE" sourceLocation="" sourceName="SUPERVISOR_SERVICIOS" sourceOwner="" unique="false" updateable="false"/>
+</datastore>

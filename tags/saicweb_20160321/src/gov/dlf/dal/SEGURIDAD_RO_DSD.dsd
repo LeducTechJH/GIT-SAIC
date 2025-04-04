@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="SEGURIDAD_RO_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="false" insertAllowed="false" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="false" updateFields="COD_SEGURIDAD,DSC_TAREA,TAREA" updateKey="TAREA" updateSourceName="SEGURIDAD" useTransactions="false" definition="select  SEGURIDAD.COD_SEGURIDAD,  SEGURIDAD.DSC_TAREA,  SEGURIDAD.TAREA from SEGURIDAD SEGURIDAD" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">READ ONLY</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB:</extended>
+  <extended name="storage">SAIC_DB:</extended>
+  <field name="COD_SEGURIDAD" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="40" sourceAlias="SEGURIDAD" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_SEGURIDAD" sourceLocation="" sourceName="SEGURIDAD" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DSC_TAREA" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="75" sourceAlias="SEGURIDAD" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DSC_TAREA" sourceLocation="" sourceName="SEGURIDAD" sourceOwner="" unique="false" updateable="true"/>
+  <field name="TAREA" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="15" sourceAlias="SEGURIDAD" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="TAREA" sourceLocation="" sourceName="SEGURIDAD" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore name="ASIGNACION_DSD" bufferlimit="0" clearOnRetrieve="true" comment="" commitOnRecordChange="false" deleteAllowed="true" insertAllowed="true" retrieveLimit="0" trimEndOnRetrieve="false" updateAllowed="true" updateFields="COD_ASIGNACION,COD_SERVICIO,DSC_ASIGNACION" updateKey="COD_SERVICIO,COD_ASIGNACION" updateSourceName="ASIGNACION_TBL" useTransactions="false" definition="select  ASIGNACION_TBL.COD_ASIGNACION,  ASIGNACION_TBL.COD_SERVICIO,  ASIGNACION_TBL.DSC_ASIGNACION from ASIGNACION_TBL ASIGNACION_TBL order by ASIGNACION_TBL.COD_SERVICIO asc" adapter="1" recordLength="0">
+  <extended name="DSDBase">Oracle Rdb.</extended>
+  <extended name="WaitIfLockedOption">NO</extended>
+  <extended name="RecordLockingOption">SHARED WRITE</extended>
+  <extended name="DictionaryPath"/>
+  <extended name="DataBaseFile">SAIC_DB</extended>
+  <extended name="storage">SAIC_DB</extended>
+  <field name="COD_ASIGNACION" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="3" sourceAlias="ASIGNACION_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_ASIGNACION" sourceLocation="" sourceName="ASIGNACION_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="COD_SERVICIO" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="SERVICE CODE" dataType="String" distinct="false" expression="" key="true" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="5" sourceAlias="ASIGNACION_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="COD_SERVICIO" sourceLocation="" sourceName="ASIGNACION_TBL" sourceOwner="" unique="false" updateable="true"/>
+  <field name="DSC_ASIGNACION" autoIncrement="false" autoIncrementSeed="0" autoIncrementStep="0" comment="" dataType="String" distinct="false" expression="" key="false" label="" nullable="false" offset="0" ordinal="0" readOnly="false" scale="0" searchable="false" size="15" sourceAlias="ASIGNACION_TBL" sourceCatalog="" sourceDataType="" sourceExpression="" sourceFieldName="DSC_ASIGNACION" sourceLocation="" sourceName="ASIGNACION_TBL" sourceOwner="" unique="false" updateable="true"/>
+</datastore>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<model name="GET_FECHA_VENCE_RECLA_FR" tag="" visible="true" enabled="true" objectType="model" pagewidth="0" pageheight="0" backcolor="13421772" x="2" y="2" width="564" height="1088" groupstyle="0" highLightSelected="false" firstobject="FCH_DESDE" indivisible="false" autosizewidth="false" autosizeheight="false" stretchx="0" stretchy="0" comment="" generated="MainTrend Ltd. Thu Jul 03 06:38:14 IDT 2008">
+  <textgroup name="TXT" tag="" visible="true" enabled="true" container="GET_FECHA_VENCE_RECLA_FR" nextobject="" objectType="textgroup" pageStart="-1" pageType="0" forecolor="64" backcolor="13421772" border="0" x="0" y="0" width="560" height="156" fontfamily="Courier New" fontsize="11" style="plain" alignment="0" righttoleft="false" groupstyle="4" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="">
+    <text name="TXT__0" text="GOBIERNO" x="175" y="0" width="56" height="12"/>
+    <text name="TXT__1" text="DE" x="238" y="0" width="14" height="12"/>
+    <text name="TXT__2" text="PUERTO" x="259" y="0" width="42" height="12"/>
+    <text name="TXT__3" text="RICO" x="308" y="0" width="28" height="12"/>
+    <text name="TXT__4" text="SISTEMA" x="77" y="16" width="49" height="12"/>
+    <text name="TXT__5" text="DE" x="133" y="16" width="14" height="12"/>
+    <text name="TXT__6" text="ADMINISTRACION" x="154" y="16" width="98" height="12"/>
+    <text name="TXT__7" text="E" x="259" y="16" width="7" height="12"/>
+    <text name="TXT__8" text="INFORMACION" x="273" y="16" width="77" height="12"/>
+    <text name="TXT__9" text="DE" x="357" y="16" width="14" height="12"/>
+    <text name="TXT__10" text="CASOS" x="378" y="16" width="35" height="12"/>
+    <text name="TXT__11" text="PAG:" x="441" y="16" width="28" height="12"/>
+    <text name="TXT__12" text="FECHA:" x="427" y="32" width="42" height="12"/>
+    <text name="TXT__13" text="INFORME" x="98" y="64" width="49" height="12"/>
+    <text name="TXT__14" text="DE" x="154" y="64" width="14" height="12"/>
+    <text name="TXT__15" text="FECHAS" x="175" y="64" width="42" height="12"/>
+    <text name="TXT__16" text="VENCEN" x="224" y="64" width="42" height="12"/>
+    <text name="TXT__17" text="DE" x="273" y="64" width="14" height="12"/>
+    <text name="TXT__18" text="RECLAMACIONES" x="294" y="64" width="91" height="12"/>
+    <text name="TXT__19" text="DESDE:" x="98" y="80" width="42" height="12"/>
+    <text name="TXT__20" text="HASTA:" x="252" y="80" width="42" height="12"/>
+    <text name="TXT__21" text="Seguro" x="7" y="112" width="42" height="12"/>
+    <text name="TXT__22" text="Social" x="56" y="112" width="42" height="12"/>
+    <text name="TXT__23" text="Seguro" x="105" y="112" width="42" height="12"/>
+    <text name="TXT__24" text="Social" x="154" y="112" width="42" height="12"/>
+    <text name="TXT__25" text="Codigo" x="210" y="112" width="42" height="12"/>
+    <text name="TXT__26" text="Fecha" x="280" y="112" width="35" height="12"/>
+    <text name="TXT__27" text="Fecha" x="420" y="112" width="35" height="12"/>
+    <text name="TXT__28" text="Tiempo" x="511" y="112" width="42" height="12"/>
+    <text name="TXT__29" text="Jefe" x="7" y="128" width="28" height="12"/>
+    <text name="TXT__30" text="Familia" x="42" y="128" width="49" height="12"/>
+    <text name="TXT__31" text="Jefe" x="105" y="128" width="28" height="12"/>
+    <text name="TXT__32" text="Servicio" x="140" y="128" width="56" height="12"/>
+    <text name="TXT__33" text="Servicio" x="203" y="128" width="56" height="12"/>
+    <text name="TXT__34" text="Identificada" x="266" y="128" width="84" height="12"/>
+    <text name="TXT__35" text="Estatus" x="357" y="128" width="49" height="12"/>
+    <text name="TXT__36" text="Estatus" x="420" y="128" width="49" height="12"/>
+    <text name="TXT__37" text="Vencido" x="511" y="128" width="49" height="12"/>
+    <line name="LINE_TXT_0" tag="" visible="true" enabled="true" container="TXT" nextobject="" objectType="line" pageStart="-1" pageType="0" forecolor="8388608" backcolor="-1" border="0" x="0" y="150" x1="560" y1="150" width="0" height="0" arrowStart="false" arrowEnd="false" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" brushhatch="0" penstyle="0" penwidth="0" transparent="false" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment=""/>
+  </textgroup>
+  <field name="OFICINA" tag="" visible="true" enabled="true" container="GET_FECHA_VENCE_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="204" y="32" width="97" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="PAGINA" tag="" visible="true" enabled="false" container="GET_FECHA_VENCE_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="double" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="470" y="16" width="27" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="enter value here" aggregateStyle="1" aggregateType="9" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JNumericField" editTypeName="JNumericField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FECHA" tag="" visible="true" enabled="true" container="GET_FECHA_VENCE_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="470" y="32" width="76" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FCH_DESDE" tag="" visible="true" enabled="true" container="GET_FECHA_VENCE_RECLA_FR" nextobject="FCH_HASTA" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="148" y="80" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="6003" mustfill="false" required="false">
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="FCH_HASTA" tag="" visible="true" enabled="true" container="GET_FECHA_VENCE_RECLA_FR" nextobject="DUMMY" objectType="field" copyFieldName="" datatypename="Date" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="302" y="80" width="83" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="1" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="6003" mustfill="false" required="false">
+    <event name="JDataPanelListener.BEFORELEAVE"/>
+    <editcontrol name="JDateField" editTypeName="JDateField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+  <field name="DUMMY" tag="" visible="true" enabled="true" container="GET_FECHA_VENCE_RECLA_FR" nextobject="" objectType="field" copyFieldName="" datatypename="String" datafieldname="" emptyisnull="true" format="" pageStart="-1" pageType="0" forecolor="0" backcolor="16777200" border="2" x="393" y="80" width="6" height="12" fontfamily="Arial" fontsize="10" style="plain" alignment="0" righttoleft="false" default="" initialValue="" maximalValue="" minimalValue="" aggregateBase="" aggregateReset="" aggregateStyle="0" aggregateType="0" anchorObjectNameHorizontal="" anchorTypeHorizontal="0" anchorObjectNameVertical="" anchorTypeVertical="0" autosizeheight="false" autosizewidth="false" moveable="false" movex="0" movey="0" resizeable="false" stretchx="0" stretchy="0" comment="" help="" legend="6003" mustfill="false" required="false">
+    <editcontrol name="JTextField" editTypeName="JTextField" format="" isDialog="false" inputlimit="0"/>
+  </field>
+</model>
